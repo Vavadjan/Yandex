@@ -7,16 +7,43 @@
 @font-face {
   font-family: "YS Display";
   src: url("../fonts/YS-Display-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
+body {
+  background: url(/img/SVG/bg2.svg), url(/img/SVG/bg1.svg);
+}
+
+header {
+  height: 133px;
+}
+
 h1 {
-  margin: 0 0 0 9.0856481481vw;
-  color: black;
+  margin: 8.7708333333vw 0 0 9.0856481481vw;
+  color: rgb(255, 255, 255);
   font-family: YS Display;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 52.5px; /* 105% */
   width: 26.099537037vw;
+}
+
+p {
+  margin: 4.224537037vw 0 0 9.0856481481vw;
+  width: 39.8726851852vw;
+  color: #FFF;
+  font-family: YS Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.5px; /* 108.333% */
+}
+p strong {
+  color: #FFF;
+  font-family: YS Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32.5px;
 }
