@@ -1,19 +1,81 @@
 @font-face {
-  font-family: "YS-Display";
-  src: url(/fonts/YS-Display-Regular.ttf) format("ttf");
-  font-weight: 400;
+  font-family: "YS Display";
+  src: url("../fonts/YS-Display-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "YS-Display";
-  src: url(/fonts/YS-Display-Bold.ttf) format("ttf");
-  font-weight: 700;
+  font-family: "YS Display";
+  src: url("../fonts/YS-Display-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: bold;
+  font-style: normal;
 }
+body {
+  background: url(../img/SVG/bg2.svg), url(../img/SVG/bg1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 0;
+}
+
+header {
+  height: 133px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-symbol {
+  display: flex;
+  position: relative;
+  color: black;
+  font-size: 30px;
+}
+
+.logo-symbol::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #FFF;
+  z-index: -1;
+}
+
+.logo-word {
+  color: white;
+  font-size: 30px;
+}
+
 h1 {
-  color: #000000;
-  font-family: YS-Display;
+  margin: 152px 0 0 157px;
+  color: white;
+  font-family: YS Display;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 52.5px;
   /* 105% */
+  width: 451px;
+}
+
+.under-h1 {
+  margin: 73px 0 0 157px;
+  width: 689px;
+  color: #FFF;
+  font-family: YS Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.5px;
+  /* 108.333% */
+}
+.under-h1 strong {
+  color: #FFF;
+  font-family: YS Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32.5px;
 }

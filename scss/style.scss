@@ -17,41 +17,56 @@ body {
     background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: 0 0;
+    
 }
 
 header {
+    //margin: 0;
     height: 133px;
 }
 
 .logo {
-    display: flex;
+    display: flex;    
+}
 
-    .logo_circle {
-        display: flex;
-        background-color: #D7D7D7;
-        width: 50.44px;
-        height: 50.44px;
-        border-radius: 50%;
-    }
+.logo-symbol {
+    display: flex;
+    position: relative;
+    color: black;
+    font-size: 30px; 
+}
+
+.logo-symbol::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #FFF;
+    z-index: -1;
+}
+
+.logo-word {
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
 }
 
 h1 {
-    margin: 8.770833333333333vw 0 0 9.08564814814815vw;
+    margin: 152px 0 0 157px;
     color: rgb(255, 255, 255);
     font-family: YS Display;
-    font-size: calc(12px + 38 * (100vw / 1440));
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 52.5px; /* 105% */
-    width: 26.09953703703704vw;
+    width: 451px;
 }
 
-p {
-    margin: 4.224537037037037vw 0 0 9.08564814814815vw;
-    width: 39.87268518518519vw;
+.under-h1 {
+    margin:73px 0 0 157px;
+    width: 689px;
     color: #FFF;
     font-family: YS Display;
-    font-size: calc(12px + 18 * (100vw / 1440));
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 32.5px; /* 108.333% */
@@ -59,7 +74,7 @@ p {
     strong {
         color: #FFF;
         font-family: YS Display;
-        font-size: calc(12px + 18 * (100vw / 1440));
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
         line-height: 32.5px;   

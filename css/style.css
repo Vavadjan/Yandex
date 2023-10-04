@@ -26,41 +26,55 @@ header {
   display: -ms-flexbox;
   display: flex;
 }
-.logo .logo_circle {
+
+.logo-symbol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #D7D7D7;
-  width: 50.44px;
-  height: 50.44px;
-  border-radius: 50%;
+  position: relative;
+  color: black;
+  font-size: 30px;
+}
+
+.logo-symbol::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #FFF;
+  z-index: -1;
+}
+
+.logo-word {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
 }
 
 h1 {
-  margin: 8.7708333333vw 0 0 9.0856481481vw;
+  margin: 152px 0 0 157px;
   color: rgb(255, 255, 255);
   font-family: YS Display;
-  font-size: calc(12px + 2.6388888889vw);
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 52.5px; /* 105% */
-  width: 26.099537037vw;
+  width: 451px;
 }
 
-p {
-  margin: 4.224537037vw 0 0 9.0856481481vw;
-  width: 39.8726851852vw;
+.under-h1 {
+  margin: 73px 0 0 157px;
+  width: 689px;
   color: #FFF;
   font-family: YS Display;
-  font-size: calc(12px + 1.25vw);
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 32.5px; /* 108.333% */
 }
-p strong {
+.under-h1 strong {
   color: #FFF;
   font-family: YS Display;
-  font-size: calc(12px + 1.25vw);
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 32.5px;
