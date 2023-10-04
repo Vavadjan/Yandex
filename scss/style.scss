@@ -39,7 +39,7 @@ h1 {
     margin: 8.770833333333333vw 0 0 9.08564814814815vw;
     color: rgb(255, 255, 255);
     font-family: YS Display;
-    font-size: 50px;
+    font-size: calc(12px + 38 * (100vw / 1440));
     font-style: normal;
     font-weight: 700;
     line-height: 52.5px; /* 105% */
@@ -51,7 +51,7 @@ p {
     width: 39.87268518518519vw;
     color: #FFF;
     font-family: YS Display;
-    font-size: 30px;
+    font-size: calc(12px + 18 * (100vw / 1440));
     font-style: normal;
     font-weight: 400;
     line-height: 32.5px; /* 108.333% */
@@ -59,7 +59,7 @@ p {
     strong {
         color: #FFF;
         font-family: YS Display;
-        font-size: 30px;
+        font-size: calc(12px + 18 * (100vw / 1440));
         font-style: normal;
         font-weight: 700;
         line-height: 32.5px;   
