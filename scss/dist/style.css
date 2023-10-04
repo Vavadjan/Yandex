@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "YS-Display";
+  src: url(/fonts/YS-Display-Regular.ttf) format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "YS-Display";
+  src: url(/fonts/YS-Display-Bold.ttf) format("ttf");
+  font-weight: 700;
+}
+h1 {
+  color: #000000;
+  font-family: YS-Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.5px;
+  /* 105% */
+}

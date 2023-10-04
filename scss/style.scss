@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "YS Display";
+	src: url("../fonts/YS-Display-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "YS Display";
+	src: url("../fonts/YS-Display-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+    color: #000000;
+    font-family: YS Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.5px;
+}
