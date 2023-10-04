@@ -13,7 +13,7 @@
 }
 
 body {
-    background: url(/img/SVG/bg2.svg), url(/img/SVG/bg1.svg);
+    background: url(./img/SVG/bg2.svg), url(./img/SVG/bg1.svg);
     background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: 0 0;
@@ -21,6 +21,10 @@ body {
 
 header {
     height: 133px;
+}
+
+.logo {
+    display: flex;
 }
 
 h1 {
