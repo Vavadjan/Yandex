@@ -13,7 +13,7 @@
 }
 
 body {
-    background: url(./img/SVG/bg2.svg), url(./img/SVG/bg1.svg);
+    background: url(../img/SVG/bg2.svg), url(../img/SVG/bg1.svg);
     background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: 0 0;
@@ -25,6 +25,14 @@ header {
 
 .logo {
     display: flex;
+
+    .logo_circle {
+        display: flex;
+        background-color: #D7D7D7;
+        width: 50.44px;
+        height: 50.44px;
+        border-radius: 50%;
+    }
 }
 
 h1 {
