@@ -37,7 +37,6 @@ header {
   position: relative;
   color: black;
   font-family: YS Display;
-  font-size: 50px;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -59,7 +58,6 @@ header {
   display: flex;
   color: white;
   font-family: YS Display;
-  font-size: 50px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
