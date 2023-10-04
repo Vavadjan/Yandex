@@ -18,13 +18,23 @@ body {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 133px;
 }
 
 .logo {
+  gap: 20px;
+  margin: 83px 0 0 169px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 195px;
 }
 
 .logo-symbol {
@@ -33,21 +43,35 @@ header {
   display: flex;
   position: relative;
   color: black;
-  font-size: 30px;
+  font-family: YS Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
 }
 
 .logo-symbol::before {
   content: "";
+  width: 50.44px;
+  height: 50.44px;
   position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: #FFF;
+  top: -7px;
+  left: -12px;
+  background: #FFF;
+  border-radius: 50%;
   z-index: -1;
 }
 
 .logo-word {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-family: YS Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
 }
 
 h1 {
