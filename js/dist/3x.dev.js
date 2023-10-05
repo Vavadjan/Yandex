@@ -1,7 +1,7 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', function () {
-  var body = document.querySelector('.body');
+  var body = document.querySelector('body');
   var layer1 = document.querySelector('.layer1');
   var layer2 = document.querySelector('.layer2');
   var layer3 = document.querySelector('.layer3');

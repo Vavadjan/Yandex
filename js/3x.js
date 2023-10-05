@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const body = document.querySelector('.body');
+    const body = document.querySelector('body');
     const layer1 = document.querySelector('.layer1');
     const layer2 = document.querySelector('.layer2');
     const layer3 = document.querySelector('.layer3');
