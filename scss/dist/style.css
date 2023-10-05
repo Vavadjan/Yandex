@@ -13,7 +13,7 @@
   font-weight: bold;
   font-style: normal;
 }
-body {
+.body {
   overflow: hidden;
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, url("../img/SVG/background-gradient.svg") top left no-repeat, linear-gradient(to bottom, #242321, #242321);
   background-size: auto, auto, auto;
