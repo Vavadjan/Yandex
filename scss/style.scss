@@ -14,8 +14,6 @@
 
 body { 
     overflow: hidden;
-    width: 1728px;
-    height: 1117px;   
     background:         
         url('../img/SVG/Ellipse-35.svg') top left no-repeat,
         url('../img/SVG/background-gradient.svg') top left no-repeat,
@@ -30,7 +28,7 @@ header {
 
 .logo {
     gap: 20px;
-    margin: 83px 0 0 169px;
+    margin: 92px 0 0 169px;
     display: flex; 
     flex-direction: row;
     width: 195px;   
@@ -68,7 +66,7 @@ header {
 }
 
 h1 {
-    margin: 152px 0 0 157px;
+    margin: 151.56px 0 0 157px;
     color: rgb(255, 255, 255);
     font-family: YS Display;
     font-size: 50px;
@@ -98,12 +96,9 @@ h1 {
     }
 }
 
-footer {
-    display: flex;
-}
-
 #footer-buton {
-    margin: -40.81px -164px 0 1163px;
+    padding: 0;
+    margin: -12px -164px 0 1163px;
     display: flex;
     width: 729px;
     height: 729px;
@@ -113,7 +108,13 @@ footer {
 }
 
 .footer-button-text {
-
+    margin: 289px 0 0 254px;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.5px; /* 105% */
 }
 
 
