@@ -11,9 +11,12 @@
   font-style: normal;
 }
 body {
-  background: url("../img/SVG/Ellipse-35.svg") 0px 0px no-repeat, url("../img/SVG/background-gradient.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321));
-  background: url("../img/SVG/Ellipse-35.svg") 0px 0px no-repeat, url("../img/SVG/background-gradient.svg") top left no-repeat, linear-gradient(to bottom, #242321, #242321);
-  background-size: auto, cover, auto;
+  overflow: hidden;
+  width: 1728px;
+  height: 1117px;
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, url("../img/SVG/background-gradient.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321));
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, url("../img/SVG/background-gradient.svg") top left no-repeat, linear-gradient(to bottom, #242321, #242321);
+  background-size: auto, auto, auto;
 }
 
 header {
@@ -99,4 +102,22 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 32.5px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer-buton {
+  margin: -40.81px -164px 0 1163px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 729px;
+  height: 729px;
+  border-radius: 50%;
+  border: 1px solid #B4AFFF;
+  background: #9B94FF;
 }
