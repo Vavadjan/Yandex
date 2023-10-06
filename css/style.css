@@ -47,14 +47,14 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 133px;
+  height: 7.6967592593vw;
 }
 
 /* Гамбургер иконка */
 .menu-btn {
-  margin: 84px 84px 0 0;
-  width: 40px;
-  height: 28px;
+  margin: 4.8611111111vw 4.8611111111vw 0 0;
+  width: 2.3148148148vw;
+  height: 1.6203703704vw;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,8 +65,8 @@ header {
 }
 
 .menu-btn span {
-  width: 40px;
-  height: 4px;
+  width: 2.3148148148vw;
+  height: 0.2314814815vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -110,9 +110,9 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: 455px;
+  width: 26.3310185185vw;
   height: 100vh;
-  padding: 15px;
+  padding: 0.8680555556vw;
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
           transform: translateX(100%);
@@ -120,7 +120,7 @@ header {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
-  border-radius: 37px;
+  border-radius: 2.1412037037vw;
   background: -webkit-gradient(linear, right top, left top, color-stop(106.47%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0)));
   background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
   -webkit-backdrop-filter: blur(10px);
@@ -142,49 +142,49 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 22px;
-  margin: 150px 0 0 55px;
+  gap: 1.2731481481vw;
+  margin: 8.6805555556vw 0 0 3.1828703704vw;
 }
 
 .menu li {
   color: rgba(255, 255, 255, 0.15);
   font-family: YS Display;
-  font-size: 30px;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 32.5px; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .link-active {
   color: #FFF;
   font-family: YS Display;
-  font-size: 30px;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 32.5px; /* 108.333% */
+  line-height: 7.6967592593vw 32.5; /* 108.333% */
 }
 
 .link-sub-active {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: 30px;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 32.5px; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .link-sub-active:visited {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: 30px;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 32.5px; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .logo {
-  gap: 20px;
-  margin: 92px 0 0 169px;
+  gap: 1.1574074074vw;
+  margin: 5.3240740741vw 0 0 9.7800925926vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,7 +192,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 195px;
+  width: 11.2847222222vw;
 }
 
 .logo-symbol {
@@ -204,16 +204,16 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 2.0833333333vw;
 }
 
 .logo-symbol::before {
   content: "";
-  width: 50.44px;
-  height: 50.44px;
+  width: 2.9189814815vw;
+  height: 2.9189814815vw;
   position: absolute;
-  top: -7px;
-  left: -12px;
+  top: -0.4050925926vw;
+  left: -0.6944444444vw;
   background: #FFF;
   border-radius: 50%;
   z-index: -1;
@@ -227,48 +227,48 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 2.0833333333vw;
 }
 
 h1 {
-  margin: 151.56px 0 0 157px;
+  margin: 8.7708333333vw 0 0 9.0856481481vw;
   color: rgb(255, 255, 255);
   font-family: YS Display;
-  font-size: 50px;
+  font-size: 2.8935185185vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 52.5px; /* 105% */
-  width: 451px;
+  line-height: 3.0381944444vw; /* 105% */
+  width: 26.099537037vw;
 }
 
 .under-h1 {
-  margin: 73px 0 0 157px;
-  width: 689px;
+  margin: 4.224537037vw 0 0 9.0856481481vw;
+  width: 39.8726851852vw;
   color: #FFF;
   font-family: YS Display;
-  font-size: 30px;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 32.5px; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 .under-h1 strong {
   color: #FFF;
   font-family: YS Display;
-  font-size: 30px;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 32.5px;
+  line-height: 1.880787037vw;
 }
 
 #footer-buton {
-  bottom: -225px;
-  right: -164px;
+  bottom: -13.0208333333vw;
+  right: -9.4907407407vw;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 729px;
-  height: 729px;
+  width: 42.1875vw;
+  height: 42.1875vw;
   border-radius: 50%;
   border: 1px solid #B4AFFF;
   background: #9B94FF;
@@ -276,13 +276,13 @@ h1 {
 }
 
 .footer-button-text {
-  margin: 287px 0 0 246px;
+  margin: 16.6087962963vw 0 0 14.2361111111vw;
   color: #FFF;
   font-family: YS Display;
-  font-size: 50px;
+  font-size: 2.8935185185vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 52.5px; /* 105% */
+  line-height: 3.0381944444vw; /* 105% */
 }
 
 .layer {
