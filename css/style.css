@@ -35,9 +35,9 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(23.44%, rgba(35, 34, 31, 0.35)), to(#000)) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321));
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
-  background-size: auto, 100% 100%, auto;
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(23.44%, rgba(35, 34, 31, 0.35)), to(#000)) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321)), url("../img/dragon.png") top left no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321), url("../img/dragon.png") top left no-repeat;
+  background-size: auto, 100% 100%, auto, auto;
 }
 
 header {
@@ -110,8 +110,8 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: 26.3310185185vw;
-  height: 23.1481481481vw;
+  width: 27.1990740741vw;
+  height: 26.0416666667vw;
   padding: 0.8680555556vw;
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -129,9 +129,9 @@ header {
 }
 
 .menu.active {
-  -webkit-transform: translateX(10%);
-      -ms-transform: translateX(10%);
-          transform: translateX(10%);
+  -webkit-transform: translateX(5%);
+      -ms-transform: translateX(5%);
+          transform: translateX(5%);
 }
 
 .menu ul {

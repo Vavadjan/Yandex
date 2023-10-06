@@ -37,8 +37,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
-  background-size: auto, 100% 100%, auto;
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321), url("../img/dragon.png") top left no-repeat;
+  background-size: auto, 100% 100%, auto, auto;
 }
 
 header {
@@ -98,8 +98,8 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: calc(455/1728*100vw);
-  height: calc(400/1728*100vw);
+  width: calc(470/1728*100vw);
+  height: calc(450/1728*100vw);
   padding: calc(15/1728*100vw);
   transform: translateX(100%);
   transition: transform 0.5s;
@@ -110,7 +110,7 @@ header {
 }
 
 .menu.active {
-  transform: translateX(10%);
+  transform: translateX(5%);
 }
 
 .menu ul {
