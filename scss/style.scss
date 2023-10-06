@@ -233,10 +233,9 @@ h1 {
     height: 100vh;
     overflow: hidden;
     background:         
-        url('../img/mask.png') 122px 145px no-repeat,
-        url('../img/arrow.png') top left no-repeat;
-    //transform: rotate(6.5deg);
-    background-size: 14%, auto;
+        url('../img/mask.png') 122px 142px no-repeat,
+        url('../img/arrow1.png') 0px -505px no-repeat;
+    background-size: 14%, 74.4%;
 }
 
 #footer-buton {
