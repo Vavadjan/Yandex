@@ -227,8 +227,6 @@ h1 {
 }
 
 #footer-buton {
-    //padding: 0;
-    //margin: -12px -164px 0 1163px;
     bottom: calc(-225/1728*100vw);
     right: calc(-164/1728*100vw);
     position: absolute;
@@ -239,6 +237,7 @@ h1 {
     border: 1px solid #B4AFFF;
     background: #9B94FF;
     z-index: 2;
+    cursor: pointer;
 }
 
 .footer-button-text {
