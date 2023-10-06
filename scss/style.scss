@@ -39,9 +39,8 @@ body {
     background:         
         url('../img/SVG/Ellipse-35.svg') top left no-repeat,
         linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat,
-        linear-gradient(to bottom, #242321, #242321),
-        url('../img/dragon.png') top left no-repeat;
-    background-size: auto, 100% 100%, auto, auto;    
+        linear-gradient(to bottom, #242321, #242321);
+    background-size: auto, 100% 100%, auto;    
 }
 
 header {
@@ -225,6 +224,19 @@ h1 {
         font-weight: 700;
         line-height: calc(32.5/1728*100vw);   
     }
+}
+
+.pics {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background:         
+        url('../img/mask.png') 122px 145px no-repeat,
+        url('../img/arrow.png') top left no-repeat;
+    //transform: rotate(6.5deg);
+    background-size: 14%, auto;
 }
 
 #footer-buton {

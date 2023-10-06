@@ -35,9 +35,9 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(23.44%, rgba(35, 34, 31, 0.35)), to(#000)) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321)), url("../img/dragon.png") top left no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321), url("../img/dragon.png") top left no-repeat;
-  background-size: auto, 100% 100%, auto, auto;
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(23.44%, rgba(35, 34, 31, 0.35)), to(#000)) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321));
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
+  background-size: auto, 100% 100%, auto;
 }
 
 header {
@@ -258,6 +258,18 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 1.880787037vw;
+}
+
+.pics {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("../img/mask.png") 122px 145px no-repeat, url("../img/arrow.png") top left no-repeat;
+  background-size: 14%, auto;
 }
 
 #footer-buton {
