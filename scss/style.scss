@@ -52,9 +52,9 @@ header {
 
 /* Гамбургер иконка */
 .menu-btn {
-    margin: calc(84/1728*100vw) calc(84/1728*100vw) 0 0;
+    margin: calc(81/1728*100vw) calc(84/1728*100vw) 0 0;
 	width: calc(40/1728*100vw);
-	height: calc(28/1728*100vw);
+	height: calc(36/1728*100vw);
 	position: relative;
     display: flex;
 	z-index:2;
@@ -74,10 +74,10 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-	top: calc(50% - calc(10/1728*100vw));
+	top: calc(50% - calc(14/1728*100vw));
 }
 .menu-btn span:nth-of-type(3) {
-	top: calc(50% + calc(10/1728*100vw));
+	top: calc(50% + calc(14/1728*100vw));
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -99,7 +99,7 @@ header {
 	top: 0;
 	right: 0;
     width: calc(455/1728*100vw);
-    height: 100vh;
+    height: calc(400/1728*100vw);
 	padding: calc(15/1728*100vw);
 	transform: translateX(100%);
 	transition: transform 0.5s;
@@ -227,9 +227,9 @@ h1 {
 }
 
 #footer-buton {
-    bottom: calc(-225/1728*100vw);
-    right: calc(-164/1728*100vw);
-    position: absolute;
+    bottom: calc(-224/1728*100vw);
+    right: calc(-163/1728*100vw);
+    position: fixed;
     display: flex;
     width: calc(729/1728*100vw);
     height: calc(729/1728*100vw);
@@ -238,13 +238,14 @@ h1 {
     background: #9B94FF;
     z-index: 2;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .footer-button-text {
-    margin: calc(323/1728*100vw) 0 0 calc(265/1728*100vw);
+    margin: calc(323/1728*100vw) 0 0 calc(264/1728*100vw);
     color: #FFF;
     font-family: YS Display;
-    font-size: calc(50/1728*100vw);
+    font-size: calc(51/1728*100vw);
     font-style: normal;
     font-weight: 500;
     line-height: calc(52.5/1728*100vw); /* 105% */
@@ -257,6 +258,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     transition: transform 0.3s ease; /* Добавляем анимацию */
+    overflow: hidden;
 }
 
 .layer1 {

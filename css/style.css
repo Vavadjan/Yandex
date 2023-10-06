@@ -52,9 +52,9 @@ header {
 
 /* Гамбургер иконка */
 .menu-btn {
-  margin: 4.8611111111vw 4.8611111111vw 0 0;
+  margin: 4.6875vw 4.8611111111vw 0 0;
   width: 2.3148148148vw;
-  height: 1.6203703704vw;
+  height: 2.0833333333vw;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,11 +79,11 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-  top: calc(50% - 0.5787037037vw);
+  top: calc(50% - 0.8101851852vw);
 }
 
 .menu-btn span:nth-of-type(3) {
-  top: calc(50% + 0.5787037037vw);
+  top: calc(50% + 0.8101851852vw);
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -111,7 +111,7 @@ header {
   top: 0;
   right: 0;
   width: 26.3310185185vw;
-  height: 100vh;
+  height: 23.1481481481vw;
   padding: 0.8680555556vw;
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -261,9 +261,9 @@ h1 {
 }
 
 #footer-buton {
-  bottom: -13.0208333333vw;
-  right: -9.4907407407vw;
-  position: absolute;
+  bottom: -12.962962963vw;
+  right: -9.4328703704vw;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,13 +274,14 @@ h1 {
   background: #9B94FF;
   z-index: 2;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .footer-button-text {
-  margin: 18.6921296296vw 0 0 15.3356481481vw;
+  margin: 18.6921296296vw 0 0 15.2777777778vw;
   color: #FFF;
   font-family: YS Display;
-  font-size: 2.8935185185vw;
+  font-size: 2.9513888889vw;
   font-style: normal;
   font-weight: 500;
   line-height: 3.0381944444vw; /* 105% */
@@ -296,6 +297,7 @@ h1 {
   transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Добавляем анимацию */
+  overflow: hidden;
 }
 
 .layer1 {
