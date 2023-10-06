@@ -79,11 +79,11 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-  top: calc(50% - 10px);
+  top: calc(50% - 0.5787037037vw);
 }
 
 .menu-btn span:nth-of-type(3) {
-  top: calc(50% + 10px);
+  top: calc(50% + 0.5787037037vw);
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -299,12 +299,15 @@ h1 {
 
 .layer1 {
   background-image: url("../img/SVG/lights1.svg");
+  background-size: 100% 100%;
 }
 
 .layer2 {
   background-image: url("../img/SVG/lights2.svg");
+  background-size: 100% 100%;
 }
 
 .layer3 {
   background-image: url("../img/SVG/lights3.svg");
+  background-size: 100% 100%;
 }
