@@ -233,8 +233,8 @@ h1 {
     height: 100vh;
     overflow: hidden;
     background:         
-        url('../img/mask.png') 122px 142px no-repeat,
-        url('../img/arrow1.png') 0px -505px no-repeat;
+        url('../img/mask.png') calc(122/1728*100vw) calc(142/1728*100vw) no-repeat,
+        url('../img/arrow1.png') 0px calc(-505/1728*100vw) no-repeat;
     background-size: 14%, 74.4%;
 }
 
