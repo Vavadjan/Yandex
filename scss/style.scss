@@ -230,12 +230,12 @@ h1 {
     margin: calc(36/1117*100dvh) 0 0 0;
     position: relative;
     display: flex;
-    width: calc(1110/1117*100dvh);
+    width: 60%;
     height: calc(410/1117*100dvh);
     background:         
         url('../img/mask.png') calc(154/1117*100dvh) calc(140/1117*100dvh) no-repeat,
         url('../img/arrow1.png') 0px 0px no-repeat;
-    background-size: 17dvh, 100dvh;
+    background-size: 17dvh, contain;
 }
 
 #footer-buton {
