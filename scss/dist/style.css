@@ -35,23 +35,23 @@ a:focus {
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321), url("../img/dragon.png") top left no-repeat;
-  background-size: auto, 100% 100%, auto, auto;
+  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
+  background-size: 43.5vw, 100vw 100dvh, auto;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  height: calc(133/1728*100vw);
+  height: calc(133/1117*100dvh);
 }
 
 /* Гамбургер иконка */
 .menu-btn {
-  margin: calc(81/1728*100vw) calc(84/1728*100vw) 0 0;
-  width: calc(40/1728*100vw);
-  height: calc(36/1728*100vw);
+  margin: calc(81/1117*100dvh) calc(84/1117*100dvh) 0 0;
+  width: calc(40/1117*100dvh);
+  height: calc(36/1117*100dvh);
   position: relative;
   display: flex;
   z-index: 2;
@@ -60,8 +60,8 @@ header {
 }
 
 .menu-btn span {
-  width: calc(40/1728*100vw);
-  height: calc(4/1728*100vw);
+  width: calc(40/1117*100dvh);
+  height: calc(4/1117*100dvh);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,11 +71,11 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-  top: calc(50% - calc(14/1728*100vw));
+  top: calc(50% - calc(14/1117*100dvh));
 }
 
 .menu-btn span:nth-of-type(3) {
-  top: calc(50% + calc(14/1728*100vw));
+  top: calc(50% + calc(14/1117*100dvh));
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -98,12 +98,12 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: calc(470/1728*100vw);
-  height: calc(450/1728*100vw);
-  padding: calc(15/1728*100vw);
+  width: calc(470/1117*100dvh);
+  height: calc(450/1117*100dvh);
+  padding: calc(15/1117*100dvh);
   transform: translateX(100%);
   transition: transform 0.5s;
-  border-radius: calc(37/1728*100vw);
+  border-radius: calc(37/1117*100dvh);
   background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
   backdrop-filter: blur(10px);
   z-index: 1;
@@ -116,56 +116,56 @@ header {
 .menu ul {
   display: flex;
   flex-direction: column;
-  gap: calc(22/1728*100vw);
-  margin: calc(150/1728*100vw) 0 0 calc(55/1728*100vw);
+  gap: calc(22/1117*100dvh);
+  margin: calc(150/1117*100dvh) 0 0 calc(55/1117*100dvh);
 }
 
 .menu li {
   color: rgba(255, 255, 255, 0.15);
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30/1117*100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5/1117*100dvh);
   /* 108.333% */
 }
 
 .link-active {
   color: #FFF;
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30/1117*100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(133/1728*100vw) 32.5;
+  line-height: calc(133/1117*100dvh) 32.5;
   /* 108.333% */
 }
 
 .link-sub-active {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30/1117*100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5/1117*100dvh);
   /* 108.333% */
 }
 
 .link-sub-active:visited {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30/1117*100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5/1117*100dvh);
   /* 108.333% */
 }
 
 .logo {
-  gap: calc(20/1728*100vw);
-  margin: calc(92/1728*100vw) 0 0 calc(169/1728*100vw);
+  gap: calc(20/1117*100dvh);
+  margin: calc(92/1117*100dvh) 0 0 calc(169/1117*100dvh);
   display: flex;
   flex-direction: row;
-  width: calc(195/1728*100vw);
+  width: calc(195/1117*100dvh);
 }
 
 .logo-symbol {
@@ -175,16 +175,16 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 600;
-  font-size: calc(36/1728*100vw);
+  font-size: calc(36/1117*100dvh);
 }
 
 .logo-symbol::before {
   content: "";
-  width: calc(50.44/1728*100vw);
-  height: calc(50.44/1728*100vw);
+  width: calc(50.44/1117*100dvh);
+  height: calc(50.44/1117*100dvh);
   position: absolute;
-  top: calc(-7/1728*100vw);
-  left: calc(-12/1728*100vw);
+  top: calc(-7/1117*100dvh);
+  left: calc(-12/1117*100dvh);
   background: #FFF;
   border-radius: 50%;
   z-index: -1;
@@ -196,48 +196,58 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 500;
-  font-size: calc(36/1728*100vw);
+  font-size: calc(36/1117*100dvh);
 }
 
 h1 {
-  margin: calc(151.56/1728*100vw) 0 0 calc(157/1728*100vw);
+  margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
   color: white;
   font-family: YS Display;
-  font-size: calc(50/1728*100vw);
+  font-size: calc(50/1117*100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(52.5/1728*100vw);
+  line-height: calc(52.5/1117*100dvh);
   /* 105% */
-  width: calc(451/1728*100vw);
+  width: calc(451/1117*100dvh);
 }
 
 .under-h1 {
-  margin: calc(73/1728*100vw) 0 0 calc(157/1728*100vw);
-  width: calc(689/1728*100vw);
+  margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  width: calc(689/1117*100dvh);
   color: #FFF;
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30/1117*100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5/1117*100dvh);
   /* 108.333% */
 }
 .under-h1 strong {
   color: #FFF;
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30/1117*100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5/1117*100dvh);
+}
+
+.pics {
+  margin: calc(36/1117*100dvh) 0 0 0;
+  position: relative;
+  display: flex;
+  max-width: 64.3%;
+  height: calc(410/1117*100dvh);
+  background: url("../img/mask.png") calc(154/1117*100dvh) calc(140/1117*100dvh) no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
+  background-size: 17%, 100%;
 }
 
 #footer-buton {
-  bottom: calc(-224/1728*100vw);
-  right: calc(-163/1728*100vw);
+  bottom: calc(-224/1117*100dvh);
+  right: calc(-163/1117*100dvh);
   position: fixed;
   display: flex;
-  width: calc(729/1728*100vw);
-  height: calc(729/1728*100vw);
+  width: calc(729/1117*100dvh);
+  height: calc(729/1117*100dvh);
   border-radius: 50%;
   border: 1px solid #B4AFFF;
   background: #9B94FF;
@@ -247,20 +257,20 @@ h1 {
 }
 
 .footer-button-text {
-  margin: calc(323/1728*100vw) 0 0 calc(264/1728*100vw);
+  margin: calc(323/1117*100dvh) 0 0 calc(264/1117*100dvh);
   color: #FFF;
   font-family: YS Display;
-  font-size: calc(51/1728*100vw);
+  font-size: calc(51/1117*100dvh);
   font-style: normal;
   font-weight: 500;
-  line-height: calc(52.5/1728*100vw);
+  line-height: calc(52.5/1117*100dvh);
   /* 105% */
 }
 
 .layer {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-repeat: no-repeat;
   background-size: cover;
   transition: transform 0.3s ease;
