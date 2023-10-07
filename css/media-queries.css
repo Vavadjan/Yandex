@@ -197,35 +197,35 @@
     font-size: 3.2229185318dvh;
   }
   h1 {
-    margin: 151.56px 0 0 157px;
+    margin: 13.5684870188vh 0 0 14.0555058192vh;
     color: rgb(255, 255, 255);
     font-family: YS Display;
-    font-size: 50px;
+    font-size: 4.4762757386vh;
     font-style: normal;
     font-weight: 700;
-    line-height: 52.5px; /* 105% */
-    width: 451px;
+    line-height: 4.7000895255vh; /* 105% */
+    width: 40.376007162vh;
   }
   .under-h1 {
-    margin: 73px 0 0 17px;
-    width: 68px;
+    margin: 6.5353625783vh 0 0 14.0555058192vh;
+    width: 61.6830796777vh;
     color: #FFF;
     font-family: YS Display;
-    font-size: 30px;
+    font-size: 2.6857654432vh;
     font-style: normal;
     font-weight: 400;
-    line-height: 32.5px; /* 108.333% */
+    line-height: 2.9095792301vh; /* 108.333% */
   }
   .under-h1 strong {
     color: #FFF;
     font-family: YS Display;
-    font-size: 30px;
+    font-size: 2.6857654432vh;
     font-style: normal;
     font-weight: 700;
-    line-height: 32.5;
+    line-height: 2.9095792301vh;
   }
   .pics {
-    margin: 36px 0 0 0;
+    margin: 3.2229185318vh 0 0 0;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
