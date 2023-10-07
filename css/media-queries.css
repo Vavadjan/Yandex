@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/* Медиа-запрос для изменения порядка отображения на ширине 1728px и выше */
+@media (min-width: 1728px) {
+  /* Обычное состояние и состояние посещенной ссылки */
+  a {
+    color: rgba(255, 255, 255, 0.15);
+  }
+  /* Состояние наведения */
+  a:hover {
+    color: #B4AFFF;
+  }
+  /* Состояние активации */
+  a:active {
+    color: #ff0000;
+  }
+  /* Состояние фокуса */
+  a:focus {
+    color: #B4AFFF;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(23.44%, rgba(35, 34, 31, 0.35)), to(#000)) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321));
+    background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
+    background-size: 43.5vw, 100vw 100vh, auto;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 11.9068934646vh;
+  }
+  /* Гамбургер иконка */
+  .menu-btn {
+    margin: 7.2515666965vh 7.5201432408vh 0 0;
+    width: 3.5810205909vh;
+    height: 3.2229185318vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .menu-btn span {
+    width: 3.5810205909vh;
+    height: 0.3581020591vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .menu-btn span:nth-of-type(2) {
+    top: calc(50% - 1.2533572068vh);
+  }
+  .menu-btn span:nth-of-type(3) {
+    top: calc(50% + 1.2533572068vh);
+  }
+  /* Меняем гамбургер иконку, когда меню открыто */
+  .menu-btn.active span:nth-of-type(1) {
+    display: none;
+  }
+  .menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    -webkit-transform: translate(-50%, 0%) rotate(45deg);
+        -ms-transform: translate(-50%, 0%) rotate(45deg);
+            transform: translate(-50%, 0%) rotate(45deg);
+  }
+  .menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    -webkit-transform: translate(-50%, 0%) rotate(-45deg);
+        -ms-transform: translate(-50%, 0%) rotate(-45deg);
+            transform: translate(-50%, 0%) rotate(-45deg);
+  }
+  /* Меню, которое будет появляться */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 42.0769919427vh;
+    height: 40.2864816473vh;
+    padding: 1.3428827216vh;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    border-radius: 3.3124440466vh;
+    background: -webkit-gradient(linear, right top, left top, color-stop(106.47%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0)));
+    background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  .menu.active {
+    -webkit-transform: translateX(5%);
+        -ms-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.969561325vh;
+    margin: 13.4288272158vh 0 0 4.9239033124vh;
+  }
+  .menu li {
+    color: rgba(255, 255, 255, 0.15);
+    font-family: YS Display;
+    font-size: 2.6857654432vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.9095792301vh; /* 108.333% */
+  }
+  .link-active {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.6857654432vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11.9068934646vh 32.5; /* 108.333% */
+  }
+  .link-sub-active {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: YS Display;
+    font-size: 2.6857654432vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.9095792301vh; /* 108.333% */
+  }
+  .link-sub-active:visited {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: YS Display;
+    font-size: 2.6857654432vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.9095792301vh; /* 108.333% */
+  }
+  .logo {
+    gap: 1.7905102954vh;
+    margin: 8.236347359vh 0 0 15.1298119964vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 17.4574753805vh;
+  }
+  .logo-symbol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    color: black;
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.2229185318vh;
+  }
+  .logo-symbol::before {
+    content: "";
+    width: 4.5156669651vh;
+    height: 4.5156669651vh;
+    position: absolute;
+    top: -0.6266786034vh;
+    left: -1.0743061773vh;
+    background: #FFF;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .logo-word {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2229185318vh;
+  }
+  h1 {
+    margin: 13.5684870188vh 0 0 14.0555058192vh;
+    color: rgb(255, 255, 255);
+    font-family: YS Display;
+    font-size: 4.4762757386vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.7000895255vh; /* 105% */
+    width: 40.376007162vh;
+  }
+  .under-h1 {
+    margin: 6.5353625783vh 0 0 14.0555058192vh;
+    width: 61.6830796777vh;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.6857654432vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.9095792301vh; /* 108.333% */
+  }
+  .under-h1 strong {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.6857654432vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.9095792301vh;
+  }
+  .pics {
+    margin: 3.2229185318vh 0 0 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 99.3733213966vh;
+    height: 36.7054610564vh;
+    background: url("../img/mask.png") 13.7869292748vh 12.533572068vh no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
+    background-size: 17%, 100%;
+  }
+  #footer-buton {
+    bottom: -20.0537153089vh;
+    right: -14.5926589078vh;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 65.2641002686vh;
+    height: 65.2641002686vh;
+    border-radius: 50%;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .footer-button-text {
+    margin: 28.9167412713vh 0 0 23.6347358997vh;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 4.5658012534vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.7000895255vh; /* 105% */
+  }
+  .layer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Добавляем анимацию */
+    overflow: hidden;
+  }
+  .layer1 {
+    background-image: url("../img/SVG/lights1.svg");
+    background-size: 100% 100%;
+  }
+  .layer2 {
+    background-image: url("../img/SVG/lights2.svg");
+    background-size: 100% 100%;
+  }
+  .layer3 {
+    background-image: url("../img/SVG/lights3.svg");
+    background-size: 100% 100%;
+  }
+}
