@@ -40,7 +40,7 @@ body {
         url('../img/SVG/Ellipse-35.svg') top left no-repeat,
         linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat,
         linear-gradient(to bottom, #242321, #242321);
-    background-size: auto, 100% 100%, auto;    
+    background-size: 43.5vw, 100vw 100vh, auto;    
 }
 
 header {
@@ -227,15 +227,16 @@ h1 {
 }
 
 .pics {
+    margin: calc(36/1728*100vw) 0 0 0;
     position: relative;
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    //width: calc(1110/1728*100vw);
+    max-width: 64.3%;
+    height: calc(410/1728*100vw);
     background:         
-        url('../img/mask.png') calc(122/1728*100vw) calc(142/1728*100vw) no-repeat,
-        url('../img/arrow1.png') 0px calc(-505/1728*100vw) no-repeat;
-    background-size: 14%, 74.4%;
+        url('../img/mask.png') calc(154/1728*100vw) calc(140/1728*100vw) no-repeat,
+        url('../img/arrow1.png') 0px 0px no-repeat;
+    background-size: 17%, 100%;
 }
 
 #footer-buton {
@@ -243,7 +244,8 @@ h1 {
     right: calc(-163/1728*100vw);
     position: fixed;
     display: flex;
-    width: calc(729/1728*100vw);
+    //width: calc(729/1728*100vw);
+    width: 42.1%;
     height: calc(729/1728*100vw);
     border-radius: 50%;
     border: 1px solid #B4AFFF;
