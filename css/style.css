@@ -183,18 +183,11 @@ header {
 }
 
 .logo {
-  gap: 1.7905102954dvh;
   margin: 8.236347359dvh 0 0 15.1298119964dvh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   width: 17.4574753805dvh;
   height: 4.5658012534dvh;
-  background: url(../img/SVG/logo.svg);
+  background: url(../img/SVG/logo.svg) no-repeat;
+  background-size: contain;
 }
 
 .logo-symbol {

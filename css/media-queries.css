@@ -1,2 +1,286 @@
 @charset "UTF-8";
 /* Медиа-запрос для изменения порядка отображения на ширине 1024px и ниже */
+@media (max-width: 1024px) {
+  /* Обычное состояние и состояние посещенной ссылки */
+  a {
+    color: rgba(255, 255, 255, 0.15);
+  }
+  /* Состояние наведения */
+  a:hover {
+    color: #B4AFFF;
+  }
+  /* Состояние активации */
+  a:active {
+    color: #ff0000;
+  }
+  /* Состояние фокуса */
+  a:focus {
+    color: #B4AFFF;
+  }
+  body {
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+    background: #131211;
+  }
+  header {
+    margin: 4.9261083744dvh 3.4482758621dvh 0 2.8325123153dvh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 4.9693349754dvh;
+  }
+  /* Гамбургер иконка */
+  .menu-btn {
+    margin: 0 0 0 0;
+    width: 4.9261083744dvh;
+    height: 4.4334975369dvh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .menu-btn span {
+    width: 4.9261083744dvh;
+    height: 0.4926108374dvh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .menu-btn span:nth-of-type(2) {
+    top: calc(50% - 1.724137931dvh);
+  }
+  .menu-btn span:nth-of-type(3) {
+    top: calc(50% + 1.724137931dvh);
+  }
+  /* Меняем гамбургер иконку, когда меню открыто */
+  .menu-btn.active span:nth-of-type(1) {
+    display: none;
+  }
+  .menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    -webkit-transform: translate(-50%, 0%) rotate(45deg);
+        -ms-transform: translate(-50%, 0%) rotate(45deg);
+            transform: translate(-50%, 0%) rotate(45deg);
+  }
+  .menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    -webkit-transform: translate(-50%, 0%) rotate(-45deg);
+        -ms-transform: translate(-50%, 0%) rotate(-45deg);
+            transform: translate(-50%, 0%) rotate(-45deg);
+  }
+  /* Меню, которое будет появляться */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 57.881773399dvh;
+    height: 55.4187192118dvh;
+    padding: 1.8472906404dvh;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    border-radius: 4.5566502463dvh;
+    background: -webkit-gradient(linear, right top, left top, color-stop(106.47%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0)));
+    background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  .menu.active {
+    -webkit-transform: translateX(5%);
+        -ms-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2.7093596059dvh;
+    margin: 18.4729064039dvh 0 0 6.7733990148dvh;
+  }
+  .menu li {
+    color: rgba(255, 255, 255, 0.15);
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.0024630542dvh; /* 108.333% */
+  }
+  .link-active {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.0024630542dvh; /* 108.333% */
+  }
+  .link-sub-active {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.0024630542dvh; /* 108.333% */
+  }
+  .link-sub-active:visited {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.0024630542dvh; /* 108.333% */
+  }
+  .logo {
+    margin: 0;
+    width: 19.2118226601dvh;
+    height: 4.9692118227dvh;
+    background: url(../img/SVG/logo.svg) no-repeat;
+    background-size: contain;
+  }
+  .logo-symbol {
+    display: none;
+    position: relative;
+    color: black;
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.4334975369dvh;
+  }
+  .logo-symbol::before {
+    content: "";
+    display: none;
+    width: 6.2118226601dvh;
+    height: 6.2118226601dvh;
+    position: absolute;
+    top: -0.8620689655dvh;
+    left: -1.4778325123dvh;
+    background: #FFF;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .logo-word {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.4334975369dvh;
+  }
+  h1 {
+    margin: 10.5480295567dvh 0 0 3.8177339901dvh;
+    color: rgb(255, 255, 255);
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    width: 38.5467980296dvh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0024630542dvh; /* 108.333% */
+    background: linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .under-h1 {
+    margin: 3.078817734dvh 0 0 3.8177339901dvh;
+    width: 38.5467980296dvh;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.5862068966dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.0024630542dvh; /* 108.333% */
+  }
+  .under-h1 strong {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.5862068966dvh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0024630542dvh;
+  }
+  .pics {
+    margin: 4.4334975369dvh 0 0 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    height: 50.4926108374dvh;
+    background: url("../img/mask.png") 18.9655172414dvh 17.2413793103dvh no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
+    background-size: 17dvh, contain;
+  }
+  #footer-buton {
+    bottom: -50.8620689655dvh;
+    right: calc(50vw - 34.9753694581dvh);
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 69.9507389163dvh;
+    height: 69.9507389163dvh;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
+            box-shadow: 0px 0px 124px 0px #B53CFF;
+  }
+  .footer-button-text {
+    margin: 7.6354679803dvh auto 0 auto;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .layer {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Добавляем анимацию */
+    overflow: hidden;
+  }
+  .layer1 {
+    background-image: url("../img/SVG/lights1.svg");
+    background-size: 100%;
+  }
+  .layer2 {
+    background-image: url("../img/SVG/lights2.svg");
+    background-size: 100%;
+  }
+  .layer3 {
+    background-image: url("../img/SVG/lights3.svg");
+    background-size: 100%;
+  }
+}

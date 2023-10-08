@@ -1,2 +1,290 @@
 @charset "UTF-8";
 /* Медиа-запрос для изменения порядка отображения на ширине 1024px и ниже */
+@media (max-width: 1024px) {
+  /* Обычное состояние и состояние посещенной ссылки */
+  a {
+    color: rgba(255, 255, 255, 0.15);
+  }
+
+  /* Состояние наведения */
+  a:hover {
+    color: #B4AFFF;
+  }
+
+  /* Состояние активации */
+  a:active {
+    color: #ff0000;
+  }
+
+  /* Состояние фокуса */
+  a:focus {
+    color: #B4AFFF;
+  }
+
+  body {
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+    background: #131211;
+  }
+
+  header {
+    margin: calc(40/812*100dvh) calc(28/812*100dvh) 0 calc(23/812*100dvh);
+    display: flex;
+    justify-content: space-between;
+    height: calc(40.351/812*100dvh);
+  }
+
+  /* Гамбургер иконка */
+  .menu-btn {
+    margin: 0 0 0 0;
+    width: calc(40/812*100dvh);
+    height: calc(36/812*100dvh);
+    position: relative;
+    display: flex;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .menu-btn span {
+    width: calc(40/812*100dvh);
+    height: calc(4/812*100dvh);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    transition: all 0.5s;
+  }
+
+  .menu-btn span:nth-of-type(2) {
+    top: calc(50% - calc(14/812*100dvh));
+  }
+
+  .menu-btn span:nth-of-type(3) {
+    top: calc(50% + calc(14/812*100dvh));
+  }
+
+  /* Меняем гамбургер иконку, когда меню открыто */
+  .menu-btn.active span:nth-of-type(1) {
+    display: none;
+  }
+
+  .menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+  }
+
+  .menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+  }
+
+  /* Меню, которое будет появляться */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(470/812*100dvh);
+    height: calc(450/812*100dvh);
+    padding: calc(15/812*100dvh);
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    border-radius: calc(37/812*100dvh);
+    background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+
+  .menu.active {
+    transform: translateX(5%);
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: calc(22/812*100dvh);
+    margin: calc(150/812*100dvh) 0 0 calc(55/812*100dvh);
+  }
+
+  .menu li {
+    color: rgba(255, 255, 255, 0.15);
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5/812*100dvh);
+    /* 108.333% */
+  }
+
+  .link-active {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5/812*100dvh);
+    /* 108.333% */
+  }
+
+  .link-sub-active {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5/812*100dvh);
+    /* 108.333% */
+  }
+
+  .link-sub-active:visited {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5/812*100dvh);
+    /* 108.333% */
+  }
+
+  .logo {
+    margin: 0;
+    width: calc(156/812*100dvh);
+    height: calc(40.35/812*100dvh);
+    background: url(../img/SVG/logo.svg) no-repeat;
+    background-size: contain;
+  }
+
+  .logo-symbol {
+    display: none;
+    position: relative;
+    color: black;
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(36/812*100dvh);
+  }
+
+  .logo-symbol::before {
+    content: "";
+    display: none;
+    width: calc(50.44/812*100dvh);
+    height: calc(50.44/812*100dvh);
+    position: absolute;
+    top: calc(-7/812*100dvh);
+    left: calc(-12/812*100dvh);
+    background: #FFF;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .logo-word {
+    display: none;
+    color: white;
+    font-family: YS Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(36/812*100dvh);
+  }
+
+  h1 {
+    margin: calc(85.65/812*100dvh) 0 0 calc(31/812*100dvh);
+    color: white;
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    width: calc(313/812*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(32.5/812*100dvh);
+    /* 108.333% */
+    background: linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .under-h1 {
+    margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
+    width: calc(313/812*100dvh);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(21/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5/812*100dvh);
+    /* 108.333% */
+  }
+  .under-h1 strong {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(21/812*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(32.5/812*100dvh);
+  }
+
+  .pics {
+    margin: calc(36/812*100dvh) 0 0 0;
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: calc(410/812*100dvh);
+    background: url("../img/mask.png") calc(154/812*100dvh) calc(140/812*100dvh) no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
+    background-size: 17dvh, contain;
+  }
+
+  #footer-buton {
+    bottom: calc(-413/812*100dvh);
+    right: calc(50vw - calc(568/812*100dvh)/2);
+    position: fixed;
+    display: flex;
+    width: calc(568/812*100dvh);
+    height: calc(568/812*100dvh);
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    box-shadow: 0px 0px 124px 0px #B53CFF;
+  }
+
+  .footer-button-text {
+    margin: calc(62/812*100dvh) auto 0 auto;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .layer {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    /* Добавляем анимацию */
+    overflow: hidden;
+  }
+
+  .layer1 {
+    background-image: url("../img/SVG/lights1.svg");
+    background-size: 100%;
+  }
+
+  .layer2 {
+    background-image: url("../img/SVG/lights2.svg");
+    background-size: 100%;
+  }
+
+  .layer3 {
+    background-image: url("../img/SVG/lights3.svg");
+    background-size: 100%;
+  }
+}

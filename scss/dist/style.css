@@ -161,13 +161,11 @@ header {
 }
 
 .logo {
-  gap: calc(20/1117*100dvh);
   margin: calc(92/1117*100dvh) 0 0 calc(169/1117*100dvh);
-  display: flex;
-  flex-direction: row;
   width: calc(195/1117*100dvh);
   height: calc(51/1117*100dvh);
-  background: url(../img/SVG/logo.svg);
+  background: url(../img/SVG/logo.svg) no-repeat;
+  background-size: contain;
 }
 
 .logo-symbol {
