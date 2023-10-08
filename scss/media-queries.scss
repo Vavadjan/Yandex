@@ -1,5 +1,4 @@
-/* Медиа-запрос для изменения порядка отображения на ширине 1024px и ниже */
-@media (max-width: 1024px) {
+@media screen and (orientation: portrait) {
     /* Обычное состояние и состояние посещенной ссылки */
     a {
         color: rgba(255, 255, 255, 0.15);
@@ -219,7 +218,7 @@
     }
     
     .pics {
-        margin: calc(36/812*100dvh) 0 0 0;
+        margin: calc(-36/812*100dvh) 0 0 0;
         position: relative;
         display: flex;
         width: 60%;
