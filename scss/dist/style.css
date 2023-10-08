@@ -166,10 +166,12 @@ header {
   display: flex;
   flex-direction: row;
   width: calc(195/1117*100dvh);
+  height: calc(51/1117*100dvh);
+  background: url(../img/SVG/logo.svg);
 }
 
 .logo-symbol {
-  display: flex;
+  display: none;
   position: relative;
   color: black;
   font-family: YS Display;
@@ -180,6 +182,7 @@ header {
 
 .logo-symbol::before {
   content: "";
+  display: none;
   width: calc(50.44/1117*100dvh);
   height: calc(50.44/1117*100dvh);
   position: absolute;
@@ -191,7 +194,7 @@ header {
 }
 
 .logo-word {
-  display: flex;
+  display: none;
   color: white;
   font-family: YS Display;
   font-style: normal;
@@ -269,10 +272,11 @@ h1 {
 
 .layer {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100dvh;
   background-repeat: no-repeat;
-  background-size: cover;
   transition: transform 0.3s ease;
   /* Добавляем анимацию */
   overflow: hidden;
@@ -280,15 +284,15 @@ h1 {
 
 .layer1 {
   background-image: url("../img/SVG/lights1.svg");
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .layer2 {
   background-image: url("../img/SVG/lights2.svg");
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .layer3 {
   background-image: url("../img/SVG/lights3.svg");
-  background-size: 100% 100%;
+  background-size: 100%;
 }
