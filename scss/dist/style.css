@@ -278,13 +278,13 @@ h1 {
   color: #F5F5F5;
   text-align: center;
   font-family: YS Display;
-  font-size: 50px;
+  font-size: calc(50/1117*100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-#turnOfTheLights-button {
+#lights-footer-button {
   bottom: calc(-224/1117*100dvh);
   right: calc(-163/1117*100dvh);
   position: fixed;
@@ -294,9 +294,48 @@ h1 {
   border-radius: 50%;
   border: 1px solid #B4AFFF;
   background: #9B94FF;
+  box-shadow: 0px 0px 184px 0px #B53CFF;
   z-index: 2;
   cursor: pointer;
   overflow: hidden;
+}
+
+#lights-footer-button:before {
+  content: "";
+  bottom: calc(0/1117*100dvh);
+  right: calc(0/1117*100dvh);
+  position: fixed;
+  display: flex;
+  width: calc(1007/1117*100dvh);
+  height: calc(1007/1117*100dvh);
+  background: url("../img/light_2_off.png") bottom right no-repeat;
+  background-size: contain;
+  z-index: 2;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.lights-footer-button-text {
+  margin: calc(335/1117*100dvh) 0 0 calc(255/1117*100dvh);
+  color: #F5F5F5;
+  text-align: center;
+  font-family: YS Display;
+  font-size: calc(50/1117*100dvh);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lights-footer-button-text:before {
+  content: "";
+  position: absolute;
+  bottom: calc(225/1117*100dvh);
+  right: calc(163/1117*100dvh);
+  width: calc(424/1117*100dvh);
+  height: calc(367/1117*100dvh);
+  background: url("../img/smart-home.png") bottom right no-repeat;
+  background-size: contain;
+  z-index: -1;
 }
 
 .layer {
