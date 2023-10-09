@@ -42,7 +42,7 @@
         height: calc(36/812*100dvh);
         position: relative;
         display: flex;
-        z-index: 4;
+        z-index: 11;
         overflow: hidden;
         cursor: pointer; 
     }
@@ -91,7 +91,7 @@
         border-radius: calc(37/812*100dvh);
         background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0.00) 106.48%);
         backdrop-filter: blur(10px);
-        z-index: 3;
+        z-index: 10;
     }
     
     .menu.active {
@@ -232,12 +232,12 @@
     
     .arrow {
         position: absolute;
-        bottom: calc(170/812*100dvh);
+        bottom: calc(165/812*100dvh);
         right: calc(207/375*100vw);
         width: calc(168/375*100vw);
         height: calc(226/812*100dvh);
         background: url('../img/SVG/small_arrow.svg') top left no-repeat;
-        background-size: auto;
+        background-size: 20dvh;
         overflow: hidden; 
         z-index: 3;
     }

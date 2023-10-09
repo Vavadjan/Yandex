@@ -42,7 +42,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    z-index: 4;
+    z-index: 11;
     overflow: hidden;
     cursor: pointer;
   }
@@ -101,7 +101,7 @@
     background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
     -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
-    z-index: 3;
+    z-index: 10;
   }
   .menu.active {
     -webkit-transform: translateX(5%);
@@ -232,12 +232,12 @@
   }
   .arrow {
     position: absolute;
-    bottom: 20.9359605911dvh;
+    bottom: 20.3201970443dvh;
     right: 55.2vw;
     width: 44.8vw;
     height: 27.8325123153dvh;
     background: url("../img/SVG/small_arrow.svg") top left no-repeat;
-    background-size: auto;
+    background-size: 20dvh;
     overflow: hidden;
     z-index: 3;
   }

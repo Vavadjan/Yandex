@@ -77,6 +77,7 @@ header {
   background-color: #ffffff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  z-index: 11;
 }
 
 .menu-btn span:nth-of-type(2) {
@@ -126,7 +127,7 @@ header {
   background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  z-index: 1;
+  z-index: 10;
 }
 
 .menu.active {
