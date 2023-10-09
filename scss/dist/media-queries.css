@@ -21,6 +21,7 @@
   }
 
   body {
+    position: relative;
     width: 100vw;
     height: 100dvh;
     overflow: hidden;
@@ -223,14 +224,28 @@
     line-height: calc(32.5/812*100dvh);
   }
 
-  .pics {
-    margin: calc(-36/812*100dvh) 0 0 0;
-    position: relative;
-    display: flex;
-    width: 60%;
-    height: calc(410/812*100dvh);
-    background: url("../img/mask.png") calc(154/812*100dvh) calc(140/812*100dvh) no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
-    background-size: 17dvh, contain;
+  .mask {
+    position: absolute;
+    bottom: calc(42/812*100dvh);
+    right: calc(0/812*100dvh);
+    width: calc(120/812*100dvh);
+    height: calc(224/812*100dvh);
+    background: url("../img/small-mask.png") bottom right no-repeat;
+    background-size: 19dvh;
+    z-index: 4;
+    overflow: hidden;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: calc(170/812*100dvh);
+    right: calc(207/375*100vw);
+    width: calc(168/375*100vw);
+    height: calc(226/812*100dvh);
+    background: url("../img/SVG/small_arrow.svg") top left no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    z-index: 3;
   }
 
   #footer-buton {

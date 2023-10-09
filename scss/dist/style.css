@@ -34,11 +34,12 @@ a:focus {
 }
 
 body {
+  position: relative;
   width: 100vw;
   height: 100dvh;
   overflow: hidden;
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
-  background-size: 43.5vh, 100vw 100dvh, auto;
+  background-size: auto, 100vw 100dvh, auto;
 }
 
 header {
@@ -232,14 +233,26 @@ h1 {
   line-height: calc(32.5/1117*100dvh);
 }
 
-.pics {
-  margin: calc(36/1117*100dvh) 0 0 0;
-  position: relative;
-  display: flex;
-  width: 60%;
-  height: calc(410/1117*100dvh);
-  background: url("../img/mask.png") calc(154/1117*100dvh) calc(140/1117*100dvh) no-repeat, url("../img/SVG/arrow.svg") 0px 0px no-repeat;
-  background-size: 17dvh, contain;
+.mask {
+  position: absolute;
+  bottom: calc(69/1117*100dvh);
+  right: calc(1385/1117*100dvh);
+  width: calc(188/1117*100dvh);
+  height: calc(198/1117*100dvh);
+  background: url("../img/mask.png") top left no-repeat;
+  background-size: cover;
+  z-index: 4;
+}
+
+.arrow {
+  position: absolute;
+  bottom: calc(74/1117*100dvh);
+  left: 0px;
+  width: calc(1076/1117*100dvh);
+  height: calc(390/1117*100dvh);
+  background: url("../img/SVG/arrow.svg") top left no-repeat;
+  background-size: cover;
+  z-index: 3;
 }
 
 #footer-buton {

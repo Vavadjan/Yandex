@@ -17,6 +17,7 @@
     color: #B4AFFF;
   }
   body {
+    position: relative;
     width: 100vw;
     height: 100dvh;
     overflow: hidden;
@@ -218,16 +219,27 @@
     font-weight: 700;
     line-height: 4.0024630542dvh;
   }
-  .pics {
-    margin: -4.4334975369dvh 0 0 0;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 60%;
-    height: 50.4926108374dvh;
-    background: url("../img/mask.png") 18.9655172414dvh 17.2413793103dvh no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
-    background-size: 17dvh, contain;
+  .mask {
+    position: absolute;
+    bottom: 5.1724137931dvh;
+    right: 0dvh;
+    width: 14.7783251232dvh;
+    height: 27.5862068966dvh;
+    background: url("../img/small-mask.png") bottom right no-repeat;
+    background-size: 19dvh;
+    z-index: 4;
+    overflow: hidden;
+  }
+  .arrow {
+    position: absolute;
+    bottom: 20.9359605911dvh;
+    right: 55.2vw;
+    width: 44.8vw;
+    height: 27.8325123153dvh;
+    background: url("../img/SVG/small_arrow.svg") top left no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    z-index: 3;
   }
   #footer-buton {
     bottom: -50.8620689655dvh;

@@ -32,12 +32,13 @@ a:focus {
 }
 
 body {
+  position: relative;
   width: 100vw;
   height: 100dvh;
   overflow: hidden;
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(23.44%, rgba(35, 34, 31, 0.35)), to(#000)) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#242321), to(#242321));
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat, linear-gradient(to bottom, #242321, #242321);
-  background-size: 43.5vh, 100vw 100dvh, auto;
+  background-size: auto, 100vw 100dvh, auto;
 }
 
 header {
@@ -252,16 +253,26 @@ h1 {
   line-height: 2.9095792301dvh;
 }
 
-.pics {
-  margin: 3.2229185318dvh 0 0 0;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 60%;
-  height: 36.7054610564dvh;
-  background: url("../img/mask.png") 13.7869292748dvh 12.533572068dvh no-repeat, url("../img/SVG/arrow.svg") 0px 0px no-repeat;
-  background-size: 17dvh, contain;
+.mask {
+  position: absolute;
+  bottom: 6.1772605192dvh;
+  right: 123.9928379588dvh;
+  width: 16.8307967771dvh;
+  height: 17.7260519248dvh;
+  background: url("../img/mask.png") top left no-repeat;
+  background-size: cover;
+  z-index: 4;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 6.6248880931dvh;
+  left: 0px;
+  width: 96.3294538944dvh;
+  height: 34.914950761dvh;
+  background: url("../img/SVG/arrow.svg") top left no-repeat;
+  background-size: cover;
+  z-index: 3;
 }
 
 #footer-buton {
