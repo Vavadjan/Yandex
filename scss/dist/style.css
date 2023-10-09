@@ -236,6 +236,17 @@ h1 {
   line-height: calc(32.5/1117*100dvh);
 }
 
+.lights-under-h1 {
+  margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  width: calc(689/1117*100dvh);
+  color: #FFF;
+  font-family: YS Display;
+  font-size: calc(30/1117*100dvh);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .mask {
   position: absolute;
   bottom: calc(69/1117*100dvh);

@@ -256,6 +256,17 @@ h1 {
   line-height: 2.9095792301dvh;
 }
 
+.lights-under-h1 {
+  margin: 6.5353625783dvh 0 0 14.0555058192dvh;
+  width: 61.6830796777dvh;
+  color: #FFF;
+  font-family: YS Display;
+  font-size: 2.6857654432dvh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .mask {
   position: absolute;
   bottom: 6.1772605192dvh;

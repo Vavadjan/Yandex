@@ -224,6 +224,17 @@
     line-height: calc(32.5/812*100dvh);
   }
 
+  .lights-under-h1 {
+    margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
+    width: calc(313/812*100dvh);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(21/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
   .mask {
     position: absolute;
     bottom: calc(42/812*100dvh);
@@ -277,6 +288,59 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+
+  #lights-footer-button {
+    bottom: calc(-413/812*100dvh);
+    right: calc(50vw - calc(568/812*100dvh)/2);
+    position: fixed;
+    display: flex;
+    width: calc(568/812*100dvh);
+    height: calc(568/812*100dvh);
+    border-radius: 50%;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    box-shadow: 0px 0px 124px 0px #B53CFF;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  #lights-footer-button:before {
+    content: "";
+    bottom: calc(0/812*100dvh);
+    right: calc(50vw - calc(455/375*100vw)/2);
+    position: fixed;
+    display: flex;
+    width: calc(455/375*100vw);
+    height: calc(455/812*100dvh);
+    background: url("../img/light_3_off.png") bottom center no-repeat;
+    background-size: 100vw;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .lights-footer-button-text {
+    margin: calc(62/812*100dvh) auto 0 auto;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .lights-footer-button-text:before {
+    content: "";
+    position: absolute;
+    bottom: calc(200/812*100dvh);
+    right: calc(50vw - calc(212/375*100vw)/2);
+    width: calc(424/375*100vw);
+    height: calc(367/812*100dvh);
+    background: url("../img/smart-home.png") center center no-repeat;
+    background-size: 100vw;
+    z-index: -1;
   }
 
   .layer {

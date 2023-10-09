@@ -219,6 +219,16 @@
     font-weight: 700;
     line-height: 4.0024630542dvh;
   }
+  .lights-under-h1 {
+    margin: 3.078817734dvh 0 0 3.8177339901dvh;
+    width: 38.5467980296dvh;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.5862068966dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
   .mask {
     position: absolute;
     bottom: 5.1724137931dvh;
@@ -270,6 +280,60 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+  #lights-footer-button {
+    bottom: -50.8620689655dvh;
+    right: calc(50vw - 34.9753694581dvh);
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 69.9507389163dvh;
+    height: 69.9507389163dvh;
+    border-radius: 50%;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
+            box-shadow: 0px 0px 124px 0px #B53CFF;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  #lights-footer-button:before {
+    content: "";
+    bottom: 0dvh;
+    right: -10.6666666667vw;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 121.3333333333vw;
+    height: 56.0344827586dvh;
+    background: url("../img/light_3_off.png") bottom center no-repeat;
+    background-size: 100vw;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .lights-footer-button-text {
+    margin: 7.6354679803dvh auto 0 auto;
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .lights-footer-button-text:before {
+    content: "";
+    position: absolute;
+    bottom: 24.6305418719dvh;
+    right: 21.7333333333vw;
+    width: 113.0666666667vw;
+    height: 45.197044335dvh;
+    background: url("../img/smart-home.png") center center no-repeat;
+    background-size: 100vw;
+    z-index: -1;
   }
   .layer {
     display: none;
