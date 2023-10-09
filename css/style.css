@@ -225,13 +225,16 @@ header {
 
 h1 {
   margin: 13.5684870188dvh 0 0 14.0555058192dvh;
-  color: rgb(255, 255, 255);
   font-family: YS Display;
   font-size: 4.4762757386dvh;
   font-style: normal;
   font-weight: 700;
   line-height: 4.7000895255dvh; /* 105% */
   width: 40.376007162dvh;
+  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .under-h1 {
