@@ -260,7 +260,7 @@ h1 {
   display: flex;
   width: 60%;
   height: 36.7054610564dvh;
-  background: url("../img/mask.png") 13.7869292748dvh 12.533572068dvh no-repeat, url("../img/arrow1.png") 0px 0px no-repeat;
+  background: url("../img/mask.png") 13.7869292748dvh 12.533572068dvh no-repeat, url("../img/SVG/arrow.svg") 0px 0px no-repeat;
   background-size: 17dvh, contain;
 }
 

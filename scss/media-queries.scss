@@ -41,7 +41,7 @@
         height: calc(36/812*100dvh);
         position: relative;
         display: flex;
-        z-index:2;
+        z-index: 4;
         overflow: hidden;
         cursor: pointer; 
     }
@@ -82,15 +82,15 @@
         position: fixed;
         top: 0;
         right: 0;
-        width: calc(470/812*100dvh);
-        height: calc(450/812*100dvh);
+        width: calc(375/375*100vw);
+        height: calc(450/375*100vw);
         padding: calc(15/812*100dvh);
         transform: translateX(100%);
         transition: transform 0.5s;
         border-radius: calc(37/812*100dvh);
         background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0.00) 106.48%);
         backdrop-filter: blur(10px);
-        z-index: 1;
+        z-index: 3;
     }
     
     .menu.active {
@@ -101,43 +101,43 @@
         display: flex;
         flex-direction: column;
         gap: calc(22/812*100dvh);
-        margin: calc(150/812*100dvh) 0 0 calc(55/812*100dvh);
+        margin: calc(100/375*100vw) calc(25/375*100vw) 0 calc(25/375*100vw);
     }
     
     .menu li {
         color: rgba(255, 255, 255, 0.15);
         font-family: YS Display;
-        font-size: calc(30/812*100dvh);
+        font-size: calc(30/375*100vw);
         font-style: normal;
         font-weight: 400;
-        line-height: calc(32.5/812*100dvh); /* 108.333% */
+        line-height: calc(32.5/375*100vw); /* 108.333% */
     }
     
     .link-active {
         color: #FFF;
         font-family: YS Display;
-        font-size: calc(30/812*100dvh);
+        font-size: calc(30/375*100vw);
         font-style: normal;
         font-weight: 400;
-        line-height: calc(32.5/812*100dvh); /* 108.333% */
+        line-height: calc(32.5/375*100vw); /* 108.333% */
     }
     
     .link-sub-active {
         color: rgba(255, 255, 255, 0.35);
         font-family: YS Display;
-        font-size: calc(30/812*100dvh);
+        font-size: calc(30/375*100vw);
         font-style: normal;
         font-weight: 400;
-        line-height: calc(32.5/812*100dvh); /* 108.333% */
+        line-height: calc(32.5/375*100vw); /* 108.333% */
     }
     
     .link-sub-active:visited {
         color: rgba(255, 255, 255, 0.35);
         font-family: YS Display;
-        font-size: calc(30/812*100dvh);
+        font-size: calc(30/375*100vw);
         font-style: normal;
         font-weight: 400;
-        line-height: calc(32.5/812*100dvh); /* 108.333% */
+        line-height: calc(32.5/375*100vw); /* 108.333% */
     }
     
     .logo {
@@ -243,6 +243,10 @@
         border: 1px solid #B4AFFF;
         background: #9B94FF;
         box-shadow: 0px 0px 124px 0px #B53CFF;
+    }
+
+    #footer-buton:focus {
+        outline: none; /* Убирает выделение при фокусировке */
     }
     
     .footer-button-text {

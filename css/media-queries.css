@@ -41,7 +41,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    z-index: 2;
+    z-index: 4;
     overflow: hidden;
     cursor: pointer;
   }
@@ -85,8 +85,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 57.881773399dvh;
-    height: 55.4187192118dvh;
+    width: 100vw;
+    height: 120vw;
     padding: 1.8472906404dvh;
     -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
@@ -100,7 +100,7 @@
     background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
     -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
-    z-index: 1;
+    z-index: 3;
   }
   .menu.active {
     -webkit-transform: translateX(5%);
@@ -116,39 +116,39 @@
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 2.7093596059dvh;
-    margin: 18.4729064039dvh 0 0 6.7733990148dvh;
+    margin: 26.6666666667vw 6.6666666667vw 0 6.6666666667vw;
   }
   .menu li {
     color: rgba(255, 255, 255, 0.15);
     font-family: YS Display;
-    font-size: 3.6945812808dvh;
+    font-size: 8vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 4.0024630542dvh; /* 108.333% */
+    line-height: 8.6666666667vw; /* 108.333% */
   }
   .link-active {
     color: #FFF;
     font-family: YS Display;
-    font-size: 3.6945812808dvh;
+    font-size: 8vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 4.0024630542dvh; /* 108.333% */
+    line-height: 8.6666666667vw; /* 108.333% */
   }
   .link-sub-active {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
-    font-size: 3.6945812808dvh;
+    font-size: 8vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 4.0024630542dvh; /* 108.333% */
+    line-height: 8.6666666667vw; /* 108.333% */
   }
   .link-sub-active:visited {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
-    font-size: 3.6945812808dvh;
+    font-size: 8vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 4.0024630542dvh; /* 108.333% */
+    line-height: 8.6666666667vw; /* 108.333% */
   }
   .logo {
     margin: 0;
@@ -246,6 +246,9 @@
     background: #9B94FF;
     -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
             box-shadow: 0px 0px 124px 0px #B53CFF;
+  }
+  #footer-buton:focus {
+    outline: none; /* Убирает выделение при фокусировке */
   }
   .footer-button-text {
     margin: 7.6354679803dvh auto 0 auto;
