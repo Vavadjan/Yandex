@@ -297,12 +297,30 @@ h1 {
 
 .footer-button-text {
   margin: 28.9167412713dvh 0 0 23.6347358997dvh;
-  color: #FFF;
+  color: #F5F5F5;
+  text-align: center;
   font-family: YS Display;
-  font-size: 4.5658012534dvh;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 4.7000895255dvh; /* 105% */
+  font-weight: 400;
+  line-height: normal;
+}
+
+#turnOfTheLights-button {
+  bottom: -20.0537153089dvh;
+  right: -14.5926589078dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65.2641002686dvh;
+  height: 65.2641002686dvh;
+  border-radius: 50%;
+  border: 1px solid #B4AFFF;
+  background: #9B94FF;
+  z-index: 2;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .layer {
