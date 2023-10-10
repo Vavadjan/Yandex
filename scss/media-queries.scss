@@ -283,7 +283,7 @@
         line-height: normal;
     }
 
-    #lights-footer-button {
+    .lights-footer-button {
         bottom: calc(-413/812*100dvh);
         right: calc(50vw - calc(568/812*100dvh)/2);
         position: fixed;
@@ -299,7 +299,7 @@
         //overflow: hidden;
     }
     
-    #lights-footer-button::before {
+    .lights-footer-button::before {
         content: "";
         bottom: 0px;
         right: 0px;
@@ -312,7 +312,7 @@
         overflow: hidden;
     }    
     
-    #lights-footer-button::after {
+    .lights-footer-button::after {
         content: "";
         position: absolute;
         top: 22%;

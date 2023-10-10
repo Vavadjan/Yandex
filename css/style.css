@@ -317,7 +317,7 @@ h1 {
   line-height: normal;
 }
 
-#lights-footer-button {
+.lights-footer-button {
   bottom: -20.0537153089dvh;
   right: -14.5926589078dvh;
   position: fixed;
@@ -336,7 +336,7 @@ h1 {
   overflow: hidden;
 }
 
-#lights-footer-button:before {
+.lights-footer-button:before {
   content: "";
   bottom: 0dvh;
   right: 0dvh;
@@ -353,7 +353,7 @@ h1 {
   overflow: hidden;
 }
 
-#lights-footer-button:after {
+.lights-footer-button:after {
   content: "";
   position: absolute;
   bottom: 20.1432408236dvh;

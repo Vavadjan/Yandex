@@ -295,7 +295,7 @@ h1 {
   line-height: normal;
 }
 
-#lights-footer-button {
+.lights-footer-button {
   bottom: calc(-224/1117*100dvh);
   right: calc(-163/1117*100dvh);
   position: fixed;
@@ -311,7 +311,7 @@ h1 {
   overflow: hidden;
 }
 
-#lights-footer-button:before {
+.lights-footer-button:before {
   content: "";
   bottom: calc(0/1117*100dvh);
   right: calc(0/1117*100dvh);
@@ -326,7 +326,7 @@ h1 {
   overflow: hidden;
 }
 
-#lights-footer-button:after {
+.lights-footer-button:after {
   content: "";
   position: absolute;
   bottom: calc(225/1117*100dvh);
