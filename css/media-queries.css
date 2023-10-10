@@ -310,15 +310,18 @@
     cursor: pointer;
     overflow: hidden;
   }
-  #lights-footer-button:after {
+  #lights-footer-button::after {
     content: "";
     position: absolute;
-    bottom: 27.7093596059dvh;
-    right: 20.0738916256dvh;
-    width: 52.2167487685dvh;
-    height: 45.197044335dvh;
-    background: url("../img/smart-home-small.png") bottom right no-repeat;
-    background-size: contain;
+    top: 22%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 75.7333333333vw; /* Изменено для адаптивности */
+    height: 76.8vw; /* Изменено для адаптивности */
+    background: url("../img/smart-home-small.png") center center no-repeat;
+    background-size: auto;
     z-index: -1;
   }
   .lights-footer-button-text {
