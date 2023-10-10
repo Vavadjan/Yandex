@@ -326,18 +326,7 @@ h1 {
   overflow: hidden;
 }
 
-.lights-footer-button-text {
-  margin: calc(335/1117*100dvh) 0 0 calc(255/1117*100dvh);
-  color: #F5F5F5;
-  text-align: center;
-  font-family: YS Display;
-  font-size: calc(50/1117*100dvh);
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.lights-footer-button-text:before {
+#lights-footer-button:after {
   content: "";
   position: absolute;
   bottom: calc(225/1117*100dvh);
@@ -347,6 +336,17 @@ h1 {
   background: url("../img/smart-home.png") bottom right no-repeat;
   background-size: contain;
   z-index: -1;
+}
+
+.lights-footer-button-text {
+  margin: calc(335/1117*100dvh) 0 0 calc(255/1117*100dvh);
+  color: #F5F5F5;
+  text-align: center;
+  font-family: YS Display;
+  font-size: calc(50/1117*100dvh);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .layer {

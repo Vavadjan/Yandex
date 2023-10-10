@@ -293,47 +293,43 @@
     border-radius: 50%;
     border: 1px solid #B4AFFF;
     background: #9B94FF;
-    -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
-            box-shadow: 0px 0px 124px 0px #B53CFF;
+    -webkit-box-shadow: 0px 0px 184px 0px #B53CFF;
+            box-shadow: 0px 0px 184px 0px #B53CFF;
     z-index: 2;
     cursor: pointer;
-    overflow: hidden;
   }
-  #lights-footer-button:before {
+  #lights-footer-button::before {
     content: "";
-    bottom: 0dvh;
-    right: -10.6666666667vw;
-    position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 121.3333333333vw;
-    height: 56.0344827586dvh;
-    background: url("../img/light_3_off.png") bottom center no-repeat;
+    bottom: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 46.1822660099dvh;
+    background: url("../img/light_3_off.png") center center no-repeat;
     background-size: 100vw;
     z-index: 2;
     cursor: pointer;
     overflow: hidden;
   }
-  .lights-footer-button-text {
-    margin: 7.6354679803dvh auto 0 auto;
-    color: #FFF;
-    font-family: YS Display;
-    font-size: 3.6945812808dvh;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .lights-footer-button-text:before {
+  #lights-footer-button:after {
     content: "";
     position: absolute;
-    bottom: 24.6305418719dvh;
-    right: 21.7333333333vw;
-    width: 113.0666666667vw;
+    bottom: 27.7093596059dvh;
+    right: 20.0738916256dvh;
+    width: 52.2167487685dvh;
     height: 45.197044335dvh;
-    background: url("../img/smart-home.png") center center no-repeat;
-    background-size: 100vw;
+    background: url("../img/smart-home-small.png") bottom right no-repeat;
+    background-size: contain;
     z-index: -1;
+  }
+  .lights-footer-button-text {
+    margin: 41.2561576355dvh 0 0 31.4039408867dvh;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: YS Display;
+    font-size: 6.157635468dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
   .layer {
     display: none;
