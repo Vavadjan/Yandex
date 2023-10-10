@@ -334,13 +334,13 @@
   }
 
   .lights-footer-button-text {
-    margin: calc(335/812*100dvh) 0 0 calc(255/812*100dvh);
+    margin: calc(65/812*100dvh) 0 0 calc(208/812*100dvh);
     color: #F5F5F5;
     text-align: center;
     font-family: YS Display;
-    font-size: calc(50/812*100dvh);
+    font-size: calc(30/812*100dvh);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
   }
 
