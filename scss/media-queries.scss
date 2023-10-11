@@ -1,3 +1,10 @@
+@media screen and (orientation: landscape) {
+    body {
+        transform: rotate(90deg);
+        transform-origin: right top;
+    }
+}
+
 @media screen and (orientation: portrait) {
     /* Обычное состояние и состояние посещенной ссылки */
     a {
