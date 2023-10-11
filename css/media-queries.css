@@ -1,14 +1,4 @@
 @charset "UTF-8";
-@media screen and (orientation: landscape) {
-  body {
-    -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
-    -webkit-transform-origin: right top;
-        -ms-transform-origin: right top;
-            transform-origin: right top;
-  }
-}
 @media screen and (orientation: portrait) {
   /* Обычное состояние и состояние посещенной ссылки */
   a {
