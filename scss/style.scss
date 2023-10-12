@@ -258,12 +258,13 @@ h1 {
 
 .arrow {
     position: absolute;
-    bottom: calc(74/1117*100dvh);
-    left: 0px;
-    width: calc(1076/1117*100dvh);
-    height: calc(390/1117*100dvh);
+    bottom: calc(242/1117*100dvh);
+    right: calc(356/1117*100dvh);
+    width: calc(639/1117*100dvh);
+    height: calc(209/1117*100dvh);
+    transform: rotate(26.928deg);
     background: url('../img/SVG/arrow.svg') top left no-repeat;
-    background-size: cover;
+    background-size: contain;
     z-index: 3;
 }
 
