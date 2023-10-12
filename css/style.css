@@ -317,17 +317,11 @@ h1 {
 
 .smart-screen-instruction-text-2::before {
   content: "";
-  position: absolute;
-  top: -10.2954341987dvh;
-  left: -15.5774395703dvh;
-  width: 43.5094001791dvh;
-  width: 24.1718889884dvh;
-  height: 24.1718889884dvh;
   background: url(../img/2.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(6.349deg);
-      -ms-transform: rotate(6.349deg);
-          transform: rotate(6.349deg);
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .lights-under-h1 {

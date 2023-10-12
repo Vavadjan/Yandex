@@ -284,15 +284,9 @@ h1 {
 
 .smart-screen-instruction-text-2::before {
   content: "";
-  position: absolute;
-  top: calc(-115/1117*100dvh);
-  left: calc(-174/1117*100dvh);
-  width: calc(486/1117*100dvh);
-  width: calc(270/1117*100dvh);
-  height: calc(270/1117*100dvh);
   background: url(../img/2.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(6.349deg);
+  transform: rotate(0deg);
 }
 
 .lights-under-h1 {
