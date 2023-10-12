@@ -234,6 +234,49 @@ h1 {
     }
 }
 
+.smart-screen-block {    
+    margin: calc(173/1117*100dvh) 0 0 calc(239/1117*100dvh);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.smart-screen-instruction-pic-1 {
+    display: flex;
+    width: calc(308/1117*100dvh);
+    height: calc(604/1117*100dvh);
+    background: url(../img/smart-screen-1.png) top left no-repeat;
+    background-size: contain;
+}
+
+.smart-screen-instruction-text-1 {
+    display: flex;
+    align-items: end;
+    padding: 0 0 calc(50/1117*100dvh) 0;
+    width: calc(486/1117*100dvh);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(30/1117*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.smart-screen-instruction-text-1::before {
+    content: "";
+    position: absolute;
+    top: calc(-115/1117*100dvh);
+    left: calc(-174/1117*100dvh);
+    width: calc(486/1117*100dvh);
+    width: calc(270/1117*100dvh);
+    height: calc(270/1117*100dvh);
+    background: url(../img/1.png) top left no-repeat;
+    background-size: contain;
+    transform: rotate(6.349deg);    
+}
+
+
 .lights-under-h1 {
     margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
     width: calc(689/1117*100dvh);
