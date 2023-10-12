@@ -322,6 +322,11 @@ h1 {
   background-size: contain;
 }
 
+.smart-screen-instruction-pic-5 {
+  background: url(../img/smart-screen-5.png) top left no-repeat;
+  background-size: contain;
+}
+
 .smart-screen::after {
   content: "";
   position: absolute;
@@ -374,6 +379,19 @@ h1 {
           animation: pulse 1.7s ease-in-out infinite;
 }
 
+.smart-screen-instruction-pic-5::after {
+  content: "";
+  position: absolute;
+  top: 25.7833482543dvh;
+  left: 17.0993733214dvh;
+  width: 4.2076991943dvh;
+  height: 4.2076991943dvh;
+  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background-size: contain;
+  -webkit-animation: pulse 1.7s ease-in-out infinite;
+          animation: pulse 1.7s ease-in-out infinite;
+}
+
 .smart-screen::before {
   content: "";
   position: absolute;
@@ -410,6 +428,15 @@ h1 {
 .smart-screen-instruction-pic-4::before {
   content: "";
   background: url(../img/4.png) top left no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.smart-screen-instruction-pic-5::before {
+  content: "";
+  background: url(../img/5.png) top left no-repeat;
   background-size: contain;
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
@@ -563,6 +590,11 @@ h1 {
 
 .gerland-instruction-4 {
   background: url("../img/gerlang-instruction-4.png") bottom right no-repeat;
+  background-size: contain;
+}
+
+.gerland-instruction-5 {
+  background: url("../img/gerlang-instruction-5.png") bottom right no-repeat;
   background-size: contain;
 }
 
