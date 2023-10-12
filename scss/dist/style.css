@@ -440,7 +440,7 @@ h1 {
 }
 
 .lights-footer-button-text {
-  margin: calc(335/1117*100dvh) 0 0 calc(255/1117*100dvh);
+  margin: calc(335/1117*100dvh) 0 0 calc(225/1117*100dvh);
   color: #F5F5F5;
   text-align: center;
   font-family: YS Display;
