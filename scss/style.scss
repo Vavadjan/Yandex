@@ -353,8 +353,7 @@ h1 {
     overflow: hidden;
 }
 
-.lights-footer-button:before {
-    content: "";
+.gerland {
     bottom: calc(0/1117*100dvh);
     right: calc(0/1117*100dvh);
     position: fixed;
@@ -368,6 +367,9 @@ h1 {
     overflow: hidden;
 }
 
+.gerland-instruction-1 {
+    background: url('../img/gerlang-instruction-1.png') bottom right no-repeat;
+}
 
 .lights-footer-button:after {
     content: "";
@@ -379,6 +381,10 @@ h1 {
     background: url('../img/smart-home.png') bottom right no-repeat;
     background-size: contain;
     z-index: -1;
+}
+
+.lights-instruction-footer-button-1 {
+
 }
 
 .lights-footer-button-text {

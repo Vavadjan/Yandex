@@ -394,8 +394,7 @@ h1 {
   overflow: hidden;
 }
 
-.lights-footer-button:before {
-  content: "";
+.gerland {
   bottom: 0dvh;
   right: 0dvh;
   position: fixed;
@@ -409,6 +408,10 @@ h1 {
   z-index: 2;
   cursor: pointer;
   overflow: hidden;
+}
+
+.gerland-instruction-1 {
+  background: url("../img/gerlang-instruction-1.png") bottom right no-repeat;
 }
 
 .lights-footer-button:after {
