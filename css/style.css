@@ -11,6 +11,34 @@
   font-weight: bold;
   font-style: normal;
 }
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); /* Исходный размер элемента */
+  }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2); /* Увеличенный размер на 200% */
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); /* Возврат к исходному размеру */
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); /* Исходный размер элемента */
+  }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2); /* Увеличенный размер на 200% */
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); /* Возврат к исходному размеру */
+  }
+}
 /* Обычное состояние и состояние посещенной ссылки */
 a {
   color: rgba(255, 255, 255, 0.15);
@@ -279,8 +307,57 @@ h1 {
   background-size: contain;
 }
 
+.smart-screen::after {
+  content: "";
+  position: absolute;
+  top: 11.0116383169dvh;
+  left: 11.9964189794dvh;
+  width: 4.2076991943dvh;
+  height: 4.2076991943dvh;
+  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background-size: contain;
+  -webkit-animation: pulse 1.7s ease-in-out infinite;
+          animation: pulse 1.7s ease-in-out infinite;
+}
+
+.smart-screen-instruction-pic-2::after {
+  content: "";
+  position: absolute;
+  top: 22.6499552372dvh;
+  left: 11.6383169203dvh;
+  width: 4.2076991943dvh;
+  height: 4.2076991943dvh;
+  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background-size: contain;
+  -webkit-animation: pulse 1.7s ease-in-out infinite;
+          animation: pulse 1.7s ease-in-out infinite;
+}
+
 .smart-screen-instruction-pic-2 {
   background: url(../img/smart-screen-2.png) top left no-repeat;
+}
+
+.smart-screen::before {
+  content: "";
+  position: absolute;
+  top: -10.2954341987dvh;
+  left: -15.5774395703dvh;
+  width: 43.5094001791dvh;
+  width: 24.1718889884dvh;
+  height: 24.1718889884dvh;
+  background: url(../img/1.png) top left no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(6.349deg);
+      -ms-transform: rotate(6.349deg);
+          transform: rotate(6.349deg);
+}
+
+.smart-screen-instruction-pic-2::before {
+  content: "";
+  background: url(../img/2.png) top left no-repeat;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .smart-screen-instruction-text {
@@ -298,30 +375,6 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.smart-screen-instruction-text::before {
-  content: "";
-  position: absolute;
-  top: -10.2954341987dvh;
-  left: -15.5774395703dvh;
-  width: 43.5094001791dvh;
-  width: 24.1718889884dvh;
-  height: 24.1718889884dvh;
-  background: url(../img/1.png) top left no-repeat;
-  background-size: contain;
-  -webkit-transform: rotate(6.349deg);
-      -ms-transform: rotate(6.349deg);
-          transform: rotate(6.349deg);
-}
-
-.smart-screen-instruction-text-2::before {
-  content: "";
-  background: url(../img/2.png) top left no-repeat;
-  background-size: contain;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
 }
 
 .lights-under-h1 {
