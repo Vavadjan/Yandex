@@ -242,7 +242,7 @@ h1 {
     gap: 34px;
 }
 
-.smart-screen-instruction-pic-1 {
+.smart-screen {
     display: flex;
     width: calc(308/1117*100dvh);
     height: calc(604/1117*100dvh);
@@ -250,7 +250,11 @@ h1 {
     background-size: contain;
 }
 
-.smart-screen-instruction-text-1 {
+.smart-screen-instruction-pic-2 {
+    background: url(../img/smart-screen-2.png) top left no-repeat;
+}
+
+.smart-screen-instruction-text {
     display: flex;
     align-items: end;
     padding: 0 0 calc(50/1117*100dvh) 0;
@@ -263,7 +267,7 @@ h1 {
     line-height: normal;
 }
 
-.smart-screen-instruction-text-1::before {
+.smart-screen-instruction-text::before {
     content: "";
     position: absolute;
     top: calc(-115/1117*100dvh);
@@ -276,6 +280,18 @@ h1 {
     transform: rotate(6.349deg);    
 }
 
+.smart-screen-instruction-text-2::before {
+    content: "";
+    position: absolute;
+    top: calc(-115/1117*100dvh);
+    left: calc(-174/1117*100dvh);
+    width: calc(486/1117*100dvh);
+    width: calc(270/1117*100dvh);
+    height: calc(270/1117*100dvh);
+    background: url(../img/2.png) top left no-repeat;
+    background-size: contain;
+    transform: rotate(6.349deg);    
+}
 
 .lights-under-h1 {
     margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
@@ -371,6 +387,10 @@ h1 {
     background: url('../img/gerlang-instruction-1.png') bottom right no-repeat;
 }
 
+.gerland-instruction-2 {
+    background: url('../img/gerlang-instruction-2.png') bottom right no-repeat;
+}
+
 .lights-footer-button:after {
     content: "";
     position: absolute;
@@ -381,10 +401,6 @@ h1 {
     background: url('../img/smart-home.png') bottom right no-repeat;
     background-size: contain;
     z-index: -1;
-}
-
-.lights-instruction-footer-button-1 {
-
 }
 
 .lights-footer-button-text {
