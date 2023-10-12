@@ -479,10 +479,12 @@ h1 {
 
 .gerland-instruction-1 {
   background: url("../img/gerlang-instruction-1.png") bottom right no-repeat;
+  background-size: contain;
 }
 
 .gerland-instruction-2 {
   background: url("../img/gerlang-instruction-2.png") bottom right no-repeat;
+  background-size: contain;
 }
 
 .lights-footer-button:after {
