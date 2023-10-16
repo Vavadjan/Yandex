@@ -372,54 +372,67 @@ h1 {
 .smart-screen::before {
   content: "";
   position: absolute;
-  top: calc(-115/1117*100dvh);
-  left: calc(-174/1117*100dvh);
-  width: calc(486/1117*100dvh);
-  width: calc(270/1117*100dvh);
-  height: calc(270/1117*100dvh);
+  top: calc(-170/1117*100dvh);
+  left: calc(-166/1117*100dvh);
+  width: calc(191/1117*100dvh);
+  height: calc(365/1117*100dvh);
   background: url(../img/1.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(6.349deg);
 }
 
 .smart-screen-instruction-pic-2::before {
   content: "";
   background: url(../img/2.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(0deg);
+  top: calc(-140/1117*100dvh);
+  left: calc(-124/1117*100dvh);
+  width: calc(156/1117*100dvh);
+  height: calc(311/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-3::before {
   content: "";
   background: url(../img/3.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(1.435deg);
+  top: calc(-130/1117*100dvh);
+  left: calc(-120/1117*100dvh);
+  width: calc(184/1117*100dvh);
+  height: calc(312/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-4::before {
   content: "";
   background: url(../img/4.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(0deg);
+  top: calc(-125/1117*100dvh);
+  left: calc(-150/1117*100dvh);
+  width: calc(173/1117*100dvh);
+  height: calc(295/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-5::before {
   content: "";
   background: url(../img/5.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(0deg);
+  top: calc(-130/1117*100dvh);
+  left: calc(-120/1117*100dvh);
+  width: calc(167/1117*100dvh);
+  height: calc(286/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-6::before {
   content: "";
   background: url(../img/6.png) top left no-repeat;
   background-size: contain;
-  transform: rotate(0deg);
+  top: calc(-120/1117*100dvh);
+  left: calc(-110/1117*100dvh);
+  width: calc(159/1117*100dvh);
+  height: calc(260/1117*100dvh);
 }
 
 .smart-screen-instruction-text {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   flex-direction: column;
   padding: 0 0 calc(50/1117*100dvh) 0;
   width: calc(486/1117*100dvh);
@@ -505,6 +518,7 @@ h1 {
   z-index: 2;
   cursor: pointer;
   overflow: hidden;
+  pointer-events: auto;
 }
 
 .gerland {
@@ -516,8 +530,9 @@ h1 {
   height: calc(1007/1117*100dvh);
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
-  z-index: 2;
+  z-index: 3;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .gerland-instruction-1 {

@@ -419,70 +419,71 @@ h1 {
 .smart-screen::before {
   content: "";
   position: absolute;
-  top: -10.2954341987dvh;
-  left: -15.5774395703dvh;
-  width: 43.5094001791dvh;
-  width: 24.1718889884dvh;
-  height: 24.1718889884dvh;
+  top: -15.2193375112dvh;
+  left: -14.8612354521dvh;
+  width: 17.0993733214dvh;
+  height: 32.6768128917dvh;
   background: url(../img/1.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(6.349deg);
-      -ms-transform: rotate(6.349deg);
-          transform: rotate(6.349deg);
 }
 
 .smart-screen-instruction-pic-2::before {
   content: "";
   background: url(../img/2.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
+  top: -12.533572068dvh;
+  left: -11.1011638317dvh;
+  width: 13.9659803044dvh;
+  height: 27.842435094dvh;
 }
 
 .smart-screen-instruction-pic-3::before {
   content: "";
   background: url(../img/3.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(1.435deg);
-      -ms-transform: rotate(1.435deg);
-          transform: rotate(1.435deg);
+  top: -11.6383169203dvh;
+  left: -10.7430617726dvh;
+  width: 16.472694718dvh;
+  height: 27.9319606088dvh;
 }
 
 .smart-screen-instruction-pic-4::before {
   content: "";
   background: url(../img/4.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
+  top: -11.1906893465dvh;
+  left: -13.4288272158dvh;
+  width: 15.4879140555dvh;
+  height: 26.4100268577dvh;
 }
 
 .smart-screen-instruction-pic-5::before {
   content: "";
   background: url(../img/5.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
+  top: -11.6383169203dvh;
+  left: -10.7430617726dvh;
+  width: 14.9507609669dvh;
+  height: 25.6042972247dvh;
 }
 
 .smart-screen-instruction-pic-6::before {
   content: "";
   background: url(../img/6.png) top left no-repeat;
   background-size: contain;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
+  top: -10.7430617726dvh;
+  left: -9.8478066249dvh;
+  width: 14.2345568487dvh;
+  height: 23.2766338406dvh;
 }
 
 .smart-screen-instruction-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -578,6 +579,7 @@ h1 {
   z-index: 2;
   cursor: pointer;
   overflow: hidden;
+  pointer-events: auto;
 }
 
 .gerland {
@@ -591,8 +593,9 @@ h1 {
   height: 90.1521933751dvh;
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
-  z-index: 2;
+  z-index: 3;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .gerland-instruction-1 {
