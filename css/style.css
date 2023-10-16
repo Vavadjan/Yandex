@@ -684,14 +684,6 @@ h1 {
   background-size: 100%;
 }
 
-.age-verification-page-logo {
-  margin: 6.8039391226dvh 8.4153983885dvh 0 0;
-  width: 5.102954342dvh;
-  height: 5.102954342dvh;
-  background: url(../img/SVG/18+.svg) center center no-repeat;
-  background-size: 100% 100%;
-}
-
 .age-verification-page-links {
   margin: 5.2820053715dvh 0 0 14.0555058192dvh;
   display: -webkit-box;
