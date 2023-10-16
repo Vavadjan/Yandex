@@ -253,6 +253,10 @@ h1 {
     }
 }
 
+.age-verification-page-under-h1 {
+    margin: calc(39/1117*100dvh) 0 0 calc(157/1117*100dvh);
+}
+
 .smart-screen-block {    
     margin: calc(173/1117*100dvh) 0 0 calc(239/1117*100dvh);
     position: relative;
@@ -443,17 +447,6 @@ h1 {
     line-height: normal;
 }
 
-.mask {
-    position: absolute;
-    bottom: calc(69/1117*100dvh);
-    right: calc(1385/1117*100dvh);
-    width: calc(188/1117*100dvh);
-    height: calc(198/1117*100dvh);
-    background: url('../img/mask.png') top left no-repeat;
-    background-size: cover;
-    z-index: 4;
-}
-
 .arrow {
     position: absolute;
     bottom: calc(242/1117*100dvh);
@@ -524,6 +517,7 @@ h1 {
 .gerland-instruction-1 {
     background: url('../img/gerlang-instruction-1.png') bottom right no-repeat;    
     background-size: contain;
+    // z-index: 3;
 }
 
 .gerland-instruction-2 {
@@ -601,12 +595,12 @@ h1 {
 }
 
 .age-verification-page-links {
-    margin: calc(59/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    margin: calc(49/1117*100dvh) 0 0 calc(157/1117*100dvh);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: calc(450/1117*100dvh);
-    height: calc(56/1117*100dvh);
+    width: calc(320/1117*100dvh);
+    height: calc(46/1117*100dvh);
     gap: calc(20/1117*100dvh);
 }
 
@@ -616,8 +610,8 @@ h1 {
     justify-content: center;
     border: 1px solid #FFF;
     border-radius: 10px;
-    width: calc(215/1117*100dvh);
-    height: calc(56/1117*100dvh);
+    width: calc(150/1117*100dvh);
+    height: calc(46/1117*100dvh);
     color: #FFF;
     text-align: center;
     font-family: YS Display;
@@ -636,8 +630,8 @@ h1 {
     border: 0px solid #FFF;
     border-radius: 10px;
     background: #9B94FF;
-    width: calc(450/1117*100dvh);
-    height: calc(56/1117*100dvh);
+    width: calc(150/1117*100dvh);
+    height: calc(46/1117*100dvh);
     color: #FFF;
     text-align: center;
     font-family: YS Display;
@@ -648,5 +642,3 @@ h1 {
     cursor: pointer;
     z-index: 1;
 }
-
-

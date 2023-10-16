@@ -294,6 +294,10 @@ h1 {
   line-height: 2.9095792301dvh;
 }
 
+.age-verification-page-under-h1 {
+  margin: 3.4914950761dvh 0 0 14.0555058192dvh;
+}
+
 .smart-screen-block {
   margin: 15.4879140555dvh 0 0 21.3965980304dvh;
   position: relative;
@@ -515,17 +519,6 @@ h1 {
   line-height: normal;
 }
 
-.mask {
-  position: absolute;
-  bottom: 6.1772605192dvh;
-  right: 123.9928379588dvh;
-  width: 16.8307967771dvh;
-  height: 17.7260519248dvh;
-  background: url("../img/mask.png") top left no-repeat;
-  background-size: cover;
-  z-index: 4;
-}
-
 .arrow {
   position: absolute;
   bottom: 21.6651745748dvh;
@@ -685,7 +678,7 @@ h1 {
 }
 
 .age-verification-page-links {
-  margin: 5.2820053715dvh 0 0 14.0555058192dvh;
+  margin: 4.3867502238dvh 0 0 14.0555058192dvh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -696,8 +689,8 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 40.2864816473dvh;
-  height: 5.0134288272dvh;
+  width: 28.6481647269dvh;
+  height: 4.1181736795dvh;
   gap: 1.7905102954dvh;
 }
 
@@ -713,8 +706,8 @@ h1 {
           justify-content: center;
   border: 1px solid #FFF;
   border-radius: 10px;
-  width: 19.2479856759dvh;
-  height: 5.0134288272dvh;
+  width: 13.4288272158dvh;
+  height: 4.1181736795dvh;
   color: #FFF;
   text-align: center;
   font-family: YS Display;
@@ -739,8 +732,8 @@ h1 {
   border: 0px solid #FFF;
   border-radius: 10px;
   background: #9B94FF;
-  width: 40.2864816473dvh;
-  height: 5.0134288272dvh;
+  width: 13.4288272158dvh;
+  height: 4.1181736795dvh;
   color: #FFF;
   text-align: center;
   font-family: YS Display;
