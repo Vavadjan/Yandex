@@ -673,3 +673,79 @@ h1 {
   background-image: url("../img/SVG/lights3.svg");
   background-size: 100%;
 }
+
+.age-verification-logo {
+  margin: 6.8039391226dvh 8.4153983885dvh 0 0;
+  width: 5.102954342dvh;
+  height: 5.102954342dvh;
+  background: url(../img/SVG/18+.svg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.age-verification {
+  margin: 5.2820053715dvh 0 0 14.0555058192dvh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40.2864816473dvh;
+  height: 5.0134288272dvh;
+  gap: 1.7905102954dvh;
+}
+
+.no-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #FFF;
+  border-radius: 10px;
+  width: 19.2479856759dvh;
+  height: 5.0134288272dvh;
+  color: #FFF;
+  text-align: center;
+  font-family: YS Display;
+  font-size: 1.8800358102dvh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.yes-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0px solid #FFF;
+  border-radius: 10px;
+  background: #9B94FF;
+  width: 40.2864816473dvh;
+  height: 5.0134288272dvh;
+  color: #FFF;
+  text-align: center;
+  font-family: YS Display;
+  font-size: 1.8800358102dvh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  z-index: 1;
+}

@@ -597,3 +597,60 @@ h1 {
   background-image: url("../img/SVG/lights3.svg");
   background-size: 100%;
 }
+
+.age-verification-logo {
+  margin: calc(76/1117*100dvh) calc(94/1117*100dvh) 0 0;
+  width: calc(57/1117*100dvh);
+  height: calc(57/1117*100dvh);
+  background: url(../img/SVG/18+.svg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.age-verification {
+  margin: calc(59/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(450/1117*100dvh);
+  height: calc(56/1117*100dvh);
+  gap: calc(20/1117*100dvh);
+}
+
+.no-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFF;
+  border-radius: 10px;
+  width: calc(215/1117*100dvh);
+  height: calc(56/1117*100dvh);
+  color: #FFF;
+  text-align: center;
+  font-family: YS Display;
+  font-size: calc(21/1117*100dvh);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.yes-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid #FFF;
+  border-radius: 10px;
+  background: #9B94FF;
+  width: calc(450/1117*100dvh);
+  height: calc(56/1117*100dvh);
+  color: #FFF;
+  text-align: center;
+  font-family: YS Display;
+  font-size: calc(21/1117*100dvh);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  z-index: 1;
+}
