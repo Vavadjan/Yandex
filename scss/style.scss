@@ -51,9 +51,20 @@ body {
     overflow: hidden;
     background:         
         url('../img/SVG/Ellipse-35.svg') top left no-repeat,
-        linear-gradient(180deg, rgba(35, 34, 31, 0.35) 23.44%, #000 100%) no-repeat,
-        linear-gradient(to bottom, #242321, #242321);
-    background-size: auto, 100vw 100dvh, auto;    
+        linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: auto, 100vw 100dvh;    
+}
+
+.age-verification-page-body {
+    position: relative;
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+    background:
+        url('../img/SVG/18+.svg') top left no-repeat,         
+        url('../img/SVG/Ellipse-35.svg') top left no-repeat,
+        linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: contain, auto, 100vw 100dvh; 
 }
 
 header {
@@ -169,10 +180,7 @@ header {
 }
 
 .logo {
-    //gap: calc(20/1117*100dvh);
-    margin: calc(92/1117*100dvh) 0 0 calc(169/1117*100dvh);
-    //display: flex; 
-    //flex-direction: row;
+    margin: calc(92/1117*100dvh) 0 0 calc(157/1117*100dvh);
     width: calc(195/1117*100dvh);
     height: calc(51/1117*100dvh);
     background: url(../img/SVG/logo.svg) no-repeat;
@@ -592,7 +600,7 @@ h1 {
     background-size: 100%;
 }
 
-.age-verification-logo {
+.age-verification-page-logo {
     margin: calc(76/1117*100dvh) calc(94/1117*100dvh) 0 0;
     width: calc(57/1117*100dvh);
     height: calc(57/1117*100dvh);
@@ -600,7 +608,7 @@ h1 {
     background-size: 100% 100%;
 }
 
-.age-verification {
+.age-verification-page-links {
     margin: calc(59/1117*100dvh) 0 0 calc(157/1117*100dvh);
     display: flex;
     flex-direction: row;
