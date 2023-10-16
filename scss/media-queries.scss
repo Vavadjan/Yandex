@@ -26,13 +26,24 @@
         overflow: hidden;
         background: #131211;   
     }
+
+    .age-verification-page-body {
+        background:
+            url('../img/SVG/18+_mobile.svg') center calc(106/812*100dvh) no-repeat,         
+            url('../img/SVG/Ellipse-35.svg') left -50px no-repeat,
+            linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+        background-size: calc(438/375*100vw) calc(438/812*100dvh), 80vw 80dvh, 100vw 100dvh; 
+    }
     
     header {
         margin: calc(40/812*100dvh) calc(28/812*100dvh) 0 calc(23/812*100dvh);
         display: flex;
         justify-content: space-between;
-        height: calc(40.351/812*100dvh);
-    
+        height: calc(40.351/812*100dvh);    
+    }
+
+    .age-verification-page-header {
+        display: none;
     }
     
     /* Гамбургер иконка */
@@ -196,6 +207,13 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .age-verification-page-h1 {        
+        margin: calc(235/812*100dvh) 0 0 calc(29/375*100vw);
+        font-size: calc(30/375*100vw);
+        width: calc(313/375*100vw);
+        line-height: calc(32.5/375*100vw); /* 108.333% */
+    }
     
     .under-h1 {
         margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
@@ -218,6 +236,16 @@
         }
     }
 
+    .age-verification-page-under-h1 {
+        margin: calc(17/812*100) 0 0 calc(29/375*100vw);
+        color: #FFF;
+        font-family: YS Display;
+        font-size: calc(18/375*100vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: calc(32.5/375*100vw); /* 180.556% */
+    }
+
     .lights-under-h1 {
         margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
         width: calc(313/812*100dvh);
@@ -227,18 +255,6 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-    }
-    
-    .mask {
-        position: absolute;
-        bottom: calc(42/812*100dvh);
-        right: calc(0/812*100dvh);
-        width: calc(120/812*100dvh);
-        height: calc(224/812*100dvh);
-        background: url('../img/small-mask.png') bottom right no-repeat;
-        background-size: 19dvh;
-        z-index: 4;
-        overflow: hidden;
     }
     
     .arrow {
@@ -361,6 +377,55 @@
     .layer3 {
         background-image: url('../img/SVG/lights3.svg');
         background-size: 100%;
+    }
+
+    .age-verification-page-links {
+        margin: calc(17/812*100dvh) 0 0 calc(29/812*100dvh);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 84vw;
+        height: calc(56/375*100vw);
+        gap: calc(15/375*100vw);
+    }
+    
+    .no-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #FFF;
+        border-radius: calc(10/375*100vw);
+        width: calc(150/375*100vw);
+        height: calc(56/375*100vw);
+        color: #FFF;
+        text-align: center;
+        font-family: YS Display;
+        font-size: calc(21/375*100vw);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    .yes-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid #FFF;
+        border-radius: calc(10/375*100vw);
+        background: #9B94FF;
+        width: calc(150/375*100vw);
+        height: calc(56/375*100vw);
+        color: #FFF;
+        text-align: center;
+        font-family: YS Display;
+        font-size: calc(21/375*100vw);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        cursor: pointer;
+        z-index: 1;
     }
     
     
