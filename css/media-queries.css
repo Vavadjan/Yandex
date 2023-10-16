@@ -24,9 +24,9 @@
     background: #131211;
   }
   .age-verification-page-body {
-    background: url("../img/SVG/18+_mobile.svg") center 13.0541871921dvh no-repeat, url("../img/SVG/Ellipse-35.svg") left -50px no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-    background: url("../img/SVG/18+_mobile.svg") center 13.0541871921dvh no-repeat, url("../img/SVG/Ellipse-35.svg") left -50px no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-    background-size: 116.8vw 53.9408866995dvh, 80vw 80dvh, 100vw 100dvh;
+    background: url("../img/SVG/18+_mobile.svg") center 13.0541871921dvh no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+    background: url("../img/SVG/18+_mobile.svg") center 13.0541871921dvh no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: auto, auto, 100vw 100dvh;
   }
   header {
     margin: 4.9261083744dvh 3.4482758621dvh 0 2.8325123153dvh;

@@ -29,8 +29,8 @@
   }
 
   .age-verification-page-body {
-    background: url("../img/SVG/18+_mobile.svg") center calc(106/812*100dvh) no-repeat, url("../img/SVG/Ellipse-35.svg") left -50px no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-    background-size: calc(438/375*100vw) calc(438/812*100dvh), 80vw 80dvh, 100vw 100dvh;
+    background: url("../img/SVG/18+_mobile.svg") center calc(106/812*100dvh) no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: auto, auto, 100vw 100dvh;
   }
 
   header {
