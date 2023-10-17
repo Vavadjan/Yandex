@@ -30,6 +30,11 @@
     background: url("../img/SVG/18+_mobile.svg") center 13.0541871921dvh no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
     background-size: auto, auto, 100vw 100dvh;
   }
+  .greetings-body {
+    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: auto, 100vw 100dvh;
+  }
   header {
     margin: 4.9261083744dvh 3.4482758621dvh 0 2.8325123153dvh;
     display: -webkit-box;
@@ -361,7 +366,9 @@
     line-height: normal;
   }
   .layer {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -372,19 +379,18 @@
     transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Добавляем анимацию */
-    overflow: hidden;
   }
   .layer1 {
     background-image: url("../img/SVG/lights1.svg");
-    background-size: 100%;
+    background-size: 200dvh;
   }
   .layer2 {
     background-image: url("../img/SVG/lights2.svg");
-    background-size: 100%;
+    background-size: 200dvh;
   }
   .layer3 {
     background-image: url("../img/SVG/lights3.svg");
-    background-size: 100%;
+    background-size: 200dvh;
   }
   .age-verification-page-links {
     margin: 2.0935960591dvh 0 0 3.5714285714dvh;

@@ -36,6 +36,11 @@
     background-size: auto, auto, 100vw 100dvh;
   }
 
+  .greetings-body {
+    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: auto, 100vw 100dvh;
+  }
+
   header {
     margin: calc(40/812*100dvh) calc(28/812*100dvh) 0 calc(23/812*100dvh);
     display: flex;
@@ -375,7 +380,7 @@
   }
 
   .layer {
-    display: none;
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -384,22 +389,21 @@
     background-repeat: no-repeat;
     transition: transform 0.3s ease;
     /* Добавляем анимацию */
-    overflow: hidden;
   }
 
   .layer1 {
     background-image: url("../img/SVG/lights1.svg");
-    background-size: 100%;
+    background-size: 200dvh;
   }
 
   .layer2 {
     background-image: url("../img/SVG/lights2.svg");
-    background-size: 100%;
+    background-size: 200dvh;
   }
 
   .layer3 {
     background-image: url("../img/SVG/lights3.svg");
-    background-size: 100%;
+    background-size: 200dvh;
   }
 
   .age-verification-page-links {
