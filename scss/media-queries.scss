@@ -278,7 +278,7 @@
         line-height: normal;
     }
     
-    #footer-buton {
+    .footer-buton {
         bottom: calc(-413/812*100dvh);
         right: calc(50vw - calc(568/812*100dvh)/2);
         position: fixed;
@@ -293,7 +293,22 @@
         box-shadow: 0px 0px 124px 0px #B53CFF;
     }
 
-    #footer-buton:focus {
+    .greetings-footer-buton {
+        bottom: calc(-413/812*100dvh);
+        right: calc(50vw - calc(568/812*100dvh)/2);
+        position: fixed;
+        display: flex;
+        width: calc(568/812*100dvh);
+        height: calc(568/812*100dvh);
+        border-radius: 50%;
+        z-index: 2;
+        cursor: pointer;
+        border: 1px solid #B4AFFF;
+        background: #9B94FF;
+        box-shadow: none;
+    }
+
+    .footer-buton:focus {
         outline: none; /* Убирает выделение при фокусировке */
     }
     

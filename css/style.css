@@ -524,7 +524,7 @@ h1 {
   line-height: normal;
 }
 
-#footer-buton {
+.footer-buton {
   bottom: -20.0537153089dvh;
   right: -14.5926589078dvh;
   position: fixed;
