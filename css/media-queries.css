@@ -252,17 +252,6 @@
     font-weight: 400;
     line-height: normal;
   }
-  .arrow {
-    position: absolute;
-    bottom: 20.3201970443dvh;
-    right: 55.2vw;
-    width: 44.8vw;
-    height: 27.8325123153dvh;
-    background: url("../img/SVG/small_arrow.svg") top left no-repeat;
-    background-size: 20dvh;
-    overflow: hidden;
-    z-index: 3;
-  }
   #footer-buton {
     bottom: -50.8620689655dvh;
     right: calc(50vw - 34.9753694581dvh);
@@ -275,7 +264,6 @@
     border-radius: 50%;
     z-index: 2;
     cursor: pointer;
-    overflow: hidden;
     border: 1px solid #B4AFFF;
     background: #9B94FF;
     -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
@@ -292,6 +280,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+  .footer-button-text::before {
+    content: "";
+    position: absolute;
+    bottom: 62.8078817734dvh;
+    left: 9.8522167488dvh;
+    width: 30.4187192118dvh;
+    height: 27.5dvh;
+    background: url("../img/SVG/arrow_mobile.svg") bottom left no-repeat;
+    background-size: 100% 100%;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    z-index: 3;
   }
   .lights-footer-button {
     bottom: -50.8620689655dvh;
