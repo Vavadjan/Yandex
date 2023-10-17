@@ -18,12 +18,15 @@
     a:focus {
         color: #B4AFFF; 
     }
+
+    html {        
+        overflow: hidden;
+    }
     
     body { 
         position: relative;
         width: 100vw;
         height: 100dvh;
-        overflow: hidden;
         background: #131211;   
     }
 
@@ -206,6 +209,17 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .greetings-h1::after {
+        content: "";
+        position: absolute;
+        top: calc(135/812*100dvh);
+        left: calc(-32/812*100dvh);
+        width: calc(736/812*100dvh);
+        height: calc(414/812*100dvh);
+        background: url('../img/dragon_mobile.png') center top no-repeat;
+        background-size: auto;
     }
 
     .age-verification-page-h1 {        

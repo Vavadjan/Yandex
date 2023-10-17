@@ -59,6 +59,10 @@ a:focus {
   color: #B4AFFF;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   position: relative;
   width: 100vw;
@@ -518,20 +522,6 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.arrow {
-  position: absolute;
-  bottom: 21.6651745748dvh;
-  right: 31.8710832587dvh;
-  width: 57.2068039391dvh;
-  height: 18.7108325873dvh;
-  -webkit-transform: rotate(26.928deg);
-      -ms-transform: rotate(26.928deg);
-          transform: rotate(26.928deg);
-  background: url("../img/SVG/arrow.svg") top left no-repeat;
-  background-size: contain;
-  z-index: 3;
 }
 
 #footer-buton {
