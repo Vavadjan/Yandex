@@ -658,6 +658,10 @@
         background-repeat: no-repeat;
         transition: transform 0.3s ease; /* Добавляем анимацию */
     }
+
+    .lights-instructions-layer {
+        display: none;
+    }
     
     .layer1 {
         background-image: url('../img/SVG/lights1.svg');

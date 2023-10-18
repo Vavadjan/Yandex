@@ -653,6 +653,10 @@
     /* Добавляем анимацию */
   }
 
+  .lights-instructions-layer {
+    display: none;
+  }
+
   .layer1 {
     background-image: url("../img/SVG/lights1.svg");
     background-size: 200dvh;
