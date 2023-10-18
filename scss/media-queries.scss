@@ -446,7 +446,7 @@
         justify-content: center;
         flex-direction: column;
         padding: 0;
-        width: calc(322/375*100vw);
+        width: auto;
         color: #FFF;
         font-family: YS Display;
         font-size: calc(18/812*100dvh);
@@ -466,11 +466,13 @@
         background: url(../img/appStore.png) top left no-repeat;
         background-size: contain;
         width: calc(155/812*100dvh);
+        cursor: pointer;
     }
     .smart-screen-googlePlay-download-link {
         background: url(../img/googlePlay.png) top left no-repeat;
         background-size: contain;
         width: calc(155/812*100dvh);
+        cursor: pointer;
     }
     
 
