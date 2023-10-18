@@ -13,7 +13,6 @@
   /* Состояние активации */
   a:active {
     color: #ff0000;
-    background: none;
   }
 
   /* Состояние фокуса */
@@ -276,11 +275,20 @@
     /* 180.556% */
   }
 
+  .smart-screen-block {
+    margin: calc(35/812*100dvh) auto 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: calc(20/812*100dvh);
+  }
+
   .smart-screen {
     display: flex;
-    width: calc(308/812*100dvh);
-    height: calc(604/812*100dvh);
-    background: url(../img/smart-screen-1.png) top left no-repeat;
+    width: calc(319/375*100vw);
+    height: calc(223/375*100vw);
+    background: url(../img/smart-screen_mobile-1.png) top left no-repeat;
     background-size: contain;
   }
 
@@ -312,10 +320,10 @@
   .smart-screen::after {
     content: "";
     position: absolute;
-    top: calc(123/812*100dvh);
-    left: calc(134/812*100dvh);
-    width: calc(47/812*100dvh);
-    height: calc(47/812*100dvh);
+    top: calc(75/375*100vw);
+    left: calc(166/375*100vw);
+    width: calc(47/375*100vw);
+    height: calc(47/375*100vw);
     background: url(../img/SVG/crosshair.svg) center center no-repeat;
     background-size: contain;
     animation: pulse 1.7s ease-in-out infinite;
@@ -377,11 +385,12 @@
   .smart-screen::before {
     content: "";
     position: absolute;
-    top: calc(-170/812*100dvh);
-    left: calc(-166/812*100dvh);
-    width: calc(191/812*100dvh);
-    height: calc(365/812*100dvh);
-    background: url(../img/1.png) top left no-repeat;
+    top: calc(-65/812*100dvh);
+    left: auto;
+    right: calc(0/812*100dvh);
+    width: calc(100/812*100dvh);
+    height: calc(191/812*100dvh);
+    background: url(../img/1.png) top right no-repeat;
     background-size: contain;
   }
 
@@ -433,6 +442,41 @@
     left: calc(-110/812*100dvh);
     width: calc(159/812*100dvh);
     height: calc(260/812*100dvh);
+  }
+
+  .smart-screen-instruction-text {
+    margin: 0 calc(39/375*100vw) 0 calc(39/375*100vw);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: calc(322/375*100vw);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(18/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .smart-screen-download-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86vw;
+    height: calc(55/812*100dvh);
+  }
+
+  .smart-screen-appStore-download-link {
+    background: url(../img/appStore.png) top left no-repeat;
+    background-size: contain;
+    width: calc(155/812*100dvh);
+  }
+
+  .smart-screen-googlePlay-download-link {
+    background: url(../img/googlePlay.png) top left no-repeat;
+    background-size: contain;
+    width: calc(155/812*100dvh);
   }
 
   .lights-under-h1 {
@@ -566,7 +610,7 @@
   }
 
   .gerland-instruction-1 {
-    background: url("../img/gerlang-instruction-1.png") bottom right no-repeat;
+    background: url("../img/gerlang-instruction_mobile-1.png") top center no-repeat;
     background-size: contain;
   }
 
