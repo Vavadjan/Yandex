@@ -332,8 +332,8 @@
         background: url('../img/SVG/arrow_mobile.svg') bottom left no-repeat;
         background-size: 100% 100%;        
         transform: rotate(0deg);
-        // overflow: hidden; 
         z-index: 3;
+        pointer-events: none;
     }
 
     .lights-footer-button {
@@ -349,7 +349,6 @@
         box-shadow: 0px 0px 184px 0px #B53CFF;
         z-index: 2;
         cursor: pointer;
-        //overflow: hidden;
     }
     
     .lights-footer-button::before {

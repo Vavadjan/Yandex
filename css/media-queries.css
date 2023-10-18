@@ -328,6 +328,7 @@
         -ms-transform: rotate(0deg);
             transform: rotate(0deg);
     z-index: 3;
+    pointer-events: none;
   }
   .lights-footer-button {
     bottom: -50.8620689655dvh;
