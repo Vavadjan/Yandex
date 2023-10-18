@@ -383,7 +383,7 @@
         position: absolute;
         top: calc(-65/812*100dvh);
         left: auto;
-        right: calc(0/812*100dvh);
+        right: calc((0/812*100dvh) - 4px);
         width: calc(100/812*100dvh);
         height: calc(191/812*100dvh);
         background: url(../img/1.png) top right no-repeat;

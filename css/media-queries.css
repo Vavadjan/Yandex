@@ -376,7 +376,7 @@
     position: absolute;
     top: -8.0049261084dvh;
     left: auto;
-    right: 0dvh;
+    right: calc(0dvh - 4px);
     width: 12.315270936dvh;
     height: 23.5221674877dvh;
     background: url(../img/1.png) top right no-repeat;
