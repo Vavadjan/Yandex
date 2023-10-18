@@ -282,8 +282,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 85.0666666667vw;
-    height: 59.4666666667vw;
+    width: 39.2857142857dvh;
+    height: 27.4630541872dvh;
     background: url(../img/smart-screen_mobile-1.png) top left no-repeat;
     background-size: contain;
   }
@@ -309,15 +309,7 @@
   }
   .smart-screen::after {
     content: "";
-    position: absolute;
-    top: 20vw;
-    left: 44.2666666667vw;
-    width: 12.5333333333vw;
-    height: 12.5333333333vw;
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    -webkit-animation: pulse 1.7s ease-in-out infinite;
-            animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
   .smart-screen-instruction-pic-2::after {
     content: "";
@@ -325,27 +317,11 @@
   }
   .smart-screen-instruction-pic-3::after {
     content: "";
-    position: absolute;
-    top: 17.7339901478dvh;
-    left: 19.7044334975dvh;
-    width: 5.7881773399dvh;
-    height: 5.7881773399dvh;
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    -webkit-animation: pulse 1.7s ease-in-out infinite;
-            animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
   .smart-screen-instruction-pic-4::after {
     content: "";
-    position: absolute;
-    top: 10.0985221675dvh;
-    left: 20.4433497537dvh;
-    width: 5.7881773399dvh;
-    height: 5.7881773399dvh;
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    -webkit-animation: pulse 1.7s ease-in-out infinite;
-            animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
   .smart-screen-instruction-pic-5::after {
     content: "";

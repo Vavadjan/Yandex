@@ -286,8 +286,8 @@
 
   .smart-screen {
     display: flex;
-    width: calc(319/375*100vw);
-    height: calc(223/375*100vw);
+    width: calc(319/812*100dvh);
+    height: calc(223/812*100dvh);
     background: url(../img/smart-screen_mobile-1.png) top left no-repeat;
     background-size: contain;
   }
@@ -319,14 +319,7 @@
 
   .smart-screen::after {
     content: "";
-    position: absolute;
-    top: calc(75/375*100vw);
-    left: calc(166/375*100vw);
-    width: calc(47/375*100vw);
-    height: calc(47/375*100vw);
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
 
   .smart-screen-instruction-pic-2::after {
@@ -336,26 +329,12 @@
 
   .smart-screen-instruction-pic-3::after {
     content: "";
-    position: absolute;
-    top: calc(144/812*100dvh);
-    left: calc(160/812*100dvh);
-    width: calc(47/812*100dvh);
-    height: calc(47/812*100dvh);
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
 
   .smart-screen-instruction-pic-4::after {
     content: "";
-    position: absolute;
-    top: calc(82/812*100dvh);
-    left: calc(166/812*100dvh);
-    width: calc(47/812*100dvh);
-    height: calc(47/812*100dvh);
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
 
   .smart-screen-instruction-pic-5::after {
