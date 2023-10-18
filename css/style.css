@@ -67,7 +67,6 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  overflow: hidden;
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
@@ -77,7 +76,6 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  overflow: hidden;
   background: url("../img/SVG/18+.svg") top left no-repeat, url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
   background: url("../img/SVG/18+.svg") top left no-repeat, url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
   background-size: contain, auto, 100vw 100dvh;
@@ -103,7 +101,6 @@ header {
   display: -ms-flexbox;
   display: flex;
   z-index: 11;
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -582,7 +579,6 @@ h1 {
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;
-  overflow: hidden;
   pointer-events: none;
 }
 
@@ -650,7 +646,6 @@ h1 {
   transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Добавляем анимацию */
-  overflow: hidden;
 }
 
 .layer1 {
