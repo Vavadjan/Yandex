@@ -289,27 +289,27 @@
     }
     
     .smart-screen-instruction-pic-2 {
-        background: url(../img/smart-screen-2.png) top left no-repeat;
+        background: url(../img/smart-screen_mobile-2.png) top left no-repeat;
         background-size: contain;
     }
     
     .smart-screen-instruction-pic-3 {
-        background: url(../img/smart-screen-3.png) top left no-repeat;
+        background: url(../img/smart-screen_mobile-3.png) top left no-repeat;
         background-size: contain;
     }
     
     .smart-screen-instruction-pic-4 {
-        background: url(../img/smart-screen-4.png) top left no-repeat;
+        background: url(../img/smart-screen_mobile-4.png) top left no-repeat;
         background-size: contain;
     }
     
     .smart-screen-instruction-pic-5 {
-        background: url(../img/smart-screen-5.png) top left no-repeat;
+        background: url(../img/smart-screen_mobile-5.png) top left no-repeat;
         background-size: contain;
     }
     
     .smart-screen-instruction-pic-6 {
-        background: url(../img/smart-screen-6.png) top left no-repeat;
+        background: url(../img/smart-screen_mobile-6.png) top left no-repeat;
         background-size: contain;
     }
     
@@ -327,21 +327,14 @@
     
     .smart-screen-instruction-pic-2::after {
         content: "";
-        position: absolute;
-        top: calc(253/812*100dvh);
-        left: calc(130/812*100dvh);
-        width: calc(47/812*100dvh);
-        height: calc(47/812*100dvh);
-        background: url(../img/SVG/crosshair.svg) center center no-repeat;
-        background-size: contain;
-        animation: pulse 1.7s ease-in-out infinite;
+        display: none;
     }
     
     .smart-screen-instruction-pic-3::after {
         content: "";
         position: absolute;
-        top: calc(485/812*100dvh);
-        left: calc(130/812*100dvh);
+        top: calc(144/812*100dvh);
+        left: calc(160/812*100dvh);
         width: calc(47/812*100dvh);
         height: calc(47/812*100dvh);
         background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -352,8 +345,8 @@
     .smart-screen-instruction-pic-4::after {
         content: "";
         position: absolute;
-        top: calc(141/812*100dvh);
-        left: calc(133/812*100dvh);
+        top: calc(82/812*100dvh);
+        left: calc(166/812*100dvh);
         width: calc(47/812*100dvh);
         height: calc(47/812*100dvh);
         background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -363,14 +356,7 @@
     
     .smart-screen-instruction-pic-5::after {
         content: "";
-        position: absolute;
-        top: calc(288/812*100dvh);
-        left: calc(191/812*100dvh);
-        width: calc(47/812*100dvh);
-        height: calc(47/812*100dvh);
-        background: url(../img/SVG/crosshair.svg) center center no-repeat;
-        background-size: contain;
-        animation: pulse 1.7s ease-in-out infinite;
+        display: none;
     }
     
     .smart-screen-instruction-pic-6::after {
@@ -392,52 +378,62 @@
     
     .smart-screen-instruction-pic-2::before {
         content: "";
-        background: url(../img/2.png) top left no-repeat;
-        background-size: contain;    
-        top: calc(-140/812*100dvh);
-        left: calc(-124/812*100dvh);
-        width: calc(156/812*100dvh);
-        height: calc(311/812*100dvh);
+        position: absolute;
+        top: calc(-48/812*100dvh);
+        left: auto;
+        right: calc(19/812*100dvh);
+        width: calc(96/812*100dvh);
+        height: calc(150/812*100dvh);
+        background: url(../img/2.png) top right no-repeat;
+        background-size: contain; 
     }
     
     .smart-screen-instruction-pic-3::before {
         content: "";
-        background: url(../img/3.png) top left no-repeat;
-        background-size: contain;  
-        top: calc(-130/812*100dvh);
-        left: calc(-120/812*100dvh);
-        width: calc(184/812*100dvh);
-        height: calc(312/812*100dvh);
+        position: absolute;
+        top: calc(-38/812*100dvh);
+        left: auto;
+        right: calc((0/812*100dvh) - 13px);
+        width: calc(106/812*100dvh);
+        height: calc(160/812*100dvh);
+        background: url(../img/3.png) top right no-repeat;
+        background-size: contain; 
     }
     
     .smart-screen-instruction-pic-4::before {
         content: "";
-        background: url(../img/4.png) top left no-repeat;
-        background-size: contain;
-        top: calc(-125/812*100dvh);
-        left: calc(-150/812*100dvh);
-        width: calc(173/812*100dvh);
-        height: calc(295/812*100dvh);
+        position: absolute;
+        top: calc(-33/812*100dvh);
+        left: auto;
+        right: calc(0/812*100dvh);
+        width: calc(100/812*100dvh);
+        height: calc(158/812*100dvh);
+        background: url(../img/4.png) top right no-repeat;
+        background-size: contain; 
     }
     
     .smart-screen-instruction-pic-5::before {
         content: "";
-        background: url(../img/5.png) top left no-repeat;
-        background-size: contain;
-        top: calc(-130/812*100dvh);
-        left: calc(-120/812*100dvh);
-        width: calc(167/812*100dvh);
-        height: calc(286/812*100dvh);
+        position: absolute;
+        top: calc(-36/812*100dvh);
+        left: auto;
+        right: calc((0/812*100dvh) - 4px);
+        width: calc(94/812*100dvh);
+        height: calc(149/812*100dvh);
+        background: url(../img/5.png) top right no-repeat;
+        background-size: contain; 
     }
     
     .smart-screen-instruction-pic-6::before {
         content: "";
-        background: url(../img/6.png) top left no-repeat;
-        background-size: contain;
-        top: calc(-120/812*100dvh);
-        left: calc(-110/812*100dvh);
-        width: calc(159/812*100dvh);
-        height: calc(260/812*100dvh);
+        position: absolute;
+        top: calc(-45/812*100dvh);
+        left: auto;
+        right: calc((0/812*100dvh) - 10px);
+        width: calc(99/812*100dvh);
+        height: calc(156/812*100dvh);
+        background: url(../img/6.png) top right no-repeat;
+        background-size: contain; 
     }
 
     .smart-screen-instruction-text {
@@ -472,6 +468,17 @@
         background: url(../img/googlePlay.png) top left no-repeat;
         background-size: contain;
         width: calc(155/812*100dvh);
+        cursor: pointer;
+    }
+    
+    .smart-screen-link {
+        color: #FFF;
+        font-family: YS Display;
+        font-size: calc(18/812*100dvh);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
         cursor: pointer;
     }
     
@@ -560,19 +567,6 @@
         cursor: pointer;
     }
     
-    // .lights-footer-button::before {
-    //     content: "";
-    //     position: absolute;
-    //     bottom: calc(330/812*100dvh);
-    //     left: calc(60/812*100dvh);
-    //     width: calc(455/812*100dvh);
-    //     height: calc(455/812*100dvh);
-    //     background: url('../img/garland_off_mobile.png') center center no-repeat;
-    //     background-size: contain;
-    //     z-index: 2;
-    //     pointer-events: none;
-    // }    
-    
     .lights-footer-button::after {
         content: "";
         position: absolute;
@@ -629,22 +623,22 @@
     }
     
     .gerland-instruction-3 {
-        background: url('../img/gerlang-instruction-3.png') center right no-repeat;    
+        background: url('../img/gerlang-instruction_mobile-3.png') center center no-repeat;    
         background-size: contain;
     }
     
     .gerland-instruction-4 {
-        background: url('../img/gerlang-instruction-4.png') center right no-repeat;    
+        background: url('../img/gerlang-instruction_mobile-4.png') center center no-repeat;    
         background-size: contain;
     }
     
     .gerland-instruction-5 {
-        background: url('../img/gerlang-instruction-5.png') center right no-repeat;    
+        background: url('../img/gerlang-instruction_mobile-5.png') center center no-repeat;    
         background-size: contain;
     }
     
     .gerland-instruction-6 {
-        background: url('../img/gerlang-instruction-6.png') center right no-repeat;    
+        background: url('../img/gerlang-instruction_mobile-6.png') center center no-repeat;    
         background-size: contain;
     }
     

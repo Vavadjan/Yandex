@@ -288,23 +288,23 @@
     background-size: contain;
   }
   .smart-screen-instruction-pic-2 {
-    background: url(../img/smart-screen-2.png) top left no-repeat;
+    background: url(../img/smart-screen_mobile-2.png) top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-3 {
-    background: url(../img/smart-screen-3.png) top left no-repeat;
+    background: url(../img/smart-screen_mobile-3.png) top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-4 {
-    background: url(../img/smart-screen-4.png) top left no-repeat;
+    background: url(../img/smart-screen_mobile-4.png) top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-5 {
-    background: url(../img/smart-screen-5.png) top left no-repeat;
+    background: url(../img/smart-screen_mobile-5.png) top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-6 {
-    background: url(../img/smart-screen-6.png) top left no-repeat;
+    background: url(../img/smart-screen_mobile-6.png) top left no-repeat;
     background-size: contain;
   }
   .smart-screen::after {
@@ -321,21 +321,13 @@
   }
   .smart-screen-instruction-pic-2::after {
     content: "";
-    position: absolute;
-    top: 31.157635468dvh;
-    left: 16.0098522167dvh;
-    width: 5.7881773399dvh;
-    height: 5.7881773399dvh;
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    -webkit-animation: pulse 1.7s ease-in-out infinite;
-            animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
   .smart-screen-instruction-pic-3::after {
     content: "";
     position: absolute;
-    top: 59.7290640394dvh;
-    left: 16.0098522167dvh;
+    top: 17.7339901478dvh;
+    left: 19.7044334975dvh;
     width: 5.7881773399dvh;
     height: 5.7881773399dvh;
     background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -346,8 +338,8 @@
   .smart-screen-instruction-pic-4::after {
     content: "";
     position: absolute;
-    top: 17.3645320197dvh;
-    left: 16.3793103448dvh;
+    top: 10.0985221675dvh;
+    left: 20.4433497537dvh;
     width: 5.7881773399dvh;
     height: 5.7881773399dvh;
     background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -357,15 +349,7 @@
   }
   .smart-screen-instruction-pic-5::after {
     content: "";
-    position: absolute;
-    top: 35.4679802956dvh;
-    left: 23.5221674877dvh;
-    width: 5.7881773399dvh;
-    height: 5.7881773399dvh;
-    background: url(../img/SVG/crosshair.svg) center center no-repeat;
-    background-size: contain;
-    -webkit-animation: pulse 1.7s ease-in-out infinite;
-            animation: pulse 1.7s ease-in-out infinite;
+    display: none;
   }
   .smart-screen-instruction-pic-6::after {
     content: "";
@@ -384,48 +368,58 @@
   }
   .smart-screen-instruction-pic-2::before {
     content: "";
-    background: url(../img/2.png) top left no-repeat;
+    position: absolute;
+    top: -5.9113300493dvh;
+    left: auto;
+    right: 2.3399014778dvh;
+    width: 11.8226600985dvh;
+    height: 18.4729064039dvh;
+    background: url(../img/2.png) top right no-repeat;
     background-size: contain;
-    top: -17.2413793103dvh;
-    left: -15.2709359606dvh;
-    width: 19.2118226601dvh;
-    height: 38.3004926108dvh;
   }
   .smart-screen-instruction-pic-3::before {
     content: "";
-    background: url(../img/3.png) top left no-repeat;
+    position: absolute;
+    top: -4.6798029557dvh;
+    left: auto;
+    right: calc(0dvh - 13px);
+    width: 13.0541871921dvh;
+    height: 19.7044334975dvh;
+    background: url(../img/3.png) top right no-repeat;
     background-size: contain;
-    top: -16.0098522167dvh;
-    left: -14.7783251232dvh;
-    width: 22.6600985222dvh;
-    height: 38.4236453202dvh;
   }
   .smart-screen-instruction-pic-4::before {
     content: "";
-    background: url(../img/4.png) top left no-repeat;
+    position: absolute;
+    top: -4.0640394089dvh;
+    left: auto;
+    right: 0dvh;
+    width: 12.315270936dvh;
+    height: 19.4581280788dvh;
+    background: url(../img/4.png) top right no-repeat;
     background-size: contain;
-    top: -15.39408867dvh;
-    left: -18.4729064039dvh;
-    width: 21.3054187192dvh;
-    height: 36.3300492611dvh;
   }
   .smart-screen-instruction-pic-5::before {
     content: "";
-    background: url(../img/5.png) top left no-repeat;
+    position: absolute;
+    top: -4.4334975369dvh;
+    left: auto;
+    right: calc(0dvh - 4px);
+    width: 11.5763546798dvh;
+    height: 18.3497536946dvh;
+    background: url(../img/5.png) top right no-repeat;
     background-size: contain;
-    top: -16.0098522167dvh;
-    left: -14.7783251232dvh;
-    width: 20.5665024631dvh;
-    height: 35.2216748768dvh;
   }
   .smart-screen-instruction-pic-6::before {
     content: "";
-    background: url(../img/6.png) top left no-repeat;
+    position: absolute;
+    top: -5.5418719212dvh;
+    left: auto;
+    right: calc(0dvh - 10px);
+    width: 12.1921182266dvh;
+    height: 19.2118226601dvh;
+    background: url(../img/6.png) top right no-repeat;
     background-size: contain;
-    top: -14.7783251232dvh;
-    left: -13.5467980296dvh;
-    width: 19.5812807882dvh;
-    height: 32.0197044335dvh;
   }
   .smart-screen-instruction-text {
     margin: 0 10.4vw 0 10.4vw;
@@ -472,6 +466,16 @@
     background: url(../img/googlePlay.png) top left no-repeat;
     background-size: contain;
     width: 19.0886699507dvh;
+    cursor: pointer;
+  }
+  .smart-screen-link {
+    color: #FFF;
+    font-family: YS Display;
+    font-size: 2.2167487685dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
     cursor: pointer;
   }
   .lights-under-h1 {
@@ -616,19 +620,19 @@
     background-size: contain;
   }
   .gerland-instruction-3 {
-    background: url("../img/gerlang-instruction-3.png") center right no-repeat;
+    background: url("../img/gerlang-instruction_mobile-3.png") center center no-repeat;
     background-size: contain;
   }
   .gerland-instruction-4 {
-    background: url("../img/gerlang-instruction-4.png") center right no-repeat;
+    background: url("../img/gerlang-instruction_mobile-4.png") center center no-repeat;
     background-size: contain;
   }
   .gerland-instruction-5 {
-    background: url("../img/gerlang-instruction-5.png") center right no-repeat;
+    background: url("../img/gerlang-instruction_mobile-5.png") center center no-repeat;
     background-size: contain;
   }
   .gerland-instruction-6 {
-    background: url("../img/gerlang-instruction-6.png") center right no-repeat;
+    background: url("../img/gerlang-instruction_mobile-6.png") center center no-repeat;
     background-size: contain;
   }
   .layer {
