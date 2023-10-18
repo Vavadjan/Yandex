@@ -11,6 +11,7 @@
   /* Состояние активации */
   a:active {
     color: #ff0000;
+    background: none;
   }
   /* Состояние фокуса */
   a:focus {
