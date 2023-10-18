@@ -31,8 +31,8 @@
     background-size: auto, auto, 100vw 100dvh;
   }
   .greetings-body {
-    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22));
+    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: auto, 100vw 100dvh;
   }
   header {
@@ -342,22 +342,22 @@
     border-radius: 50%;
     border: 1px solid #B4AFFF;
     background: #9B94FF;
-    -webkit-box-shadow: 0px 0px 184px 0px #B53CFF;
-            box-shadow: 0px 0px 184px 0px #B53CFF;
+    -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
+            box-shadow: 0px 0px 124px 0px #B53CFF;
     z-index: 2;
     cursor: pointer;
   }
   .lights-footer-button::before {
     content: "";
-    bottom: 0px;
-    right: 0px;
-    width: 100vw;
-    height: 46.1822660099dvh;
-    background: url("../img/light_3_off.png") center center no-repeat;
-    background-size: 100vw;
+    position: absolute;
+    bottom: 39.4088669951dvh;
+    left: 7.3891625616dvh;
+    width: 56.0344827586dvh;
+    height: 56.0344827586dvh;
+    background: url("../img/garland_off_mobile.png") center center no-repeat;
+    background-size: contain;
     z-index: 2;
-    cursor: pointer;
-    overflow: hidden;
+    pointer-events: none;
   }
   .lights-footer-button::after {
     content: "";
@@ -382,6 +382,13 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+  .lights-footer-button-arrow {
+    margin: 2.4630541872dvh auto 0 auto;
+    width: 23.5221674877dvh;
+    height: 15.1477832512dvh;
+    background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
+    background-size: contain;
   }
   .layer {
     display: -webkit-box;

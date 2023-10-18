@@ -476,7 +476,6 @@ h1 {
     background: #9B94FF;
     z-index: 2;
     cursor: pointer;
-    // overflow: hidden;
 }
 
 .footer-button-text {
@@ -501,25 +500,24 @@ h1 {
     border: 1px solid #B4AFFF;
     background: #9B94FF;
     box-shadow: 0px 0px 184px 0px #B53CFF;
-    z-index: 2;
+    z-index: 2;    
     cursor: pointer;
-    overflow: hidden;
     pointer-events: auto;
 }
 
-.gerland {
-    bottom: calc(0/1117*100dvh);
-    right: calc(0/1117*100dvh);
-    position: fixed;
-    display: flex;
-    width: calc(1007/1117*100dvh);
-    height: calc(1007/1117*100dvh);
-    background: url('../img/light_2_off.png') bottom right no-repeat;
-    background-size: contain;
-    z-index: 3;
-    overflow: hidden;
-    pointer-events: none;
-}
+// .gerland {
+//     bottom: calc(0/1117*100dvh);
+//     right: calc(0/1117*100dvh);
+//     position: fixed;
+//     display: flex;
+//     width: calc(1007/1117*100dvh);
+//     height: calc(1007/1117*100dvh);
+//     background: url('../img/light_2_off.png') bottom right no-repeat;
+//     background-size: contain;
+//     z-index: 3;
+//     overflow: hidden;
+//     pointer-events: none;
+// }
 
 .gerland-instruction-1 {
     background: url('../img/gerlang-instruction-1.png') bottom right no-repeat;    

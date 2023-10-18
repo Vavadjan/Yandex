@@ -41,7 +41,7 @@
     .greetings-body {
         background:                     
             url('../img/SVG/Ellipse-35_mobile.svg') left top no-repeat,
-            linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+            linear-gradient(180deg, #392E47 0%, #100D22 100%);
         background-size: auto, 100vw 100dvh; 
     }
     
@@ -346,22 +346,22 @@
         border-radius: 50%;
         border: 1px solid #B4AFFF;
         background: #9B94FF;
-        box-shadow: 0px 0px 184px 0px #B53CFF;
+        box-shadow: 0px 0px 124px 0px #B53CFF;
         z-index: 2;
         cursor: pointer;
     }
     
     .lights-footer-button::before {
         content: "";
-        bottom: 0px;
-        right: 0px;
-        width: 100vw;
-        height: calc(375/812*100dvh);
-        background: url('../img/light_3_off.png') center center no-repeat;
-        background-size: 100vw;
+        position: absolute;
+        bottom: calc(320/812*100dvh);
+        left: calc(60/812*100dvh);
+        width: calc(455/812*100dvh);
+        height: calc(455/812*100dvh);
+        background: url('../img/garland_off_mobile.png') center center no-repeat;
+        background-size: contain;
         z-index: 2;
-        cursor: pointer;
-        overflow: hidden;
+        pointer-events: none;
     }    
     
     .lights-footer-button::after {
@@ -386,6 +386,14 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+    }
+
+    .lights-footer-button-arrow {
+        margin: calc(20/812*100dvh) auto 0 auto;
+        width: calc(191/812*100dvh);
+        height: calc(123/812*100dvh);
+        background: url('../img/SVG/arrow_button_mobile.svg') center center no-repeat;
+        background-size: contain;
     }
     
     .layer {
