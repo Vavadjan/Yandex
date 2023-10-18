@@ -511,6 +511,20 @@ h1 {
   pointer-events: auto;
 }
 
+.gerland {
+  bottom: calc(0/1117*100dvh);
+  right: calc(0/1117*100dvh);
+  position: fixed;
+  display: flex;
+  width: calc(1007/1117*100dvh);
+  height: calc(1007/1117*100dvh);
+  background: url("../img/light_2_off.png") bottom right no-repeat;
+  background-size: contain;
+  z-index: 3;
+  overflow: hidden;
+  pointer-events: none;
+}
+
 .gerland-instruction-1 {
   background: url("../img/gerlang-instruction-1.png") bottom right no-repeat;
   background-size: contain;

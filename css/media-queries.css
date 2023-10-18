@@ -35,6 +35,11 @@
     background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: auto, 100vw 100dvh;
   }
+  .instruction-body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22));
+    background: linear-gradient(180deg, #392E47 0%, #100D22 100%);
+    background-size: auto, 100vw 100dvh;
+  }
   header {
     margin: 4.9261083744dvh 3.4482758621dvh 0 2.8325123153dvh;
     display: -webkit-box;
@@ -350,7 +355,7 @@
   .lights-footer-button::before {
     content: "";
     position: absolute;
-    bottom: 39.4088669951dvh;
+    bottom: 40.6403940887dvh;
     left: 7.3891625616dvh;
     width: 56.0344827586dvh;
     height: 56.0344827586dvh;
@@ -389,6 +394,9 @@
     height: 15.1477832512dvh;
     background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
     background-size: contain;
+  }
+  .gerland {
+    display: none;
   }
   .layer {
     display: -webkit-box;

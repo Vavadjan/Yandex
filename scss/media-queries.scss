@@ -44,6 +44,11 @@
             linear-gradient(180deg, #392E47 0%, #100D22 100%);
         background-size: auto, 100vw 100dvh; 
     }
+
+    .instruction-body {
+        background: linear-gradient(180deg, #392E47 0%, #100D22 100%);
+        background-size: auto, 100vw 100dvh; 
+    }
     
     header {
         margin: calc(40/812*100dvh) calc(28/812*100dvh) 0 calc(23/812*100dvh);
@@ -354,7 +359,7 @@
     .lights-footer-button::before {
         content: "";
         position: absolute;
-        bottom: calc(320/812*100dvh);
+        bottom: calc(330/812*100dvh);
         left: calc(60/812*100dvh);
         width: calc(455/812*100dvh);
         height: calc(455/812*100dvh);
@@ -394,6 +399,10 @@
         height: calc(123/812*100dvh);
         background: url('../img/SVG/arrow_button_mobile.svg') center center no-repeat;
         background-size: contain;
+    }
+
+    .gerland {
+        display: none;
     }
     
     .layer {
