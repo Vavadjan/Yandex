@@ -229,7 +229,7 @@
     width: calc(736/812*100dvh);
     height: calc(414/812*100dvh);
     background: url("../img/dragon_mobile.png") center top no-repeat;
-    background-size: auto;
+    background-size: contain;
   }
 
   .age-verification-page-h1 {

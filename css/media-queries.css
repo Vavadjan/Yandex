@@ -224,7 +224,7 @@
     width: 90.6403940887dvh;
     height: 50.9852216749dvh;
     background: url("../img/dragon_mobile.png") center top no-repeat;
-    background-size: auto;
+    background-size: contain;
   }
   .age-verification-page-h1 {
     margin: 28.9408866995dvh 0 0 7.7333333333vw;
