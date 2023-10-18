@@ -625,15 +625,12 @@ h1 {
   z-index: -1;
 }
 
-.lights-footer-button-text {
-  margin: 29.9910474485dvh 0 0 20.1432408236dvh;
-  color: #F5F5F5;
-  text-align: center;
-  font-family: YS Display;
-  font-size: 4.4762757386dvh;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.lights-footer-button-arrow {
+  margin: 26.3205013429dvh 0 0 21.0384959714dvh;
+  width: 23.0080572963dvh;
+  height: 14.9507609669dvh;
+  background: url("../img/SVG/arrow_button.svg") center center no-repeat;
+  background-size: contain;
 }
 
 .layer {

@@ -222,13 +222,7 @@
   }
   .greetings-h1::after {
     content: "";
-    position: absolute;
-    top: 16.6256157635dvh;
-    left: -3.9408866995dvh;
-    width: 90.6403940887dvh;
-    height: 50.9852216749dvh;
-    background: url("../img/dragon_mobile.png") center top no-repeat;
-    background-size: contain;
+    display: none;
   }
   .age-verification-page-h1 {
     margin: 28.9408866995dvh 0 0 7.7333333333vw;
