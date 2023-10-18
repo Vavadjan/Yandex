@@ -599,45 +599,45 @@
   }
 
   .gerland {
-    top: calc(600/812*100dvh);
+    top: calc((615/812*100dvh) - 12vw);
     right: calc(50vw - calc(455/375*100vw)/2);
     position: fixed;
     display: flex;
     width: calc(455/375*100vw);
-    height: calc(154/375*100vw);
-    background: url("../img/garland_off_mobile.png") top center no-repeat;
+    height: calc(210/375*100vw);
+    background: url("../img/garland_off_mobile.png") center center no-repeat;
     background-size: contain;
     z-index: 3;
     pointer-events: none;
   }
 
   .gerland-instruction-1 {
-    background: url("../img/gerlang-instruction_mobile-1.png") top center no-repeat;
+    background: url("../img/gerlang-instruction_mobile-1.png") center center no-repeat;
     background-size: contain;
   }
 
   .gerland-instruction-2 {
-    background: url("../img/gerlang-instruction-2.png") bottom right no-repeat;
+    background: url("../img/gerlang-instruction_mobile-2.png") center center no-repeat;
     background-size: contain;
   }
 
   .gerland-instruction-3 {
-    background: url("../img/gerlang-instruction-3.png") bottom right no-repeat;
+    background: url("../img/gerlang-instruction-3.png") center right no-repeat;
     background-size: contain;
   }
 
   .gerland-instruction-4 {
-    background: url("../img/gerlang-instruction-4.png") bottom right no-repeat;
+    background: url("../img/gerlang-instruction-4.png") center right no-repeat;
     background-size: contain;
   }
 
   .gerland-instruction-5 {
-    background: url("../img/gerlang-instruction-5.png") bottom right no-repeat;
+    background: url("../img/gerlang-instruction-5.png") center right no-repeat;
     background-size: contain;
   }
 
   .gerland-instruction-6 {
-    background: url("../img/gerlang-instruction-6.png") bottom right no-repeat;
+    background: url("../img/gerlang-instruction-6.png") center right no-repeat;
     background-size: contain;
   }
 
