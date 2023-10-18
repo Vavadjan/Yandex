@@ -70,6 +70,7 @@ body {
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
   background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
+  overflow: hidden;
 }
 
 .age-verification-page-body {
