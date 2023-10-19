@@ -522,6 +522,24 @@ h1 {
     pointer-events: auto;
 }
 
+.make-a-mix-footer-button {
+    top: calc(609/1117*100dvh);
+    left: calc(1185/1117*100dvh);
+    position: fixed;
+    display: flex;
+    width: calc(732/1117*100dvh);
+    height: calc(732/1117*100dvh);
+    border-radius: 50%;
+    border: 1px solid #B4AFFF;
+    background: 
+        url('../img/SVG/Ellipse-6.svg') center center no-repeat,
+        linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+    background-size: 95%, contain;
+    z-index: 2;    
+    cursor: pointer;
+    pointer-events: auto;
+}
+
 .gerland {
     bottom: calc(0/1117*100dvh);
     right: calc(0/1117*100dvh);
