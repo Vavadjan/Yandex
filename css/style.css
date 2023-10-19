@@ -309,11 +309,83 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.cocktail-recipes-pic {
+.cocktail-recipes-pic-1 {
   margin: 9.5792300806dvh 0 0 16.2041181737dvh;
   width: 32.2291853178dvh;
   height: 56.4905998209dvh;
   background: url("../img/glass_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-2 {
+  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
+  width: 32.2291853178dvh;
+  height: 56.4905998209dvh;
+  background: url("../img/glass_2.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-3 {
+  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
+  width: 32.2291853178dvh;
+  height: 56.4905998209dvh;
+  background: url("../img/glass_3.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-4 {
+  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
+  width: 32.2291853178dvh;
+  height: 56.4905998209dvh;
+  background: url("../img/glass_4.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-5 {
+  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
+  width: 32.2291853178dvh;
+  height: 56.4905998209dvh;
+  background: url("../img/glass_5.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-6 {
+  margin: 11.1906893465dvh 0 0 25.3357206804dvh;
+  width: 47.0904207699dvh;
+  height: 51.4771709937dvh;
+  background: url("../img/shaker_0.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-7 {
+  margin: 12.6230975828dvh 0 0 17.2784243509dvh;
+  width: 47.0904207699dvh;
+  height: 51.4771709937dvh;
+  background: url("../img/shaker_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-8 {
+  margin: 11.7278424351dvh 0 0 16.6517457475dvh;
+  width: 47.0904207699dvh;
+  height: 51.4771709937dvh;
+  background: url("../img/shaker_2.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-9 {
+  margin: 14.5926589078dvh 0 0 17.2784243509dvh;
+  width: 59.8030438675dvh;
+  height: 45.1208594449dvh;
+  background: url("../img/shaker_3.png") center center no-repeat;
+  background-size: contain;
+}
+
+.cocktail-recipes-pic-10 {
+  margin: 17.63652641dvh 0 0 14.503133393dvh;
+  width: 33.4825425246dvh;
+  height: 41.9874664279dvh;
+  background: url("../img/shaker_4.png") center center no-repeat;
   background-size: contain;
 }
 
@@ -342,7 +414,7 @@ h1 {
 
 .cocktail-recipes-under-h1 {
   margin: 4.8343777977dvh 0 0 22.2918531782dvh;
-  width: 53.0886302596dvh;
+  width: 61.6830796777dvh;
   color: #FFF;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
