@@ -86,9 +86,9 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/make-a-mix.png") 64.9955237243dvh 15.666965085dvh no-repeat, url("../img/bottle.png") 61.0564010743dvh -114.503133393dvh no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/make-a-mix.png") 64.9955237243dvh 15.666965085dvh no-repeat, url("../img/bottle.png") 61.0564010743dvh -114.503133393dvh no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-  background-size: auto, auto, auto, 100vw 100dvh;
+  background: url("../img/make-a-mix.png") 42.0138888889vw 10.1273148148vw no-repeat, url("../img/bottle.png") 39.4675925926vw -74.0162037037vw no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/make-a-mix.png") 42.0138888889vw 10.1273148148vw no-repeat, url("../img/bottle.png") 39.4675925926vw -74.0162037037vw no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: contain, 100% auto, auto, 100vw 100dvh;
 }
 
 header {
