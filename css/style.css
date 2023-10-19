@@ -67,8 +67,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -85.0492390331dvh -85.0492390331dvh no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -85.0492390331dvh -85.0492390331dvh no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
   overflow: hidden;
 }
@@ -77,8 +77,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/18+.svg") top left no-repeat, url("../img/SVG/Ellipse-35.svg") top left no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/18+.svg") top left no-repeat, url("../img/SVG/Ellipse-35.svg") top left no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -85.0492390331dvh -85.0492390331dvh no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -85.0492390331dvh -85.0492390331dvh no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
   background-size: contain, auto, 100vw 100dvh;
 }
 
@@ -351,8 +351,8 @@ h1 {
 .smart-screen::after {
   content: "";
   position: absolute;
-  top: 11.0116383169dvh;
-  left: 11.9964189794dvh;
+  top: 10.7430617726dvh;
+  left: 13.8764547896dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
   background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -364,8 +364,8 @@ h1 {
 .smart-screen-instruction-pic-2::after {
   content: "";
   position: absolute;
-  top: 22.6499552372dvh;
-  left: 11.6383169203dvh;
+  top: 22.8290062668dvh;
+  left: 15.2193375112dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
   background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -377,8 +377,8 @@ h1 {
 .smart-screen-instruction-pic-3::after {
   content: "";
   position: absolute;
-  top: 43.4198746643dvh;
-  left: 11.6383169203dvh;
+  top: 42.0769919427dvh;
+  left: 12.4440465533dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
   background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -390,8 +390,8 @@ h1 {
 .smart-screen-instruction-pic-4::after {
   content: "";
   position: absolute;
-  top: 12.6230975828dvh;
-  left: 11.9068934646dvh;
+  top: 12.533572068dvh;
+  left: 14.0555058192dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
   background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -403,8 +403,8 @@ h1 {
 .smart-screen-instruction-pic-5::after {
   content: "";
   position: absolute;
-  top: 25.7833482543dvh;
-  left: 17.0993733214dvh;
+  top: 25.0671441361dvh;
+  left: 19.2479856759dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
   background: url(../img/SVG/crosshair.svg) center center no-repeat;
@@ -415,7 +415,15 @@ h1 {
 
 .smart-screen-instruction-pic-6::after {
   content: "";
-  display: none;
+  position: absolute;
+  top: 22.8290062668dvh;
+  left: 19.6956132498dvh;
+  width: 4.2076991943dvh;
+  height: 4.2076991943dvh;
+  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background-size: contain;
+  -webkit-animation: pulse 1.7s ease-in-out infinite;
+          animation: pulse 1.7s ease-in-out infinite;
 }
 
 .smart-screen::before {
