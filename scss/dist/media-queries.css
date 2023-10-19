@@ -32,12 +32,16 @@
   }
 
   .age-verification-page-body {
-    background: url("../img/SVG/18+_mobile.svg") center calc(106/812*100dvh) no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    width: 100vw;
+    height: 100dvh;
+    background: url("../img/SVG/18+_mobile.svg") center calc(106/812*100dvh) no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
     background-size: auto, auto, 100vw 100dvh;
   }
 
   .greetings-body {
-    background: url("../img/SVG/Ellipse-35_mobile.svg") left top no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%);
+    width: 100vw;
+    height: 100dvh;
+    background: url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: auto, 100vw 100dvh;
   }
 
