@@ -86,18 +86,18 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/make-a-mix.png") 42.0138888889vw 10.1273148148vw no-repeat, url("../img/bottle.png") 39.4675925926vw -74.0162037037vw no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/make-a-mix.png") 42.0138888889vw 10.1273148148vw no-repeat, url("../img/bottle.png") 39.4675925926vw -74.0162037037vw no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-  background-size: contain, auto, auto, 100vw 100dvh;
+  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: auto, 100vw 100dvh;
 }
 
 .cocktail-recipes-body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/bottle.png") 39.4675925926vw -74.0162037037vw no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/bottle.png") 39.4675925926vw -74.0162037037vw no-repeat, url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-  background-size: auto, auto, 100vw 100dvh;
+  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: auto, 100vw 100dvh;
 }
 
 header {
@@ -651,6 +651,28 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.make-a-mix-bottle {
+  margin: 0 -54.1629364369dvh 0 0;
+  bottom: -78.7824529991dvh;
+  right: 0vw;
+  position: fixed;
+  width: 95.6018518519vw;
+  height: 295.8818263205dvh;
+  background: url("../img/bottle-mix.png") top right no-repeat;
+  background-size: contain;
+}
+
+.coctail-recipes-bottle {
+  margin: 0 -54.1629364369dvh 0 0;
+  bottom: -78.7824529991dvh;
+  right: 0vw;
+  position: fixed;
+  width: 95.6018518519vw;
+  height: 295.8818263205dvh;
+  background: url("../img/bottle.png") top right no-repeat;
+  background-size: contain;
 }
 
 .footer-buton {
