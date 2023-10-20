@@ -54,8 +54,8 @@
     position: relative;
     width: 100vw;
     height: 100dvh;
-    background: url("../img/bottle.png") center calc(-710/812*100dvh) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-    background-size: calc(881/812*100dvh) calc(1763/812*100dvh), 100vw 100dvh;
+    background: linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: 100vw 100dvh;
   }
 
   header {
@@ -251,6 +251,22 @@
     /* 108.333% */
   }
 
+  .make-a-mix-h1 {
+    margin: calc(91/812*100dvh) 0 0 calc(31/812*100dvh);
+    font-family: YS Display;
+    font-size: calc(30/812*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(32.5/812*100dvh);
+    /* 105% */
+    width: calc(313/812*100dvh);
+    height: calc(61/812*100dvh);
+    background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .under-h1 {
     margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
     width: calc(313/812*100dvh);
@@ -280,6 +296,18 @@
     font-weight: 400;
     line-height: calc(32.5/375*100vw);
     /* 180.556% */
+  }
+
+  .make-a-mix-under-h1 {
+    margin: calc(0/812*100dvh) 0 0 calc(31/812*100dvh);
+    width: calc(313/812*100dvh);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(21/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* 108.333% */
   }
 
   .smart-screen-block {
@@ -483,6 +511,30 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  .make-a-mix-objects {
+    position: fixed;
+    top: calc((500/812*100dvh) - 18vw);
+    left: calc(-100/375*100vw);
+    width: calc(512/375*100vw);
+    height: calc(307/375*100vw);
+    background: url("../img/make-a-mix_mobile.png") bottom left no-repeat;
+    background-size: contain;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .make-a-mix-bottle {
+    margin: 0 auto;
+    top: calc(-710/812*100dvh);
+    right: calc(50vw - calc(881/375*100vw)/2);
+    position: fixed;
+    width: calc(881/375*100vw);
+    height: calc(1763/812*100dvh);
+    background: url("../img/bottle.png") center center no-repeat;
+    background-size: cover;
+    z-index: -1;
   }
 
   .footer-buton {

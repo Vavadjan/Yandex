@@ -258,6 +258,21 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+.make-a-mix-h1 {
+  margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  font-family: YS Display;
+  font-size: calc(50/1117*100dvh);
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(52.5/1117*100dvh);
+  /* 105% */
+  width: calc(451/1117*100dvh);
+  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .cocktail-recipes-h1 {
   margin: calc(158/1117*100dvh) 0 0 calc(157/1117*100dvh);
   font-family: YS Display;
@@ -374,6 +389,10 @@ h1 {
 }
 
 .age-verification-page-under-h1 {
+  margin: calc(39/1117*100dvh) 0 0 calc(157/1117*100dvh);
+}
+
+.make-a-mix-under-h1 {
   margin: calc(39/1117*100dvh) 0 0 calc(157/1117*100dvh);
 }
 
@@ -598,6 +617,10 @@ h1 {
   line-height: normal;
 }
 
+.make-a-mix-3d-objects {
+  display: none;
+}
+
 .make-a-mix-bottle {
   margin: 0 calc(-605/1117*100dvh) 0 0;
   bottom: calc(-880/1117*100dvh);
@@ -607,6 +630,7 @@ h1 {
   height: calc(3305/1117*100dvh);
   background: url("../img/bottle-mix.png") top right no-repeat;
   background-size: contain;
+  z-index: -1;
 }
 
 .coctail-recipes-bottle {
