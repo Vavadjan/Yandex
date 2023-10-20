@@ -109,9 +109,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 100vw;
-    height: 120vw;
-    padding: 1.8472906404dvh;
+    width: 93.6vw;
+    height: 84.5333333333vw;
     -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
             transform: translateX(100%);
@@ -119,11 +118,11 @@
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
-    border-radius: 4.5566502463dvh;
-    background: -webkit-gradient(linear, right top, left top, color-stop(106.47%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0)));
-    background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
+    border-radius: 37px;
+    background: -webkit-gradient(linear, right top, left top, color-stop(7.37%, #181715), color-stop(7.38%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0.32)));
+    background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
+    -webkit-backdrop-filter: blur(11.5px);
+            backdrop-filter: blur(11.5px);
     z-index: 10;
   }
   .menu.active {
@@ -132,6 +131,8 @@
             transform: translateX(5%);
   }
   .menu ul {
+    width: 72vw;
+    height: 51.7333333333vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -139,13 +140,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 2.7093596059dvh;
-    margin: 26.6666666667vw 6.6666666667vw 0 6.6666666667vw;
+    gap: 1.354679803dvh;
+    margin: 23.2vw 0 9.6vw 8.5333333333vw;
   }
   .menu li {
     color: rgba(255, 255, 255, 0.15);
     font-family: YS Display;
-    font-size: 8vw;
+    font-size: 5.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: 8.6666666667vw; /* 108.333% */
@@ -153,7 +154,7 @@
   .link-active {
     color: #FFF;
     font-family: YS Display;
-    font-size: 8vw;
+    font-size: 5.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: 8.6666666667vw; /* 108.333% */
@@ -161,7 +162,7 @@
   .link-sub-active {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
-    font-size: 8vw;
+    font-size: 5.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: 8.6666666667vw; /* 108.333% */
@@ -169,7 +170,7 @@
   .link-sub-active:visited {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
-    font-size: 8vw;
+    font-size: 5.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: 8.6666666667vw; /* 108.333% */

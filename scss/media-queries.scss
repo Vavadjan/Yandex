@@ -112,14 +112,13 @@
         position: fixed;
         top: 0;
         right: 0;
-        width: calc(375/375*100vw);
-        height: calc(450/375*100vw);
-        padding: calc(15/812*100dvh);
+        width: calc(351/375*100vw);
+        height: calc(317/375*100vw);
         transform: translateX(100%);
         transition: transform 0.5s;
-        border-radius: calc(37/812*100dvh);
-        background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0.00) 106.48%);
-        backdrop-filter: blur(10px);
+        border-radius: 37px;
+        background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
+        backdrop-filter: blur(11.5px);
         z-index: 10;
     }
     
@@ -128,16 +127,18 @@
     }
     
     .menu ul {
+        width: calc(270/375*100vw);
+        height: calc(194/375*100vw);
         display: flex;
         flex-direction: column;
-        gap: calc(22/812*100dvh);
-        margin: calc(100/375*100vw) calc(25/375*100vw) 0 calc(25/375*100vw);
+        gap: calc(11/812*100dvh);
+        margin: calc(87/375*100vw) 0 calc(36/375*100vw) calc(32/375*100vw);
     }
     
     .menu li {
         color: rgba(255, 255, 255, 0.15);
         font-family: YS Display;
-        font-size: calc(30/375*100vw);
+        font-size: calc(21/375*100vw);
         font-style: normal;
         font-weight: 400;
         line-height: calc(32.5/375*100vw); /* 108.333% */
@@ -146,7 +147,7 @@
     .link-active {
         color: #FFF;
         font-family: YS Display;
-        font-size: calc(30/375*100vw);
+        font-size: calc(21/375*100vw);
         font-style: normal;
         font-weight: 400;
         line-height: calc(32.5/375*100vw); /* 108.333% */
@@ -155,7 +156,7 @@
     .link-sub-active {
         color: rgba(255, 255, 255, 0.35);
         font-family: YS Display;
-        font-size: calc(30/375*100vw);
+        font-size: calc(21/375*100vw);
         font-style: normal;
         font-weight: 400;
         line-height: calc(32.5/375*100vw); /* 108.333% */
@@ -164,14 +165,13 @@
     .link-sub-active:visited {
         color: rgba(255, 255, 255, 0.35);
         font-family: YS Display;
-        font-size: calc(30/375*100vw);
+        font-size: calc(21/375*100vw);
         font-style: normal;
         font-weight: 400;
         line-height: calc(32.5/375*100vw); /* 108.333% */
     }
     
-    .logo {
-        
+    .logo {        
         margin: 0;
         width: calc(156/812*100dvh);
         height: calc(40.35/812*100dvh);
