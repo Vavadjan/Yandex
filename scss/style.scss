@@ -98,9 +98,9 @@ header {
 
 /* Гамбургер иконка */
 .menu-btn {
-    margin: calc(81/1117*100dvh) calc(84/1117*100dvh) 0 0;
-	width: calc(40/1117*100dvh);
-	height: calc(36/1117*100dvh);
+    margin: calc(88/1728*100vw) calc(84/1728*100vw) 0 0;
+	width: calc(50/1728*100vw);
+	height: calc(50/1728*100vw);
 	position: relative;
     display: flex;
 	z-index: 11;
@@ -108,8 +108,8 @@ header {
 }
 
 .menu-btn span {
-	width: calc(40/1117*100dvh);
-	height: calc(4/1117*100dvh);
+	width: calc(40/1728*100vw);
+	height: calc(4/1728*100vw);
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -119,10 +119,10 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-	top: calc(50% - calc(14/1117*100dvh));
+	top: calc(50% - calc(14/1728*100vw));
 }
 .menu-btn span:nth-of-type(3) {
-	top: calc(50% + calc(14/1117*100dvh));
+	top: calc(50% + calc(14/1728*100vw));
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -143,14 +143,14 @@ header {
 	position: fixed;
 	top: 0;
 	right: 0;
-    width: calc(470/1117*100dvh);
-    height: calc(450/1117*100dvh);
-	padding: calc(15/1117*100dvh);
+    width: calc(470/1728*100vw);
+    height: calc(470/1728*100vw);
+	padding: calc(15/1728*100vw);
 	transform: translateX(100%);
 	transition: transform 0.5s;
-    border-radius: calc(37/1117*100dvh);
-    background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0.00) 106.48%);
-    backdrop-filter: blur(10px);
+    border-radius: 37px;
+    background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
+    backdrop-filter: blur(11.5px);
     z-index: 10;
 }
 
@@ -159,46 +159,48 @@ header {
 }
 
 .menu ul {
+    width: calc(346/1728*100vw);
+    height: calc(253/1728*100vw);
     display: flex;
     flex-direction: column;
-    gap: calc(22/1117*100dvh);
-    margin: calc(150/1117*100dvh) 0 0 calc(55/1117*100dvh);
+    gap: calc(22/1728*100vw);
+    margin: calc(180/1728*100vw) 0 calc(52/1728*100vw) calc(55/1728*100vw);
 }
 
 .menu li {
     color: rgba(255, 255, 255, 0.15);
     font-family: YS Display;
-    font-size: calc(30/1117*100dvh);
+    font-size: calc(30/1728*100vw);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(32.5/1117*100dvh); /* 108.333% */
+    line-height: calc(32.5/1728*100vw); /* 108.333% */
 }
 
 .link-active {
     color: #FFF;
     font-family: YS Display;
-    font-size: calc(30/1117*100dvh);
+    font-size: calc(30/1728*100vw);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(32.5/1117*100dvh); /* 108.333% */
+    line-height: calc(32.5/1728*100vw); /* 108.333% */
 }
 
 .link-sub-active {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
-    font-size: calc(30/1117*100dvh);
+    font-size: calc(30/1728*100vw);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(32.5/1117*100dvh); /* 108.333% */
+    line-height: calc(32.5/1728*100vw); /* 108.333% */
 }
 
 .link-sub-active:visited {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
-    font-size: calc(30/1117*100dvh);
+    font-size: calc(30/1728*100vw);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(32.5/1117*100dvh); /* 108.333% */
+    line-height: calc(32.5/1728*100vw); /* 108.333% */
 }
 
 .logo {
@@ -374,7 +376,7 @@ h1 {
 }
 
 .cocktail-recipes-under-h1 {
-    margin: calc(54/1117*100dvh) 0 0 calc(249/1117*100dvh);
+    margin: calc(54/1117*100dvh) 0 0 calc(157/1117*100dvh);
     width: calc(689/1117*100dvh);
     color: #FFF;
     font-family: YS Display;
@@ -633,7 +635,7 @@ h1 {
 }
 
 .footer-button-text {
-    margin: calc(323/1117*100dvh) 0 0 calc(264/1117*100dvh);
+    margin: calc(340/1117*100dvh) 0 0 calc(240/1117*100dvh);
     color: #F5F5F5;
     text-align: center;
     font-family: YS Display;

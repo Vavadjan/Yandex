@@ -112,9 +112,9 @@ header {
 
 /* Гамбургер иконка */
 .menu-btn {
-  margin: 7.2515666965dvh 7.5201432408dvh 0 0;
-  width: 3.5810205909dvh;
-  height: 3.2229185318dvh;
+  margin: 5.0925925926vw 4.8611111111vw 0 0;
+  width: 2.8935185185vw;
+  height: 2.8935185185vw;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,8 +124,8 @@ header {
 }
 
 .menu-btn span {
-  width: 3.5810205909dvh;
-  height: 0.3581020591dvh;
+  width: 2.3148148148vw;
+  height: 0.2314814815vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -138,11 +138,11 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-  top: calc(50% - 1.2533572068dvh);
+  top: calc(50% - 0.8101851852vw);
 }
 
 .menu-btn span:nth-of-type(3) {
-  top: calc(50% + 1.2533572068dvh);
+  top: calc(50% + 0.8101851852vw);
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -169,9 +169,9 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: 42.0769919427dvh;
-  height: 40.2864816473dvh;
-  padding: 1.3428827216dvh;
+  width: 27.1990740741vw;
+  height: 27.1990740741vw;
+  padding: 0.8680555556vw;
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
           transform: translateX(100%);
@@ -179,11 +179,11 @@ header {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
-  border-radius: 3.3124440466dvh;
-  background: -webkit-gradient(linear, right top, left top, color-stop(106.47%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0)));
-  background: linear-gradient(270deg, #181715 106.47%, rgba(24, 23, 21, 0) 106.48%);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  border-radius: 37px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(7.37%, #181715), color-stop(7.38%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0.32)));
+  background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
+  -webkit-backdrop-filter: blur(11.5px);
+          backdrop-filter: blur(11.5px);
   z-index: 10;
 }
 
@@ -194,6 +194,8 @@ header {
 }
 
 .menu ul {
+  width: 20.0231481481vw;
+  height: 14.6412037037vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,44 +203,44 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1.969561325dvh;
-  margin: 13.4288272158dvh 0 0 4.9239033124dvh;
+  gap: 1.2731481481vw;
+  margin: 10.4166666667vw 0 3.0092592593vw 3.1828703704vw;
 }
 
 .menu li {
   color: rgba(255, 255, 255, 0.15);
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.9095792301dvh; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .link-active {
   color: #FFF;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.9095792301dvh; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .link-sub-active {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.9095792301dvh; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .link-sub-active:visited {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: 1.7361111111vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.9095792301dvh; /* 108.333% */
+  line-height: 1.880787037vw; /* 108.333% */
 }
 
 .logo {
@@ -413,7 +415,7 @@ h1 {
 }
 
 .cocktail-recipes-under-h1 {
-  margin: 4.8343777977dvh 0 0 22.2918531782dvh;
+  margin: 4.8343777977dvh 0 0 14.0555058192dvh;
   width: 61.6830796777dvh;
   color: #FFF;
   font-family: YS Display;
@@ -692,7 +694,7 @@ h1 {
 }
 
 .footer-button-text {
-  margin: 28.9167412713dvh 0 0 23.6347358997dvh;
+  margin: 30.4386750224dvh 0 0 21.4861235452dvh;
   color: #F5F5F5;
   text-align: center;
   font-family: YS Display;
