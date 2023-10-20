@@ -50,6 +50,14 @@
     background-size: auto, 100vw 100dvh;
   }
 
+  .make-a-mix-body {
+    position: relative;
+    width: 100vw;
+    height: 100dvh;
+    background: url("../img/bottle.png") center calc(-710/812*100dvh) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: calc(881/812*100dvh) calc(1763/812*100dvh), 100vw 100dvh;
+  }
+
   header {
     margin: calc(40/812*100dvh) calc(28/812*100dvh) 0 calc(23/812*100dvh);
     display: flex;
@@ -115,7 +123,7 @@
     height: calc(317/375*100vw);
     transform: translateX(100%);
     transition: transform 0.5s;
-    border-radius: 37px;
+    border-radius: calc(37/375*100vw);
     background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
     backdrop-filter: blur(11.5px);
     z-index: 10;
@@ -536,6 +544,14 @@
     pointer-events: none;
   }
 
+  .footer-button-arrow {
+    margin: calc(40/812*100dvh) auto 0 auto;
+    width: calc(171/812*100dvh);
+    height: calc(92/812*100dvh);
+    background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
+    background-size: contain;
+  }
+
   .lights-footer-button {
     bottom: calc(-420/812*100dvh);
     right: calc(50vw - calc(568/812*100dvh)/2);
@@ -576,11 +592,40 @@
   }
 
   .lights-footer-button-arrow {
-    margin: calc(15/812*100dvh) auto 0 auto;
-    width: calc(191/812*100dvh);
-    height: calc(123/812*100dvh);
+    margin: calc(40/812*100dvh) auto 0 auto;
+    width: calc(171/812*100dvh);
+    height: calc(92/812*100dvh);
     background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
     background-size: contain;
+  }
+
+  .make-a-mix-footer-button {
+    top: auto;
+    bottom: calc(-420/812*100dvh);
+    right: calc(50vw - calc(568/812*100dvh)/2);
+    position: fixed;
+    display: flex;
+    width: calc(568/812*100dvh);
+    height: calc(568/812*100dvh);
+    border-radius: 50%;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    box-shadow: 0px 0px 124px 0px #B53CFF;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .make-a-mix-footer-button::after {
+    content: "";
+    position: absolute;
+    top: 22dvh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(284/812*100dvh);
+    height: calc(288/812*100dvh);
+    background: url("../img/smart-home.png") center center no-repeat;
+    background-size: contain;
+    z-index: -1;
   }
 
   .gerland {

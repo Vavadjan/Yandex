@@ -44,6 +44,14 @@
     background: linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: auto, 100vw 100dvh;
   }
+  .make-a-mix-body {
+    position: relative;
+    width: 100vw;
+    height: 100dvh;
+    background: url("../img/bottle.png") center -87.4384236453dvh no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+    background: url("../img/bottle.png") center -87.4384236453dvh no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: 108.4975369458dvh 217.118226601dvh, 100vw 100dvh;
+  }
   header {
     margin: 4.9261083744dvh 3.4482758621dvh 0 2.8325123153dvh;
     display: -webkit-box;
@@ -118,7 +126,7 @@
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
-    border-radius: 37px;
+    border-radius: 9.8666666667vw;
     background: -webkit-gradient(linear, right top, left top, color-stop(7.37%, #181715), color-stop(7.38%, #181715), color-stop(106.48%, rgba(24, 23, 21, 0.32)));
     background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
     -webkit-backdrop-filter: blur(11.5px);
@@ -524,6 +532,13 @@
     z-index: 3;
     pointer-events: none;
   }
+  .footer-button-arrow {
+    margin: 4.9261083744dvh auto 0 auto;
+    width: 21.0591133005dvh;
+    height: 11.3300492611dvh;
+    background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
+    background-size: contain;
+  }
   .lights-footer-button {
     bottom: -51.724137931dvh;
     right: calc(50vw - 34.9753694581dvh);
@@ -566,11 +581,43 @@
     line-height: normal;
   }
   .lights-footer-button-arrow {
-    margin: 1.8472906404dvh auto 0 auto;
-    width: 23.5221674877dvh;
-    height: 15.1477832512dvh;
+    margin: 4.9261083744dvh auto 0 auto;
+    width: 21.0591133005dvh;
+    height: 11.3300492611dvh;
     background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
     background-size: contain;
+  }
+  .make-a-mix-footer-button {
+    top: auto;
+    bottom: -51.724137931dvh;
+    right: calc(50vw - 34.9753694581dvh);
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 69.9507389163dvh;
+    height: 69.9507389163dvh;
+    border-radius: 50%;
+    border: 1px solid #B4AFFF;
+    background: #9B94FF;
+    -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
+            box-shadow: 0px 0px 124px 0px #B53CFF;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .make-a-mix-footer-button::after {
+    content: "";
+    position: absolute;
+    top: 22dvh;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 34.9753694581dvh;
+    height: 35.4679802956dvh;
+    background: url("../img/smart-home.png") center center no-repeat;
+    background-size: contain;
+    z-index: -1;
   }
   .gerland {
     top: calc(75.7389162562dvh - 12vw);
