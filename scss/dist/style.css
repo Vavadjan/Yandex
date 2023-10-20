@@ -722,8 +722,8 @@ h1 {
 .lights-footer-button:after {
   content: "";
   position: absolute;
-  bottom: calc(225/1117*100dvh);
-  right: calc(163/1117*100dvh);
+  bottom: calc(207/1117*100dvh);
+  right: calc(153/1117*100dvh);
   width: calc(424/1117*100dvh);
   height: calc(367/1117*100dvh);
   background: url("../img/smart-home.png") bottom right no-repeat;
@@ -732,9 +732,17 @@ h1 {
 }
 
 .lights-footer-button-arrow {
-  margin: calc(294/1117*100dvh) 0 0 calc(235/1117*100dvh);
-  width: calc(257/1117*100dvh);
-  height: calc(167/1117*100dvh);
+  margin: calc(200/1117*100dvh) 0 0 calc(200/1117*100dvh);
+  width: calc(325/1117*100dvh);
+  height: calc(323/1117*100dvh);
+  background: url("../img/SVG/arrow_button.svg") center center no-repeat;
+  background-size: contain;
+}
+
+.footer-button-arrow {
+  margin: calc(143/1117*100dvh) 0 0 calc(185/1117*100dvh);
+  width: calc(315/1117*100dvh);
+  height: calc(323/1117*100dvh);
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
   background-size: contain;
 }
