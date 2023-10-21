@@ -267,6 +267,101 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .cocktail-recipes-h1 {
+    margin: calc(158/812*100dvh) 0 0 calc(37/812*100dvh);
+    font-family: YS Display;
+    font-size: calc(18/812*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(22/812*100dvh);
+    /* 105% */
+    width: calc(293/812*100dvh);
+    background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .cocktail-recipes-pic-1 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(164/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/glass_1.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-2 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(164/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/glass_2.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-3 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(164/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/glass_3.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-4 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(164/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/glass_4.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-5 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(164/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/glass_5.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-6 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(375/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/shaker_0.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-7 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(375/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/shaker_1.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-8 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(375/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/shaker_2.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-9 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(300/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/shaker_3.png") center center no-repeat;
+    background-size: contain;
+  }
+
+  .cocktail-recipes-pic-10 {
+    margin: calc(74/812*100dvh) auto 0 auto;
+    width: calc(375/812*100dvh);
+    height: calc(287/812*100dvh);
+    background: url("../img/shaker_4.png") center center no-repeat;
+    background-size: contain;
+  }
+
   .under-h1 {
     margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
     width: calc(313/812*100dvh);
@@ -308,6 +403,18 @@
     font-weight: 400;
     line-height: normal;
     /* 108.333% */
+  }
+
+  .cocktail-recipes-under-h1 {
+    margin: calc(100/812*100dvh) auto 0 auto;
+    width: calc(301/812*100dvh);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(18/812*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 3;
   }
 
   .smart-screen-block {
@@ -526,6 +633,18 @@
   }
 
   .make-a-mix-bottle {
+    margin: 0 auto;
+    top: calc(-710/812*100dvh);
+    right: calc(50vw - calc(881/375*100vw)/2);
+    position: fixed;
+    width: calc(881/375*100vw);
+    height: calc(1763/812*100dvh);
+    background: url("../img/bottle.png") center center no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .coctail-recipes-bottle {
     margin: 0 auto;
     top: calc(-710/812*100dvh);
     right: calc(50vw - calc(881/375*100vw)/2);
