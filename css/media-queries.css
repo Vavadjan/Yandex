@@ -187,7 +187,7 @@
     margin: 0;
     width: 19.2118226601dvh;
     height: 4.9692118227dvh;
-    background: url(../img/SVG/logo.svg) no-repeat;
+    background: url("../img/SVG/logo.svg") no-repeat;
     background-size: contain;
   }
   .logo-symbol {
@@ -409,27 +409,27 @@
     display: flex;
     width: 39.2857142857dvh;
     height: 27.4630541872dvh;
-    background: url(../img/smart-screen_mobile-1.png) top left no-repeat;
+    background: url("../img/smart-screen_mobile-1.png") top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-2 {
-    background: url(../img/smart-screen_mobile-2.png) top left no-repeat;
+    background: url("../img/smart-screen_mobile-2.png") top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-3 {
-    background: url(../img/smart-screen_mobile-3.png) top left no-repeat;
+    background: url("../img/smart-screen_mobile-3.png") top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-4 {
-    background: url(../img/smart-screen_mobile-4.png) top left no-repeat;
+    background: url("../img/smart-screen_mobile-4.png") top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-5 {
-    background: url(../img/smart-screen_mobile-5.png) top left no-repeat;
+    background: url("../img/smart-screen_mobile-5.png") top left no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-6 {
-    background: url(../img/smart-screen_mobile-6.png) top left no-repeat;
+    background: url("../img/smart-screen_mobile-6.png") top left no-repeat;
     background-size: contain;
   }
   .smart-screen::after {
@@ -464,7 +464,7 @@
     right: calc(0dvh - 4px);
     width: 12.315270936dvh;
     height: 23.5221674877dvh;
-    background: url(../img/1.png) top right no-repeat;
+    background: url("../img/1.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-2::before {
@@ -475,7 +475,7 @@
     right: 2.3399014778dvh;
     width: 11.8226600985dvh;
     height: 18.4729064039dvh;
-    background: url(../img/2.png) top right no-repeat;
+    background: url("../img/2.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-3::before {
@@ -486,7 +486,7 @@
     right: calc(0dvh - 13px);
     width: 13.0541871921dvh;
     height: 19.7044334975dvh;
-    background: url(../img/3.png) top right no-repeat;
+    background: url("../img/3.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-4::before {
@@ -497,7 +497,7 @@
     right: 0dvh;
     width: 12.315270936dvh;
     height: 19.4581280788dvh;
-    background: url(../img/4.png) top right no-repeat;
+    background: url("../img/4.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-5::before {
@@ -508,7 +508,7 @@
     right: calc(0dvh - 4px);
     width: 11.5763546798dvh;
     height: 18.3497536946dvh;
-    background: url(../img/5.png) top right no-repeat;
+    background: url("../img/5.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-6::before {
@@ -519,7 +519,7 @@
     right: calc(0dvh - 10px);
     width: 12.1921182266dvh;
     height: 19.2118226601dvh;
-    background: url(../img/6.png) top right no-repeat;
+    background: url("../img/6.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-text {
@@ -558,13 +558,13 @@
     height: 6.7733990148dvh;
   }
   .smart-screen-appStore-download-link {
-    background: url(../img/appStore.png) top left no-repeat;
+    background: url("../img/appStore.png") top left no-repeat;
     background-size: contain;
     width: 19.0886699507dvh;
     cursor: pointer;
   }
   .smart-screen-googlePlay-download-link {
-    background: url(../img/googlePlay.png) top left no-repeat;
+    background: url("../img/googlePlay.png") top left no-repeat;
     background-size: contain;
     width: 19.0886699507dvh;
     cursor: pointer;

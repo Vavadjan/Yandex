@@ -246,7 +246,7 @@ header {
   margin: 8.236347359dvh 0 0 14.0555058192dvh;
   width: 17.4574753805dvh;
   height: 4.5658012534dvh;
-  background: url(../img/SVG/logo.svg) no-repeat;
+  background: url("../img/SVG/logo.svg") no-repeat;
   background-size: contain;
 }
 
@@ -461,32 +461,32 @@ h1 {
   display: flex;
   width: 27.5738585497dvh;
   height: 54.0734109221dvh;
-  background: url(../img/smart-screen-1.png) top left no-repeat;
+  background: url("../img/smart-screen-1.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-2 {
-  background: url(../img/smart-screen-2.png) top left no-repeat;
+  background: url("../img/smart-screen-2.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-3 {
-  background: url(../img/smart-screen-3.png) top left no-repeat;
+  background: url("../img/smart-screen-3.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-4 {
-  background: url(../img/smart-screen-4.png) top left no-repeat;
+  background: url("../img/smart-screen-4.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-5 {
-  background: url(../img/smart-screen-5.png) top left no-repeat;
+  background: url("../img/smart-screen-5.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-6 {
-  background: url(../img/smart-screen-6.png) top left no-repeat;
+  background: url("../img/smart-screen-6.png") top left no-repeat;
   background-size: contain;
 }
 
@@ -497,7 +497,7 @@ h1 {
   left: 13.8764547896dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   -webkit-animation: pulse 1.7s ease-in-out infinite;
           animation: pulse 1.7s ease-in-out infinite;
@@ -510,7 +510,7 @@ h1 {
   left: 15.2193375112dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   -webkit-animation: pulse 1.7s ease-in-out infinite;
           animation: pulse 1.7s ease-in-out infinite;
@@ -523,7 +523,7 @@ h1 {
   left: 12.4440465533dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   -webkit-animation: pulse 1.7s ease-in-out infinite;
           animation: pulse 1.7s ease-in-out infinite;
@@ -536,7 +536,7 @@ h1 {
   left: 14.0555058192dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   -webkit-animation: pulse 1.7s ease-in-out infinite;
           animation: pulse 1.7s ease-in-out infinite;
@@ -549,7 +549,7 @@ h1 {
   left: 19.2479856759dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   -webkit-animation: pulse 1.7s ease-in-out infinite;
           animation: pulse 1.7s ease-in-out infinite;
@@ -562,7 +562,7 @@ h1 {
   left: 19.6956132498dvh;
   width: 4.2076991943dvh;
   height: 4.2076991943dvh;
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   -webkit-animation: pulse 1.7s ease-in-out infinite;
           animation: pulse 1.7s ease-in-out infinite;
@@ -575,13 +575,13 @@ h1 {
   left: -14.8612354521dvh;
   width: 17.0993733214dvh;
   height: 32.6768128917dvh;
-  background: url(../img/1.png) top left no-repeat;
+  background: url("../img/1.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-2::before {
   content: "";
-  background: url(../img/2.png) top left no-repeat;
+  background: url("../img/2.png") top left no-repeat;
   background-size: contain;
   top: -12.533572068dvh;
   left: -11.1011638317dvh;
@@ -591,7 +591,7 @@ h1 {
 
 .smart-screen-instruction-pic-3::before {
   content: "";
-  background: url(../img/3.png) top left no-repeat;
+  background: url("../img/3.png") top left no-repeat;
   background-size: contain;
   top: -11.6383169203dvh;
   left: -10.7430617726dvh;
@@ -601,7 +601,7 @@ h1 {
 
 .smart-screen-instruction-pic-4::before {
   content: "";
-  background: url(../img/4.png) top left no-repeat;
+  background: url("../img/4.png") top left no-repeat;
   background-size: contain;
   top: -11.1906893465dvh;
   left: -13.4288272158dvh;
@@ -611,7 +611,7 @@ h1 {
 
 .smart-screen-instruction-pic-5::before {
   content: "";
-  background: url(../img/5.png) top left no-repeat;
+  background: url("../img/5.png") top left no-repeat;
   background-size: contain;
   top: -11.6383169203dvh;
   left: -10.7430617726dvh;
@@ -621,7 +621,7 @@ h1 {
 
 .smart-screen-instruction-pic-6::before {
   content: "";
-  background: url(../img/6.png) top left no-repeat;
+  background: url("../img/6.png") top left no-repeat;
   background-size: contain;
   top: -10.7430617726dvh;
   left: -9.8478066249dvh;

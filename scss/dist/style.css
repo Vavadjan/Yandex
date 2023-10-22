@@ -207,7 +207,7 @@ header {
   margin: calc(92/1117*100dvh) 0 0 calc(157/1117*100dvh);
   width: calc(195/1117*100dvh);
   height: calc(51/1117*100dvh);
-  background: url(../img/SVG/logo.svg) no-repeat;
+  background: url("../img/SVG/logo.svg") no-repeat;
   background-size: contain;
 }
 
@@ -419,32 +419,32 @@ h1 {
   display: flex;
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
-  background: url(../img/smart-screen-1.png) top left no-repeat;
+  background: url("../img/smart-screen-1.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-2 {
-  background: url(../img/smart-screen-2.png) top left no-repeat;
+  background: url("../img/smart-screen-2.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-3 {
-  background: url(../img/smart-screen-3.png) top left no-repeat;
+  background: url("../img/smart-screen-3.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-4 {
-  background: url(../img/smart-screen-4.png) top left no-repeat;
+  background: url("../img/smart-screen-4.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-5 {
-  background: url(../img/smart-screen-5.png) top left no-repeat;
+  background: url("../img/smart-screen-5.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-6 {
-  background: url(../img/smart-screen-6.png) top left no-repeat;
+  background: url("../img/smart-screen-6.png") top left no-repeat;
   background-size: contain;
 }
 
@@ -455,7 +455,7 @@ h1 {
   left: calc(155/1117*100dvh);
   width: calc(47/1117*100dvh);
   height: calc(47/1117*100dvh);
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
 }
@@ -467,7 +467,7 @@ h1 {
   left: calc(170/1117*100dvh);
   width: calc(47/1117*100dvh);
   height: calc(47/1117*100dvh);
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
 }
@@ -479,7 +479,7 @@ h1 {
   left: calc(139/1117*100dvh);
   width: calc(47/1117*100dvh);
   height: calc(47/1117*100dvh);
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
 }
@@ -491,7 +491,7 @@ h1 {
   left: calc(157/1117*100dvh);
   width: calc(47/1117*100dvh);
   height: calc(47/1117*100dvh);
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
 }
@@ -503,7 +503,7 @@ h1 {
   left: calc(215/1117*100dvh);
   width: calc(47/1117*100dvh);
   height: calc(47/1117*100dvh);
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
 }
@@ -515,7 +515,7 @@ h1 {
   left: calc(220/1117*100dvh);
   width: calc(47/1117*100dvh);
   height: calc(47/1117*100dvh);
-  background: url(../img/SVG/crosshair.svg) center center no-repeat;
+  background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
 }
@@ -527,13 +527,13 @@ h1 {
   left: calc(-166/1117*100dvh);
   width: calc(191/1117*100dvh);
   height: calc(365/1117*100dvh);
-  background: url(../img/1.png) top left no-repeat;
+  background: url("../img/1.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-2::before {
   content: "";
-  background: url(../img/2.png) top left no-repeat;
+  background: url("../img/2.png") top left no-repeat;
   background-size: contain;
   top: calc(-140/1117*100dvh);
   left: calc(-124/1117*100dvh);
@@ -543,7 +543,7 @@ h1 {
 
 .smart-screen-instruction-pic-3::before {
   content: "";
-  background: url(../img/3.png) top left no-repeat;
+  background: url("../img/3.png") top left no-repeat;
   background-size: contain;
   top: calc(-130/1117*100dvh);
   left: calc(-120/1117*100dvh);
@@ -553,7 +553,7 @@ h1 {
 
 .smart-screen-instruction-pic-4::before {
   content: "";
-  background: url(../img/4.png) top left no-repeat;
+  background: url("../img/4.png") top left no-repeat;
   background-size: contain;
   top: calc(-125/1117*100dvh);
   left: calc(-150/1117*100dvh);
@@ -563,7 +563,7 @@ h1 {
 
 .smart-screen-instruction-pic-5::before {
   content: "";
-  background: url(../img/5.png) top left no-repeat;
+  background: url("../img/5.png") top left no-repeat;
   background-size: contain;
   top: calc(-130/1117*100dvh);
   left: calc(-120/1117*100dvh);
@@ -573,7 +573,7 @@ h1 {
 
 .smart-screen-instruction-pic-6::before {
   content: "";
-  background: url(../img/6.png) top left no-repeat;
+  background: url("../img/6.png") top left no-repeat;
   background-size: contain;
   top: calc(-120/1117*100dvh);
   left: calc(-110/1117*100dvh);
