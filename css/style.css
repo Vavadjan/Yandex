@@ -297,6 +297,7 @@ h1 {
 }
 
 .make-a-mix-h1 {
+  position: relative;
   margin: 13.5684870188dvh 0 0 14.0555058192dvh;
   font-family: YS Display;
   font-size: 4.4762757386dvh;
