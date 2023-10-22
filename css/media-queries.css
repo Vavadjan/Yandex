@@ -48,8 +48,8 @@
     position: relative;
     width: 100vw;
     height: 100dvh;
-    background: -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-    background: linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22));
+    background: linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: 100vw 100dvh;
   }
   header {
