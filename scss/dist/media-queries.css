@@ -188,6 +188,7 @@
     height: calc(40.35/812*100dvh);
     background: url("../img/SVG/logo.svg") no-repeat;
     background-size: contain;
+    z-index: 1;
   }
 
   .logo-symbol {
@@ -630,30 +631,6 @@
     background-size: contain;
     z-index: 3;
     pointer-events: none;
-  }
-
-  .make-a-mix-bottle {
-    margin: 0 auto;
-    top: calc(-710/812*100dvh);
-    right: calc(50vw - calc(881/375*100vw)/2);
-    position: fixed;
-    width: calc(881/375*100vw);
-    height: calc(1763/812*100dvh);
-    background: url("../img/bottle.png") center center no-repeat;
-    background-size: cover;
-    z-index: -1;
-  }
-
-  .coctail-recipes-bottle {
-    margin: 0 auto;
-    top: calc(-710/812*100dvh);
-    right: calc(50vw - calc(881/375*100vw)/2);
-    position: fixed;
-    width: calc(881/375*100vw);
-    height: calc(1763/812*100dvh);
-    background: url("../img/bottle.png") center center no-repeat;
-    background-size: cover;
-    z-index: -1;
   }
 
   .footer-buton {
