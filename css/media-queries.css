@@ -24,7 +24,6 @@
     width: 100vw;
     height: 100dvh;
     background: #131211;
-    z-index: -1;
   }
   .age-verification-page-body {
     width: 100vw;
@@ -611,7 +610,7 @@
     height: 217.118226601dvh;
     background: url("../img/bottle.png") center center no-repeat;
     background-size: cover;
-    z-index: -1;
+    z-index: 1;
   }
   .coctail-recipes-bottle {
     margin: 0 auto;
@@ -622,7 +621,7 @@
     height: 217.118226601dvh;
     background: url("../img/bottle.png") center center no-repeat;
     background-size: cover;
-    z-index: -1;
+    z-index: 1;
   }
   .footer-buton {
     bottom: -50.8620689655dvh;
