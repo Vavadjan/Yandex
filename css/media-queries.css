@@ -489,66 +489,66 @@
   .smart-screen::before {
     content: "";
     position: absolute;
-    top: -8.0049261084dvh;
+    top: -3.078817734dvh;
     left: auto;
-    right: calc(0dvh - 4px);
-    width: 12.315270936dvh;
-    height: 23.5221674877dvh;
+    right: calc(6.1333333333vw - 10px);
+    width: 26.6666666667vw;
+    height: 14.6551724138dvh;
     background: url("../img/1.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-2::before {
     content: "";
     position: absolute;
-    top: -5.9113300493dvh;
+    top: -3.078817734dvh;
     left: auto;
-    right: 2.3399014778dvh;
-    width: 11.8226600985dvh;
-    height: 18.4729064039dvh;
+    right: calc(6.1333333333vw - 10px);
+    width: 25.6vw;
+    height: 14.6551724138dvh;
     background: url("../img/2.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-3::before {
     content: "";
     position: absolute;
-    top: -4.6798029557dvh;
+    top: -3.078817734dvh;
     left: auto;
-    right: calc(0dvh - 13px);
-    width: 13.0541871921dvh;
-    height: 19.7044334975dvh;
+    right: calc(6.1333333333vw - 10px);
+    width: 25.6vw;
+    height: 14.6551724138dvh;
     background: url("../img/3.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-4::before {
     content: "";
     position: absolute;
-    top: -4.0640394089dvh;
+    top: -3.078817734dvh;
     left: auto;
-    right: 0dvh;
-    width: 12.315270936dvh;
-    height: 19.4581280788dvh;
+    right: calc(6.1333333333vw - 10px);
+    width: 25.6vw;
+    height: 14.6551724138dvh;
     background: url("../img/4.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-5::before {
     content: "";
     position: absolute;
-    top: -4.4334975369dvh;
+    top: -3.078817734dvh;
     left: auto;
-    right: calc(0dvh - 4px);
-    width: 11.5763546798dvh;
-    height: 18.3497536946dvh;
+    right: calc(6.1333333333vw - 10px);
+    width: 25.6vw;
+    height: 14.6551724138dvh;
     background: url("../img/5.png") top right no-repeat;
     background-size: contain;
   }
   .smart-screen-instruction-pic-6::before {
     content: "";
     position: absolute;
-    top: -5.5418719212dvh;
+    top: -3.078817734dvh;
     left: auto;
-    right: calc(0dvh - 10px);
-    width: 12.1921182266dvh;
-    height: 19.2118226601dvh;
+    right: calc(6.1333333333vw - 10px);
+    width: 25.6vw;
+    height: 14.6551724138dvh;
     background: url("../img/6.png") top right no-repeat;
     background-size: contain;
   }
