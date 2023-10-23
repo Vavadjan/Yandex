@@ -38,15 +38,15 @@
     
             if (Math.abs(deltaX) > Math.abs(deltaY)) {
                 if (deltaX > swipeThreshold) {
-                    window.location.replace('./index.html');
-                } else if (deltaX < -swipeThreshold) {
                     window.location.replace('./lights.html');
+                } else if (deltaX < -swipeThreshold) {
+                    window.location.replace('./index.html');
                 }
             } else {
                 if (deltaY > swipeThreshold) {
-                    window.location.replace('./index.html');
-                } else if (deltaY < -swipeThreshold) {
                     window.location.replace('./lights.html');
+                } else if (deltaY < -swipeThreshold) {
+                    window.location.replace('./index.html');
                 }
             }
         }
