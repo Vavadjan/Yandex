@@ -41,10 +41,16 @@
             // Определяем направление свайпа
             if (touchStartX - touchEndX > swipeThreshold) {
                 // Свайп влево (переход на следующую страницу)
-                window.location.href = './index.html';
+                window.location.href = './lights.html';
+            } else if (touchEndY - touchStartY > swipeThreshold) {
+                // Свайп вправо (переход на следующую страницу)
+                window.location.href = './lights.html';
             } else if (touchEndX - touchStartX > swipeThreshold) {
                 // Свайп вправо (переход на предыдущую страницу)
-                window.location.href = './lights.html';
+                window.location.href = './index.html';
+            } else if (touchEndY - touchStartY > swipeThreshold) {
+                // Свайп вправо (переход на следующую страницу)
+                window.location.href = './index.html';    
             }
         }
 
