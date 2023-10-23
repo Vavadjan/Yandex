@@ -12,6 +12,49 @@
     <script src="./Hamer.js"></script>
 </head>
 <body class="greetings-body">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe Navigation</title>
+    <style>
+        body {
+            overflow: hidden; /* Отключить скроллинг страницы */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let touchStartX = 0; // Начальная позиция касания
+
+        // Функция обработчика события touchstart
+        function handleTouchStart(e) {
+            touchStartX = e.touches[0].clientX; // Запоминаем начальную позицию касания
+        }
+
+        // Функция обработчика события touchend
+        function handleTouchEnd(e) {
+            const touchEndX = e.changedTouches[0].clientX; // Получаем конечную позицию касания
+            const swipeThreshold = 50; // Пороговое значение для определения свайпа
+
+            // Определяем направление свайпа
+            if (touchStartX - touchEndX > swipeThreshold) {
+                // Свайп влево (переход на следующую страницу)
+                window.location.href = './index.html';
+            } else if (touchEndX - touchStartX > swipeThreshold) {
+                // Свайп вправо (переход на предыдущую страницу)
+                window.location.href = './lights.html';
+            }
+        }
+
+        // Добавляем обработчики событий к body
+        document.body.addEventListener('touchstart', handleTouchStart);
+        document.body.addEventListener('touchend', handleTouchEnd);
+    </script>
+</body>
+</html>
+
     <header>
         <div class="logo">           
             <p class="logo-symbol">Я</p>            
