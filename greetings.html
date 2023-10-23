@@ -17,41 +17,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swipe Navigation</title>
-    <style>
-        body {
-            overflow: hidden; /* Отключить скроллинг страницы */
-        }
-    </style>
 </head>
 <body>
     <script>
-        let touchStartX = 0; // Начальная позиция касания
-
-        // Функция обработчика события touchstart
+        let touchStartX = 0;
+        let touchStartY = 0;
+    
         function handleTouchStart(e) {
-            touchStartX = e.touches[0].clientX; // Запоминаем начальную позицию касания
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
         }
-
-        // Функция обработчика события touchend
+    
         function handleTouchEnd(e) {
-            const touchEndX = e.changedTouches[0].clientX; // Получаем конечную позицию касания
-            const swipeThreshold = 50; // Пороговое значение для определения свайпа
-
-            // Определяем направление свайпа
-            if (touchStartX - touchEndX > swipeThreshold) {
-                // Свайп влево (переход на следующую страницу)
-                window.location.href = './lights.html';
-            } else if (touchEndX - touchStartX > swipeThreshold) {
-                // Свайп вправо (переход на предыдущую страницу)
-                window.location.href = './index.html';
+            const touchEndX = e.changedTouches[0].clientX;
+            const touchEndY = e.changedTouches[0].clientY;
+            const swipeThreshold = 50;
+    
+            const deltaX = touchStartX - touchEndX;
+            const deltaY = touchStartY - touchEndY;
+    
+            if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                if (deltaX > swipeThreshold) {
+                    window.location.replace('./index.html');
+                } else if (deltaX < -swipeThreshold) {
+                    window.location.replace('./lights.html');
+                }
+            } else {
+                if (deltaY > swipeThreshold) {
+                    window.location.replace('./index.html');
+                } else if (deltaY < -swipeThreshold) {
+                    window.location.replace('./lights.html');
+                }
             }
         }
-
-        // Добавляем обработчики событий к body
+    
         document.body.addEventListener('touchstart', handleTouchStart);
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
+    
 </body>
 </html>
 
