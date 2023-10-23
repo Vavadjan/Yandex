@@ -11,6 +11,41 @@
     <script src="./js/burger.js"></script>
 </head>
 <body class="make-a-mix-body">
+    <script>
+        let touchStartX = 0;
+        let touchStartY = 0;
+    
+        function handleTouchStart(e) {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+        }
+    
+        function handleTouchEnd(e) {
+            const touchEndX = e.changedTouches[0].clientX;
+            const touchEndY = e.changedTouches[0].clientY;
+            const swipeThreshold = 50;
+    
+            const deltaX = touchStartX - touchEndX;
+            const deltaY = touchStartY - touchEndY;
+    
+            if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                if (deltaX > swipeThreshold) {
+                    window.location.replace('./cocktail-recipes-2.html');
+                } else if (deltaX < -swipeThreshold) {
+                    window.location.replace('./cocktail-recipes-1.html');
+                }
+            } else {
+                if (deltaY > swipeThreshold) {
+                    window.location.replace('./cocktail-recipes-2.html');
+                } else if (deltaY < -swipeThreshold) {
+                    window.location.replace('./cocktail-recipes-1.html');
+                }
+            }
+        }
+    
+        document.body.addEventListener('touchstart', handleTouchStart);
+        document.body.addEventListener('touchend', handleTouchEnd);
+    </script>
     <header>
         <div class="logo">           
             <p class="logo-symbol">Я</p>            
