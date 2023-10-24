@@ -25,10 +25,10 @@
     height: 100dvh;
     background: #131211;
     overflow: hidden;
-    -webkit-transition: -webkit-transform 0.7s ease;
-    transition: -webkit-transform 0.7s ease;
-    transition: transform 0.7s ease;
-    transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+    -webkit-transition: -webkit-transform 0.7 s ease;
+    transition: -webkit-transform 0.7 s ease;
+    transition: transform 0.7 s ease;
+    transition: transform 0.7 s ease, -webkit-transform 0.7 s ease;
   }
   .age-verification-page-body {
     width: 100vw;

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cocktail-recipes-1</title>
+    <title>greetings</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media-queries.css" />
     <script src="./js/3x.js"></script>
     <script src="./js/burger.js"></script>
 </head>
-<body class="make-a-mix-body">
+<body class="greetings-body">
     <script>
         let touchStartX = 0;
         let touchStartY = 0;
@@ -30,15 +30,15 @@
     
             if (Math.abs(deltaX) > Math.abs(deltaY)) {
                 if (deltaX > swipeThreshold) {
-                    window.location.replace('./cocktail-recipes-2.html');
+                    window.location.replace('./lights.html');
                 } else if (deltaX < -swipeThreshold) {
-                    window.location.replace('./make-a-mix.html');
+                    window.location.replace('./index.html');
                 }
             } else {
                 if (deltaY > swipeThreshold) {
-                    window.location.replace('./cocktail-recipes-2.html');
+                    window.location.replace('./lights.html');
                 } else if (deltaY < -swipeThreshold) {
-                    window.location.replace('./make-a-mix.html');
+                    window.location.replace('./index.html');
                 }
             }
         }
@@ -46,6 +46,10 @@
         document.body.addEventListener('touchstart', handleTouchStart);
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
+    
+</body>
+</html>
+
     <header>
         <div class="logo">           
             <p class="logo-symbol">Я</p>            
@@ -62,20 +66,21 @@
             <ul>
                 <li><a href="./greetings.html">Сейчас мы все настроим!</a></li>
                 <li><a href="./lights.html">Включаем гирлянду</a></li>
-                <li><a class="link-sub-active" href="./make-a-mix.html">Сделай микс!</a></li>
-                <li><a class="link-active" href="./cocktail-recipes-1.html">Рецепты коктейлей</a></li>
-                <li><a class="link-sub-active" href="./feel-the-rythm.html">Праздничный плейлист</a></li>
+                <li><a href="./make-a-mix.html"">Сделай микс!</a></li>
+                <li><a class="link-sub-active" href="./cocktail-recipes-1.html">Рецепты коктейлей</a></li>
+                <li><a class="link-active" href="./feel-the-rythm.html">Праздничный плейлист</a></li> 
             </ul>
         </nav>
     </div>
-    <div class="layer lights-instructions-layer layer1"></div>
-    <div class="layer lights-instructions-layer layer2"></div>
-    <div class="layer lights-instructions-layer layer3"></div>
-    <h1 class="cocktail-recipes-h1">Готовим классический сухой джин-тоник с ярким профилем трав и цитрусовых</h1>
-    <p class="under-h1 age-verification-page-under-h1"></p>
-    <div class="coctail-recipes-bottle"></div>
-    <a href="./cocktail-recipes-2.html" class="make-a-mix-footer-button">
-        <div class="footer-button-arrow"></div>
+    <div class="layer layer1"></div>
+    <div class="layer layer2"></div>
+    <div class="layer layer3"></div>
+    <h1 class="greetings-h1">Почувствуй ритм</h1>
+    <p class="under-h1">Специальный видео-плейлист задаст темп вечеринки.</p>
+    <div class="feel-the-rythm-pic"></div>
+    <div class="feel-the-rythm-plastinka"></div>
+    <a href="#" class="footer-buton feel-the-rythm-footer-buton">
+        <div class="feel-the-rythm-footer-button-symbol"></div>
     </a>
 </body>
 </html>

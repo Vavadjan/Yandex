@@ -283,6 +283,7 @@ header {
 }
 
 h1 {
+  position: relative;
   margin: 13.5684870188dvh 0 0 14.0555058192dvh;
   font-family: YS Display;
   font-size: 4.4762757386dvh;
@@ -294,6 +295,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 3;
 }
 
 .make-a-mix-h1 {
@@ -406,6 +408,7 @@ h1 {
 }
 
 .under-h1 {
+  position: relative;
   margin: 6.5353625783dvh 0 0 14.0555058192dvh;
   width: 61.6830796777dvh;
   color: #FFF;
@@ -414,6 +417,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 2.9095792301dvh; /* 108.333% */
+  z-index: 3;
 }
 .under-h1 strong {
   color: #FFF;
@@ -763,6 +767,65 @@ h1 {
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
+}
+
+.feel-the-rythm-footer-buton {
+  bottom: -20.0537153089dvh;
+  right: -14.5926589078dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65.2641002686dvh;
+  height: 65.2641002686dvh;
+  border-radius: 50%;
+  border: none;
+  background: url("../img/button_play.png") right bottom no-repeat;
+  background-size: contain;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.feel-the-rythm-plastinka {
+  bottom: -77.5290957923dvh;
+  right: -71.9785138765dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  width: 180.2148612355dvh;
+  height: 180.2148612355dvh;
+  background: url("../img/plastinka.png") center center no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 0px 0px 250px 0px rgba(166, 184, 249, 0.8);
+          box-shadow: 0px 0px 250px 0px rgba(166, 184, 249, 0.8);
+  z-index: 1;
+}
+
+.feel-the-rythm-pic {
+  bottom: 5.1924798568dvh;
+  right: -1.163831692dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 99.0510295434dvh;
+  height: 86.739480752dvh;
+  background: url("../img/feel-the-rythm.png") center center no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+.feel-the-rythm-footer-button-symbol {
+  position: relative;
+  margin: 24.6195165622dvh 0 0 23.7242614145dvh;
+  width: 15.7564905998dvh;
+  height: 15.7564905998dvh;
+  border-radius: 50%;
+  background: url("../img/play_button.png") center center no-repeat;
+  background-size: contain;
+  z-index: 2;
 }
 
 .gerland {
