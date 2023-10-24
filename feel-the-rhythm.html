@@ -10,7 +10,7 @@
     <script src="./js/3x.js"></script>
     <script src="./js/burger.js"></script>
 </head>
-<body class="greetings-body">
+<body>
     <script>
         let touchStartX = 0;
         let touchStartY = 0;
@@ -30,13 +30,13 @@
     
             if (Math.abs(deltaX) > Math.abs(deltaY)) {
                 if (deltaX > swipeThreshold) {
-                    window.location.replace('./lights.html');
+                    window.location.replace('./audioplayer.html');
                 } else if (deltaX < -swipeThreshold) {
                     window.location.replace('./cocktail-recipes-12.html');
                 }
             } else {
                 if (deltaY > swipeThreshold) {
-                    window.location.replace('./lights.html');
+                    window.location.replace('./audioplayer.html');
                 } else if (deltaY < -swipeThreshold) {
                     window.location.replace('./cocktail-recipes-12.html');
                 }
@@ -72,9 +72,9 @@
             </ul>
         </nav>
     </div>
-    <div class="layer layer1"></div>
-    <div class="layer layer2"></div>
-    <div class="layer layer3"></div>
+    <div class="layer lights-instructions-layer layer1"></div>
+    <div class="layer lights-instructions-layer layer2"></div>
+    <div class="layer lights-instructions-layer layer3"></div>
     <h1 class="greetings-h1">Почувствуй ритм</h1>
     <p class="under-h1">Специальный видео-плейлист задаст темп вечеринки.</p>
     <div class="feel-the-rythm-pic"></div>

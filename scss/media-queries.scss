@@ -393,7 +393,7 @@
         font-size: calc(21/812*100dvh);
         font-style: normal;
         font-weight: 400;
-        line-height: calc(32.5/812*100dvh); /* 108.333% */
+        line-height: normal;
         z-index: 2;
         
     
@@ -631,8 +631,7 @@
         line-height: normal;
         text-decoration-line: underline;
         cursor: pointer;
-    }
-    
+    }    
 
     .lights-under-h1 {
         margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
@@ -823,6 +822,52 @@
         background: url('../img/smart-home.png') center center no-repeat;
         background-size: contain;
         z-index: -1;
+    }
+
+    .feel-the-rythm-footer-buton {    
+        bottom: calc(-347/812*100dvh);
+        right: calc(50vw - calc(519/812*100dvh)/2);
+        position: fixed;
+        display: flex;
+        width: calc(519/812*100dvh);
+        height: calc(501/812*100dvh);
+        border-radius: calc(494/812*100dvh);
+        border: none;
+        background: url('../img/feel-the-rythm-button-bg-mobile.png') center -23% no-repeat;
+        background-size: calc(509/812*100dvh) calc(286/812*100dvh);        
+        box-shadow: none;
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    .feel-the-rythm-plastinka {
+        bottom: calc(-896/812*100dvh);
+        right: calc(50vw - calc(1500/812*100dvh)/2);
+        position: fixed;
+        display: flex;
+        border-radius: 50%;
+        width: calc(1500/812*100dvh);
+        height: calc(1546/812*100dvh);
+        background: url('../img/plastinka.png') center center no-repeat;
+        background-size: contain;
+        box-shadow: none;
+        z-index: 1;
+    }
+    
+    .feel-the-rythm-pic {
+        bottom: calc(120/812*100dvh);
+        right: calc(50vw - calc(477/812*100dvh)/2);
+        position: fixed;
+        display: flex;
+        width: calc(477/812*100dvh);
+        height: calc(208/812*100dvh);
+        background: url('../img/feel-the-rythm-mobile.png') center center no-repeat;
+        background-size: contain;
+        z-index: 2;    
+    }
+    
+    .feel-the-rythm-footer-button-symbol {
+        display: none;
     }
 
     .gerland {

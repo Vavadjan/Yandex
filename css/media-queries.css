@@ -379,7 +379,7 @@
     font-size: 2.5862068966dvh;
     font-style: normal;
     font-weight: 400;
-    line-height: 4.0024630542dvh; /* 108.333% */
+    line-height: normal;
     z-index: 2;
   }
   .under-h1 strong {
@@ -804,6 +804,56 @@
     background: url("../img/smart-home.png") center center no-repeat;
     background-size: contain;
     z-index: -1;
+  }
+  .feel-the-rythm-footer-buton {
+    bottom: -42.7339901478dvh;
+    right: calc(50vw - 31.9581280788dvh);
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 63.9162561576dvh;
+    height: 61.6995073892dvh;
+    border-radius: 60.8374384236dvh;
+    border: none;
+    background: url("../img/feel-the-rythm-button-bg-mobile.png") center -23% no-repeat;
+    background-size: 62.684729064dvh 35.2216748768dvh;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .feel-the-rythm-plastinka {
+    bottom: -110.3448275862dvh;
+    right: calc(50vw - 92.3645320197dvh);
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50%;
+    width: 184.7290640394dvh;
+    height: 190.39408867dvh;
+    background: url("../img/plastinka.png") center center no-repeat;
+    background-size: contain;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    z-index: 1;
+  }
+  .feel-the-rythm-pic {
+    bottom: 14.7783251232dvh;
+    right: calc(50vw - 29.3719211823dvh);
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 58.7438423645dvh;
+    height: 25.6157635468dvh;
+    background: url("../img/feel-the-rythm-mobile.png") center center no-repeat;
+    background-size: contain;
+    z-index: 2;
+  }
+  .feel-the-rythm-footer-button-symbol {
+    display: none;
   }
   .gerland {
     top: calc(75.7389162562dvh - 12vw);
