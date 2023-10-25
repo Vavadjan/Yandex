@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var handler = function handler(e) {
     var xAxis = (window.innerWidth / 2 - e.pageX) / 25;
     var yAxis = (window.innerHeight / 2 - e.pageY) / 25;
-    layer1.style.transform = translate("".concat(xAxis, "px, ").concat(yAxis, "px"));
-    layer2.style.transform = translate("".concat(xAxis * 2, "px, ").concat(yAxis * 2, "px"));
-    layer3.style.transform = translate("".concat(xAxis * 3, "px, ").concat(yAxis * 3, "px"));
+    layer1.style.transform = "translate(".concat(xAxis, "px, ").concat(yAxis, "px)");
+    layer2.style.transform = "translate(".concat(xAxis * 2, "px, ").concat(yAxis * 2, "px)");
+    layer3.style.transform = "translate(".concat(xAxis * 3, "px, ").concat(yAxis * 3, "px)");
   };
 
   var throttledHandler = throttle(handler, 50);
