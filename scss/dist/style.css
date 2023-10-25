@@ -84,6 +84,13 @@ body {
   background-size: auto, 100vw 100dvh;
 }
 
+.audioplayer-body {
+  width: 100vw;
+  height: 100dvh;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-950/1728*100vw) calc(-950/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: cover, auto, 100vw 100dvh;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -826,6 +833,63 @@ h1 {
   width: calc(315/1117*100dvh);
   height: calc(323/1117*100dvh);
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
+  background-size: contain;
+}
+
+.audioplayer-play-button {
+  position: fixed;
+  left: calc(157/1117*100dvh);
+  bottom: calc(60/1117*100dvh);
+  width: calc(156/1117*100dvh);
+  height: calc(156/1117*100dvh);
+  background: url("../img/play_button.png") center center no-repeat;
+  background-size: contain;
+}
+
+.audioplayer-pause-button {
+  position: fixed;
+  left: calc(157/1117*100dvh);
+  bottom: calc(60/1117*100dvh);
+  width: calc(156/1117*100dvh);
+  height: calc(156/1117*100dvh);
+  background: url("../img/pause_button.png") center center no-repeat;
+  background-size: contain;
+}
+
+.audioplayer-timeline {
+  position: fixed;
+  left: calc(365/1117*100dvh);
+  bottom: calc(60/1117*100dvh);
+  width: calc(825/1117*100dvh);
+  height: calc(148/1117*100dvh);
+  background: url("../img/audioplayer-timeline.png") center center no-repeat;
+  background-size: contain;
+}
+
+.audioplayer-timeline-numbers {
+  position: fixed;
+  display: flex;
+  left: calc(1200/1117*100dvh);
+  bottom: calc(95/1117*100dvh);
+  width: calc(95/1117*100dvh);
+  height: calc(49/1117*100dvh);
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px calc(34/1117*100dvh) #000;
+  font-family: YS Display;
+  font-size: calc(30/1117*100dvh);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.audioplayer-youtube-button {
+  position: fixed;
+  right: calc(83/1117*100dvh);
+  bottom: calc(74/1117*100dvh);
+  width: calc(297/1117*100dvh);
+  height: calc(120/1117*100dvh);
+  background: url("../img/audioplayer-youtube-button.png") center center no-repeat;
   background-size: contain;
 }
 
