@@ -57,6 +57,13 @@
     background: linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: 100vw 100dvh;
   }
+  .audioplayer-body {
+    width: 100vw;
+    height: 100dvh;
+    background: url("../img/audioplayer-bg.png") 14.5% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+    background: url("../img/audioplayer-bg.png") 14.5% no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+    background-size: cover, 100vw 100dvh;
+  }
   header {
     margin: 4.9261083744dvh 3.4482758621dvh 0 2.8325123153dvh;
     display: -webkit-box;
@@ -280,6 +287,21 @@
     -webkit-text-fill-color: transparent;
     z-index: 2;
   }
+  .audioplayer-h1 {
+    position: relative;
+    margin: 8.9901477833dvh 0 0 3.8177339901dvh;
+    font-family: YS Display;
+    font-size: 3.6945812808dvh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 38.5467980296dvh;
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 3;
+  }
   .cocktail-recipes-pic-1 {
     position: relative;
     margin: 9.1133004926dvh auto 0 auto;
@@ -422,6 +444,21 @@
     font-weight: 400;
     line-height: normal;
     z-index: 2;
+  }
+  .audioplayer-under-h1 {
+    position: fixed;
+    margin: 0;
+    bottom: 9.8522167488dvh;
+    left: 7.8666666667vw;
+    width: 84.2666666667vw;
+    color: #FFF;
+    text-shadow: 0px 0px 4.1871921182dvh #000;
+    font-family: YS Display;
+    font-size: 2.2167487685dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 3;
   }
   .smart-screen-block {
     margin: 4.3103448276dvh auto 0 auto;
@@ -854,6 +891,63 @@
   }
   .feel-the-rythm-footer-button-symbol {
     display: none;
+  }
+  .audioplayer-play-button {
+    position: fixed;
+    left: 36.6666666667vw;
+    bottom: 53.9408866995dvh;
+    width: 26.6666666667vw;
+    height: 12.315270936dvh;
+    background: url("../img/play_button.png") center center no-repeat;
+    background-size: contain;
+  }
+  .audioplayer-pause-button {
+    position: fixed;
+    left: 36.6666666667vw;
+    bottom: 53.9408866995dvh;
+    width: 26.6666666667vw;
+    height: 12.315270936dvh;
+    background: url("../img/pause_button.png") center center no-repeat;
+    background-size: contain;
+  }
+  .audioplayer-timeline {
+    position: fixed;
+    left: 6.5333333333vw;
+    bottom: 40.39408867dvh;
+    width: 86.9333333333vw;
+    height: 6.6502463054dvh;
+    background: url("../img/audioplayer-timeline.png") center center no-repeat;
+    background-size: contain;
+  }
+  .audioplayer-timeline-numbers {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: 37.3333333333vw;
+    bottom: 49.5073891626dvh;
+    width: 25.3333333333vw;
+    height: 1.9704433498dvh;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 4.1871921182dvh #000;
+    font-family: YS Display;
+    font-size: 1.8472906404dvh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .audioplayer-youtube-button {
+    position: fixed;
+    right: 37.4666666667vw;
+    bottom: 27.7093596059dvh;
+    width: 25.0666666667vw;
+    height: 9.236453202dvh;
+    background: url("../img/audioplayer-youtube-button-mobile.png") center center no-repeat;
+    background-size: contain;
   }
   .gerland {
     top: calc(75.7389162562dvh - 12vw);

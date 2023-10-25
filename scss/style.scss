@@ -297,6 +297,22 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+.audioplayer-h1 {
+    position: relative;
+    margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    font-family: YS Display;
+    font-size: calc(50/1117*100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: calc(451/1117*100dvh);
+    background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 3;
+}
+
 .cocktail-recipes-pic-1 {
     margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
     width: calc(360/1117*100dvh);
@@ -416,6 +432,19 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.audioplayer-under-h1 {    
+    position: relative;
+    margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    width: calc(590/1117*100dvh);
+    color: #FFF;
+    font-family: YS Display;
+    font-size: calc(30/1117*100dvh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 3;
 }
 
 .smart-screen-block {    
