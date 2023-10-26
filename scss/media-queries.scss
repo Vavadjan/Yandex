@@ -917,6 +917,7 @@
         bottom: calc(438/812*100dvh);
         width: calc(100/375*100vw);
         height: calc(100/812*100dvh);
+        border-radius: 50%;
         background: url('../img/play_button.png') center center no-repeat;
         background-size: contain;
     }
@@ -927,6 +928,7 @@
         bottom: calc(438/812*100dvh);
         width: calc(100/375*100vw);
         height: calc(100/812*100dvh);
+        border-radius: 50%;
         background: url('../img/pause_button.png') center center no-repeat;
         background-size: contain;
     }

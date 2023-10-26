@@ -898,6 +898,7 @@
     bottom: 53.9408866995dvh;
     width: 26.6666666667vw;
     height: 12.315270936dvh;
+    border-radius: 50%;
     background: url("../img/play_button.png") center center no-repeat;
     background-size: contain;
   }
@@ -907,6 +908,7 @@
     bottom: 53.9408866995dvh;
     width: 26.6666666667vw;
     height: 12.315270936dvh;
+    border-radius: 50%;
     background: url("../img/pause_button.png") center center no-repeat;
     background-size: contain;
   }
