@@ -875,8 +875,10 @@ h1 {
     bottom: calc(60/1117*100dvh);
     width: calc(156/1117*100dvh);
     height: calc(156/1117*100dvh);
+    border-radius: 50%;
     background: url('../img/play_button.png') center center no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 
 .audioplayer-pause-button {
@@ -885,8 +887,10 @@ h1 {
     bottom: calc(60/1117*100dvh);
     width: calc(156/1117*100dvh);
     height: calc(156/1117*100dvh);
+    border-radius: 50%;
     background: url('../img/pause_button.png') center center no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 
 .audioplayer-timeline {    
@@ -924,6 +928,7 @@ h1 {
     height: calc(120/1117*100dvh);
     background: url('../img/audioplayer-youtube-button.png') center center no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 
 
