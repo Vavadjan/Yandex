@@ -78,7 +78,7 @@ html {
   width: calc(206/1728*100vw);
   height: calc(168/1728*100vw);
   border-radius: 0 calc(35/1728*100vw) calc(35/1728*100vw) 0;
-  gap: calc(6/1728*100vw);
+  gap: calc(10/1728*100vw);
   padding: calc(17/1728*100vw);
   background: linear-gradient(#4E63B7, #3B3C67);
 }
@@ -105,9 +105,6 @@ html {
 }
 
 .audiovidget-rightside-play-button {
-  position: absolute;
-  top: calc(106/1728*100vw);
-  right: calc(calc(103/1728*100vw) - calc(19.5/1728*100vw));
   width: calc(39/1728*100vw);
   height: calc(43/1728*100vw);
   background: url("../img/audiovidget-play-button.png") center center no-repeat;
@@ -116,14 +113,11 @@ html {
 }
 
 .audiovidget-rightside-pause-button {
-  position: absolute;
-  top: calc(106/1728*100vw);
-  right: calc(calc(103/1728*100vw) - calc(16.5/1728*100vw));
   width: calc(33/1728*100vw);
   height: calc(43/1728*100vw);
   background: url("../img/audiovidget-pause-button.png") center center no-repeat;
   background-size: contain;
-  z-index: 3;
+  z-index: 4;
 }
 
 body {
