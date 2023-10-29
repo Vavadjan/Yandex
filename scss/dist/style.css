@@ -51,7 +51,7 @@ html {
   overflow: hidden;
 }
 
-.audiovidget {
+#audiovidget {
   position: absolute;
   top: calc(73/1728*100vw);
   right: calc(167/1728*100vw);
@@ -83,7 +83,7 @@ html {
   background: linear-gradient(#4E63B7, #3B3C67);
 }
 
-.audiovidget-rightside-track-name {
+#audiovidget-rightside-track-name {
   color: #FFF;
   text-align: center;
   font-family: YS Display;
@@ -104,20 +104,24 @@ html {
   cursor: pointer;
 }
 
-.audiovidget-rightside-play-button {
+#audiovidget-rightside-play-button {
   width: calc(39/1728*100vw);
   height: calc(43/1728*100vw);
+  border: none;
   background: url("../img/audiovidget-play-button.png") center center no-repeat;
   background-size: contain;
   z-index: 3;
+  cursor: pointer;
 }
 
-.audiovidget-rightside-pause-button {
+#audiovidget-rightside-pause-button {
   width: calc(33/1728*100vw);
   height: calc(43/1728*100vw);
+  border: none;
   background: url("../img/audiovidget-pause-button.png") center center no-repeat;
   background-size: contain;
   z-index: 4;
+  cursor: pointer;
 }
 
 body {
