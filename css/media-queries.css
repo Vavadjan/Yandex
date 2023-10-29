@@ -19,6 +19,96 @@
   html {
     overflow: hidden;
   }
+  #audiovidget {
+    position: absolute;
+    top: 23.7333333333vw;
+    right: 7.4666666667vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 86.4vw;
+    height: 23.4666666667vw;
+    z-index: 5;
+  }
+  .audiovidget-leftside {
+    position: absolute;
+    top: 2.9333333333vw;
+    right: 64vw;
+    width: 17.0666666667vw;
+    height: 17.0666666667vw;
+    background: url("../img/audiovidget-bg.jpg") 35% 10% no-repeat;
+    background-size: 260%;
+    border-radius: 2.6666666667vw;
+    z-index: 2;
+  }
+  .audiovidget-rightside {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    width: 86.4vw;
+    height: 23.4666666667vw;
+    border-radius: 4.8vw;
+    gap: 0.8vw;
+    padding: 2.9333333333vw 0 3.7333333333vw 26.9333333333vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4E63B7), to(#3B3C67));
+    background: linear-gradient(#4E63B7, #3B3C67);
+  }
+  #audiovidget-rightside-track-name {
+    width: 42.4vw;
+    color: #FFF;
+    text-align: left;
+    font-family: YS Display;
+    font-size: 4.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .audiovidget-rightside-you-tube-link {
+    color: rgba(255, 255, 255, 0.54);
+    text-align: left;
+    font-family: YS Display;
+    font-size: 4.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+  #audiovidget-rightside-play-button {
+    position: absolute;
+    top: 6.1333333333vw;
+    right: 5.3333333333vw;
+    width: 10.4vw;
+    height: 11.4666666667vw;
+    border: none;
+    background: url("../img/audiovidget-play-button.png") center center no-repeat;
+    background-size: contain;
+    z-index: 3;
+    cursor: pointer;
+  }
+  #audiovidget-rightside-pause-button {
+    position: absolute;
+    top: 6.1333333333vw;
+    right: 5.3333333333vw;
+    width: 10.4vw;
+    height: 11.4666666667vw;
+    border: none;
+    background: url("../img/audiovidget-pause-button.png") center center no-repeat;
+    background-size: contain;
+    z-index: 4;
+    cursor: pointer;
+  }
   body {
     position: relative;
     width: 100vw;
