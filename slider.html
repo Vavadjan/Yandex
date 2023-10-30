@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>age-verification-page</title> 
+    <link rel="stylesheet" href="./css/reset.css" /> 
+    <link rel="stylesheet" href="./css/style.css" /> 
+    <link rel="stylesheet" href="./css/media-queries.css" /> 
+    <script src="./js/3x.js"></script> 
+    <script src="./js/burger.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head> 
+<body class="slider-body"> 
+  <script>
+    $(document).ready(function() {
+      const slides = $('.slide');
+      let currentSlide = 0;
+      slides.eq(currentSlide).addClass('active');
+
+      function rotateFromSlide(slideIndex) {
+        slides.removeClass('past');
+        slides.eq(slideIndex).addClass('past');
+      }
+
+      function rotateToSlide(slideIndex) {
+        slides.removeClass('active');
+        slides.eq(slideIndex).addClass('active');
+      }
+
+      $('.rotate-button').click(function() {
+        // Calculate the index of the next slide
+        rotateFromSlide(currentSlide);
+        currentSlide = (currentSlide + 1) % slides.length;
+        rotateToSlide(currentSlide);
+      });
+    });
+  </script>
+  <header class="header"> 
+    <div class="logo">            
+        <p class="logo-symbol">Я</p>             
+        <p class="logo-word">Реклама</p> 
+    </div> 
+    <div class="menu-btn"> 
+      <span></span> 
+      <span></span> 
+      <span></span> 
+    </div> 
+  </header> 
+  <div class="menu"> 
+    <nav> 
+        <ul> 
+            <li><a class="link-active" href="./greetings.html">Сейчас мы все настроим!</a></li> 
+            <li><a class="link-sub-active" href="./lights.html">Включаем гирлянду</a></li> 
+            <li><a href="./make-a-mix.html"">Сделай микс!</a></li> 
+            <li><a href="./cocktail-recipes-1.html">Рецепты коктейлей</a></li> 
+            <li><a href="./feel-the-rhythm.html">Праздничный плейлист</a></li>  
+        </ul> 
+    </nav> 
+  </div> 
+  <div class="layer layer1"></div> 
+  <div class="layer layer2"></div> 
+  <div class="layer layer3"></div> 
+  <div class="rotating-slider-container"> 
+    <div class="rotating-slider"> 
+      <ul class="slides"> 
+        <li class="greetings_slide slide active"> 
+          <h1 class="greetings-h1">Сейчас мы все настроим!</h1> 
+          <p class="under-h1">До классной вечеринки<br> от <strong>Яндекс Рекламы</strong> осталось три простых шага!<br><br>Ниже делимся понятными инструкциями, чтобы подготовка прошла гладко.</p> 
+          <a class="footer-buton greetings-footer-buton rotate-button"> 
+              <p class="footer-button-text">Начнем!</p> 
+          </a> 
+        </li>     
+        <li class="lights_slide slide"> 
+          <h1>Включи огни...</h1>
+          <p class="lights-under-h1">Умная гирлянда вместе<br> с Алисой создадут нужную атмосферу.</p>
+          <div class="gerland"></div>
+          <a class="lights-footer-button rotate-button">
+              <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights1_slide slide"> 
+          <div class="smart-screen-block">  
+            <div class="smart-screen smart-screen-instruction-pic-1"></div>        
+            <p class="smart-screen-instruction-text">Скачайте приложение Sibling из App Store или Google play и зарегистрируйте аккаунт или активируйте имеющийся,<br>следуя инструкциям из приложения</p> 
+            <div class="smart-screen-download-links"> 
+                <a href="" class="smart-screen-appStore-download-link"></a> 
+                <a href="" class="smart-screen-googlePlay-download-link"></a> 
+            </div> 
+          </div> 
+          <div class="gerland gerland-instruction-1"></div> 
+          <a class="lights-footer-button rotate-button"> 
+              <div class="lights-footer-button-arrow"></div> 
+          </a> 
+        </li> 
+        <li class="lights2_slide slide"> 
+          <div class="smart-screen-block">  
+            <div class="smart-screen smart-screen-instruction-pic-2"></div>        
+            <p class="smart-screen-instruction-text">Подключитесь к Wi-Fi сети  
+                и доступом в Интернет.  
+                Далее вернитесь в приложение  
+                и нажмите кнопку «добавить устройство» или «+» в правом верхнем углу экрана</p> 
+          </div> 
+          <div class="gerland gerland-instruction-2"></div> 
+          <a class="lights-footer-button rotate-button"> 
+              <div class="lights-footer-button-arrow"></div> 
+          </a> 
+        </li> 
+        <li class="lights3_slide slide">
+          <div class="smart-screen-block"> 
+            <div class="smart-screen smart-screen-instruction-pic-3"></div>       
+            <p class="smart-screen-instruction-text">В разделе «Добавить вручную» выберите «Другие устройства 
+                Wi-Fi». Гирлянда начнёт мигать 
+                3 раза в секунду.  Если этого 
+                не произошло – зажмите 
+                на контроллере кнопку ON/OFF 
+                на 5 секунд.<br><br> 
+                
+                Введите пароль Wi-Fi и следуйте инструкциям в приложении.</p>
+          </div>
+          <div class="gerland gerland-instruction-3"></div>
+          <a class="lights-footer-button rotate-button">
+              <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights4_slide slide">
+          <div class="smart-screen-block"> 
+            <div class="smart-screen smart-screen-instruction-pic-4"></div>       
+            <p class="smart-screen-instruction-text">В приложении Яндекс перейдите 
+                в раздел "Устройства" и выберите пункт "Умный дом". Если приложения нет, скачайте 
+                его из App Store или Google play.<br><br>            
+                <a class="smart-screen-link" href="#">Скачать из App Store</a>
+                <a class="smart-screen-link" href="#">Скачать из Google play</a>
+            </p>
+          </div>
+          <div class="gerland gerland-instruction-4"></div>
+          <a class="lights-footer-button rotate-button">
+              <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights5_slide slide">
+          <div class="smart-screen-block"> 
+            <div class="smart-screen smart-screen-instruction-pic-5"></div>       
+            <p class="smart-screen-instruction-text">Нажмите кнопку «+», а далее «добавить устройство». 
+                Выберите Sibling из списка, нажмите «обьединить аккаунты» 
+                и авторизуйтесь.
+            </p>
+          </div>
+          <div class="gerland gerland-instruction-5"></div>
+          <a class="lights-footer-button rotate-button">
+              <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights6_slide slide">
+          <div class="smart-screen-block"> 
+            <div class="smart-screen smart-screen-instruction-pic-6"></div>       
+            <p class="smart-screen-instruction-text">Чтобы узнать, какие команды можно использовать 
+                для управления гирляндой, зайдите на страницу управления устройством в приложении Яндекс и откройте вкладку «Голосовые команды».
+            </p>
+          </div>
+          <div class="gerland gerland-instruction-6"></div>
+          <a href="./make-a-mix.html" class="lights-footer-button">
+              <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+      </ul> 
+    </div> 
+  </div> 
+</body> 
+</html>
