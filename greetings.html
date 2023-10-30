@@ -46,24 +46,15 @@
         document.body.addEventListener('touchstart', handleTouchStart);
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
-    <script>
-        $(document).ready(function() {
-          const slides = $('.slide');
-          let currentSlide = 0;
-          slides.eq(currentSlide).addClass('active');
-    
-          $('.rotate-button').click(function() {
-              slides.eq(currentSlide).removeClass('active');
-              currentSlide = (currentSlide + 1) % slides.length;
-              slides.eq(currentSlide).addClass('active');
-              const link = $(this);
-              link.attr('href', `./lights_instruction-${currentSlide}.html`);
-          });
-        });
-    </script>
-</body>
-</html>
-
+    <div id="audiovidget">
+        <div class="audiovidget-leftside"></div>
+        <div class="audiovidget-rightside">
+            <p id="audiovidget-rightside-track-name">Yandex<br>lo-fi new year mix</p>
+            <a href="#" class="audiovidget-rightside-you-tube-link">YouTube</a>
+            <button id="audiovidget-rightside-play-button"></button>
+            <!-- <button id="audiovidget-rightside-pause-button"></button> -->
+        </div>
+    </div>
     <header>
         <div class="logo">           
             <p class="logo-symbol">Я</p>            
@@ -86,9 +77,7 @@
             </ul>
         </nav>
     </div>
-    <div class="layer layer1"></div>
-    <div class="layer layer2"></div>
-    <div class="layer layer3"></div>
+
     <h1 class="greetings-h1">Сейчас мы все настроим!</h1>
     <p class="under-h1">До классной вечеринки<br> от <strong>Яндекс Рекламы</strong> осталось три простых шага!<br><br>Ниже делимся понятными инструкциями, чтобы подготовка прошла гладко.</p>
     <a href="./lights.html" class="footer-buton greetings-footer-buton">

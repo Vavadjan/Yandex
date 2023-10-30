@@ -63,6 +63,92 @@ html {
   overflow: hidden;
 }
 
+#audiovidget {
+  position: absolute;
+  top: 4.224537037vw;
+  right: 9.6643518519vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 23.6689814815vw;
+  height: 9.7222222222vw;
+}
+
+.audiovidget-leftside {
+  position: relative;
+  width: 11.9212962963vw;
+  height: 9.7222222222vw;
+  background: url("../img/audiovidget-bg.jpg") 10% 10% no-repeat;
+  background-size: 260%;
+  border-radius: 2.025462963vw 0 0 2.025462963vw;
+}
+
+.audiovidget-rightside {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 11.9212962963vw;
+  height: 9.7222222222vw;
+  border-radius: 0 2.025462963vw 2.025462963vw 0;
+  gap: 0.5787037037vw;
+  padding: 0.9837962963vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4E63B7), to(#3B3C67));
+  background: linear-gradient(#4E63B7, #3B3C67);
+}
+
+#audiovidget-rightside-track-name {
+  color: #FFF;
+  text-align: center;
+  font-family: YS Display;
+  font-size: 1.1574074074vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.audiovidget-rightside-you-tube-link {
+  color: rgba(255, 255, 255, 0.54);
+  text-align: center;
+  font-family: YS Display;
+  font-size: 1.1574074074vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+#audiovidget-rightside-play-button {
+  width: 2.2569444444vw;
+  height: 2.4884259259vw;
+  border: none;
+  background: url("../img/audiovidget-play-button.png") center center no-repeat;
+  background-size: contain;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#audiovidget-rightside-pause-button {
+  width: 1.9097222222vw;
+  height: 2.4884259259vw;
+  border: none;
+  background: url("../img/audiovidget-pause-button.png") center center no-repeat;
+  background-size: contain;
+  z-index: 4;
+  cursor: pointer;
+}
+
 body {
   position: relative;
   width: 100vw;

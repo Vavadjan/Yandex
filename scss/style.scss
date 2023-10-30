@@ -48,6 +48,80 @@ html {
     overflow: hidden;
 }
 
+#audiovidget {
+    position: absolute;
+    top: calc(73/1728*100vw);
+    right: calc(167/1728*100vw);
+    display: flex;
+    flex-direction: row;
+    width: calc(409/1728*100vw);
+    height: calc(168/1728*100vw);
+}
+.audiovidget-leftside {
+    position: relative;
+    width: calc(206/1728*100vw);
+    height: calc(168/1728*100vw);
+    background: url('../img/audiovidget-bg.jpg') 10% 10% no-repeat;
+    background-size: 260%;
+    border-radius: calc(35/1728*100vw) 0 0 calc(35/1728*100vw);
+}
+.audiovidget-rightside {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(206/1728*100vw);
+    height: calc(168/1728*100vw);
+    border-radius: 0 calc(35/1728*100vw) calc(35/1728*100vw) 0;
+    gap: calc(10/1728*100vw);
+    padding: calc(17/1728*100vw);
+    background: linear-gradient(#4E63B7, #3B3C67);
+}
+#audiovidget-rightside-track-name {
+    color: #FFF;
+    text-align: center;
+    font-family: YS Display;
+    font-size: calc(20/1728*100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.audiovidget-rightside-you-tube-link {
+    color: rgba(255, 255, 255, 0.54);
+    text-align: center;
+    font-family: YS Display;
+    font-size: calc(20/1728*100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+#audiovidget-rightside-play-button {    
+    // position: absolute;
+    // top: calc(106/1728*100vw);
+    // right: calc(calc(103/1728*100vw) - calc(19.5/1728*100vw));
+    width: calc(39/1728*100vw);
+    height: calc(43/1728*100vw);
+    border: none;
+    background: url('../img/audiovidget-play-button.png') center center no-repeat;
+    background-size: contain;
+    z-index: 3;
+    cursor: pointer;
+}
+#audiovidget-rightside-pause-button {   
+    // position: absolute;
+    // top: calc(106/1728*100vw);
+    // right: calc(calc(103/1728*100vw) - calc(16.5/1728*100vw));
+    width: calc(33/1728*100vw);
+    height: calc(43/1728*100vw);
+    border: none;
+    background: url('../img/audiovidget-pause-button.png') center center no-repeat;
+    background-size: contain;
+    z-index: 4;
+    cursor: pointer;
+}
+
+
 body { 
     position: relative;
     width: 100vw;
