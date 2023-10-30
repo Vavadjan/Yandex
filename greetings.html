@@ -46,7 +46,21 @@
         document.body.addEventListener('touchstart', handleTouchStart);
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
+    <script>
+        $(document).ready(function() {
+          const slides = $('.slide');
+          let currentSlide = 0;
+          slides.eq(currentSlide).addClass('active');
     
+          $('.rotate-button').click(function() {
+              slides.eq(currentSlide).removeClass('active');
+              currentSlide = (currentSlide + 1) % slides.length;
+              slides.eq(currentSlide).addClass('active');
+              const link = $(this);
+              link.attr('href', `./lights_instruction-${currentSlide}.html`);
+          });
+        });
+    </script>
 </body>
 </html>
 
