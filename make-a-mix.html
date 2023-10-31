@@ -46,6 +46,30 @@
         document.body.addEventListener('touchstart', handleTouchStart);
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
+      <script>
+        $(document).ready(function() {
+          const slides = $('.slide');
+          let currentSlide = 0;
+          slides.eq(currentSlide).addClass('active');
+    
+          function rotateFromSlide(slideIndex) {
+            slides.removeClass('past');
+            slides.eq(slideIndex).addClass('past');
+          }
+    
+          function rotateToSlide(slideIndex) {
+            slides.removeClass('active');
+            slides.eq(slideIndex).addClass('active');
+          }
+    
+          $('.rotate-button').click(function() {
+            // Calculate the index of the next slide
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+          });
+        });
+    </script>
     <div id="audiovidget">
         <div class="audiovidget-leftside"></div>
         <div class="audiovidget-rightside">
@@ -69,23 +93,31 @@
     <div class="menu">
         <nav>
             <ul>
-                <li><a href="./greetings.html">Сейчас мы все настроим!</a></li>
-                <li><a class="link-sub-active" href="./lights.html">Включаем гирлянду</a></li>
-                <li><a class="link-active" href="./make-a-mix.html">Сделай микс!</a></li>
-                <li><a class="link-sub-active" href="./cocktail-recipes-1.html">Рецепты коктейлей</a></li>
-                <li><a href="./feel-the-rhythm.html">Праздничный плейлист</a></li>
+                <li><a class="link-active" href="./slider_intro.html">Сейчас мы все настроим!</a></li> 
+                <li><a class="link-sub-active" href="./slider_lights.html">Включаем гирлянду</a></li> 
+                <li><a href="./make-a-mix.html">Сделай микс!</a></li> 
+                <li><a href="./slider_cocktails.html">Рецепты коктейлей</a></li> 
+                <li><a href="./slider_music.html">Праздничный плейлист</a></li>  
             </ul>
         </nav>
     </div>
     <div class="layer lights-instructions-layer layer1"></div>
     <div class="layer lights-instructions-layer layer2"></div>
     <div class="layer lights-instructions-layer layer3"></div>
-    <h1 class="make-a-mix-h1">Сделай микс!</h1>
-    <p class="under-h1 make-a-mix-under-h1">Авторские коктейли помогут насладиться моментом.</p>
     <div class="make-a-mix-objects"></div>
     <div class="make-a-mix-bottle"></div>
-    <a href="./cocktail-recipes-1.html" class="make-a-mix-footer-button">
-        <div class="footer-button-arrow"></div>
-    </a>
+    <div class="rotating-slider-container slider"> 
+        <div class="rotating-slider slider"> 
+          <ul class="slides"> 
+            <li class="greetings_slide slide active"> 
+            <h1 class="make-a-mix-h1">Сделай микс!</h1>
+            <p class="under-h1 make-a-mix-under-h1">Авторские коктейли помогут насладиться моментом.</p>
+              <a href="./slider_cocktails.html" class="cocktails-footer-button rotate-button">
+                <div class="footer-button-arrow"></div>
+              </a>
+            </li>     
+          </ul> 
+        </div> 
+      </div> 
 </body>
 </html>

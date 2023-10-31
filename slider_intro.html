@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>age-verification-page</title> 
+    <link rel="stylesheet" href="./css/reset.css" /> 
+    <link rel="stylesheet" href="./css/style.css" /> 
+    <link rel="stylesheet" href="./css/media-queries.css" /> 
+    <script src="./js/3x.js"></script> 
+    <script src="./js/burger.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head> 
+<body class="slider-body"> 
+  <script>
+    $(document).ready(function() {
+      const slides = $('.slide');
+      let currentSlide = 0;
+      slides.eq(currentSlide).addClass('active');
+
+      function rotateFromSlide(slideIndex) {
+        slides.removeClass('past');
+        slides.eq(slideIndex).addClass('past');
+      }
+
+      function rotateToSlide(slideIndex) {
+        slides.removeClass('active');
+        slides.eq(slideIndex).addClass('active');
+      }
+
+      $('.rotate-button').click(function() {
+        // Calculate the index of the next slide
+        rotateFromSlide(currentSlide);
+        currentSlide = (currentSlide + 1) % slides.length;
+        rotateToSlide(currentSlide);
+      });
+    });
+  </script>
+  <header class="header"> 
+    <div class="logo">            
+        <p class="logo-symbol">Я</p>             
+        <p class="logo-word">Реклама</p> 
+    </div> 
+    <div class="menu-btn"> 
+      <span></span> 
+      <span></span> 
+      <span></span> 
+    </div> 
+  </header> 
+  <div class="menu"> 
+    <nav> 
+        <ul> 
+            <li><a class="link-active" href="./slider_intro.html">Сейчас мы все настроим!</a></li> 
+            <li><a class="link-sub-active" href="./slider_lights.html">Включаем гирлянду</a></li> 
+            <li><a href="./make-a-mix.html">Сделай микс!</a></li> 
+            <li><a href="./slider_cocktails.html">Рецепты коктейлей</a></li> 
+            <li><a href="./slider_music.html">Праздничный плейлист</a></li>  
+        </ul> 
+    </nav> 
+  </div> 
+  <div class="layer layer1"></div> 
+  <div class="layer layer2"></div> 
+  <div class="layer layer3"></div> 
+  <div class="rotating-slider-container slider"> 
+    <div class="rotating-slider slider"> 
+      <ul class="slides"> 
+        <li class="greetings_slide slide active"> 
+          <h1 class="greetings-h1">Сейчас мы все настроим!</h1> 
+          <p class="under-h1">До классной вечеринки<br> от <strong>Яндекс Рекламы</strong> осталось три простых шага!<br><br>Ниже делимся понятными инструкциями, чтобы подготовка прошла гладко.</p> 
+          <a href="./slider_lights.html" class="footer-buton greetings-footer-buton rotate-button"> 
+              <p class="footer-button-text">Начнем!</p> 
+          </a> 
+        </li>     
+      </ul> 
+    </div> 
+  </div> 
+</body> 
+</html>

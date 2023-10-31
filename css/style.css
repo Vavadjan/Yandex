@@ -159,16 +159,31 @@ body {
   overflow: hidden;
 }
 
-.rotating-slider-container {
+.slider {
   position: fixed;
   bottom: 0;
   right: 0;
   width: 100%;
-  height: calc(100% - 133/1117*100dvh);
   overflow: hidden;
 }
 
-.rotating-slider {
+.rotating-slider-container {
+  height: calc(100% - 133/1117*100dvh);
+}
+
+.music-slider-container, .cocktails-slider-container {
+  height: 100%;
+}
+
+.cocktails-slider .slide  {
+  margin-top: calc(133/1117*100dvh);
+}
+
+.feeltherhythm_h1  {
+  margin-top: calc(133/1117*2*100dvh);
+}
+
+.rotating-slider, .music-slider {
   position: relative;
   width: 100%;
   height: 100%;
@@ -938,7 +953,26 @@ h1 {
 }
 
 .make-a-mix-footer-button {
-  top: 54.521038496dvh;
+  top: 54dvh;
+  right: -17.0098478066dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65.5326768129dvh;
+  height: 65.5326768129dvh;
+  border-radius: 50%;
+  border: 1px solid #B4AFFF;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8E6D45), color-stop(48.16%, #FFD3AA), color-stop(93.22%, #93734E));
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+  background-size: 95%, contain;
+  z-index: 2;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.cocktails-footer-button {
+  top: 42dvh;
   right: -17.0098478066dvh;
   position: fixed;
   display: -webkit-box;
