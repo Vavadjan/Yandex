@@ -3,7 +3,7 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>age-verification-page</title> 
+    <title>Slider</title> 
     <link rel="stylesheet" href="./css/reset.css" /> 
     <link rel="stylesheet" href="./css/style.css" /> 
     <link rel="stylesheet" href="./css/media-queries.css" /> 
@@ -12,6 +12,41 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
 </head> 
 <body class="slider-body"> 
+    <script>
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      function handleTouchStart(e) {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+      }
+
+      function handleTouchEnd(e) {
+          const touchEndX = e.changedTouches[0].clientX;
+          const touchEndY = e.changedTouches[0].clientY;
+          const swipeThreshold = 50;
+
+          const deltaX = touchStartX - touchEndX;
+          const deltaY = touchStartY - touchEndY;
+
+          if (Math.abs(deltaX) > Math.abs(deltaY)) {
+              if (deltaX > swipeThreshold) {
+                  window.location.replace('./cocktail-recipes-1.html');
+              } else if (deltaX < -swipeThreshold) {
+                  window.location.replace('lights_instruction-6.html');
+              }
+          } else {
+              if (deltaY > swipeThreshold) {
+                  window.location.replace('./cocktail-recipes-1.html');
+              } else if (deltaY < -swipeThreshold) {
+                  window.location.replace('lights_instruction-6.html');
+              }
+          }
+      }
+
+      document.body.addEventListener('touchstart', handleTouchStart);
+      document.body.addEventListener('touchend', handleTouchEnd);
+  </script>
   <script>
     $(document).ready(function() {
       const slides = $('.slide');
