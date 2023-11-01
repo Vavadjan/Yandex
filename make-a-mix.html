@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/media-queries.css" />
     <script src="./js/3x.js"></script>
     <script src="./js/burger.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
 </head>
 <body class="make-a-mix-body">
     <script>
@@ -67,6 +68,13 @@
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
             rotateToSlide(currentSlide);
+
+            if (!$(this).hasClass('rotating')) {
+            $(this).addClass('rotating');
+            setTimeout(() => {
+                $(this).removeClass('rotating');
+            }, 500); 
+            }
           });
         });
     </script>
@@ -109,13 +117,15 @@
     <div class="rotating-slider-container slider"> 
         <div class="rotating-slider slider"> 
           <ul class="slides"> 
-            <li class="greetings_slide slide active"> 
-            <h1 class="make-a-mix-h1">Сделай микс!</h1>
-            <p class="under-h1 make-a-mix-under-h1">Авторские коктейли помогут насладиться моментом.</p>
-              <a href="./slider_cocktails.html" class="cocktails-footer-button rotate-button">
-                <div class="footer-button-arrow"></div>
-              </a>
-            </li>     
+            <li class="greetings_slide">
+                <div class="slide active"> 
+                    <h1 class="make-a-mix-h1">Сделай микс!</h1>
+                    <p class="under-h1 make-a-mix-under-h1">Авторские коктейли помогут насладиться моментом.</p>
+                </div>   
+                <a href="./slider_cocktails.html" class="cocktails-footer-button rotate-button">
+                    <div class="footer-button-arrow"></div>
+                </a>
+            </li>  
           </ul> 
         </div> 
       </div> 

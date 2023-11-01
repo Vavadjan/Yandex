@@ -17,6 +17,7 @@
       const slides = $('.slide');
       let currentSlide = 0;
       slides.eq(currentSlide).addClass('active');
+      $('.music-link').hide();
 
       function rotateFromSlide(slideIndex) {
         slides.removeClass('past');
@@ -26,6 +27,12 @@
       function rotateToSlide(slideIndex) {
         slides.removeClass('active');
         slides.eq(slideIndex).addClass('active');
+
+        if (slideIndex === 10) {
+          setTimeout(() => {
+          $('.music-link').show();
+          }, 500);
+        }
       }
 
       $('.rotate-button').click(function() {
@@ -33,6 +40,13 @@
         rotateFromSlide(currentSlide);
         currentSlide = (currentSlide + 1) % slides.length;
         rotateToSlide(currentSlide);
+
+        if (!$(this).hasClass('rotating')) {
+          $(this).addClass('rotating');
+          setTimeout(() => {
+            $(this).removeClass('rotating');
+          }, 500); 
+        }
       });
     });
   </script>
@@ -65,85 +79,110 @@
     <div class="cocktails-slider"> 
       <ul class="slides"> 
         <div class="coctail-recipes-bottle"></div>
-        <li class="cocktail1_slide slide">
+        <li class="cocktail1_slide">
+          <div class="slide">
           <h1 class="cocktail-recipes-h1">Готовим классический сухой джин-тоник с ярким профилем трав и цитрусовых</h1>
           <p class="under-h1 age-verification-page-under-h1"></p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail2_slide slide">
+        <li class="cocktail2_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-1"></div>
           <p class="cocktail-recipes-under-h1">Наполните глубокий бокал льдом доверху</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail3_slide slide">
+        <li class="cocktail3_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-2"></div>
           <p class="cocktail-recipes-under-h1">Добавьте 50 мл джина Portobello Road</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail4_slide slide">
+        <li class="cocktail4_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-3"></div>
           <p class="cocktail-recipes-under-h1">Туда же добавляем 100 мл тоника Rocket Tonic Classic</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail5_slide slide">
+        <li class="cocktail5_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-4"></div>
           <p class="cocktail-recipes-under-h1">Аккуратно поместите продолговатую ложку в бокал и перемешайте ингредиенты</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail6_slide slide">
+        <li class="cocktail6_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-5"></div>
           <p class="cocktail-recipes-under-h1">По желанию напиток можно украсить цедрой апельсина</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail7_slide slide">
+        <li class="cocktail7_slide">
+          <div class="slide">
           <h1 class="cocktail-recipes-h1">Готовим кисло-сладкий азиатский гимлет с травянистым профилем и освежающим послевкусием</h1>
           <p class="under-h1 age-verification-page-under-h1"></p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail8_slide slide">
+        <li class="cocktail8_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-7"></div>
           <p class="cocktail-recipes-under-h1">Добавьте 50 мл джина Drumshanbo Gunpowder Irish Gin в шейкер</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail9_slide slide">
+        <li class="cocktail9_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-8"></div>
           <p class="cocktail-recipes-under-h1">Туда же добавляем 100 мл кордиала Texture Master Rhubarb & Sichuan Pepper</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
-        <li class="cocktail10_slide slide">
+        <li class="cocktail10_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-9"></div>
           <p class="cocktail-recipes-under-h1">Плотно закрываем шейкер и, придерживая верхнюю крышку рукой, взбалтываем напиток 
               не более 20 секунд</p>
-          <a class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+            </div>
+            <a class="cocktails-footer-button rotate-button">
+                <div class="footer-button-arrow"></div>
+            </a>
         </li>
-        <li class="cocktail11_slide slide">
+        <li class="cocktail11_slide">
+          <div class="slide">
           <div class="cocktail-recipes-pic-10"></div>
           <p class="cocktail-recipes-under-h1">Далее наполните глубокий бокал льдом доверху и вылейте в него содержимое шейкера</p>
-          <a href="./slider_music.html" class="cocktails-footer-button rotate-button">
-              <div class="footer-button-arrow"></div>
-          </a>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
         </li>
       </ul> 
+      <a href="./slider_music.html" class="cocktails-footer-button music-link rotate-button">
+        <div class="footer-button-arrow"></div>
+      </a>
     </div> 
   </div> 
 </body> 
