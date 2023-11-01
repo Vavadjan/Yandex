@@ -913,7 +913,19 @@ h1 {
   height: 295.8818263205dvh;
   background: url("../img/bottle-mix.png") top right no-repeat;
   background-size: contain;
-  z-index: -1;
+  z-index: 1;
+}
+
+.make-a-mix-button {
+  z-index: 2;
+}
+
+.make-a-mix-slider {
+  z-index: 2;
+}
+
+.make-a-mix-3d-objects {
+  z-index: 2;
 }
 
 .coctail-recipes-bottle {
@@ -1072,17 +1084,13 @@ h1 {
   bottom: 0dvh;
   right: 0dvh;
   position: fixed;
-  display: none;
+  display: block;
   width: 90.1521933751dvh;
   height: 90.1521933751dvh;
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;
   pointer-events: none;
-}
-
-.gerland.active {
-  display: block;
 }
 
 .gerland-instruction-1 {
