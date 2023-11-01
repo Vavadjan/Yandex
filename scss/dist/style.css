@@ -756,6 +756,7 @@ h1 {
   height: calc(3305/1117*100dvh);
   background: url("../img/bottle.png") top right no-repeat;
   background-size: contain;
+  z-index: -1;
 }
 
 .footer-buton {

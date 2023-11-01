@@ -15,6 +15,7 @@
   <script>
     $(document).ready(function() {
       const slides = $('.slide');
+      const gerlands = $('.gerland');
       let currentSlide = 0;
       slides.eq(currentSlide).addClass('active');
       $('.make-a-mix-link').hide();
@@ -40,6 +41,14 @@
         rotateFromSlide(currentSlide);
         currentSlide = (currentSlide + 1) % slides.length;
         rotateToSlide(currentSlide);
+
+        gerlands.each(function(index) {
+          $(this).removeClass('active');
+          if (index === currentSlide) {
+            $(this).addClass('active');
+          }
+        });
+
 
         if (!$(this).hasClass('rotating')) {
           $(this).addClass('rotating');
@@ -82,8 +91,8 @@
           <div class="slide"> 
             <h1>Включи огни...</h1>
             <p class="lights-under-h1">Умная гирлянда вместе<br> с Алисой создадут нужную атмосферу.</p>
-            <div class="gerland"></div>
           </div>
+          <div class="gerland"></div>
           <a class="lights-footer-button rotate-button">
             <div class="lights-footer-button-arrow"></div>
           </a>
@@ -98,8 +107,8 @@
                   <a href="" class="smart-screen-googlePlay-download-link"></a> 
               </div> 
             </div>
-            <div class="gerland gerland-instruction-1"></div> 
-          </div>  
+          </div> 
+          <div class="gerland gerland-instruction-1"></div>  
           <a class="lights-footer-button rotate-button"> 
             <div class="lights-footer-button-arrow"></div> 
           </a> 
@@ -113,8 +122,8 @@
                   Далее вернитесь в приложение  
                   и нажмите кнопку «добавить устройство» или «+» в правом верхнем углу экрана</p> 
             </div> 
-            <div class="gerland gerland-instruction-2"></div> 
           </div> 
+          <div class="gerland gerland-instruction-2"></div> 
           <a class="lights-footer-button rotate-button"> 
               <div class="lights-footer-button-arrow"></div> 
           </a> 
@@ -132,8 +141,8 @@
                   
                   Введите пароль Wi-Fi и следуйте инструкциям в приложении.</p>
             </div>
-            <div class="gerland gerland-instruction-3"></div>
           </div>
+          <div class="gerland gerland-instruction-3"></div>
           <a class="lights-footer-button rotate-button">
             <div class="lights-footer-button-arrow"></div>
           </a>
@@ -149,8 +158,8 @@
                   <a class="smart-screen-link" href="#">Скачать из Google play</a>
               </p>
             </div>
-            <div class="gerland gerland-instruction-4"></div>
           </div>
+          <div class="gerland gerland-instruction-4"></div>
           <a class="lights-footer-button rotate-button">
             <div class="lights-footer-button-arrow"></div>
           </a>
@@ -164,8 +173,8 @@
                   и авторизуйтесь.
               </p>
             </div>
-            <div class="gerland gerland-instruction-5"></div>
           </div>
+          <div class="gerland gerland-instruction-5"></div>
           <a class="lights-footer-button rotate-button">
             <div class="lights-footer-button-arrow"></div>
           </a>
@@ -179,9 +188,9 @@
                   для управления гирляндой, зайдите на страницу управления устройством в приложении Яндекс и откройте вкладку «Голосовые команды».
                 </p>
               </div>
-              <div class="gerland gerland-instruction-6"></div>
             </div>
           </div>
+          <div class="gerland gerland-instruction-6"></div>
           <a class="lights-footer-button rotate-button">
             <div class="lights-footer-button-arrow"></div>
           </a>
