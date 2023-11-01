@@ -864,8 +864,6 @@
     border-radius: 50%;
     border: 1px solid #B4AFFF;
     background: #9B94FF;
-    -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
-            box-shadow: 0px 0px 124px 0px #B53CFF;
     z-index: 2;
     cursor: pointer;
   }
@@ -1042,7 +1040,7 @@
     background-size: contain;
   }
   .gerland {
-    top: calc(75.7389162562dvh - 12vw);
+    bottom: 3.5dvh;
     right: -10.6666666667vw;
     position: fixed;
     display: -webkit-box;
@@ -1055,6 +1053,7 @@
     z-index: 3;
     pointer-events: none;
   }
+
   .gerland-instruction-1 {
     background: url("../img/gerlang-instruction_mobile-1.png") center center no-repeat;
     background-size: contain;
