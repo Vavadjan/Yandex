@@ -39,19 +39,35 @@
         }
       }
   
-      function swipeToSlide(deltaX) {
-        if (deltaX < -50) {
-          rotateFromSlide(currentSlide);
-          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-          rotateToSlide(currentSlide);
-          if (currentSlide === -1) {
-            window.location.href = './make-a-mix.html';
+      function swipeToSlide(deltaX, deltaY) {
+        if (Math.abs(deltaX) > Math.abs(deltaY)) {
+          if (deltaX < -50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            rotateToSlide(currentSlide);
+            if (currentSlide === 0) {
+              window.location.href = './make-a-mix.html';
+            }
+          } else if (deltaX > 50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+            shouldRedirectToMusic = false;
           }
-        } else if (deltaX > 50) {
-          rotateFromSlide(currentSlide);
-          currentSlide = (currentSlide + 1) % slides.length;
-          rotateToSlide(currentSlide);
-          shouldRedirectToMusic = false;
+        } else {
+          if (deltaY < -50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            rotateToSlide(currentSlide);
+            if (currentSlide === 0) {
+              window.location.href = './make-a-mix.html';
+            }
+          } else if (deltaY > 50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+            shouldRedirectToMakeAMix = false;
+          }
         }
 
         if (currentSlide === 10) {
@@ -74,16 +90,20 @@
       });
   
       let touchStartX = 0;
+      let touchStartY = 0;
   
       $('.cocktails-slider-container').on('touchstart', function (e) {
         touchStartX = e.originalEvent.touches[0].clientX;
+        touchStartY = e.originalEvent.touches[0].clientY;
       });
   
       $('.cocktails-slider-container').on('touchend', function (e) {
         const touchEndX = e.originalEvent.changedTouches[0].clientX;
+        const touchEndY = e.originalEvent.changedTouches[0].clientY;
         const deltaX = touchStartX - touchEndX;
+        const deltaY = touchStartY - touchEndY;
   
-        swipeToSlide(deltaX);
+        swipeToSlide(deltaX, deltaY);
       });
     });
   </script>

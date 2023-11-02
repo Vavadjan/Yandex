@@ -40,20 +40,36 @@
         }
       }
   
-      function swipeToSlide(deltaX) {
-        if (deltaX < -50) {
-          rotateFromSlide(currentSlide);
-          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-          rotateToSlide(currentSlide);
-          if (currentSlide === -1) {
-            window.location.href = './slider_intro.html';
+      function swipeToSlide(deltaX, deltaY) {
+        if (Math.abs(deltaX) > Math.abs(deltaY)) {
+          if (deltaX < -50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            rotateToSlide(currentSlide);
+            if (currentSlide === 0) {
+              window.location.href = './slider_intro.html';
+            }
+          } else if (deltaX > 50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+            shouldRedirectToMakeAMix = false;
           }
-        } else if (deltaX > 50) {
-          rotateFromSlide(currentSlide);
-          currentSlide = (currentSlide + 1) % slides.length;
-          rotateToSlide(currentSlide);
-          shouldRedirectToMakeAMix = false;
-        }
+        } else {
+          if (deltaY < -50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            rotateToSlide(currentSlide);
+            if (currentSlide === 0) {
+              window.location.href = './slider_intro.html';
+            }
+          } else if (deltaY > 50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+            shouldRedirectToMakeAMix = false;
+          }
+        }  
 
         if (currentSlide === 6) {
           shouldRedirectToMakeAMix = true;
@@ -89,16 +105,20 @@
       });
   
       let touchStartX = 0;
+      let touchStartY = 0;
   
       $('.rotating-slider-container').on('touchstart', function (e) {
         touchStartX = e.originalEvent.touches[0].clientX;
+        touchStartY = e.originalEvent.touches[0].clientY;
       });
   
       $('.rotating-slider-container').on('touchend', function (e) {
         const touchEndX = e.originalEvent.changedTouches[0].clientX;
+        const touchEndY = e.originalEvent.changedTouches[0].clientY;
         const deltaX = touchStartX - touchEndX;
+        const deltaY = touchStartY - touchEndY;
   
-        swipeToSlide(deltaX);
+        swipeToSlide(deltaX, deltaY);
       });
     });
   </script>
