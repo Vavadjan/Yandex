@@ -45,7 +45,35 @@
         document.body.addEventListener('touchstart', handleTouchStart);
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audioPlayer = document.getElementById('audioPlayer');
+            const playButton = document.getElementById('audiovidget-rightside-play-button');
+            const pauseButton = document.getElementById('audiovidget-rightside-pause-button');
+
+            playButton.addEventListener('click', function () {
+                audioPlayer.play();
+                playButton.style.display = 'none'; 
+                pauseButton.style.display = 'block';
+            });
+
+            pauseButton.addEventListener('click', function () {
+                audioPlayer.pause();
+                pauseButton.style.display = 'none';
+                playButton.style.display = 'block';
+            });
+
+            if (audioPlayer.paused) {
+                pauseButton.style.display = 'none';
+                playButton.style.display = 'block';
+            } else {
+                playButton.style.display = 'none';
+                pauseButton.style.display = 'block';  
+            }
+        });
+    </script>
     <div id="audiovidget">
+        <audio id="audioPlayer" src="./audio/yamix_2.mp3"></audio>
         <div class="audiovidget-leftside"></div>
         <div class="audiovidget-rightside">
             <p id="audiovidget-rightside-track-name">Yandex lo-fi new year mix</p>
