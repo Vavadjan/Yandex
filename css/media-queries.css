@@ -801,6 +801,21 @@
     background: #9B94FF;
     -webkit-box-shadow: 0px 0px 124px 0px #B53CFF;
             box-shadow: 0px 0px 124px 0px #B53CFF;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+            user-select: none;
+  }
+
+  .rotate-button {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+            user-select: none;
   }
   .greetings-footer-buton {
     bottom: -50.8620689655dvh;
