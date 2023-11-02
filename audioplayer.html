@@ -46,34 +46,60 @@
         document.body.addEventListener('touchend', handleTouchEnd);
     </script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const audioPlayer = document.getElementById('audioPlayer');
-            const playButton = document.getElementById('audiovidget-rightside-play-button');
-            const pauseButton = document.getElementById('audiovidget-rightside-pause-button');
+    document.addEventListener('DOMContentLoaded', function() {
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('audiovidget-rightside-play-button');
+        const pauseButton = document.getElementById('audiovidget-rightside-pause-button');
+        const playBigButton = document.getElementById('audiovidget-play-button');
+        const pauseBigButton = document.getElementById('audiovidget-pause-button');
 
-            playButton.addEventListener('click', function () {
-                audioPlayer.play();
-                playButton.style.display = 'none'; 
-                pauseButton.style.display = 'block';
-            });
-
-            pauseButton.addEventListener('click', function () {
-                audioPlayer.pause();
-                pauseButton.style.display = 'none';
-                playButton.style.display = 'block';
-            });
-
-            if (audioPlayer.paused) {
-                pauseButton.style.display = 'none';
-                playButton.style.display = 'block';
-            } else {
-                playButton.style.display = 'none';
-                pauseButton.style.display = 'block';  
-            }
+        playButton.addEventListener('click', function () {
+            audioPlayer.play();
+            playButton.style.display = 'none'; 
+            pauseButton.style.display = 'block';
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
         });
+
+        pauseButton.addEventListener('click', function () {
+            audioPlayer.pause();
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        });
+
+        playBigButton.addEventListener('click', function () {
+            audioPlayer.play();
+            playButton.style.display = 'none'; 
+            pauseButton.style.display = 'block';
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        });
+
+        pauseBigButton.addEventListener('click', function () {
+            audioPlayer.pause();
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        });
+
+        if (audioPlayer.paused) {
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        } else {
+            playButton.style.display = 'none';
+            pauseButton.style.display = 'block';  
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        }
+    });
     </script>
+    <audio id="audioPlayer" src="./audio/yamix_2.mp3"></audio>
     <div id="audiovidget">
-        <audio id="audioPlayer" src="./audio/yamix_2.mp3"></audio>
         <div class="audiovidget-leftside"></div>
         <div class="audiovidget-rightside">
             <p id="audiovidget-rightside-track-name">Yandex lo-fi new year mix</p>
@@ -107,8 +133,8 @@
     </div>
     <h1 class="audioplayer-h1">Настраиваемся на праздник</h1>
     <p class="audioplayer-under-h1">Мы собрали специальный плейлист, который поможет вам настроиться на нужный лад и смешать вкусные коктейли. А еще представили, как бы могла выглядеть такая вечеринка.</p>
-    <a class="audioplayer-play-button"></a>
-    <a class="audioplayer-pause-button"></a>
+    <a class="audioplayer-play-button" id="audiovidget-play-button"></a>
+    <a class="audioplayer-pause-button" id="audiovidget-pause-button"></a>
     <div class="audioplayer-timeline"></div>
     <p class="audioplayer-timeline-numbers">33:59</p>
     <a class="audioplayer-youtube-button"></a>
