@@ -48,10 +48,16 @@
       function swipeToSlide(deltaX, deltaY) {
         if (Math.abs(deltaX) > Math.abs(deltaY)) {
           if (deltaX < -50) {
-            rotateFromSlide(currentSlide);
-            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-            rotateToSlide(currentSlide);
-            shouldRedirectBackwards = false;
+            if (currentSlide === 0) {
+              shouldRedirectBackwards = true;
+              window.location.href = './make-a-mix.html';
+            } else {
+              rotateFromSlide(currentSlide);
+              currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+              rotateToSlide(currentSlide);
+              shouldRedirectBackwards = false;
+            }
+            shouldRedirectToMakeAMix = false;
           } else if (deltaX > 50) {
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
@@ -62,14 +68,14 @@
           if (deltaY < -50) {
             if (currentSlide === 0) {
               shouldRedirectBackwards = true;
+              window.location.href = './make-a-mix.html';
+            } else {
+              rotateFromSlide(currentSlide);
+              currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+              rotateToSlide(currentSlide);
+              shouldRedirectBackwards = false;
             }
-            rotateFromSlide(currentSlide);
-            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-            rotateToSlide(currentSlide);
-            shouldRedirectBackwards = false;
-            if (currentSlide === 0) {
-              window.location.href = './slider_intro.html';
-            }
+            shouldRedirectToMakeAMix = false;
           } else if (deltaY > 50) {
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
