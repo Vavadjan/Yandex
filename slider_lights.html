@@ -13,49 +13,92 @@
 </head> 
 <body class="slider-body"> 
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       const slides = $('.slide');
       const gerlands = $('.gerland');
       let currentSlide = 0;
+      let shouldRedirectToMakeAMix = false;
+      
       slides.eq(currentSlide).addClass('active');
       $('.make-a-mix-link').hide();
-
+  
       function rotateFromSlide(slideIndex) {
         slides.removeClass('past');
         slides.eq(slideIndex).addClass('past');
       }
-
+  
       function rotateToSlide(slideIndex) {
         slides.removeClass('active');
         slides.eq(slideIndex).addClass('active');
-
-        if (slideIndex === 6) {
+  
+        if (shouldRedirectToMakeAMix) {
+          window.location.href = './make-a-mix.html';
+        } else if (slideIndex === 6) {
           setTimeout(() => {
             $('.make-a-mix-link').show();
-          }, 500); 
+          }, 500);
         }
       }
+  
+      function swipeToSlide(deltaX) {
+        if (deltaX < -50) {
+          rotateFromSlide(currentSlide);
+          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+          rotateToSlide(currentSlide);
+          if (currentSlide === -1) {
+            window.location.href = './slider_intro.html';
+          }
+        } else if (deltaX > 50) {
+          rotateFromSlide(currentSlide);
+          currentSlide = (currentSlide + 1) % slides.length;
+          rotateToSlide(currentSlide);
+          shouldRedirectToMakeAMix = false;
+        }
 
-      $('.rotate-button').click(function() {
-        // Calculate the index of the next slide
-        rotateFromSlide(currentSlide);
-        currentSlide = (currentSlide + 1) % slides.length;
-        rotateToSlide(currentSlide);
-
-        gerlands.each(function(index) {
+        if (currentSlide === 6) {
+          shouldRedirectToMakeAMix = true;
+        }
+  
+        gerlands.each(function (index) {
           $(this).removeClass('active');
           if (index === currentSlide) {
             $(this).addClass('active');
           }
         });
-
-
+      }
+  
+      $('.rotate-button').click(function () {
+        // Calculate the index of the next slide
+        rotateFromSlide(currentSlide);
+        currentSlide = (currentSlide + 1) % slides.length;
+        rotateToSlide(currentSlide);
+  
+        gerlands.each(function (index) {
+          $(this).removeClass('active');
+          if (index === currentSlide) {
+            $(this).addClass('active');
+          }
+        });
+  
         if (!$(this).hasClass('rotating')) {
           $(this).addClass('rotating');
           setTimeout(() => {
             $(this).removeClass('rotating');
-          }, 500); 
+          }, 500);
         }
+      });
+  
+      let touchStartX = 0;
+  
+      $('.rotating-slider-container').on('touchstart', function (e) {
+        touchStartX = e.originalEvent.touches[0].clientX;
+      });
+  
+      $('.rotating-slider-container').on('touchend', function (e) {
+        const touchEndX = e.originalEvent.changedTouches[0].clientX;
+        const deltaX = touchStartX - touchEndX;
+  
+        swipeToSlide(deltaX);
       });
     });
   </script>

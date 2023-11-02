@@ -13,75 +13,77 @@
 </head> 
 <body class="cocktail-recipes-body"> 
   <script>
-    let touchStartX = 0;
-    let touchStartY = 0;
-
-    function handleTouchStart(e) {
-        touchStartX = e.touches[0].clientX;
-        touchStartY = e.touches[0].clientY;
-    }
-
-    function handleTouchEnd(e) {
-        const touchEndX = e.changedTouches[0].clientX;
-        const touchEndY = e.changedTouches[0].clientY;
-        const swipeThreshold = 50;
-
-        const deltaX = touchStartX - touchEndX;
-        const deltaY = touchStartY - touchEndY;
-
-        if (Math.abs(deltaX) > Math.abs(deltaY)) {
-            if (deltaX > swipeThreshold) {
-                window.location.replace('./cocktail-recipes-1.html');
-            } else if (deltaX < -swipeThreshold) {
-                window.location.replace('lights_instruction-6.html');
-            }
-        } else {
-            if (deltaY > swipeThreshold) {
-                window.location.replace('./cocktail-recipes-1.html');
-            } else if (deltaY < -swipeThreshold) {
-                window.location.replace('lights_instruction-6.html');
-            }
-        }
-    }
-
-    document.body.addEventListener('touchstart', handleTouchStart);
-    document.body.addEventListener('touchend', handleTouchEnd);
-</script>
-  <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       const slides = $('.slide');
       let currentSlide = 0;
+      let shouldRedirectToMusic = false;
+      
       slides.eq(currentSlide).addClass('active');
       $('.music-link').hide();
-
+  
       function rotateFromSlide(slideIndex) {
         slides.removeClass('past');
         slides.eq(slideIndex).addClass('past');
       }
-
+  
       function rotateToSlide(slideIndex) {
         slides.removeClass('active');
         slides.eq(slideIndex).addClass('active');
-
-        if (slideIndex === 10) {
+  
+        if (shouldRedirectToMusic) {
+          window.location.href = './slider_music.html';
+        } else if (slideIndex === 10) {
           setTimeout(() => {
-          $('.music-link').show();
+            $('.music-link').show();
           }, 500);
         }
       }
+  
+      function swipeToSlide(deltaX) {
+        if (deltaX < -50) {
+          rotateFromSlide(currentSlide);
+          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+          rotateToSlide(currentSlide);
+          if (currentSlide === -1) {
+            window.location.href = './make-a-mix.html';
+          }
+        } else if (deltaX > 50) {
+          rotateFromSlide(currentSlide);
+          currentSlide = (currentSlide + 1) % slides.length;
+          rotateToSlide(currentSlide);
+          shouldRedirectToMusic = false;
+        }
 
-      $('.rotate-button').click(function() {
+        if (currentSlide === 10) {
+          shouldRedirectToMusic = true;
+        }
+      }
+  
+      $('.rotate-button').click(function () {
         // Calculate the index of the next slide
         rotateFromSlide(currentSlide);
         currentSlide = (currentSlide + 1) % slides.length;
         rotateToSlide(currentSlide);
-
+  
         if (!$(this).hasClass('rotating')) {
           $(this).addClass('rotating');
           setTimeout(() => {
             $(this).removeClass('rotating');
-          }, 500); 
+          }, 500);
         }
+      });
+  
+      let touchStartX = 0;
+  
+      $('.cocktails-slider-container').on('touchstart', function (e) {
+        touchStartX = e.originalEvent.touches[0].clientX;
+      });
+  
+      $('.cocktails-slider-container').on('touchend', function (e) {
+        const touchEndX = e.originalEvent.changedTouches[0].clientX;
+        const deltaX = touchStartX - touchEndX;
+  
+        swipeToSlide(deltaX);
       });
     });
   </script>
