@@ -17,6 +17,7 @@
       const slides = $('.slide');
       let currentSlide = 0;
       let shouldRedirectToMusic = false;
+      let shouldRedirectBackwards = false;
       
       slides.eq(currentSlide).addClass('active');
       $('.music-link').hide();
@@ -37,6 +38,10 @@
             $('.music-link').show();
           }, 500);
         }
+
+        if (shouldRedirectBackwards) {
+          window.location.href = './make-a-mix.html';
+        }
       }
   
       function swipeToSlide(deltaX, deltaY) {
@@ -45,9 +50,7 @@
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             rotateToSlide(currentSlide);
-            if (currentSlide === 0) {
-              window.location.href = './make-a-mix.html';
-            }
+            shouldRedirectBackwards = false;
           } else if (deltaX > 50) {
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
@@ -59,9 +62,7 @@
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             rotateToSlide(currentSlide);
-            if (currentSlide === 0) {
-              window.location.href = './make-a-mix.html';
-            }
+            shouldRedirectBackwards = false;
           } else if (deltaY > 50) {
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
@@ -72,6 +73,10 @@
 
         if (currentSlide === 10) {
           shouldRedirectToMusic = true;
+        }
+        
+        if (currentSlide === 0) {
+          shouldRedirectBackwards = true;
         }
       }
   

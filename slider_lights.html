@@ -18,6 +18,7 @@
       const gerlands = $('.gerland');
       let currentSlide = 0;
       let shouldRedirectToMakeAMix = false;
+      let shouldRedirectBackwards = false;
       
       slides.eq(currentSlide).addClass('active');
       $('.make-a-mix-link').hide();
@@ -38,6 +39,10 @@
             $('.make-a-mix-link').show();
           }, 500);
         }
+
+        if (shouldRedirectBackwards) {
+          window.location.href = './slider_intro.html';
+        }
       }
   
       function swipeToSlide(deltaX, deltaY) {
@@ -46,9 +51,7 @@
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             rotateToSlide(currentSlide);
-            if (currentSlide === 0) {
-              window.location.href = './slider_intro.html';
-            }
+            shouldRedirectBackwards = false;
           } else if (deltaX > 50) {
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
@@ -60,6 +63,7 @@
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             rotateToSlide(currentSlide);
+            shouldRedirectBackwards = false;
             if (currentSlide === 0) {
               window.location.href = './slider_intro.html';
             }
@@ -73,6 +77,10 @@
 
         if (currentSlide === 6) {
           shouldRedirectToMakeAMix = true;
+        }
+
+        if (currentSlide === 0) {
+          shouldRedirectBackwards = true;
         }
   
         gerlands.each(function (index) {
