@@ -59,6 +59,9 @@
           }
         } else {
           if (deltaY < -50) {
+            if (currentSlide === 0) {
+              shouldRedirectBackwards = true;
+            }
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             rotateToSlide(currentSlide);
@@ -73,10 +76,6 @@
 
         if (currentSlide === 10) {
           shouldRedirectToMusic = true;
-        }
-        
-        if (currentSlide === 0) {
-          shouldRedirectBackwards = true;
         }
       }
   

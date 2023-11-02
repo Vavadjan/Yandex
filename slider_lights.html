@@ -60,6 +60,9 @@
           }
         } else {
           if (deltaY < -50) {
+            if (currentSlide === 0) {
+              shouldRedirectBackwards = true;
+            }
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             rotateToSlide(currentSlide);
@@ -77,10 +80,6 @@
 
         if (currentSlide === 6) {
           shouldRedirectToMakeAMix = true;
-        }
-
-        if (currentSlide === 0) {
-          shouldRedirectBackwards = true;
         }
   
         gerlands.each(function (index) {
