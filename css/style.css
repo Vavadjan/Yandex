@@ -273,7 +273,10 @@ body {
   background-size: auto, 100vw 100dvh;
 }
 
-.audioplayer-body {
+.audioplayer-body, .audioplayer-slide {
+  position: fixed; 
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100dvh;
   background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;

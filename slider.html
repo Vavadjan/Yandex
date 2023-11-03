@@ -43,7 +43,12 @@
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
           $('.feel-the-rythm-footer-buton').removeClass('hidden-button');
-          $('.cocktails-footer-buton').addClass('hidden-button');
+          $('.cocktails-footer-button').addClass('hidden-button');
+        } else {
+          $('.lights-footer-button').addClass('hidden-button');
+          $('.greetings-footer-buton').addClass('hidden-button');
+          $('.feel-the-rythm-footer-buton').addClass('hidden-button');
+          $('.cocktails-footer-button').addClass('hidden-button');
         }
 
         gerlands.addClass('hidden-button');
@@ -197,14 +202,65 @@
         const targetSlideID = $(this).attr('href');
 
         const targetSlide = $(targetSlideID);
-        console.log(targetSlide);
-
 
         if (targetSlide.length) {
           showSlide(targetSlide.index());
         }
       });
   });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('audiovidget-rightside-play-button');
+        const pauseButton = document.getElementById('audiovidget-rightside-pause-button');
+        const playBigButton = document.getElementById('audiovidget-play-button');
+        const pauseBigButton = document.getElementById('audiovidget-pause-button');
+
+        playButton.addEventListener('click', function () {
+            audioPlayer.play();
+            playButton.style.display = 'none'; 
+            pauseButton.style.display = 'block';
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        });
+
+        pauseButton.addEventListener('click', function () {
+            audioPlayer.pause();
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        });
+
+        playBigButton.addEventListener('click', function () {
+            audioPlayer.play();
+            playButton.style.display = 'none'; 
+            pauseButton.style.display = 'block';
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        });
+
+        pauseBigButton.addEventListener('click', function () {
+            audioPlayer.pause();
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        });
+
+        if (audioPlayer.paused) {
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        } else {
+            playButton.style.display = 'none';
+            pauseButton.style.display = 'block';  
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        }
+    });
   </script>
   <header class="header">
     <div class="logo">
@@ -469,6 +525,27 @@
           <a class="feel-the-rythm-footer-buton footer-buton rotate-button">
             <div class="feel-the-rythm-footer-button-symbol"></div>
           </a>
+        </li>
+        <li class="audioplayer_slide">
+          <div class="slide audioplayer-slide">
+            <h1 class="audioplayer-h1">Настраиваемся на праздник</h1>
+            <p class="audioplayer-under-h1">Мы собрали специальный плейлист, который поможет вам настроиться на нужный лад и смешать вкусные коктейли. А еще представили, как бы могла выглядеть такая вечеринка.</p>
+            <a class="audioplayer-play-button" id="audiovidget-play-button"></a>
+            <a class="audioplayer-pause-button" id="audiovidget-pause-button"></a>
+            <div class="audioplayer-timeline"></div>
+            <p class="audioplayer-timeline-numbers">42:13</p>
+            <a class="audioplayer-youtube-button"></a>
+            <audio id="audioPlayer" src="./audio/yamix_2.mp3"></audio>
+            <div id="audiovidget">
+                <div class="audiovidget-leftside"></div>
+                <div class="audiovidget-rightside">
+                    <p id="audiovidget-rightside-track-name">Yandex lo-fi new year mix</p>
+                    <a href="#" class="audiovidget-rightside-you-tube-link">YouTube</a>
+                    <button id="audiovidget-rightside-play-button"></button>
+                    <button id="audiovidget-rightside-pause-button"></button>
+                </div>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
