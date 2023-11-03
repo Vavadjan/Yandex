@@ -22,7 +22,7 @@
       $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
 
       function updateButtonVisibility() {
-        const activeSlide = $('.slide.active');
+        const activeSlide = $('.slide.active, .slide.back-past');
 
         if (activeSlide.hasClass('make-a-mix-slide') || activeSlide.hasClass('cocktails-slide')) {
           $('.lights-footer-button').addClass('hidden-button');
@@ -61,7 +61,7 @@
       updateButtonVisibility();
 
       function updateBottlesVisibility() {
-        const activeSlide = $('.slide.active');
+        const activeSlide = $('.slide.active, .slide.back-past');
 
         if (activeSlide.hasClass('make-a-mix-slide')) {
           $('.make-a-mix-bottle').show();
@@ -97,32 +97,50 @@
       insertBottleForSlide('<div class="feel-the-rythm-plastinka"></div>', 'feeltherhythm-slide');
 
       function rotateFromSlide(slideIndex) {
+        slides.removeClass('back-past');
         slides.removeClass('past');
         slides.eq(slideIndex).addClass('past');
       }
 
+      function rotateBackwardsFromSlide(slideIndex) {
+        slides.removeClass('back-active');
+        slides.removeClass('active');
+        slides.eq(slideIndex).addClass('back-active');
+      }
+
       function rotateToSlide(slideIndex) {
+        slides.removeClass('back-active');
         slides.removeClass('active');
         slides.eq(slideIndex).addClass('active');
+      }
+
+      function rotateBackwardsToSlide(slideIndex) {
+        slides.removeClass('back-past');
+        slides.removeClass('past');
+        slides.eq(slideIndex).addClass('back-past');
       }
 
       function swipeToSlide(deltaX, deltaY) {
         if (Math.abs(deltaX) > Math.abs(deltaY)) {
           if (deltaX < -50) {
-              rotateFromSlide(currentSlide);
+            if (currentSlide === 0) return;
+              rotateBackwardsFromSlide(currentSlide);
               currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-              rotateToSlide(currentSlide);
+              rotateBackwardsToSlide(currentSlide);
           } else if (deltaX > 50) {
+            if (currentSlide === slides.length - 1) return;
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
             rotateToSlide(currentSlide);
           }
         } else {
           if (deltaY < -50) {
-            rotateFromSlide(currentSlide);
+            if (currentSlide === 0) return;
+            rotateBackwardsFromSlide(currentSlide);
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-            rotateToSlide(currentSlide);
+            rotateBackwardsToSlide(currentSlide);
           } else if (deltaY > 50) {
+            if (currentSlide === slides.length - 1) return;
             rotateFromSlide(currentSlide);
             currentSlide = (currentSlide + 1) % slides.length;
             rotateToSlide(currentSlide);
@@ -131,8 +149,10 @@
 
         gerlands.each(function (index) {
           $(this).removeClass('active');
+          $(this).removeClass('back-past');
           if (index + 1 === currentSlide) {
             $(this).addClass('active');
+            $(this).addClass('back-past');
           }
         });
 
@@ -147,8 +167,10 @@
         rotateToSlide(currentSlide);
         gerlands.each(function (index) {
           $(this).removeClass('active');
+          $(this).removeClass('back-past');
           if (index + 1 === currentSlide) {
             $(this).addClass('active');
+            $(this).addClass('back-past');
           }
         });
 
@@ -163,8 +185,10 @@
 
         gerlands.each(function (index) {
           $(this).removeClass('active');
+          $(this).removeClass('back-past');
           if (index + 1 === currentSlide) {
             $(this).addClass('active');
+            $(this).addClass('back-past');
           }
         });
 

@@ -196,16 +196,26 @@ body {
   position: absolute;
   transform-origin: right bottom;
   transform: rotate(0deg);
-  animation: slideForward 0.5s ease forwards;
 }
 
 .slide.active {
   display: block;
+  animation: slideForward 0.5s ease forwards;
 }
 
 .slide.past {
   display: block;
   animation: slideBackward 0.5s ease forwards;
+}
+
+.slide.back-past {
+  animation: backSlideBackward 0.5s ease forwards;
+  display: block;
+}
+
+.slide.back-active {
+  animation: backSlideForward 0.5s ease forwards;
+  display: block;
 }
 
 .rotate-button {
@@ -236,6 +246,25 @@ body {
     transform: rotate(-90deg);
   }
 }
+
+@keyframes backSlideForward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes backSlideBackward {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 
 @keyframes rotateButton {
   0% {

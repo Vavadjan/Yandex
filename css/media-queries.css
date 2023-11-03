@@ -147,7 +147,10 @@
     background: linear-gradient(180deg, #392E47 0%, #100D22 100%);
     background-size: 100vw 100dvh;
   }
-  .audioplayer-body {
+  .audioplayer-body, .audioplayer-slide {
+    position: fixed; 
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100dvh;
     background: url("../img/audioplayer-bg.png") 14.5% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
@@ -752,7 +755,12 @@
     font-weight: 400;
     line-height: normal;
   }
+  .make-a-mix-slider {
+    z-index: 2;
+    display: none;
+  }
   .make-a-mix-objects {
+    display: none;
     position: fixed;
     top: calc(61.5763546798dvh - 18vw);
     left: -26.6666666667vw;
@@ -762,6 +770,10 @@
     background-size: contain;
     z-index: 3;
     pointer-events: none;
+  }
+  .make-a-mix-bottle,
+  .coctail-recipes-bottle {
+    display: none;
   }
   .make-a-mix-bottle {
     margin: 0 auto;
@@ -783,17 +795,17 @@
     height: 217.118226601dvh;
     background: url("../img/bottle.png") center center no-repeat;
     background-size: cover;
-    z-index: 0;
+    z-index: -1;
   }
 
   .hidden-button {
-    display: none;
+    display: none !important;
   }
   
   .gerland.hidden-button {
     display: none;
   }
-  
+
   .footer-buton {
     bottom: -50.8620689655dvh;
     right: calc(50vw - 34.9753694581dvh);
@@ -981,13 +993,14 @@
     z-index: 2;
     cursor: pointer;
   }
+  .feel-the-rythm-footer-buton.hidden-button {
+    display: none;
+  }
   .feel-the-rythm-plastinka {
     bottom: -110.3448275862dvh;
     right: calc(50vw - 92.3645320197dvh);
     position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     border-radius: 50%;
     width: 184.7290640394dvh;
     height: 190.39408867dvh;
@@ -995,15 +1008,13 @@
     background-size: contain;
     -webkit-box-shadow: none;
             box-shadow: none;
-    z-index: 1;
+    z-index: -1;
   }
   .feel-the-rythm-pic {
     bottom: 14.7783251232dvh;
     right: calc(50vw - 29.3719211823dvh);
     position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 58.7438423645dvh;
     height: 25.6157635468dvh;
     background: url("../img/feel-the-rythm-mobile.png") center center no-repeat;
