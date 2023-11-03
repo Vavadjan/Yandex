@@ -922,6 +922,7 @@ h1 {
 
 .make-a-mix-slider {
   z-index: 2;
+  display: none;
 }
 
 .make-a-mix-3d-objects {
@@ -1006,9 +1007,7 @@ h1 {
   top: 54dvh;
   right: -17.0098478066dvh;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
   border-radius: 50%;
@@ -1019,6 +1018,10 @@ h1 {
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
+}
+
+.hidden-button {
+  display: none;
 }
 
 .feel-the-rythm-footer-buton {
@@ -1214,6 +1217,10 @@ h1 {
   background: url("../img/audioplayer-timeline.png") center center no-repeat;
   background-size: contain;
 }
+
+/* .audioplayer-timeline-fill {
+    background: url("../img/SVG/playlist-timeline.svg") center center no-repeat;
+} */
 
 .audioplayer-timeline-numbers {
   position: fixed;

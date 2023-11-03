@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <script src="./js/3x.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="slider-body">
+    <script>
+    $(document).ready(function () {
+      const slides = $('.slide');
+      const gerlands = $('.gerland');
+      let currentSlide = 0;
+
+      slides.eq(currentSlide).addClass('active');
+
+      function rotateFromSlide(slideIndex) {
+        slides.removeClass('past');
+        slides.eq(slideIndex).addClass('past');
+      }
+
+      function rotateToSlide(slideIndex) {
+        slides.removeClass('active');
+        slides.eq(slideIndex).addClass('active');
+      }
+
+      function updateButtonVisibility() {
+        const activeSlide = $('.slide.active');
+        console.log(activeSlide);
+
+        // if (activeSlide.hasClass('make-a-mix-slide')) {
+        //   activeSlide.find('.cocktails-footer-button').removeClass('hidden-button');
+        //   activeSlide.find('.lights-footer-button').addClass('hidden-button');
+        // } else {
+        //   activeSlide.find('.cocktails-footer-button').addClass('hidden-button');
+        //   activeSlide.find('.lights-footer-button').removeClass('hidden-button');
+        // }
+
+        if (activeSlide.hasClass('make-a-mix-slide')) {
+          $('.lights-footer-button').addClass('hidden-button');
+          $('.cocktails-footer-button').removeClass('hidden-button');
+        } else {
+          $('.lights-footer-button').removeClass('hidden-button');
+          $('.cocktails-footer-button').addClass('hidden-button');
+        }
+      }
+
+      function swipeToSlide(deltaX, deltaY) {
+        if (Math.abs(deltaX) > Math.abs(deltaY)) {
+          if (deltaX < -50) {
+              rotateFromSlide(currentSlide);
+              currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+              rotateToSlide(currentSlide);
+          } else if (deltaX > 50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+          }
+        } else {
+          if (deltaY < -50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            rotateToSlide(currentSlide);
+          } else if (deltaY > 50) {
+            rotateFromSlide(currentSlide);
+            currentSlide = (currentSlide + 1) % slides.length;
+            rotateToSlide(currentSlide);
+          }
+        }
+
+        gerlands.each(function (index) {
+          $(this).removeClass('active');
+          if (index + 1 === currentSlide) {
+            $(this).addClass('active');
+          }
+        });
+
+        updateButtonVisibility();
+      }
+
+      function showSlide(slideIndex) {
+        if (slideIndex === currentSlide) return;
+        rotateFromSlide(currentSlide);
+        currentSlide = slideIndex;
+        rotateToSlide(currentSlide);
+        gerlands.each(function (index) {
+          $(this).removeClass('active');
+          if (index + 1 === currentSlide) {
+            $(this).addClass('active');
+          }
+        });
+
+        updateButtonVisibility();
+      }
+
+      $('.rotate-button').click(function () {
+        rotateFromSlide(currentSlide);
+        currentSlide = (currentSlide + 1) % slides.length;
+        rotateToSlide(currentSlide);
+
+        gerlands.each(function (index) {
+          $(this).removeClass('active');
+          if (index + 1 === currentSlide) {
+            $(this).addClass('active');
+          }
+        });
+
+        updateButtonVisibility();
+
+        if (!$(this).hasClass('rotating')) {
+          $(this).addClass('rotating');
+          setTimeout(() => {
+            $(this).removeClass('rotating');
+          }, 500);
+        }
+      });
+
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      $('.rotating-slider-container').on('touchstart', function (e) {
+        touchStartX = e.originalEvent.touches[0].clientX;
+        touchStartY = e.originalEvent.touches[0].clientY;
+      });
+
+      $('.rotating-slider-container').on('touchend', function (e) {
+        const touchEndX = e.originalEvent.changedTouches[0].clientX;
+        const touchEndY = e.originalEvent.changedTouches[0].clientY;
+        const deltaX = touchStartX - touchEndX;
+        const deltaY = touchStartY - touchEndY;
+
+        swipeToSlide(deltaX, deltaY);
+      });
+
+      $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+
+        const targetSlideID = $(this).attr('href');
+
+        const targetSlide = $(targetSlideID);
+        console.log(targetSlide);
+
+
+        if (targetSlide.length) {
+          showSlide(targetSlide.index());
+        }
+      });
+  });
+  </script>
+  <header class="header">
+    <div class="logo">
+        <p class="logo-symbol">Я</p>
+        <p class="logo-word">Реклама</p>
+    </div>
+    <div class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <div class="menu">
+    <nav>
+        <ul>
+            <li><a class="link-active" href="#slide-1">Сейчас мы все настроим!</a></li>
+            <li><a class="link-sub-active" href="#slide-2">Включаем гирлянду</a></li>
+            <li><a class="show-make-a-mix" id="#make-a-mix">Сделай микс!</a></li>
+            <li><a href="./slider_cocktails.html">Рецепты коктейлей</a></li>
+            <li><a href="./slider_music.html">Праздничный плейлист</a></li>
+        </ul>
+    </nav>
+  </div>
+  <div class="layer layer1"></div>
+  <div class="layer layer2"></div>
+  <div class="layer layer3"></div>
+  <div class="rotating-slider-container lights-slider slider">
+    <div class="rotating-slider slider">
+      <ul class="slides">
+        <li class="greetings_slide" id="slide-1">
+          <div class="slide active">
+            <h1 class="greetings-h1">Сейчас мы все настроим!</h1>
+            <p class="under-h1">До классной вечеринки<br> от <strong>Яндекс Рекламы</strong> осталось три простых шага!<br><br>Ниже делимся понятными инструкциями, чтобы подготовка прошла гладко.</p>
+          </div>
+          <a class="footer-buton greetings-footer-buton">
+            <p class="footer-button-text">Начнем!</p>
+          </a>
+        </li>
+        <li class="lights_slide" id="slide-2">
+          <div class="slide">
+            <h1>Включи огни...</h1>
+            <p class="lights-under-h1">Умная гирлянда вместе<br> с Алисой создадут нужную атмосферу.</p>
+          </div>
+          <div class="gerland"></div>
+          <a class="lights-footer-button rotate-button">
+            <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights_slide" id="slide-3">
+          <div class="slide">
+            <div class="smart-screen-block">
+              <div class="smart-screen smart-screen-instruction-pic-1"></div>
+              <p class="smart-screen-instruction-text">Скачайте приложение Sibling из App Store или Google play и зарегистрируйте аккаунт или активируйте имеющийся,<br>следуя инструкциям из приложения</p>
+              <div class="smart-screen-download-links">
+                  <a href="" class="smart-screen-appStore-download-link"></a>
+                  <a href="" class="smart-screen-googlePlay-download-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="gerland gerland-instruction-1"></div>
+          <a class="lights-footer-button rotate-button">
+            <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights2_slide" id="slide-4">
+          <div class="slide">
+            <div class="smart-screen-block">
+              <div class="smart-screen smart-screen-instruction-pic-2"></div>
+              <p class="smart-screen-instruction-text">Подключитесь к Wi-Fi сети
+                  и доступом в Интернет.
+                  Далее вернитесь в приложение
+                  и нажмите кнопку «добавить устройство» или «+» в правом верхнем углу экрана</p>
+            </div>
+          </div>
+          <div class="gerland gerland-instruction-2"></div>
+          <a class="lights-footer-button rotate-button">
+              <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights3_slide" id="slide-5">
+          <div class="slide">
+            <div class="smart-screen-block">
+              <div class="smart-screen smart-screen-instruction-pic-3"></div>
+              <p class="smart-screen-instruction-text">В разделе «Добавить вручную» выберите «Другие устройства
+                  Wi-Fi». Гирлянда начнёт мигать
+                  3 раза в секунду.  Если этого
+                  не произошло – зажмите
+                  на контроллере кнопку ON/OFF
+                  на 5 секунд.<br><br>
+
+                  Введите пароль Wi-Fi и следуйте инструкциям в приложении.</p>
+            </div>
+          </div>
+          <div class="gerland gerland-instruction-3"></div>
+          <a class="lights-footer-button rotate-button">
+            <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights4_slide" id="slide-6">
+          <div class="slide">
+            <div class="smart-screen-block">
+              <div class="smart-screen smart-screen-instruction-pic-4"></div>
+              <p class="smart-screen-instruction-text">В приложении Яндекс перейдите
+                  в раздел "Устройства" и выберите пункт "Умный дом". Если приложения нет, скачайте
+                  его из App Store или Google play.<br><br>
+                  <a class="smart-screen-link" href="#">Скачать из App Store</a>
+                  <a class="smart-screen-link" href="#">Скачать из Google play</a>
+              </p>
+            </div>
+          </div>
+          <div class="gerland gerland-instruction-4"></div>
+          <a class="lights-footer-button rotate-button">
+            <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights5_slide" id="slide-7">
+          <div class="slide">
+            <div class="smart-screen-block">
+              <div class="smart-screen smart-screen-instruction-pic-5"></div>
+              <p class="smart-screen-instruction-text">Нажмите кнопку «+», а далее «добавить устройство».
+                  Выберите Sibling из списка, нажмите «обьединить аккаунты»
+                  и авторизуйтесь.
+              </p>
+            </div>
+          </div>
+          <div class="gerland gerland-instruction-5"></div>
+          <a class="lights-footer-button rotate-button">
+            <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <li class="lights6_slide" id="slide-8">
+          <div class="slide">
+            <div class="slide-content">
+              <div class="smart-screen-block">
+                <div class="smart-screen smart-screen-instruction-pic-6"></div>
+                <p class="smart-screen-instruction-text">Чтобы узнать, какие команды можно использовать
+                  для управления гирляндой, зайдите на страницу управления устройством в приложении Яндекс и откройте вкладку «Голосовые команды».
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="gerland gerland-instruction-6"></div>
+          <a class="lights-footer-button rotate-button">
+            <div class="lights-footer-button-arrow"></div>
+          </a>
+        </li>
+        <!-- <li class="greetings_slide" id="make-a-mix">
+          <div class="slide make-a-mix-slide">
+              <div class="make-a-mix-objects"></div>
+              <div class="make-a-mix-bottle"></div>
+              <h1 class="make-a-mix-h1">Сделай микс!</h1>
+              <p class="under-h1 make-a-mix-under-h1">Авторские коктейли помогут насладиться моментом.</p>
+          </div>
+          <a class="cocktails-footer-button make-a-mix-button rotate-button">
+              <div class="footer-button-arrow"></div>
+          </a>
+      </li>
+      <li class="cocktail1_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <h1 class="cocktail-recipes-h1">Готовим классический сухой джин-тоник с ярким профилем трав и цитрусовых</h1>
+        <p class="under-h1 age-verification-page-under-h1"></p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail2_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-1"></div>
+        <p class="cocktail-recipes-under-h1">Наполните глубокий бокал льдом доверху</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail3_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-2"></div>
+        <p class="cocktail-recipes-under-h1">Добавьте 50 мл джина Portobello Road</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail4_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-3"></div>
+        <p class="cocktail-recipes-under-h1">Туда же добавляем 100 мл тоника Rocket Tonic Classic</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail5_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-4"></div>
+        <p class="cocktail-recipes-under-h1">Аккуратно поместите продолговатую ложку в бокал и перемешайте ингредиенты</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail6_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-5"></div>
+        <p class="cocktail-recipes-under-h1">По желанию напиток можно украсить цедрой апельсина</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail7_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <h1 class="cocktail-recipes-h1">Готовим кисло-сладкий азиатский гимлет с травянистым профилем и освежающим послевкусием</h1>
+        <p class="under-h1 age-verification-page-under-h1"></p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail8_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-7"></div>
+        <p class="cocktail-recipes-under-h1">Добавьте 50 мл джина Drumshanbo Gunpowder Irish Gin в шейкер</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail9_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-8"></div>
+        <p class="cocktail-recipes-under-h1">Туда же добавляем 100 мл кордиала Texture Master Rhubarb & Sichuan Pepper</p>
+      </div>
+      <a class="cocktails-footer-button rotate-button">
+          <div class="footer-button-arrow"></div>
+      </a>
+      </li>
+      <li class="cocktail10_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-9"></div>
+        <p class="cocktail-recipes-under-h1">Плотно закрываем шейкер и, придерживая верхнюю крышку рукой, взбалтываем напиток 
+            не более 20 секунд</p>
+          </div>
+          <a class="cocktails-footer-button rotate-button">
+              <div class="footer-button-arrow"></div>
+          </a>
+      </li>
+      <li class="cocktail11_slide">
+        <div class="slide">
+          <div class="coctail-recipes-bottle"></div>
+        <div class="cocktail-recipes-pic-10"></div>
+        <p class="cocktail-recipes-under-h1">Далее наполните глубокий бокал льдом доверху и вылейте в него содержимое шейкера</p>
+        </div>
+        <a class="cocktails-footer-button rotate-button">
+            <div class="footer-button-arrow"></div>
+        </a>
+      </li> -->
+      <!-- <li class="feeltherhythm_slide">
+        <div class="slide">
+          <h1 class="greetings-h1 feeltherhythm_h1">Почувствуй ритм</h1>
+          <p class="under-h1">Специальный видео-плейлист задаст темп вечеринки.</p>
+          <div class="feel-the-rythm-pic"></div>
+          <div class="feel-the-rythm-plastinka"></div>
+        </div>
+        <a href="./audioplayer.html" class="footer-buton feel-the-rythm-footer-buton">
+          <div class="feel-the-rythm-footer-button-symbol"></div>
+        </a>
+      </li> -->
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
