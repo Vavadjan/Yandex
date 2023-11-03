@@ -938,6 +938,11 @@ h1 {
   background-size: contain;
 }
 
+.make-a-mix-bottle,
+.coctail-recipes-bottle {
+  display: none;
+}
+
 .footer-buton {
   bottom: -20.0537153089dvh;
   right: -14.5926589078dvh;
