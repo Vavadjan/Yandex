@@ -19,26 +19,31 @@
       let currentSlide = 0;
 
       slides.eq(currentSlide).addClass('active');
+      $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
 
       function updateButtonVisibility() {
         const activeSlide = $('.slide.active');
-        console.log(activeSlide);
 
         if (activeSlide.hasClass('make-a-mix-slide') || activeSlide.hasClass('cocktails-slide')) {
-          console.log('mix');
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
+          $('.feel-the-rythm-footer-buton').addClass('hidden-button');
           $('.cocktails-footer-button').removeClass('hidden-button');
         } else if (activeSlide.hasClass('lights-slide')) {
-          console.log('lights');
           $('.lights-footer-button').removeClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
+          $('.feel-the-rythm-footer-buton').addClass('hidden-button');
           $('.cocktails-footer-button').addClass('hidden-button');
         } else if (activeSlide.hasClass('greetings-slide')) {
-          console.log('greetings');
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').removeClass('hidden-button');
+          $('.feel-the-rythm-footer-buton').addClass('hidden-button');
           $('.cocktails-footer-button').addClass('hidden-button');
+        } else if (activeSlide.hasClass('feeltherhythm-slide')) {
+          $('.lights-footer-button').addClass('hidden-button');
+          $('.greetings-footer-buton').addClass('hidden-button');
+          $('.feel-the-rythm-footer-buton').removeClass('hidden-button');
+          $('.cocktails-footer-buton').addClass('hidden-button');
         }
 
         gerlands.addClass('hidden-button');
@@ -56,11 +61,18 @@
         if (activeSlide.hasClass('make-a-mix-slide')) {
           $('.make-a-mix-bottle').show();
           $('.coctail-recipes-bottle').hide();
+          $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
         } else if (activeSlide.hasClass('cocktails-slide')) {
           $('.make-a-mix-bottle').hide();
           $('.coctail-recipes-bottle').show();
+          $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
+        } else if (activeSlide.hasClass('feeltherhythm-slide')) {
+          $('.make-a-mix-bottle').hide();
+          $('.coctail-recipes-bottle').hide();
+          $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').show(); 
         } else {
           $('.make-a-mix-bottle, .coctail-recipes-bottle').hide();
+          $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
         }
       }
 
@@ -76,6 +88,8 @@
 
       insertBottleForSlide('<div class="make-a-mix-bottle"></div>', 'make-a-mix-slide');
       insertBottleForSlide('<div class="coctail-recipes-bottle"></div>', 'cocktails-slide');
+      insertBottleForSlide('<div class="feel-the-rythm-pic"></div>', 'feeltherhythm-slide');
+      insertBottleForSlide('<div class="feel-the-rythm-plastinka"></div>', 'feeltherhythm-slide');
 
       function rotateFromSlide(slideIndex) {
         slides.removeClass('past');
@@ -210,7 +224,7 @@
             <li><a class="link-sub-active" href="#slide-2">Включаем гирлянду</a></li>
             <li><a class="show-make-a-mix" href="#make-a-mix">Сделай микс!</a></li>
             <li><a class="show-cocktails" href="#cocktails">Рецепты коктейлей</a></li>
-            <li><a class="show-music" href="./slider_music.html">Праздничный плейлист</a></li>
+            <li><a class="show-music" href="#music">Праздничный плейлист</a></li>
         </ul>
     </nav>
   </div>
@@ -447,17 +461,15 @@
               <div class="footer-button-arrow"></div>
           </a>
         </li> 
-        <!-- <li class="feeltherhythm_slide">
-        <div class="slide">
-          <h1 class="greetings-h1 feeltherhythm_h1">Почувствуй ритм</h1>
-          <p class="under-h1">Специальный видео-плейлист задаст темп вечеринки.</p>
-          <div class="feel-the-rythm-pic"></div>
-          <div class="feel-the-rythm-plastinka"></div>
-        </div>
-        <a href="./audioplayer.html" class="footer-buton feel-the-rythm-footer-buton">
-          <div class="feel-the-rythm-footer-button-symbol"></div>
-        </a>
-      </li> -->
+        <li class="feeltherhythm_slide" id="music">
+          <div class="slide feeltherhythm-slide">
+            <h1 class="greetings-h1 feeltherhythm_h1">Почувствуй ритм</h1>
+            <p class="under-h1">Специальный видео-плейлист задаст темп вечеринки.</p>
+          </div>
+          <a class="feel-the-rythm-footer-buton footer-buton rotate-button">
+            <div class="feel-the-rythm-footer-button-symbol"></div>
+          </a>
+        </li>
       </ul>
     </div>
   </div>

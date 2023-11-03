@@ -1048,13 +1048,15 @@ h1 {
   cursor: pointer;
 }
 
+.feel-the-rythm-footer-buton.hidden-button {
+  display: none;
+}
+
 .feel-the-rythm-plastinka {
   bottom: -77.5290957923dvh;
   right: -71.9785138765dvh;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   border-radius: 50%;
   width: 180.2148612355dvh;
   height: 180.2148612355dvh;
@@ -1069,9 +1071,7 @@ h1 {
   bottom: 5.1924798568dvh;
   right: -1.163831692dvh;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 99.0510295434dvh;
   height: 86.739480752dvh;
   background: url("../img/feel-the-rythm.png") center center no-repeat;
