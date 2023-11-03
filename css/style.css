@@ -212,7 +212,6 @@ body {
   transform-origin: center;
   transition: transform 0.5s ease;
   position: relative;
-  z-index: 2;
 }
 
 .rotating {
@@ -922,7 +921,6 @@ h1 {
 
 .make-a-mix-slider {
   z-index: 2;
-  display: none;
 }
 
 .make-a-mix-3d-objects {
@@ -1007,7 +1005,7 @@ h1 {
   top: 54dvh;
   right: -17.0098478066dvh;
   position: fixed;
-  display: none;
+  display: flex;
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
   border-radius: 50%;
@@ -1021,6 +1019,10 @@ h1 {
 }
 
 .hidden-button {
+  display: none;
+}
+
+.gerland.hidden-button {
   display: none;
 }
 

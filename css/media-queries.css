@@ -785,6 +785,15 @@
     background-size: cover;
     z-index: 0;
   }
+
+  .hidden-button {
+    display: none;
+  }
+  
+  .gerland.hidden-button {
+    display: none;
+  }
+  
   .footer-buton {
     bottom: -50.8620689655dvh;
     right: calc(50vw - 34.9753694581dvh);
