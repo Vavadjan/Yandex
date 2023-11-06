@@ -149,9 +149,9 @@ body {
     width: 100vw;
     height: 100dvh;
     background:
-        url('../img/SVG/Ellipse-35.svg') calc(-941/1728*100vw) calc(-922/1728*100vw) no-repeat,
+        url('../img/SVG/Ellipse-35.svg') calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat,
         linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-    background-size: auto, 100vw 100dvh;    
+    background-size: 96.5%, 100vw 100dvh;    
 }
 
 .cocktail-recipes-body {
@@ -159,9 +159,9 @@ body {
     width: 100vw;
     height: 100dvh;
     background:        
-        url('../img/SVG/Ellipse-35.svg') calc(-941/1728*100vw) calc(-922/1728*100vw) no-repeat,
+        url('../img/SVG/Ellipse-35.svg') calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat,
         linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-    background-size: auto, 100vw 100dvh;  
+    background-size: 96.5%, 100vw 100dvh;  
 }
 
 .audioplayer-body {
@@ -169,9 +169,9 @@ body {
     height: 100dvh;
     background:         
         url('../img/audioplayer-bg.png') center center no-repeat,
-        url('../img/SVG/Ellipse-35.svg') calc(-950/1728*100vw) calc(-950/1728*100vw) no-repeat,
+        url('../img/SVG/Ellipse-35.svg') calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat,
         linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-    background-size: cover, auto, 100vw 100dvh;
+    background-size: cover, 96.5%, 100vw 100dvh;
 }
 
 header {

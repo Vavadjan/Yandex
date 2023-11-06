@@ -172,26 +172,26 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-  background-size: auto, 100vw 100dvh;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: 96.5%, 100vw 100dvh;
 }
 
 .cocktail-recipes-body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") -54.4560185185vw -53.3564814815vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-  background-size: auto, 100vw 100dvh;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: 96.5%, 100vw 100dvh;
 }
 
 .audioplayer-body {
   width: 100vw;
   height: 100dvh;
-  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
-  background-size: cover, auto, 100vw 100dvh;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background-size: cover, 96.5%, 100vw 100dvh;
 }
 
 header {
