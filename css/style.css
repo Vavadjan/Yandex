@@ -163,8 +163,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
   background-size: 67%, auto, 100vw 100dvh;
 }
 
@@ -337,7 +337,7 @@ header {
 }
 
 .logo {
-  margin: 8.236347359dvh 0 0 14.0555058192dvh;
+  margin: 7.4306177261dvh 0 0 14.0555058192dvh;
   width: 17.4574753805dvh;
   height: 4.5658012534dvh;
   background: url("../img/SVG/logo.svg") no-repeat;
@@ -1117,7 +1117,7 @@ h1 {
 }
 
 .age-verification-page-links {
-  margin: 4.3867502238dvh 0 0 14.0555058192dvh;
+  margin: 4.2076991943dvh 0 0 14.0555058192dvh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1128,9 +1128,9 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 28.6481647269dvh;
+  width: 28.4691136974dvh;
   height: 4.1181736795dvh;
-  gap: 1.7905102954dvh;
+  gap: 1.2533572068dvh;
 }
 
 .no-link {
@@ -1145,8 +1145,8 @@ h1 {
           justify-content: center;
   border: 1px solid #FFF;
   border-radius: 10px;
-  width: 13.4288272158dvh;
-  height: 4.1181736795dvh;
+  width: 13.6078782453dvh;
+  height: 5.102954342dvh;
   color: #FFF;
   text-align: center;
   font-family: YS Display;
@@ -1171,8 +1171,8 @@ h1 {
   border: 0px solid #FFF;
   border-radius: 10px;
   background: #9B94FF;
-  width: 13.4288272158dvh;
-  height: 4.1181736795dvh;
+  width: 13.6078782453dvh;
+  height: 5.102954342dvh;
   color: #FFF;
   text-align: center;
   font-family: YS Display;
