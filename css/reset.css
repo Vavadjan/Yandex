@@ -22,8 +22,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* для учёта паддингов в размер блоков*/
+  box-sizing: border-box; /* для учёта паддингов в размер блоков*/
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -57,4 +56,4 @@ table {
 
 a {
   text-decoration: none;
-}
+}/*# sourceMappingURL=reset.css.map */

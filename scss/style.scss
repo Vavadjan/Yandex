@@ -49,13 +49,19 @@ html {
 }
 
 #audiovidget {
-    position: absolute;
-    top: calc(73 / 1728 * 100vw);
-    right: calc(167 / 1728 * 100vw);
+    position: fixed;
+		z-index: 5;
+    top: var(--top, calc(73 / 1728 * 100vw));
+    right: var(--right, calc(167 / 1728 * 100vw));
+		left: var(--left, auto);
     display: flex;
     flex-direction: row;
     width: calc(409 / 1728 * 100vw);
     height: calc(168 / 1728 * 100vw);
+		user-select: none;
+		pointer-events: all;
+		touch-action: none;
+		cursor: grab;
 }
 .audiovidget-leftside {
     position: relative;
@@ -1199,9 +1205,60 @@ h1 {
     bottom: calc(60 / 1117 * 100dvh);
     width: calc(825 / 1117 * 100dvh);
     height: calc(148 / 1117 * 100dvh);
-    background: url("../img/audioplayer-timeline.png") center center no-repeat;
-    background-size: contain;
 }
+
+.audioplayer-timeline > input {
+	--color: white;
+	--progress-color: #AD86F4;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin-right: 10px;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	overflow: hidden;
+	cursor: pointer;
+	mask-image: url("../img/progress-bar-mask.svg");
+	mask-size: contain;
+	mask-position: center;
+	mask-repeat: no-repeat;
+	&::-moz-range-track {
+		height: 100%;
+		background: linear-gradient(90deg, var(--progress-color, white) 0%, var(--progress-color, white) var(--progress, 0%), transparent var(--progress, 0%), transparent 100%);
+		background-color: var(--color, #717171);
+		border-radius: 0;
+	}
+	&::-moz-range-thumb {
+		width: 0px;
+		height: 20px;
+		background: transparent;
+		border-radius: 50%;
+		border-color: transparent;
+	}
+	&::-webkit-slider-runnable-track {
+		-webkit-appearance: none;
+		height: 100%;
+		background: linear-gradient(90deg, var(--progress-color, white) 0%, var(--progress-color, white) var(--progress, 0%), transparent var(--progress, 0%), transparent 100%);
+		background-color: var(--color, #717171);
+		border-radius: 0;
+	}
+	&::-webkit-slider-thumb {
+		display: flex;
+		align-items: center;
+		-webkit-appearance: none;
+		position: relative;
+		top: -9px;
+		left: 0;
+		width: 0px;
+		height: 20px;
+		background: var(--color, #717171);
+		border-radius: 50%;
+		border-color: transparent;
+		z-index: 0;
+	}
+}
+
 
 /* .audioplayer-timeline-fill {
     background: url("../img/SVG/playlist-timeline.svg") center center no-repeat;
