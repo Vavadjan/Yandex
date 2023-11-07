@@ -133,6 +133,117 @@ body {
   overflow: hidden;
 }
 
+.slider {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.rotating-slider-container {
+  height: calc(100% - 133/1117*100dvh);
+}
+
+.music-slider-container, .cocktails-slider-container {
+  height: 100%;
+}
+
+.cocktails-slider .slide {
+  margin-top: calc(133/1117*100dvh);
+}
+
+.feeltherhythm_h1 {
+  margin-top: calc(133/1117*2*100dvh);
+}
+
+.rotating-slider, .music-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  transform-origin: right bottom;
+  transform: rotate(0deg);
+}
+
+.slide.active {
+  display: block;
+  animation: slideForward 0.5s ease forwards;
+}
+
+.slide.past {
+  display: block;
+  animation: slideBackward 0.5s ease forwards;
+}
+
+.slide.back-past {
+  animation: backSlideBackward 0.5s ease forwards;
+  display: block;
+}
+
+.slide.back-active {
+  animation: backSlideForward 0.5s ease forwards;
+  display: block;
+}
+
+.rotate-button {
+  transform-origin: center;
+  transition: transform 0.5s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.rotating {
+  transform-origin: center;
+  animation: rotateButton 0.5s ease forwards;
+}
+
+@keyframes slideForward {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes slideBackward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes backSlideForward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+@keyframes backSlideBackward {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotateButton {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .age-verification-page-body {
   position: relative;
   width: 100vw;
@@ -157,7 +268,10 @@ body {
   background-size: 96.5%, 100vw 100dvh;
 }
 
-.audioplayer-body {
+.audioplayer-body, .audioplayer-slide {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100dvh;
   background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
@@ -529,7 +643,7 @@ h1 {
   gap: 34px;
 }
 
-.smart-screen {
+.smart-screen-instruction-pic-1 {
   display: flex;
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
@@ -562,7 +676,7 @@ h1 {
   background-size: contain;
 }
 
-.smart-screen::after {
+.smart-screen-instruction-pic-1::after {
   content: "";
   position: absolute;
   top: calc(120/1117*100dvh);
@@ -634,7 +748,7 @@ h1 {
   animation: pulse 1.7s ease-in-out infinite;
 }
 
-.smart-screen::before {
+.smart-screen-instruction-pic-1::before {
   content: "";
   position: absolute;
   top: calc(-170/1117*100dvh);
@@ -744,7 +858,20 @@ h1 {
   height: calc(3305/1117*100dvh);
   background: url("../img/bottle-mix.png") top right no-repeat;
   background-size: contain;
-  z-index: -1;
+  z-index: 1;
+}
+
+.make-a-mix-button {
+  z-index: 2;
+}
+
+.make-a-mix-slider {
+  z-index: 2;
+  display: none;
+}
+
+.make-a-mix-3d-objects {
+  z-index: 2;
 }
 
 .coctail-recipes-bottle {
@@ -756,6 +883,11 @@ h1 {
   height: calc(3305/1117*100dvh);
   background: url("../img/bottle.png") top right no-repeat;
   background-size: contain;
+}
+
+.make-a-mix-bottle,
+.coctail-recipes-bottle {
+  display: none;
 }
 
 .footer-buton {
@@ -793,14 +925,32 @@ h1 {
   border-radius: 50%;
   border: 1px solid #B4AFFF;
   background: #9B94FF;
-  box-shadow: 0px 0px 184px 0px #B53CFF;
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
 }
 
 .make-a-mix-footer-button {
-  top: calc(609/1117*100dvh);
+  top: 54dvh;
+  right: -17.0098478066dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65.5326768129dvh;
+  height: 65.5326768129dvh;
+  border-radius: 50%;
+  border: 1px solid #B4AFFF;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8E6D45), color-stop(48.16%, #FFD3AA), color-stop(93.22%, #93734E));
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+  background-size: 95%, contain;
+  z-index: 2;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.cocktails-footer-button {
+  top: 54dvh;
   right: calc(-190/1117*100dvh);
   position: fixed;
   display: flex;
@@ -813,6 +963,14 @@ h1 {
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
+}
+
+.hidden-button {
+  display: none;
+}
+
+.gerland.hidden-button {
+  display: none;
 }
 
 .feel-the-rythm-footer-buton {
@@ -828,6 +986,10 @@ h1 {
   background-size: contain;
   z-index: 2;
   cursor: pointer;
+}
+
+.feel-the-rythm-footer-buton.hidden-button {
+  display: none;
 }
 
 .feel-the-rythm-plastinka {
@@ -848,7 +1010,7 @@ h1 {
   bottom: calc(58/1117*100dvh);
   right: calc(-13/1117*100dvh);
   position: fixed;
-  display: flex;
+  display: none;
   width: calc(1106.4/1117*100dvh);
   height: calc(968.88/1117*100dvh);
   background: url("../img/feel-the-rythm.png") center center no-repeat;
@@ -871,7 +1033,7 @@ h1 {
   bottom: calc(0/1117*100dvh);
   right: calc(0/1117*100dvh);
   position: fixed;
-  display: flex;
+  display: block;
   width: calc(1007/1117*100dvh);
   height: calc(1007/1117*100dvh);
   background: url("../img/light_2_off.png") bottom right no-repeat;
@@ -885,29 +1047,58 @@ h1 {
   background-size: contain;
 }
 
+.gerland-instruction-1.active {
+  display: block;
+}
+
 .gerland-instruction-2 {
   background: url("../img/gerlang-instruction-2.png") bottom right no-repeat;
   background-size: contain;
+  display: none;
+}
+
+.gerland-instruction-2.active {
+  display: block;
 }
 
 .gerland-instruction-3 {
   background: url("../img/gerlang-instruction-3.png") bottom right no-repeat;
   background-size: contain;
+  display: none;
+}
+
+.gerland-instruction-3.active {
+  display: block;
 }
 
 .gerland-instruction-4 {
   background: url("../img/gerlang-instruction-4.png") bottom right no-repeat;
   background-size: contain;
+  display: none;
+}
+
+.gerland-instruction-4.active {
+  display: block;
 }
 
 .gerland-instruction-5 {
   background: url("../img/gerlang-instruction-5.png") bottom right no-repeat;
   background-size: contain;
+  display: none;
+}
+
+.gerland-instruction-5.active {
+  display: block;
 }
 
 .gerland-instruction-6 {
   background: url("../img/gerlang-instruction-6.png") bottom right no-repeat;
   background-size: contain;
+  display: none;
+}
+
+.gerland-instruction-6.active {
+  display: block;
 }
 
 .lights-footer-button:after {
@@ -972,6 +1163,9 @@ h1 {
   background-size: contain;
 }
 
+/* .audioplayer-timeline-fill {
+    background: url("../img/SVG/playlist-timeline.svg") center center no-repeat;
+} */
 .audioplayer-timeline-numbers {
   position: fixed;
   display: flex;
