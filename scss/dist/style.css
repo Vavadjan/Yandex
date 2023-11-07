@@ -34,7 +34,7 @@ a {
 
 /* Состояние наведения */
 a:hover {
-  color: #B4AFFF;
+  color: #b4afff;
 }
 
 /* Состояние активации */
@@ -44,7 +44,7 @@ a:active {
 
 /* Состояние фокуса */
 a:focus {
-  color: #B4AFFF;
+  color: #b4afff;
 }
 
 html {
@@ -53,21 +53,21 @@ html {
 
 #audiovidget {
   position: absolute;
-  top: calc(73/1728*100vw);
-  right: calc(167/1728*100vw);
+  top: calc(73 / 1728 * 100vw);
+  right: calc(167 / 1728 * 100vw);
   display: flex;
   flex-direction: row;
-  width: calc(409/1728*100vw);
-  height: calc(168/1728*100vw);
+  width: calc(409 / 1728 * 100vw);
+  height: calc(168 / 1728 * 100vw);
 }
 
 .audiovidget-leftside {
   position: relative;
-  width: calc(206/1728*100vw);
-  height: calc(168/1728*100vw);
+  width: calc(206 / 1728 * 100vw);
+  height: calc(168 / 1728 * 100vw);
   background: url("../img/audiovidget-bg.jpg") 10% 10% no-repeat;
   background-size: 260%;
-  border-radius: calc(35/1728*100vw) 0 0 calc(35/1728*100vw);
+  border-radius: calc(35 / 1728 * 100vw) 0 0 calc(35 / 1728 * 100vw);
 }
 
 .audiovidget-rightside {
@@ -75,19 +75,19 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(206/1728*100vw);
-  height: calc(168/1728*100vw);
-  border-radius: 0 calc(35/1728*100vw) calc(35/1728*100vw) 0;
-  gap: calc(10/1728*100vw);
-  padding: calc(17/1728*100vw);
-  background: linear-gradient(#4E63B7, #3B3C67);
+  width: calc(206 / 1728 * 100vw);
+  height: calc(168 / 1728 * 100vw);
+  border-radius: 0 calc(35 / 1728 * 100vw) calc(35 / 1728 * 100vw) 0;
+  gap: calc(10 / 1728 * 100vw);
+  padding: calc(17 / 1728 * 100vw);
+  background: linear-gradient(#4e63b7, #3b3c67);
 }
 
 #audiovidget-rightside-track-name {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: YS Display;
-  font-size: calc(20/1728*100vw);
+  font-size: calc(20 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -97,7 +97,7 @@ html {
   color: rgba(255, 255, 255, 0.54);
   text-align: center;
   font-family: YS Display;
-  font-size: calc(20/1728*100vw);
+  font-size: calc(20 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -105,8 +105,8 @@ html {
 }
 
 #audiovidget-rightside-play-button {
-  width: calc(39/1728*100vw);
-  height: calc(43/1728*100vw);
+  width: calc(39 / 1728 * 100vw);
+  height: calc(43 / 1728 * 100vw);
   border: none;
   background: url("../img/audiovidget-play-button.png") center center no-repeat;
   background-size: contain;
@@ -115,8 +115,8 @@ html {
 }
 
 #audiovidget-rightside-pause-button {
-  width: calc(33/1728*100vw);
-  height: calc(43/1728*100vw);
+  width: calc(33 / 1728 * 100vw);
+  height: calc(43 / 1728 * 100vw);
   border: none;
   background: url("../img/audiovidget-pause-button.png") center center no-repeat;
   background-size: contain;
@@ -128,7 +128,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") calc(-950/1728*100vw) calc(-950/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") calc(-950 / 1728 * 100vw) calc(-950 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
   overflow: hidden;
 }
@@ -142,22 +142,24 @@ body {
 }
 
 .rotating-slider-container {
-  height: calc(100% - 133/1117*100dvh);
+  height: calc(100% - 133 / 1117 * 100dvh);
 }
 
-.music-slider-container, .cocktails-slider-container {
+.music-slider-container,
+.cocktails-slider-container {
   height: 100%;
 }
 
 .cocktails-slider .slide {
-  margin-top: calc(133/1117*100dvh);
+  margin-top: calc(133 / 1117 * 100dvh);
 }
 
 .feeltherhythm_h1 {
-  margin-top: calc(133/1117*2*100dvh);
+  margin-top: calc(133 / 1117 * 2 * 100dvh);
 }
 
-.rotating-slider, .music-slider {
+.rotating-slider,
+.music-slider {
   position: relative;
   width: 100%;
   height: 100%;
@@ -248,7 +250,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 103.5dvh, 96.5%, 100vw 100dvh;
 }
 
@@ -256,7 +258,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
 }
 
@@ -264,31 +266,32 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
 }
 
-.audioplayer-body, .audioplayer-slide {
+.audioplayer-body,
+.audioplayer-slide {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: cover, 96.5%, 100vw 100dvh;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  height: calc(133/1117*100dvh);
+  height: calc(133 / 1117 * 100dvh);
 }
 
 /* Гамбургер иконка */
 .menu-btn {
-  margin: calc(88/1728*100vw) calc(84/1728*100vw) 0 0;
-  width: calc(50/1728*100vw);
-  height: calc(50/1728*100vw);
+  margin: calc(88 / 1728 * 100vw) calc(84 / 1728 * 100vw) 0 0;
+  width: calc(50 / 1728 * 100vw);
+  height: calc(50 / 1728 * 100vw);
   position: relative;
   display: flex;
   z-index: 11;
@@ -296,8 +299,8 @@ header {
 }
 
 .menu-btn span {
-  width: calc(40/1728*100vw);
-  height: calc(4/1728*100vw);
+  width: calc(40 / 1728 * 100vw);
+  height: calc(4 / 1728 * 100vw);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -307,11 +310,11 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-  top: calc(50% - calc(14/1728*100vw));
+  top: calc(50% - calc(14 / 1728 * 100vw));
 }
 
 .menu-btn span:nth-of-type(3) {
-  top: calc(50% + calc(14/1728*100vw));
+  top: calc(50% + calc(14 / 1728 * 100vw));
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -334,11 +337,11 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: calc(470/1728*100vw);
-  height: calc(470/1728*100vw);
+  width: calc(470 / 1728 * 100vw);
+  height: calc(470 / 1728 * 100vw);
   transform: translateX(100%);
   transition: transform 0.5s;
-  border-radius: calc(37/1728*100vw);
+  border-radius: calc(37 / 1728 * 100vw);
   background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
   backdrop-filter: blur(11.5px);
   z-index: 10;
@@ -349,58 +352,58 @@ header {
 }
 
 .menu ul {
-  width: calc(346/1728*100vw);
-  height: calc(253/1728*100vw);
+  width: calc(346 / 1728 * 100vw);
+  height: calc(253 / 1728 * 100vw);
   display: flex;
   flex-direction: column;
-  gap: calc(22/1728*100vw);
-  margin: calc(180/1728*100vw) 0 calc(52/1728*100vw) calc(55/1728*100vw);
+  gap: calc(22 / 1728 * 100vw);
+  margin: calc(180 / 1728 * 100vw) 0 calc(52 / 1728 * 100vw) calc(55 / 1728 * 100vw);
 }
 
 .menu li {
   color: rgba(255, 255, 255, 0.15);
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5 / 1728 * 100vw);
   /* 108.333% */
 }
 
 .link-active {
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5 / 1728 * 100vw);
   /* 108.333% */
 }
 
 .link-sub-active {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5 / 1728 * 100vw);
   /* 108.333% */
 }
 
 .link-sub-active:visited {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: calc(30/1728*100vw);
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1728*100vw);
+  line-height: calc(32.5 / 1728 * 100vw);
   /* 108.333% */
 }
 
 .logo {
-  margin: calc(83/1117*100dvh) 0 0 calc(157/1117*100dvh);
-  width: calc(195/1117*100dvh);
-  height: calc(51/1117*100dvh);
+  margin: calc(83 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(195 / 1117 * 100dvh);
+  height: calc(51 / 1117 * 100dvh);
   background: url("../img/SVG/logo.svg") no-repeat;
   background-size: contain;
 }
@@ -412,18 +415,18 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 600;
-  font-size: calc(36/1117*100dvh);
+  font-size: calc(36 / 1117 * 100dvh);
 }
 
 .logo-symbol::before {
   content: "";
   display: none;
-  width: calc(50.44/1117*100dvh);
-  height: calc(50.44/1117*100dvh);
+  width: calc(50.44 / 1117 * 100dvh);
+  height: calc(50.44 / 1117 * 100dvh);
   position: absolute;
-  top: calc(-7/1117*100dvh);
-  left: calc(-12/1117*100dvh);
-  background: #FFF;
+  top: calc(-7 / 1117 * 100dvh);
+  left: calc(-12 / 1117 * 100dvh);
+  background: #fff;
   border-radius: 50%;
   z-index: -1;
 }
@@ -434,20 +437,20 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 500;
-  font-size: calc(36/1117*100dvh);
+  font-size: calc(36 / 1117 * 100dvh);
 }
 
 h1 {
   position: relative;
-  margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: calc(50/1117*100dvh);
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(52.5/1117*100dvh);
+  line-height: calc(52.5 / 1117 * 100dvh);
   /* 105% */
-  width: calc(451/1117*100dvh);
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  width: calc(451 / 1117 * 100dvh);
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -456,30 +459,30 @@ h1 {
 
 .make-a-mix-h1 {
   position: relative;
-  margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: calc(50/1117*100dvh);
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(52.5/1117*100dvh);
+  line-height: calc(52.5 / 1117 * 100dvh);
   /* 105% */
-  width: calc(451/1117*100dvh);
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  width: calc(451 / 1117 * 100dvh);
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .cocktail-recipes-h1 {
-  margin: calc(158/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(158 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: calc(50/1117*100dvh);
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(47.5/1117*100dvh);
+  line-height: calc(47.5 / 1117 * 100dvh);
   /* 105% */
-  width: calc(637/1117*100dvh);
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  width: calc(637 / 1117 * 100dvh);
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -487,14 +490,14 @@ h1 {
 
 .audioplayer-h1 {
   position: relative;
-  margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: calc(50/1117*100dvh);
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: calc(451/1117*100dvh);
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  width: calc(451 / 1117 * 100dvh);
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -502,121 +505,121 @@ h1 {
 }
 
 .cocktail-recipes-pic-1 {
-  margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-  width: calc(360/1117*100dvh);
-  height: calc(631/1117*100dvh);
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_1.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-2 {
-  margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-  width: calc(360/1117*100dvh);
-  height: calc(631/1117*100dvh);
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_2.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-3 {
-  margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-  width: calc(360/1117*100dvh);
-  height: calc(631/1117*100dvh);
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_3.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-4 {
-  margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-  width: calc(360/1117*100dvh);
-  height: calc(631/1117*100dvh);
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_4.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-5 {
-  margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-  width: calc(360/1117*100dvh);
-  height: calc(631/1117*100dvh);
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_5.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-6 {
-  margin: calc(125/1117*100dvh) 0 0 calc(283/1117*100dvh);
-  width: calc(526/1117*100dvh);
-  height: calc(575/1117*100dvh);
+  margin: calc(125 / 1117 * 100dvh) 0 0 calc(283 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
   background: url("../img/shaker_0.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-7 {
-  margin: calc(141/1117*100dvh) 0 0 calc(193/1117*100dvh);
-  width: calc(526/1117*100dvh);
-  height: calc(575/1117*100dvh);
+  margin: calc(141 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
   background: url("../img/shaker_1.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-8 {
-  margin: calc(131/1117*100dvh) 0 0 calc(186/1117*100dvh);
-  width: calc(526/1117*100dvh);
-  height: calc(575/1117*100dvh);
+  margin: calc(131 / 1117 * 100dvh) 0 0 calc(186 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
   background: url("../img/shaker_2.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-9 {
-  margin: calc(163/1117*100dvh) 0 0 calc(193/1117*100dvh);
-  width: calc(668/1117*100dvh);
-  height: calc(504/1117*100dvh);
+  margin: calc(163 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
+  width: calc(668 / 1117 * 100dvh);
+  height: calc(504 / 1117 * 100dvh);
   background: url("../img/shaker_3.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-10 {
-  margin: calc(197/1117*100dvh) 0 0 calc(162/1117*100dvh);
-  width: calc(374/1117*100dvh);
-  height: calc(469/1117*100dvh);
+  margin: calc(197 / 1117 * 100dvh) 0 0 calc(162 / 1117 * 100dvh);
+  width: calc(374 / 1117 * 100dvh);
+  height: calc(469 / 1117 * 100dvh);
   background: url("../img/shaker_4.png") center center no-repeat;
   background-size: contain;
 }
 
 .under-h1 {
   position: relative;
-  margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
-  width: calc(689/1117*100dvh);
-  color: #FFF;
+  margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(689 / 1117 * 100dvh);
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: calc(32.5/1117*100dvh);
+  line-height: calc(32.5 / 1117 * 100dvh);
   /* 108.333% */
   z-index: 3;
 }
 .under-h1 strong {
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(32.5/1117*100dvh);
+  line-height: calc(32.5 / 1117 * 100dvh);
 }
 
 .age-verification-page-under-h1 {
-  margin: calc(39/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(39 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
 }
 
 .make-a-mix-under-h1 {
-  margin: calc(39/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(39 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
 }
 
 .cocktail-recipes-under-h1 {
-  margin: calc(54/1117*100dvh) 0 0 calc(157/1117*100dvh);
-  width: calc(689/1117*100dvh);
-  color: #FFF;
+  margin: calc(54 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(689 / 1117 * 100dvh);
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -624,11 +627,11 @@ h1 {
 
 .audioplayer-under-h1 {
   position: relative;
-  margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
-  width: calc(590/1117*100dvh);
-  color: #FFF;
+  margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(590 / 1117 * 100dvh);
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -636,7 +639,7 @@ h1 {
 }
 
 .smart-screen-block {
-  margin: calc(173/1117*100dvh) 0 0 calc(239/1117*100dvh);
+  margin: calc(173 / 1117 * 100dvh) 0 0 calc(239 / 1117 * 100dvh);
   position: relative;
   display: flex;
   flex-direction: row;
@@ -645,33 +648,48 @@ h1 {
 
 .smart-screen-instruction-pic-1 {
   display: flex;
-  width: calc(308/1117*100dvh);
-  height: calc(604/1117*100dvh);
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-1.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-2 {
+  display: flex;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-2.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-3 {
+  display: flex;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-3.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-4 {
+  display: flex;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-4.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-5 {
+  display: flex;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-5.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-6 {
+  display: flex;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-6.png") top left no-repeat;
   background-size: contain;
 }
@@ -679,10 +697,10 @@ h1 {
 .smart-screen-instruction-pic-1::after {
   content: "";
   position: absolute;
-  top: calc(120/1117*100dvh);
-  left: calc(155/1117*100dvh);
-  width: calc(47/1117*100dvh);
-  height: calc(47/1117*100dvh);
+  top: calc(120 / 1117 * 100dvh);
+  left: calc(155 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -691,10 +709,10 @@ h1 {
 .smart-screen-instruction-pic-2::after {
   content: "";
   position: absolute;
-  top: calc(255/1117*100dvh);
-  left: calc(170/1117*100dvh);
-  width: calc(47/1117*100dvh);
-  height: calc(47/1117*100dvh);
+  top: calc(255 / 1117 * 100dvh);
+  left: calc(170 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -703,10 +721,10 @@ h1 {
 .smart-screen-instruction-pic-3::after {
   content: "";
   position: absolute;
-  top: calc(470/1117*100dvh);
-  left: calc(139/1117*100dvh);
-  width: calc(47/1117*100dvh);
-  height: calc(47/1117*100dvh);
+  top: calc(470 / 1117 * 100dvh);
+  left: calc(139 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -715,10 +733,10 @@ h1 {
 .smart-screen-instruction-pic-4::after {
   content: "";
   position: absolute;
-  top: calc(140/1117*100dvh);
-  left: calc(157/1117*100dvh);
-  width: calc(47/1117*100dvh);
-  height: calc(47/1117*100dvh);
+  top: calc(140 / 1117 * 100dvh);
+  left: calc(157 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -727,10 +745,10 @@ h1 {
 .smart-screen-instruction-pic-5::after {
   content: "";
   position: absolute;
-  top: calc(280/1117*100dvh);
-  left: calc(215/1117*100dvh);
-  width: calc(47/1117*100dvh);
-  height: calc(47/1117*100dvh);
+  top: calc(280 / 1117 * 100dvh);
+  left: calc(215 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -739,10 +757,10 @@ h1 {
 .smart-screen-instruction-pic-6::after {
   content: "";
   position: absolute;
-  top: calc(255/1117*100dvh);
-  left: calc(220/1117*100dvh);
-  width: calc(47/1117*100dvh);
-  height: calc(47/1117*100dvh);
+  top: calc(255 / 1117 * 100dvh);
+  left: calc(220 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -751,10 +769,10 @@ h1 {
 .smart-screen-instruction-pic-1::before {
   content: "";
   position: absolute;
-  top: calc(-170/1117*100dvh);
-  left: calc(-166/1117*100dvh);
-  width: calc(191/1117*100dvh);
-  height: calc(300/1117*100dvh);
+  top: calc(-170 / 1117 * 100dvh);
+  left: calc(-166 / 1117 * 100dvh);
+  width: calc(191 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
   background: url("../img/1.png") top left no-repeat;
   background-size: contain;
 }
@@ -763,70 +781,70 @@ h1 {
   content: "";
   background: url("../img/2.png") top left no-repeat;
   background-size: contain;
-  top: calc(-140/1117*100dvh);
-  left: calc(-124/1117*100dvh);
-  width: calc(156/1117*100dvh);
-  height: calc(300/1117*100dvh);
+  top: calc(-140 / 1117 * 100dvh);
+  left: calc(-124 / 1117 * 100dvh);
+  width: calc(156 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-3::before {
   content: "";
   background: url("../img/3.png") top left no-repeat;
   background-size: contain;
-  top: calc(-130/1117*100dvh);
-  left: calc(-120/1117*100dvh);
-  width: calc(184/1117*100dvh);
-  height: calc(300/1117*100dvh);
+  top: calc(-130 / 1117 * 100dvh);
+  left: calc(-120 / 1117 * 100dvh);
+  width: calc(184 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-4::before {
   content: "";
   background: url("../img/4.png") top left no-repeat;
   background-size: contain;
-  top: calc(-125/1117*100dvh);
-  left: calc(-150/1117*100dvh);
-  width: calc(173/1117*100dvh);
-  height: calc(300/1117*100dvh);
+  top: calc(-125 / 1117 * 100dvh);
+  left: calc(-150 / 1117 * 100dvh);
+  width: calc(173 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-5::before {
   content: "";
   background: url("../img/5.png") top left no-repeat;
   background-size: contain;
-  top: calc(-130/1117*100dvh);
-  left: calc(-120/1117*100dvh);
-  width: calc(167/1117*100dvh);
-  height: calc(300/1117*100dvh);
+  top: calc(-130 / 1117 * 100dvh);
+  left: calc(-120 / 1117 * 100dvh);
+  width: calc(167 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-6::before {
   content: "";
   background: url("../img/6.png") top left no-repeat;
   background-size: contain;
-  top: calc(-120/1117*100dvh);
-  left: calc(-110/1117*100dvh);
-  width: calc(159/1117*100dvh);
-  height: calc(300/1117*100dvh);
+  top: calc(-120 / 1117 * 100dvh);
+  left: calc(-110 / 1117 * 100dvh);
+  width: calc(159 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-text {
   display: flex;
   justify-content: start;
   flex-direction: column;
-  padding: 0 0 calc(50/1117*100dvh) 0;
-  width: calc(486/1117*100dvh);
-  color: #FFF;
+  padding: 0 0 calc(50 / 1117 * 100dvh) 0;
+  width: calc(486 / 1117 * 100dvh);
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .smart-screen-link {
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -835,11 +853,11 @@ h1 {
 }
 
 .lights-under-h1 {
-  margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
-  width: calc(689/1117*100dvh);
-  color: #FFF;
+  margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(689 / 1117 * 100dvh);
+  color: #fff;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -850,12 +868,12 @@ h1 {
 }
 
 .make-a-mix-bottle {
-  margin: 0 calc(-605/1117*100dvh) 0 0;
-  bottom: calc(-880/1117*100dvh);
-  right: calc(0/1728*100vw);
+  margin: 0 calc(-605 / 1117 * 100dvh) 0 0;
+  bottom: calc(-880 / 1117 * 100dvh);
+  right: calc(0 / 1728 * 100vw);
   position: fixed;
-  width: calc(1652/1728*100vw);
-  height: calc(3305/1117*100dvh);
+  width: calc(1652 / 1728 * 100vw);
+  height: calc(3305 / 1117 * 100dvh);
   background: url("../img/bottle-mix.png") top right no-repeat;
   background-size: contain;
   z-index: 1;
@@ -875,12 +893,12 @@ h1 {
 }
 
 .coctail-recipes-bottle {
-  margin: 0 calc(-605/1117*100dvh) 0 0;
-  bottom: calc(-880/1117*100dvh);
-  right: calc(0/1728*100vw);
+  margin: 0 calc(-605 / 1117 * 100dvh) 0 0;
+  bottom: calc(-880 / 1117 * 100dvh);
+  right: calc(0 / 1728 * 100vw);
   position: fixed;
-  width: calc(1652/1728*100vw);
-  height: calc(3305/1117*100dvh);
+  width: calc(1652 / 1728 * 100vw);
+  height: calc(3305 / 1117 * 100dvh);
   background: url("../img/bottle.png") top right no-repeat;
   background-size: contain;
 }
@@ -891,40 +909,40 @@ h1 {
 }
 
 .footer-buton {
-  bottom: calc(-224/1117*100dvh);
-  right: calc(-163/1117*100dvh);
+  bottom: calc(-224 / 1117 * 100dvh);
+  right: calc(-163 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: calc(729/1117*100dvh);
-  height: calc(729/1117*100dvh);
+  width: calc(729 / 1117 * 100dvh);
+  height: calc(729 / 1117 * 100dvh);
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: #9B94FF;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
   z-index: 2;
   cursor: pointer;
 }
 
 .footer-button-text {
-  margin: calc(340/1117*100dvh) 0 0 calc(240/1117*100dvh);
-  color: #F5F5F5;
+  margin: calc(340 / 1117 * 100dvh) 0 0 calc(240 / 1117 * 100dvh);
+  color: #f5f5f5;
   text-align: center;
   font-family: YS Display;
-  font-size: calc(50/1117*100dvh);
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .lights-footer-button {
-  bottom: calc(-224/1117*100dvh);
-  right: calc(-163/1117*100dvh);
+  bottom: calc(-224 / 1117 * 100dvh);
+  right: calc(-163 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: calc(729/1117*100dvh);
-  height: calc(729/1117*100dvh);
+  width: calc(729 / 1117 * 100dvh);
+  height: calc(729 / 1117 * 100dvh);
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: #9B94FF;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
@@ -940,9 +958,9 @@ h1 {
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8E6D45), color-stop(48.16%, #FFD3AA), color-stop(93.22%, #93734E));
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+  border: 1px solid #b4afff;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
   background-size: 95%, contain;
   z-index: 2;
   cursor: pointer;
@@ -951,14 +969,14 @@ h1 {
 
 .cocktails-footer-button {
   top: 54dvh;
-  right: calc(-190/1117*100dvh);
+  right: calc(-190 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: calc(732/1117*100dvh);
-  height: calc(732/1117*100dvh);
+  width: calc(732 / 1117 * 100dvh);
+  height: calc(732 / 1117 * 100dvh);
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+  border: 1px solid #b4afff;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
   background-size: 95%, contain;
   z-index: 2;
   cursor: pointer;
@@ -974,12 +992,12 @@ h1 {
 }
 
 .feel-the-rythm-footer-buton {
-  bottom: calc(-224/1117*100dvh);
-  right: calc(-163/1117*100dvh);
+  bottom: calc(-224 / 1117 * 100dvh);
+  right: calc(-163 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: calc(729/1117*100dvh);
-  height: calc(729/1117*100dvh);
+  width: calc(729 / 1117 * 100dvh);
+  height: calc(729 / 1117 * 100dvh);
   border-radius: 50%;
   border: none;
   background: url("../img/button_play.png") right bottom no-repeat;
@@ -993,13 +1011,13 @@ h1 {
 }
 
 .feel-the-rythm-plastinka {
-  bottom: calc(-866/1117*100dvh);
-  right: calc(-804/1117*100dvh);
+  bottom: calc(-866 / 1117 * 100dvh);
+  right: calc(-804 / 1117 * 100dvh);
   position: fixed;
   display: flex;
   border-radius: 50%;
-  width: calc(2013/1117*100dvh);
-  height: calc(2013/1117*100dvh);
+  width: calc(2013 / 1117 * 100dvh);
+  height: calc(2013 / 1117 * 100dvh);
   background: url("../img/plastinka.png") center center no-repeat;
   background-size: contain;
   box-shadow: 0px 0px 250px 0px rgba(166, 184, 249, 0.8);
@@ -1007,12 +1025,12 @@ h1 {
 }
 
 .feel-the-rythm-pic {
-  bottom: calc(58/1117*100dvh);
-  right: calc(-13/1117*100dvh);
+  bottom: calc(58 / 1117 * 100dvh);
+  right: calc(-13 / 1117 * 100dvh);
   position: fixed;
   display: none;
-  width: calc(1106.4/1117*100dvh);
-  height: calc(968.88/1117*100dvh);
+  width: calc(1106.4 / 1117 * 100dvh);
+  height: calc(968.88 / 1117 * 100dvh);
   background: url("../img/feel-the-rythm.png") center center no-repeat;
   background-size: contain;
   z-index: 2;
@@ -1020,9 +1038,9 @@ h1 {
 
 .feel-the-rythm-footer-button-symbol {
   position: relative;
-  margin: calc(275/1117*100dvh) 0 0 calc(265/1117*100dvh);
-  width: calc(176/1117*100dvh);
-  height: calc(176/1117*100dvh);
+  margin: calc(275 / 1117 * 100dvh) 0 0 calc(265 / 1117 * 100dvh);
+  width: calc(176 / 1117 * 100dvh);
+  height: calc(176 / 1117 * 100dvh);
   border-radius: 50%;
   background: url("../img/play_button.png") center center no-repeat;
   background-size: contain;
@@ -1030,12 +1048,12 @@ h1 {
 }
 
 .gerland {
-  bottom: calc(0/1117*100dvh);
-  right: calc(0/1117*100dvh);
+  bottom: calc(0 / 1117 * 100dvh);
+  right: calc(0 / 1117 * 100dvh);
   position: fixed;
   display: block;
-  width: calc(1007/1117*100dvh);
-  height: calc(1007/1117*100dvh);
+  width: calc(1007 / 1117 * 100dvh);
+  height: calc(1007 / 1117 * 100dvh);
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;
@@ -1104,37 +1122,37 @@ h1 {
 .lights-footer-button:after {
   content: "";
   position: absolute;
-  bottom: calc(207/1117*100dvh);
-  right: calc(153/1117*100dvh);
-  width: calc(424/1117*100dvh);
-  height: calc(367/1117*100dvh);
+  bottom: calc(207 / 1117 * 100dvh);
+  right: calc(153 / 1117 * 100dvh);
+  width: calc(424 / 1117 * 100dvh);
+  height: calc(367 / 1117 * 100dvh);
   background: url("../img/smart-home.png") bottom right no-repeat;
   background-size: contain;
   z-index: -1;
 }
 
 .lights-footer-button-arrow {
-  margin: calc(200/1117*100dvh) 0 0 calc(200/1117*100dvh);
-  width: calc(325/1117*100dvh);
-  height: calc(323/1117*100dvh);
+  margin: calc(200 / 1117 * 100dvh) 0 0 calc(200 / 1117 * 100dvh);
+  width: calc(325 / 1117 * 100dvh);
+  height: calc(323 / 1117 * 100dvh);
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
   background-size: contain;
 }
 
 .footer-button-arrow {
-  margin: calc(143/1117*100dvh) 0 0 calc(185/1117*100dvh);
-  width: calc(315/1117*100dvh);
-  height: calc(323/1117*100dvh);
+  margin: calc(143 / 1117 * 100dvh) 0 0 calc(185 / 1117 * 100dvh);
+  width: calc(315 / 1117 * 100dvh);
+  height: calc(323 / 1117 * 100dvh);
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
   background-size: contain;
 }
 
 .audioplayer-play-button {
   position: fixed;
-  left: calc(157/1117*100dvh);
-  bottom: calc(60/1117*100dvh);
-  width: calc(156/1117*100dvh);
-  height: calc(156/1117*100dvh);
+  left: calc(157 / 1117 * 100dvh);
+  bottom: calc(60 / 1117 * 100dvh);
+  width: calc(156 / 1117 * 100dvh);
+  height: calc(156 / 1117 * 100dvh);
   border-radius: 50%;
   background: url("../img/play_button.png") center center no-repeat;
   background-size: contain;
@@ -1143,10 +1161,10 @@ h1 {
 
 .audioplayer-pause-button {
   position: fixed;
-  left: calc(157/1117*100dvh);
-  bottom: calc(60/1117*100dvh);
-  width: calc(156/1117*100dvh);
-  height: calc(156/1117*100dvh);
+  left: calc(157 / 1117 * 100dvh);
+  bottom: calc(60 / 1117 * 100dvh);
+  width: calc(156 / 1117 * 100dvh);
+  height: calc(156 / 1117 * 100dvh);
   border-radius: 50%;
   background: url("../img/pause_button.png") center center no-repeat;
   background-size: contain;
@@ -1155,10 +1173,10 @@ h1 {
 
 .audioplayer-timeline {
   position: fixed;
-  left: calc(365/1117*100dvh);
-  bottom: calc(60/1117*100dvh);
-  width: calc(825/1117*100dvh);
-  height: calc(148/1117*100dvh);
+  left: calc(365 / 1117 * 100dvh);
+  bottom: calc(60 / 1117 * 100dvh);
+  width: calc(825 / 1117 * 100dvh);
+  height: calc(148 / 1117 * 100dvh);
   background: url("../img/audioplayer-timeline.png") center center no-repeat;
   background-size: contain;
 }
@@ -1169,15 +1187,15 @@ h1 {
 .audioplayer-timeline-numbers {
   position: fixed;
   display: flex;
-  left: calc(1200/1117*100dvh);
-  bottom: calc(95/1117*100dvh);
-  width: calc(95/1117*100dvh);
-  height: calc(49/1117*100dvh);
-  color: #FFF;
+  left: calc(1200 / 1117 * 100dvh);
+  bottom: calc(95 / 1117 * 100dvh);
+  width: calc(95 / 1117 * 100dvh);
+  height: calc(49 / 1117 * 100dvh);
+  color: #fff;
   text-align: center;
-  text-shadow: 0px 0px calc(34/1117*100dvh) #000;
+  text-shadow: 0px 0px calc(34 / 1117 * 100dvh) #000;
   font-family: YS Display;
-  font-size: calc(30/1117*100dvh);
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -1185,10 +1203,10 @@ h1 {
 
 .audioplayer-youtube-button {
   position: fixed;
-  right: calc(83/1117*100dvh);
-  bottom: calc(74/1117*100dvh);
-  width: calc(297/1117*100dvh);
-  height: calc(120/1117*100dvh);
+  right: calc(83 / 1117 * 100dvh);
+  bottom: calc(74 / 1117 * 100dvh);
+  width: calc(297 / 1117 * 100dvh);
+  height: calc(120 / 1117 * 100dvh);
   background: url("../img/audioplayer-youtube-button.png") center center no-repeat;
   background-size: contain;
   cursor: pointer;
@@ -1221,27 +1239,27 @@ h1 {
 }
 
 .age-verification-page-links {
-  margin: calc(47/1117*100dvh) 0 0 calc(157/1117*100dvh);
+  margin: calc(47 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: calc(318/1117*100dvh);
-  height: calc(46/1117*100dvh);
-  gap: calc(14/1117*100dvh);
+  width: calc(318 / 1117 * 100dvh);
+  height: calc(46 / 1117 * 100dvh);
+  gap: calc(14 / 1117 * 100dvh);
 }
 
 .no-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-radius: 10px;
-  width: calc(152/1117*100dvh);
-  height: calc(57/1117*100dvh);
-  color: #FFF;
+  width: calc(152 / 1117 * 100dvh);
+  height: calc(57 / 1117 * 100dvh);
+  color: #fff;
   text-align: center;
   font-family: YS Display;
-  font-size: calc(21/1117*100dvh);
+  font-size: calc(21 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -1253,15 +1271,15 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0px solid #FFF;
+  border: 0px solid #fff;
   border-radius: 10px;
-  background: #9B94FF;
-  width: calc(152/1117*100dvh);
-  height: calc(57/1117*100dvh);
-  color: #FFF;
+  background: #9b94ff;
+  width: calc(152 / 1117 * 100dvh);
+  height: calc(57 / 1117 * 100dvh);
+  color: #fff;
   text-align: center;
   font-family: YS Display;
-  font-size: calc(21/1117*100dvh);
+  font-size: calc(21 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 500;
   line-height: normal;

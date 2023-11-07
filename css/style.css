@@ -46,7 +46,7 @@ a {
 
 /* Состояние наведения */
 a:hover {
-  color: #B4AFFF;
+  color: #b4afff;
 }
 
 /* Состояние активации */
@@ -56,7 +56,7 @@ a:active {
 
 /* Состояние фокуса */
 a:focus {
-  color: #B4AFFF;
+  color: #b4afff;
 }
 
 html {
@@ -104,12 +104,12 @@ html {
   border-radius: 0 2.025462963vw 2.025462963vw 0;
   gap: 0.5787037037vw;
   padding: 0.9837962963vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#4E63B7), to(#3B3C67));
-  background: linear-gradient(#4E63B7, #3B3C67);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4e63b7), to(#3b3c67));
+  background: linear-gradient(#4e63b7, #3b3c67);
 }
 
 #audiovidget-rightside-track-name {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: YS Display;
   font-size: 1.1574074074vw;
@@ -153,8 +153,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392e47), to(#100d22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
   overflow: hidden;
 }
@@ -171,7 +171,8 @@ body {
   height: calc(100% - 11.9068934646dvh);
 }
 
-.music-slider-container, .cocktails-slider-container {
+.music-slider-container,
+.cocktails-slider-container {
   height: 100%;
 }
 
@@ -183,7 +184,8 @@ body {
   margin-top: 23.8137869293dvh;
 }
 
-.rotating-slider, .music-slider {
+.rotating-slider,
+.music-slider {
   position: relative;
   width: 100%;
   height: 100%;
@@ -351,8 +353,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392e47), to(#100d22)) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 103.5dvh, 96.5%, 100vw 100dvh;
 }
 
@@ -360,8 +362,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392e47), to(#100d22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
 }
 
@@ -369,19 +371,20 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392e47), to(#100d22)) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
 }
 
-.audioplayer-body, .audioplayer-slide {
+.audioplayer-body,
+.audioplayer-slide {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392E47), to(#100D22)) no-repeat;
-  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392E47 0%, #100D22 100%) no-repeat;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, -webkit-gradient(linear, left top, left bottom, from(#392e47), to(#100d22)) no-repeat;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: cover, 96.5%, 100vw 100dvh;
 }
 
@@ -501,7 +504,7 @@ header {
 }
 
 .link-active {
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 1.7361111111vw;
   font-style: normal;
@@ -553,7 +556,7 @@ header {
   position: absolute;
   top: -0.6266786034dvh;
   left: -1.0743061773dvh;
-  background: #FFF;
+  background: #fff;
   border-radius: 50%;
   z-index: -1;
 }
@@ -576,7 +579,7 @@ h1 {
   font-weight: 700;
   line-height: 4.7000895255dvh; /* 105% */
   width: 40.376007162dvh;
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -592,7 +595,7 @@ h1 {
   font-weight: 700;
   line-height: 4.7000895255dvh; /* 105% */
   width: 40.376007162dvh;
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -606,7 +609,7 @@ h1 {
   font-weight: 700;
   line-height: 4.2524619517dvh; /* 105% */
   width: 57.0277529096dvh;
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -621,7 +624,7 @@ h1 {
   font-weight: 700;
   line-height: normal;
   width: 40.376007162dvh;
-  background: var(--Yandex-text, linear-gradient(272deg, #A09BF4 19.72%, #FFE5CD 121.59%));
+  background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -712,7 +715,7 @@ h1 {
   position: relative;
   margin: 6.5353625783dvh 0 0 14.0555058192dvh;
   width: 61.6830796777dvh;
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -721,7 +724,7 @@ h1 {
   z-index: 3;
 }
 .under-h1 strong {
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -740,7 +743,7 @@ h1 {
 .cocktail-recipes-under-h1 {
   margin: 4.8343777977dvh 0 0 14.0555058192dvh;
   width: 61.6830796777dvh;
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -752,7 +755,7 @@ h1 {
   position: relative;
   margin: 6.5353625783dvh 0 0 14.0555058192dvh;
   width: 52.8200537153dvh;
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -785,26 +788,51 @@ h1 {
 }
 
 .smart-screen-instruction-pic-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 27.5738585497dvh;
+  height: 54.0734109221dvh;
   background: url("../img/smart-screen-2.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 27.5738585497dvh;
+  height: 54.0734109221dvh;
   background: url("../img/smart-screen-3.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 27.5738585497dvh;
+  height: 54.0734109221dvh;
   background: url("../img/smart-screen-4.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 27.5738585497dvh;
+  height: 54.0734109221dvh;
   background: url("../img/smart-screen-5.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 27.5738585497dvh;
+  height: 54.0734109221dvh;
   background: url("../img/smart-screen-6.png") top left no-repeat;
   background-size: contain;
 }
@@ -961,7 +989,7 @@ h1 {
           flex-direction: column;
   padding: 0 0 4.4762757386dvh 0;
   width: 43.5094001791dvh;
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -970,7 +998,7 @@ h1 {
 }
 
 .smart-screen-link {
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -983,7 +1011,7 @@ h1 {
 .lights-under-h1 {
   margin: 6.5353625783dvh 0 0 14.0555058192dvh;
   width: 61.6830796777dvh;
-  color: #FFF;
+  color: #fff;
   font-family: YS Display;
   font-size: 2.6857654432dvh;
   font-style: normal;
@@ -1046,15 +1074,15 @@ h1 {
   width: 65.2641002686dvh;
   height: 65.2641002686dvh;
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: #9B94FF;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
   z-index: 2;
   cursor: pointer;
 }
 
 .footer-button-text {
   margin: 30.4386750224dvh 0 0 21.4861235452dvh;
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-align: center;
   font-family: YS Display;
   font-size: 4.4762757386dvh;
@@ -1073,8 +1101,8 @@ h1 {
   width: 65.2641002686dvh;
   height: 65.2641002686dvh;
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: #9B94FF;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
@@ -1090,9 +1118,9 @@ h1 {
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8E6D45), color-stop(48.16%, #FFD3AA), color-stop(93.22%, #93734E));
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+  border: 1px solid #b4afff;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
   background-size: 95%, contain;
   z-index: 2;
   cursor: pointer;
@@ -1109,9 +1137,9 @@ h1 {
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
   border-radius: 50%;
-  border: 1px solid #B4AFFF;
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8E6D45), color-stop(48.16%, #FFD3AA), color-stop(93.22%, #93734E));
-  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8E6D45 4.93%, #FFD3AA 48.16%, #93734E 93.22%);
+  border: 1px solid #b4afff;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
   background-size: 95%, contain;
   z-index: 2;
   cursor: pointer;
@@ -1333,7 +1361,7 @@ h1 {
   bottom: 8.5049239033dvh;
   width: 8.5049239033dvh;
   height: 4.3867502238dvh;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   text-shadow: 0px 0px 3.0438675022dvh #000;
   font-family: YS Display;
@@ -1409,11 +1437,11 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-radius: 10px;
   width: 13.6078782453dvh;
   height: 5.102954342dvh;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: YS Display;
   font-size: 1.8800358102dvh;
@@ -1434,12 +1462,12 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 0px solid #FFF;
+  border: 0px solid #fff;
   border-radius: 10px;
-  background: #9B94FF;
+  background: #9b94ff;
   width: 13.6078782453dvh;
   height: 5.102954342dvh;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: YS Display;
   font-size: 1.8800358102dvh;
