@@ -903,6 +903,10 @@
         pointer-events: none;
     }
 
+    .greetings-footer-buton::after {
+        display: none;
+    }
+
     .footer-button-arrow {
         margin: calc(40/812*100dvh) auto 0 auto;
         width: calc(171/812*100dvh);

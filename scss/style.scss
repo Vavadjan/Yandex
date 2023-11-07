@@ -126,10 +126,10 @@ body {
     width: 100vw;
     height: 100dvh;
     background:
-        url("../img/SVG/Ellipse-35.svg") calc(-950/1728*100vw) calc(-950/1728*100vw) no-repeat,
+        url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat,
         linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
     background-size:
-        auto,
+        96.5%,
         100vw 100dvh;
     overflow: hidden;
 }
@@ -966,7 +966,7 @@ h1 {
 .greetings-footer-buton::after {
     content: "";
     bottom: calc(137/1117*100dvh);
-    right: calc(433/1117*100dvh);
+    right: calc(435/1117*100dvh);
     position: fixed;
     display: flex;
     width: calc(584/1117*100dvh);
