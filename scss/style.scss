@@ -949,6 +949,33 @@ h1 {
     line-height: normal;
 }
 
+.greetings-footer-buton {
+    bottom: calc(-224/1117*100dvh);
+    right: calc(-163/1117*100dvh);
+    position: fixed;
+    display: flex;
+    width: calc(729/1117*100dvh);
+    height: calc(729/1117*100dvh);
+    border-radius: 50%;
+    border: 1px solid #b4afff;
+    background: #9b94ff;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.greetings-footer-buton::after {
+    content: "";
+    bottom: calc(137/1117*100dvh);
+    right: calc(430/1117*100dvh);
+    position: fixed;
+    display: flex;
+    width: calc(584/1117*100dvh);
+    height: calc(321/1117*100dvh);
+    background: url('../img/SVG/arrow.svg') center center no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
 .lights-footer-button {
     bottom: calc(-224/1117*100dvh);
     right: calc(-163/1117*100dvh);
@@ -971,8 +998,8 @@ h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 65.5326768129dvh;
-    height: 65.5326768129dvh;
+    width: 65.53267611179dvh;
+    height: 65.53267611179dvh;
     border-radius: 50%;
     border: 1px solid #b4afff;
     background:

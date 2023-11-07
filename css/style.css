@@ -1091,6 +1091,37 @@ h1 {
   line-height: normal;
 }
 
+.greetings-footer-buton {
+  bottom: -20.0537153089dvh;
+  right: -14.5926589078dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65.2641002686dvh;
+  height: 65.2641002686dvh;
+  border-radius: 50%;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.greetings-footer-buton::after {
+  content: "";
+  bottom: 12.2649955237dvh;
+  right: 38.4959713518dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 52.2829006267dvh;
+  height: 28.7376902417dvh;
+  background: url("../img/SVG/arrow.svg") center center no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
 .lights-footer-button {
   bottom: -20.0537153089dvh;
   right: -14.5926589078dvh;
@@ -1115,8 +1146,8 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 65.5326768129dvh;
-  height: 65.5326768129dvh;
+  width: 65.5326761118dvh;
+  height: 65.5326761118dvh;
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
