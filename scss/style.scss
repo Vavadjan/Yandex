@@ -939,7 +939,7 @@ h1 {
 }
 
 .footer-button-text {
-    margin: calc(340/1117*100dvh) 0 0 calc(240/1117*100dvh);
+    margin: calc(322/1117*100dvh) 0 0 calc(270/1117*100dvh);
     color: #f5f5f5;
     text-align: center;
     font-family: YS Display;
@@ -966,7 +966,7 @@ h1 {
 .greetings-footer-buton::after {
     content: "";
     bottom: calc(137/1117*100dvh);
-    right: calc(430/1117*100dvh);
+    right: calc(433/1117*100dvh);
     position: fixed;
     display: flex;
     width: calc(584/1117*100dvh);
