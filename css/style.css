@@ -1320,7 +1320,7 @@ h1 {
   content: "";
   position: absolute;
   bottom: 18.5317815577dvh;
-  right: 13.4288272158dvh;
+  right: 13.6974037601dvh;
   width: 37.9588182632dvh;
   height: 32.8558639212dvh;
   background: url("../img/smart-home.png") bottom right no-repeat;
@@ -1329,7 +1329,7 @@ h1 {
 }
 
 .lights-footer-button-arrow {
-  margin: 17.0098478066dvh 0 0 17.9051029543dvh;
+  margin: 17.9051029543dvh 0 0 17.9051029543dvh;
   width: 29.0957923008dvh;
   height: 28.9167412713dvh;
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
