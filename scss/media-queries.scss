@@ -18,11 +18,12 @@
     a:focus {
         color: #b4afff;
     }
+    
 
     html {
         overflow: hidden;
     }
-
+    
     #audiovidget {
         position: absolute;
         top: calc(89 / 375 * 100vw);
