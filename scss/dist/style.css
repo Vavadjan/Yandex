@@ -1604,6 +1604,9 @@ h1 {
 .gerland {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
 =======
 >>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
   bottom: calc(0/1117*100dvh);
@@ -1613,6 +1616,7 @@ h1 {
   width: calc(1007/1117*100dvh);
   height: calc(1007/1117*100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   bottom: calc(0 / 1117 * 100dvh);
   right: calc(0 / 1117 * 100dvh);
@@ -1621,6 +1625,8 @@ h1 {
   width: calc(1007 / 1117 * 100dvh);
   height: calc(1007 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
 =======
 >>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
   background: url("../img/light_2_off.png") bottom right no-repeat;
