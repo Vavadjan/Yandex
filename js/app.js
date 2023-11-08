@@ -1,3 +1,4 @@
+let widgetActivated = false;
 function initRangeInputCustomStyle() {
 	const elements = document.querySelectorAll("input[type='range']");
 	const recalcProgress = throttle((elem) => {
@@ -114,46 +115,31 @@ function initPlayer() {
 	// Seek control
 	const debouncedSeeking = debounce(() => {
 		audioPlayer.currentTime = audioPlayer.duration * progressBar.value / 100;
-		audioPlayer.play();
+		play();
+
 	}, 100);
 	progressBar.addEventListener("input", (event) => {
 		if (event.__timeupdate || isNaN(audioPlayer.duration)) return;
 		if (!audioPlayer.paused) {
-			audioPlayer.pause();
+			pause();
 		}
 		debouncedSeeking();
 	});
 
 	playButton.addEventListener('click', function () {
-			audioPlayer.play();
-			playButton.style.display = 'none';
-			pauseButton.style.display = 'block';
-			playBigButton.style.display = 'none';
-			pauseBigButton.style.display = 'block';
+		play();
 	});
 
 	pauseButton.addEventListener('click', function () {
-			audioPlayer.pause();
-			pauseButton.style.display = 'none';
-			playButton.style.display = 'block';
-			playBigButton.style.display = 'block';
-			pauseBigButton.style.display = 'none';
+		pause();
 	});
 
 	playBigButton.addEventListener('click', function () {
-			audioPlayer.play();
-			playButton.style.display = 'none'; 
-			pauseButton.style.display = 'block';
-			playBigButton.style.display = 'none';
-			pauseBigButton.style.display = 'block';
+		play();
 	});
 
 	pauseBigButton.addEventListener('click', function () {
-			audioPlayer.pause();
-			pauseButton.style.display = 'none';
-			playButton.style.display = 'block';
-			playBigButton.style.display = 'block';
-			pauseBigButton.style.display = 'none';
+		pause();
 	});
 
 	if (audioPlayer.paused) {
@@ -163,9 +149,25 @@ function initPlayer() {
 			pauseBigButton.style.display = 'none';
 	} else {
 			playButton.style.display = 'none';
-			pauseButton.style.display = 'block';  
+			pauseButton.style.display = 'block';
 			playBigButton.style.display = 'none';
 			pauseBigButton.style.display = 'block';
+	}
+
+	function play() {
+		widgetActivated = true;
+		audioPlayer.play();
+		playButton.style.display = 'none';
+		pauseButton.style.display = 'block';
+		playBigButton.style.display = 'none';
+		pauseBigButton.style.display = 'block';
+	}
+	function pause() {
+		audioPlayer.pause();
+		pauseButton.style.display = 'none';
+		playButton.style.display = 'block';
+		playBigButton.style.display = 'block';
+		pauseBigButton.style.display = 'none';
 	}
 }
 function formatSeconds(sec) {

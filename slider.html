@@ -116,7 +116,9 @@
 				if (slides.eq(slideIndex).hasClass("audioplayer-slide")) {
 					$("#audiovidget").hide();
 				} else {
-					$("#audiovidget").show();
+					if (widgetActivated) {
+						$("#audiovidget").show();
+					}
 				}
       }
 
@@ -517,7 +519,7 @@
           </div>
         </li>
       </ul>
-			<div id="audiovidget">
+			<div id="audiovidget" style="display: none;">
 				<div class="audiovidget-leftside"></div>
 				<div class="audiovidget-rightside">
 					<p id="audiovidget-rightside-track-name">Yandex lo-fi new year mix</p>
