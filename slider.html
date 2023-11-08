@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./css/media-queries.css" />
     <script src="./js/3x.js"></script>
     <script src="./js/burger.js"></script>
-		<script src="./js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="slider-body">
@@ -113,11 +112,6 @@
         slides.removeClass('back-active');
         slides.removeClass('active');
         slides.eq(slideIndex).addClass('active');
-				if (slides.eq(slideIndex).hasClass("audioplayer-slide")) {
-					$("#audiovidget").hide();
-				} else {
-					$("#audiovidget").show();
-				}
       }
 
       function rotateBackwardsToSlide(slideIndex) {
@@ -218,7 +212,6 @@
       });
 
       $('.rotating-slider-container').on('touchend', function (e) {
-				if (e.target.closest("#audiovidget") || e.target.getAttribute("id") == "audiovidget") return;
         const touchEndX = e.originalEvent.changedTouches[0].clientX;
         const touchEndY = e.originalEvent.changedTouches[0].clientY;
         const deltaX = touchStartX - touchEndX;
@@ -240,18 +233,71 @@
       });
   });
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('audiovidget-rightside-play-button');
+        const pauseButton = document.getElementById('audiovidget-rightside-pause-button');
+        const playBigButton = document.getElementById('audiovidget-play-button');
+        const pauseBigButton = document.getElementById('audiovidget-pause-button');
+
+        playButton.addEventListener('click', function () {
+            audioPlayer.play();
+            playButton.style.display = 'none'; 
+            pauseButton.style.display = 'block';
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        });
+
+        pauseButton.addEventListener('click', function () {
+            audioPlayer.pause();
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        });
+
+        playBigButton.addEventListener('click', function () {
+            audioPlayer.play();
+            playButton.style.display = 'none'; 
+            pauseButton.style.display = 'block';
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        });
+
+        pauseBigButton.addEventListener('click', function () {
+            audioPlayer.pause();
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        });
+
+        if (audioPlayer.paused) {
+            pauseButton.style.display = 'none';
+            playButton.style.display = 'block';
+            playBigButton.style.display = 'block';
+            pauseBigButton.style.display = 'none';
+        } else {
+            playButton.style.display = 'none';
+            pauseButton.style.display = 'block';  
+            playBigButton.style.display = 'none';
+            pauseBigButton.style.display = 'block';
+        }
+    });
+  </script>
   <header class="header">
     <div class="logo">
         <p class="logo-symbol">Я</p>
         <p class="logo-word">Реклама</p>
     </div>
-    <div id="menu-btn" class="menu-btn">
+    <div class="menu-btn">
       <span></span>
       <span></span>
       <span></span>
     </div>
   </header>
-  <div id="menu" class="menu">
+  <div class="menu">
     <nav>
         <ul>
             <li><a class="link-active" href="#slide-1">Сейчас мы все настроим!</a></li>
@@ -510,22 +556,22 @@
             <p class="audioplayer-under-h1">Мы собрали специальный плейлист, который поможет вам настроиться на нужный лад и смешать вкусные коктейли. А еще представили, как бы могла выглядеть такая вечеринка.</p>
             <a class="audioplayer-play-button" id="audiovidget-play-button"></a>
             <a class="audioplayer-pause-button" id="audiovidget-pause-button"></a>
-            <div class="audioplayer-timeline"><input id="player-progress-bar" type="range" min="0" max="100" value="0"></div>
-            <p id="player-timer" class="audioplayer-timeline-numbers">00:00</p>
+            <div class="audioplayer-timeline"></div>
+            <p class="audioplayer-timeline-numbers">42:13</p>
             <a class="audioplayer-youtube-button"></a>
             <audio id="audioPlayer" src="./audio/yamix_2.mp3"></audio>
+            <div id="audiovidget">
+                <div class="audiovidget-leftside"></div>
+                <div class="audiovidget-rightside">
+                    <p id="audiovidget-rightside-track-name">Yandex lo-fi new year mix</p>
+                    <a href="#" class="audiovidget-rightside-you-tube-link">YouTube</a>
+                    <button id="audiovidget-rightside-play-button"></button>
+                    <button id="audiovidget-rightside-pause-button"></button>
+                </div>
+            </div>
           </div>
         </li>
       </ul>
-			<div id="audiovidget">
-				<div class="audiovidget-leftside"></div>
-				<div class="audiovidget-rightside">
-					<p id="audiovidget-rightside-track-name">Yandex lo-fi new year mix</p>
-					<a href="#" class="audiovidget-rightside-you-tube-link">YouTube</a>
-					<button id="audiovidget-rightside-play-button"></button>
-					<button id="audiovidget-rightside-pause-button"></button>
-				</div>
-			</div>
     </div>
   </div>
 </body>

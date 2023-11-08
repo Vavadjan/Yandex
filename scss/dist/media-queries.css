@@ -37,6 +37,7 @@
 
   .audiovidget-leftside {
     position: absolute;
+<<<<<<< HEAD
     top: calc(11/375*100vw);
     right: calc(240/375*100vw);
     width: calc(64/375*100vw);
@@ -44,6 +45,15 @@
     background: url("../img/audiovidget-bg.jpg") 35% 10% no-repeat;
     background-size: 260%;
     border-radius: calc(10/375*100vw);
+=======
+    top: calc(11 / 375 * 100vw);
+    right: calc(240 / 375 * 100vw);
+    width: calc(64 / 375 * 100vw);
+    height: calc(64 / 375 * 100vw);
+    background: url("../img/audiovidget-bg.jpg") 35% 10% no-repeat;
+    background-size: 260%;
+    border-radius: calc(10 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     z-index: 2;
   }
 
@@ -52,20 +62,36 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+<<<<<<< HEAD
     width: calc(324/375*100vw);
     height: calc(88/375*100vw);
     border-radius: calc(18/375*100vw);
     gap: calc(3/375*100vw);
     padding: calc(11/375*100vw) 0 calc(14/375*100vw) calc(101/375*100vw);
+=======
+    width: calc(324 / 375 * 100vw);
+    height: calc(88 / 375 * 100vw);
+    border-radius: calc(18 / 375 * 100vw);
+    gap: calc(3 / 375 * 100vw);
+    padding: calc(11 / 375 * 100vw) 0 calc(14 / 375 * 100vw) calc(101 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: linear-gradient(#4e63b7, #3b3c67);
   }
 
   #audiovidget-rightside-track-name {
+<<<<<<< HEAD
     width: calc(159/375*100vw);
     color: #fff;
     text-align: left;
     font-family: YS Display;
     font-size: calc(18/375*100vw);
+=======
+    width: calc(159 / 375 * 100vw);
+    color: #fff;
+    text-align: left;
+    font-family: YS Display;
+    font-size: calc(18 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -75,7 +101,11 @@
     color: rgba(255, 255, 255, 0.54);
     text-align: left;
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(18/375*100vw);
+=======
+    font-size: calc(18 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -84,10 +114,17 @@
 
   #audiovidget-rightside-play-button {
     position: absolute;
+<<<<<<< HEAD
     top: calc(23/375*100vw);
     right: calc(20/375*100vw);
     width: calc(39/375*100vw);
     height: calc(43/375*100vw);
+=======
+    top: calc(23 / 375 * 100vw);
+    right: calc(20 / 375 * 100vw);
+    width: calc(39 / 375 * 100vw);
+    height: calc(43 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border: none;
     background: url("../img/audiovidget-play-button.png") center center no-repeat;
     background-size: contain;
@@ -97,10 +134,17 @@
 
   #audiovidget-rightside-pause-button {
     position: absolute;
+<<<<<<< HEAD
     top: calc(23/375*100vw);
     right: calc(20/375*100vw);
     width: calc(39/375*100vw);
     height: calc(43/375*100vw);
+=======
+    top: calc(23 / 375 * 100vw);
+    right: calc(20 / 375 * 100vw);
+    width: calc(39 / 375 * 100vw);
+    height: calc(43 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border: none;
     background: url("../img/audiovidget-pause-button.png") center center no-repeat;
     background-size: contain;
@@ -120,7 +164,11 @@
   .age-verification-page-body {
     width: 100vw;
     height: 100dvh;
+<<<<<<< HEAD
     background: url("../img/SVG/18+_mobile.svg") center calc(106/812*100dvh) no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+=======
+    background: url("../img/SVG/18+_mobile.svg") center calc(106 / 812 * 100dvh) no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background-size: auto, auto, 100vw 100dvh;
   }
 
@@ -156,10 +204,17 @@
   }
 
   header {
+<<<<<<< HEAD
     margin: calc(40/812*100dvh) calc(28/812*100dvh) 0 calc(23/812*100dvh);
     display: flex;
     justify-content: space-between;
     height: calc(40.351/812*100dvh);
+=======
+    margin: calc(40 / 812 * 100dvh) calc(28 / 812 * 100dvh) 0 calc(23 / 812 * 100dvh);
+    display: flex;
+    justify-content: space-between;
+    height: calc(40.351 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   .age-verification-page-header {
@@ -169,8 +224,13 @@
   /* Гамбургер иконка */
   .menu-btn {
     margin: 0 0 0 0;
+<<<<<<< HEAD
     width: calc(40/812*100dvh);
     height: calc(36/812*100dvh);
+=======
+    width: calc(40 / 812 * 100dvh);
+    height: calc(36 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     position: relative;
     display: flex;
     z-index: 11;
@@ -178,8 +238,13 @@
   }
 
   .menu-btn span {
+<<<<<<< HEAD
     width: calc(40/812*100dvh);
     height: calc(4/812*100dvh);
+=======
+    width: calc(40 / 812 * 100dvh);
+    height: calc(4 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     position: absolute;
     top: 50%;
     left: 50%;
@@ -189,11 +254,19 @@
   }
 
   .menu-btn span:nth-of-type(2) {
+<<<<<<< HEAD
     top: calc(50% - calc(14/812*100dvh));
   }
 
   .menu-btn span:nth-of-type(3) {
     top: calc(50% + calc(14/812*100dvh));
+=======
+    top: calc(50% - calc(14 / 812 * 100dvh));
+  }
+
+  .menu-btn span:nth-of-type(3) {
+    top: calc(50% + calc(14 / 812 * 100dvh));
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   /* Меняем гамбургер иконку, когда меню открыто */
@@ -216,11 +289,19 @@
     position: fixed;
     top: 0;
     right: 0;
+<<<<<<< HEAD
     width: calc(351/375*100vw);
     height: calc(317/375*100vw);
     transform: translateX(100%);
     transition: transform 0.5s;
     border-radius: calc(37/375*100vw);
+=======
+    width: calc(351 / 375 * 100vw);
+    height: calc(317 / 375 * 100vw);
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    border-radius: calc(37 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
     backdrop-filter: blur(11.5px);
     z-index: 10;
@@ -231,58 +312,100 @@
   }
 
   .menu ul {
+<<<<<<< HEAD
     width: calc(270/375*100vw);
     height: calc(194/375*100vw);
     display: flex;
     flex-direction: column;
     gap: calc(11/812*100dvh);
     margin: calc(87/375*100vw) 0 calc(36/375*100vw) calc(32/375*100vw);
+=======
+    width: calc(270 / 375 * 100vw);
+    height: calc(194 / 375 * 100vw);
+    display: flex;
+    flex-direction: column;
+    gap: calc(11 / 812 * 100dvh);
+    margin: calc(87 / 375 * 100vw) 0 calc(36 / 375 * 100vw) calc(32 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   .menu li {
     color: rgba(255, 255, 255, 0.15);
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(21/375*100vw);
     font-style: normal;
     font-weight: 400;
     line-height: calc(32.5/375*100vw);
+=======
+    font-size: calc(21 / 375 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 108.333% */
   }
 
   .link-active {
     color: #fff;
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(21/375*100vw);
     font-style: normal;
     font-weight: 400;
     line-height: calc(32.5/375*100vw);
+=======
+    font-size: calc(21 / 375 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 108.333% */
   }
 
   .link-sub-active {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(21/375*100vw);
     font-style: normal;
     font-weight: 400;
     line-height: calc(32.5/375*100vw);
+=======
+    font-size: calc(21 / 375 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 108.333% */
   }
 
   .link-sub-active:visited {
     color: rgba(255, 255, 255, 0.35);
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(21/375*100vw);
     font-style: normal;
     font-weight: 400;
     line-height: calc(32.5/375*100vw);
+=======
+    font-size: calc(21 / 375 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 108.333% */
   }
 
   .logo {
     margin: 0;
+<<<<<<< HEAD
     width: calc(156/812*100dvh);
     height: calc(40.35/812*100dvh);
+=======
+    width: calc(156 / 812 * 100dvh);
+    height: calc(40.35 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/SVG/logo.svg") no-repeat;
     background-size: contain;
     z-index: 2;
@@ -295,17 +418,29 @@
     font-family: YS Display;
     font-style: normal;
     font-weight: 600;
+<<<<<<< HEAD
     font-size: calc(36/812*100dvh);
+=======
+    font-size: calc(36 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   .logo-symbol::before {
     content: "";
     display: none;
+<<<<<<< HEAD
     width: calc(50.44/812*100dvh);
     height: calc(50.44/812*100dvh);
     position: absolute;
     top: calc(-7/812*100dvh);
     left: calc(-12/812*100dvh);
+=======
+    width: calc(50.44 / 812 * 100dvh);
+    height: calc(50.44 / 812 * 100dvh);
+    position: absolute;
+    top: calc(-7 / 812 * 100dvh);
+    left: calc(-12 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: #fff;
     border-radius: 50%;
     z-index: -1;
@@ -317,6 +452,7 @@
     font-family: YS Display;
     font-style: normal;
     font-weight: 500;
+<<<<<<< HEAD
     font-size: calc(36/812*100dvh);
   }
 
@@ -329,6 +465,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: calc(32.5/812*100dvh);
+=======
+    font-size: calc(36 / 812 * 100dvh);
+  }
+
+  h1 {
+    margin: calc(85.65 / 812 * 100dvh) 0 0 calc(31 / 812 * 100dvh);
+    color: white;
+    font-family: YS Display;
+    font-size: calc(30 / 812 * 100dvh);
+    width: calc(313 / 812 * 100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(32.5 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 108.333% */
     background: linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%);
     background-clip: text;
@@ -342,15 +492,23 @@
   }
 
   .age-verification-page-h1 {
+<<<<<<< HEAD
     margin: calc(235/812*100dvh) 0 0 calc(29/375*100vw);
     font-size: calc(30/375*100vw);
     width: calc(313/375*100vw);
     line-height: calc(32.5/375*100vw);
+=======
+    margin: calc(235 / 812 * 100dvh) 0 0 calc(29 / 375 * 100vw);
+    font-size: calc(30 / 375 * 100vw);
+    width: calc(313 / 375 * 100vw);
+    line-height: calc(32.5 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 108.333% */
   }
 
   .make-a-mix-h1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(91/812*100dvh) 0 0 calc(31/812*100dvh);
     font-family: YS Display;
     font-size: calc(30/812*100dvh);
@@ -360,6 +518,17 @@
     /* 105% */
     width: calc(313/812*100dvh);
     height: calc(61/812*100dvh);
+=======
+    margin: calc(91 / 812 * 100dvh) 0 0 calc(31 / 812 * 100dvh);
+    font-family: YS Display;
+    font-size: calc(30 / 812 * 100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(32.5 / 812 * 100dvh);
+    /* 105% */
+    width: calc(313 / 812 * 100dvh);
+    height: calc(61 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -369,6 +538,7 @@
 
   .cocktail-recipes-h1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(158/812*100dvh) 0 0 calc(37/812*100dvh);
     font-family: YS Display;
     font-size: calc(18/812*100dvh);
@@ -377,6 +547,16 @@
     line-height: calc(22/812*100dvh);
     /* 105% */
     width: calc(293/812*100dvh);
+=======
+    margin: calc(158 / 812 * 100dvh) 0 0 calc(37 / 812 * 100dvh);
+    font-family: YS Display;
+    font-size: calc(18 / 812 * 100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(22 / 812 * 100dvh);
+    /* 105% */
+    width: calc(293 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -386,6 +566,7 @@
 
   .audioplayer-h1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(73/812*100dvh) 0 0 calc(31/812*100dvh);
     font-family: YS Display;
     font-size: calc(30/812*100dvh);
@@ -393,6 +574,15 @@
     font-weight: 700;
     line-height: normal;
     width: calc(313/812*100dvh);
+=======
+    margin: calc(73 / 812 * 100dvh) 0 0 calc(31 / 812 * 100dvh);
+    font-family: YS Display;
+    font-size: calc(30 / 812 * 100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: calc(313 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: #fff;
     background-clip: text;
     -webkit-background-clip: text;
@@ -402,9 +592,15 @@
 
   .cocktail-recipes-pic-1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(74/812*100dvh) auto 0 auto;
     width: calc(164/812*100dvh);
     height: calc(287/812*100dvh);
+=======
+    margin: calc(74 / 812 * 100dvh) auto 0 auto;
+    width: calc(164 / 812 * 100dvh);
+    height: calc(287 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/glass_1.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -412,9 +608,15 @@
 
   .cocktail-recipes-pic-2 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(74/812*100dvh) auto 0 auto;
     width: calc(164/812*100dvh);
     height: calc(287/812*100dvh);
+=======
+    margin: calc(74 / 812 * 100dvh) auto 0 auto;
+    width: calc(164 / 812 * 100dvh);
+    height: calc(287 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/glass_2.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -422,9 +624,15 @@
 
   .cocktail-recipes-pic-3 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(74/812*100dvh) auto 0 auto;
     width: calc(164/812*100dvh);
     height: calc(287/812*100dvh);
+=======
+    margin: calc(74 / 812 * 100dvh) auto 0 auto;
+    width: calc(164 / 812 * 100dvh);
+    height: calc(287 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/glass_3.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -432,9 +640,15 @@
 
   .cocktail-recipes-pic-4 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(74/812*100dvh) auto 0 auto;
     width: calc(164/812*100dvh);
     height: calc(287/812*100dvh);
+=======
+    margin: calc(74 / 812 * 100dvh) auto 0 auto;
+    width: calc(164 / 812 * 100dvh);
+    height: calc(287 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/glass_4.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -442,9 +656,15 @@
 
   .cocktail-recipes-pic-5 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(74/812*100dvh) auto 0 auto;
     width: calc(164/812*100dvh);
     height: calc(287/812*100dvh);
+=======
+    margin: calc(74 / 812 * 100dvh) auto 0 auto;
+    width: calc(164 / 812 * 100dvh);
+    height: calc(287 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/glass_5.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -452,9 +672,15 @@
 
   .cocktail-recipes-pic-6 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(91/812*100dvh) auto 0 auto;
     width: calc(300/812*100dvh);
     height: calc(232/812*100dvh);
+=======
+    margin: calc(91 / 812 * 100dvh) auto 0 auto;
+    width: calc(300 / 812 * 100dvh);
+    height: calc(232 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/shaker_0.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -462,9 +688,15 @@
 
   .cocktail-recipes-pic-7 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(91/812*100dvh) auto 0 auto;
     width: calc(300/812*100dvh);
     height: calc(232/812*100dvh);
+=======
+    margin: calc(91 / 812 * 100dvh) auto 0 auto;
+    width: calc(300 / 812 * 100dvh);
+    height: calc(232 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/shaker_1.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -472,9 +704,15 @@
 
   .cocktail-recipes-pic-8 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(91/812*100dvh) auto 0 auto;
     width: calc(300/812*100dvh);
     height: calc(232/812*100dvh);
+=======
+    margin: calc(91 / 812 * 100dvh) auto 0 auto;
+    width: calc(300 / 812 * 100dvh);
+    height: calc(232 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/shaker_2.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -482,9 +720,15 @@
 
   .cocktail-recipes-pic-9 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(91/812*100dvh) auto 0 auto;
     width: calc(300/812*100dvh);
     height: calc(232/812*100dvh);
+=======
+    margin: calc(91 / 812 * 100dvh) auto 0 auto;
+    width: calc(300 / 812 * 100dvh);
+    height: calc(232 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/shaker_3.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -492,9 +736,15 @@
 
   .cocktail-recipes-pic-10 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(91/812*100dvh) auto 0 auto;
     width: calc(300/812*100dvh);
     height: calc(232/812*100dvh);
+=======
+    margin: calc(91 / 812 * 100dvh) auto 0 auto;
+    width: calc(300 / 812 * 100dvh);
+    height: calc(232 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/shaker_4.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -502,11 +752,19 @@
 
   .under-h1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
     width: calc(313/812*100dvh);
     color: #fff;
     font-family: YS Display;
     font-size: calc(21/812*100dvh);
+=======
+    margin: calc(25 / 812 * 100dvh) 0 0 calc(31 / 812 * 100dvh);
+    width: calc(313 / 812 * 100dvh);
+    color: #fff;
+    font-family: YS Display;
+    font-size: calc(21 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -515,6 +773,7 @@
   .under-h1 strong {
     color: #fff;
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(21/812*100dvh);
     font-style: normal;
     font-weight: 700;
@@ -529,16 +788,40 @@
     font-style: normal;
     font-weight: 400;
     line-height: calc(32.5/375*100vw);
+=======
+    font-size: calc(21 / 812 * 100dvh);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(32.5 / 812 * 100dvh);
+  }
+
+  .age-verification-page-under-h1 {
+    margin: calc(17 / 812 * 100) 0 0 calc(29 / 375 * 100vw);
+    color: #fff;
+    font-family: YS Display;
+    font-size: calc(18 / 375 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(32.5 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     /* 180.556% */
   }
 
   .make-a-mix-under-h1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(0/812*100dvh) 0 0 calc(31/812*100dvh);
     width: calc(313/812*100dvh);
     color: #fff;
     font-family: YS Display;
     font-size: calc(21/812*100dvh);
+=======
+    margin: calc(0 / 812 * 100dvh) 0 0 calc(31 / 812 * 100dvh);
+    width: calc(313 / 812 * 100dvh);
+    color: #fff;
+    font-family: YS Display;
+    font-size: calc(21 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -548,11 +831,19 @@
 
   .cocktail-recipes-under-h1 {
     position: relative;
+<<<<<<< HEAD
     margin: calc(100/812*100dvh) auto 0 auto;
     width: calc(301/812*100dvh);
     color: #fff;
     font-family: YS Display;
     font-size: calc(18/812*100dvh);
+=======
+    margin: calc(100 / 812 * 100dvh) auto 0 auto;
+    width: calc(301 / 812 * 100dvh);
+    color: #fff;
+    font-family: YS Display;
+    font-size: calc(18 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -562,6 +853,7 @@
   .audioplayer-under-h1 {
     position: fixed;
     margin: 0;
+<<<<<<< HEAD
     bottom: calc(80/812*100dvh);
     left: calc(50vw - calc(316/375*100vw)/2);
     width: calc(316/375*100vw);
@@ -569,6 +861,15 @@
     text-shadow: 0px 0px calc(34/812*100dvh) #000;
     font-family: YS Display;
     font-size: calc(18/812*100dvh);
+=======
+    bottom: calc(80 / 812 * 100dvh);
+    left: calc(50vw - calc(316 / 375 * 100vw) / 2);
+    width: calc(316 / 375 * 100vw);
+    color: #fff;
+    text-shadow: 0px 0px calc(34 / 812 * 100dvh) #000;
+    font-family: YS Display;
+    font-size: calc(18 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -576,18 +877,31 @@
   }
 
   .smart-screen-block {
+<<<<<<< HEAD
     margin: calc(35/812*100dvh) auto 0 auto;
+=======
+    margin: calc(35 / 812 * 100dvh) auto 0 auto;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     gap: calc(20/812*100dvh);
+=======
+    gap: calc(20 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   .smart-screen {
     display: flex;
+<<<<<<< HEAD
     width: calc(319/812*100dvh);
     height: calc(223/812*100dvh);
+=======
+    width: calc(319 / 812 * 100dvh);
+    height: calc(223 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/smart-screen_mobile-1.png") top left no-repeat;
     background-size: contain;
   }
@@ -650,11 +964,19 @@
   .smart-screen::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: calc(-25/812*100dvh);
     left: auto;
     right: calc((23/375*100vw) - 10px);
     width: calc(100/375*100vw);
     height: calc(119/812*100dvh);
+=======
+    top: calc(-25 / 812 * 100dvh);
+    left: auto;
+    right: calc((23 / 375 * 100vw) - 10px);
+    width: calc(100 / 375 * 100vw);
+    height: calc(119 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/1.png") top right no-repeat;
     background-size: contain;
   }
@@ -662,11 +984,19 @@
   .smart-screen-instruction-pic-2::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: calc(-25/812*100dvh);
     left: auto;
     right: calc((23/375*100vw) - 10px);
     width: calc(96/375*100vw);
     height: calc(119/812*100dvh);
+=======
+    top: calc(-25 / 812 * 100dvh);
+    left: auto;
+    right: calc((23 / 375 * 100vw) - 10px);
+    width: calc(96 / 375 * 100vw);
+    height: calc(119 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/2.png") top right no-repeat;
     background-size: contain;
   }
@@ -674,11 +1004,19 @@
   .smart-screen-instruction-pic-3::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: calc(-25/812*100dvh);
     left: auto;
     right: calc((23/375*100vw) - 10px);
     width: calc(96/375*100vw);
     height: calc(119/812*100dvh);
+=======
+    top: calc(-25 / 812 * 100dvh);
+    left: auto;
+    right: calc((23 / 375 * 100vw) - 10px);
+    width: calc(96 / 375 * 100vw);
+    height: calc(119 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/3.png") top right no-repeat;
     background-size: contain;
   }
@@ -686,11 +1024,19 @@
   .smart-screen-instruction-pic-4::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: calc(-25/812*100dvh);
     left: auto;
     right: calc((23/375*100vw) - 10px);
     width: calc(96/375*100vw);
     height: calc(119/812*100dvh);
+=======
+    top: calc(-25 / 812 * 100dvh);
+    left: auto;
+    right: calc((23 / 375 * 100vw) - 10px);
+    width: calc(96 / 375 * 100vw);
+    height: calc(119 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/4.png") top right no-repeat;
     background-size: contain;
   }
@@ -698,11 +1044,19 @@
   .smart-screen-instruction-pic-5::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: calc(-25/812*100dvh);
     left: auto;
     right: calc((23/375*100vw) - 10px);
     width: calc(96/375*100vw);
     height: calc(119/812*100dvh);
+=======
+    top: calc(-25 / 812 * 100dvh);
+    left: auto;
+    right: calc((23 / 375 * 100vw) - 10px);
+    width: calc(96 / 375 * 100vw);
+    height: calc(119 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/5.png") top right no-repeat;
     background-size: contain;
   }
@@ -710,17 +1064,29 @@
   .smart-screen-instruction-pic-6::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: calc(-25/812*100dvh);
     left: auto;
     right: calc((23/375*100vw) - 10px);
     width: calc(96/375*100vw);
     height: calc(119/812*100dvh);
+=======
+    top: calc(-25 / 812 * 100dvh);
+    left: auto;
+    right: calc((23 / 375 * 100vw) - 10px);
+    width: calc(96 / 375 * 100vw);
+    height: calc(119 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/6.png") top right no-repeat;
     background-size: contain;
   }
 
   .smart-screen-instruction-text {
+<<<<<<< HEAD
     margin: 0 calc(39/375*100vw) 0 calc(39/375*100vw);
+=======
+    margin: 0 calc(39 / 375 * 100vw) 0 calc(39 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -728,7 +1094,11 @@
     width: auto;
     color: #fff;
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(18/812*100dvh);
+=======
+    font-size: calc(18 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -739,27 +1109,43 @@
     flex-direction: row;
     justify-content: space-between;
     width: 86vw;
+<<<<<<< HEAD
     height: calc(55/812*100dvh);
+=======
+    height: calc(55 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   .smart-screen-appStore-download-link {
     background: url("../img/appStore.png") top left no-repeat;
     background-size: contain;
+<<<<<<< HEAD
     width: calc(155/812*100dvh);
+=======
+    width: calc(155 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     cursor: pointer;
   }
 
   .smart-screen-googlePlay-download-link {
     background: url("../img/googlePlay.png") top left no-repeat;
     background-size: contain;
+<<<<<<< HEAD
     width: calc(155/812*100dvh);
+=======
+    width: calc(155 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     cursor: pointer;
   }
 
   .smart-screen-link {
     color: #fff;
     font-family: YS Display;
+<<<<<<< HEAD
     font-size: calc(18/812*100dvh);
+=======
+    font-size: calc(18 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -768,11 +1154,19 @@
   }
 
   .lights-under-h1 {
+<<<<<<< HEAD
     margin: calc(25/812*100dvh) 0 0 calc(31/812*100dvh);
     width: calc(313/812*100dvh);
     color: #fff;
     font-family: YS Display;
     font-size: calc(21/812*100dvh);
+=======
+    margin: calc(25 / 812 * 100dvh) 0 0 calc(31 / 812 * 100dvh);
+    width: calc(313 / 812 * 100dvh);
+    color: #fff;
+    font-family: YS Display;
+    font-size: calc(21 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -786,10 +1180,17 @@
   .make-a-mix-objects {
     display: none;
     position: fixed;
+<<<<<<< HEAD
     top: calc((500/812*100dvh) - 18vw);
     left: calc(-100/375*100vw);
     width: calc(512/375*100vw);
     height: calc(307/375*100vw);
+=======
+    top: calc((500 / 812 * 100dvh) - 18vw);
+    left: calc(-100 / 375 * 100vw);
+    width: calc(512 / 375 * 100vw);
+    height: calc(307 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/make-a-mix_mobile.png") bottom left no-repeat;
     background-size: contain;
     z-index: 3;
@@ -803,11 +1204,19 @@
 
   .make-a-mix-bottle {
     margin: 0 auto;
+<<<<<<< HEAD
     top: calc(-710/812*100dvh);
     right: calc(50vw - calc(881/375*100vw)/2);
     position: fixed;
     width: calc(881/375*100vw);
     height: calc(1763/812*100dvh);
+=======
+    top: calc(-710 / 812 * 100dvh);
+    right: calc(50vw - calc(881 / 375 * 100vw) / 2);
+    position: fixed;
+    width: calc(881 / 375 * 100vw);
+    height: calc(1763 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/bottle.png") center center no-repeat;
     background-size: cover;
     z-index: -1;
@@ -815,11 +1224,19 @@
 
   .coctail-recipes-bottle {
     margin: 0 auto;
+<<<<<<< HEAD
     top: calc(-710/812*100dvh);
     right: calc(50vw - calc(881/375*100vw)/2);
     position: fixed;
     width: calc(881/375*100vw);
     height: calc(1763/812*100dvh);
+=======
+    top: calc(-710 / 812 * 100dvh);
+    right: calc(50vw - calc(881 / 375 * 100vw) / 2);
+    position: fixed;
+    width: calc(881 / 375 * 100vw);
+    height: calc(1763 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/bottle.png") center center no-repeat;
     background-size: cover;
     z-index: -1;
@@ -834,12 +1251,21 @@
   }
 
   .footer-buton {
+<<<<<<< HEAD
     bottom: calc(-413/812*100dvh);
     right: calc(50vw - calc(568/812*100dvh)/2);
     position: fixed;
     display: flex;
     width: calc(568/812*100dvh);
     height: calc(568/812*100dvh);
+=======
+    bottom: calc(-413 / 812 * 100dvh);
+    right: calc(50vw - calc(568 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: flex;
+    width: calc(568 / 812 * 100dvh);
+    height: calc(568 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border-radius: 50%;
     z-index: 2;
     cursor: pointer;
@@ -864,12 +1290,21 @@
   }
 
   .greetings-footer-buton {
+<<<<<<< HEAD
     bottom: calc(-413/812*100dvh);
     right: calc(50vw - calc(568/812*100dvh)/2);
     position: fixed;
     display: flex;
     width: calc(568/812*100dvh);
     height: calc(568/812*100dvh);
+=======
+    bottom: calc(-413 / 812 * 100dvh);
+    right: calc(50vw - calc(568 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: flex;
+    width: calc(568 / 812 * 100dvh);
+    height: calc(568 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border-radius: 50%;
     z-index: 2;
     cursor: pointer;
@@ -884,10 +1319,17 @@
   }
 
   .footer-button-text {
+<<<<<<< HEAD
     margin: calc(62/812*100dvh) auto 0 auto;
     color: #fff;
     font-family: YS Display;
     font-size: calc(30/812*100dvh);
+=======
+    margin: calc(62 / 812 * 100dvh) auto 0 auto;
+    color: #fff;
+    font-family: YS Display;
+    font-size: calc(30 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -896,10 +1338,17 @@
   .footer-button-text::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     bottom: calc(510/812*100dvh);
     left: calc(80/812*100dvh);
     width: calc(247/812*100dvh);
     height: calc(319/812*70dvh);
+=======
+    bottom: calc(510 / 812 * 100dvh);
+    left: calc(80 / 812 * 100dvh);
+    width: calc(247 / 812 * 100dvh);
+    height: calc(319 / 812 * 70dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/SVG/arrow_mobile.svg") bottom left no-repeat;
     background-size: 100% 100%;
     transform: rotate(0deg);
@@ -907,6 +1356,7 @@
     pointer-events: none;
   }
 
+<<<<<<< HEAD
   .greetings-footer-buton::after {
     display: none;
   }
@@ -915,17 +1365,31 @@
     margin: calc(40/812*100dvh) auto 0 auto;
     width: calc(171/812*100dvh);
     height: calc(92/812*100dvh);
+=======
+  .footer-button-arrow {
+    margin: calc(40 / 812 * 100dvh) auto 0 auto;
+    width: calc(171 / 812 * 100dvh);
+    height: calc(92 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
     background-size: contain;
   }
 
   .lights-footer-button,
 .cocktails-footer-button {
+<<<<<<< HEAD
     right: calc(50vw - calc(568/812*100dvh)/2);
     position: fixed;
     display: flex;
     width: calc(568/812*100dvh);
     height: calc(568/812*100dvh);
+=======
+    right: calc(50vw - calc(568 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: flex;
+    width: calc(568 / 812 * 100dvh);
+    height: calc(568 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border-radius: 50%;
     border: 1px solid #b4afff;
     background: #9b94ff;
@@ -947,40 +1411,68 @@
     top: 22dvh;
     left: 50%;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     width: calc(284/812*100dvh);
     height: calc(288/812*100dvh);
+=======
+    width: calc(284 / 812 * 100dvh);
+    height: calc(288 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/smart-home.png") center center no-repeat;
     background-size: contain;
     z-index: -1;
   }
 
   .lights-footer-button-text {
+<<<<<<< HEAD
     margin: calc(65/812*100dvh) 0 0 calc(208/812*100dvh);
     color: #f5f5f5;
     text-align: center;
     font-family: YS Display;
     font-size: calc(30/812*100dvh);
+=======
+    margin: calc(65 / 812 * 100dvh) 0 0 calc(208 / 812 * 100dvh);
+    color: #f5f5f5;
+    text-align: center;
+    font-family: YS Display;
+    font-size: calc(30 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
 
   .lights-footer-button-arrow {
+<<<<<<< HEAD
     margin: calc(40/812*100dvh) auto 0 auto;
     width: calc(171/812*100dvh);
     height: calc(92/812*100dvh);
+=======
+    margin: calc(40 / 812 * 100dvh) auto 0 auto;
+    width: calc(171 / 812 * 100dvh);
+    height: calc(92 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/SVG/arrow_button_mobile.svg") center center no-repeat;
     background-size: contain;
   }
 
   .make-a-mix-footer-button {
     top: auto;
+<<<<<<< HEAD
     bottom: calc(-420/812*100dvh);
     right: calc(50vw - calc(568/812*100dvh)/2);
     position: fixed;
     display: flex;
     width: calc(568/812*100dvh);
     height: calc(568/812*100dvh);
+=======
+    bottom: calc(-420 / 812 * 100dvh);
+    right: calc(50vw - calc(568 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: flex;
+    width: calc(568 / 812 * 100dvh);
+    height: calc(568 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border-radius: 50%;
     border: 1px solid #b4afff;
     background: #9b94ff;
@@ -995,14 +1487,20 @@
     top: 22dvh;
     left: 50%;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     width: calc(284/812*100dvh);
     height: calc(288/812*100dvh);
+=======
+    width: calc(284 / 812 * 100dvh);
+    height: calc(288 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/smart-home.png") center center no-repeat;
     background-size: contain;
     z-index: -1;
   }
 
   .feel-the-rythm-footer-buton {
+<<<<<<< HEAD
     bottom: calc(-347/812*100dvh);
     right: calc(50vw - calc(519/812*100dvh)/2);
     position: fixed;
@@ -1013,6 +1511,18 @@
     border: none;
     background: url("../img/feel-the-rythm-button-bg-mobile.png") center -23% no-repeat;
     background-size: calc(509/812*100dvh) calc(286/812*100dvh);
+=======
+    bottom: calc(-347 / 812 * 100dvh);
+    right: calc(50vw - calc(519 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: flex;
+    width: calc(519 / 812 * 100dvh);
+    height: calc(501 / 812 * 100dvh);
+    border-radius: calc(494 / 812 * 100dvh);
+    border: none;
+    background: url("../img/feel-the-rythm-button-bg-mobile.png") center -23% no-repeat;
+    background-size: calc(509 / 812 * 100dvh) calc(286 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     box-shadow: none;
     z-index: 2;
     cursor: pointer;
@@ -1023,6 +1533,7 @@
   }
 
   .feel-the-rythm-plastinka {
+<<<<<<< HEAD
     bottom: calc(-896/812*100dvh);
     right: calc(50vw - calc(1500/812*100dvh)/2);
     position: fixed;
@@ -1030,6 +1541,15 @@
     border-radius: 50%;
     width: calc(1500/812*100dvh);
     height: calc(1546/812*100dvh);
+=======
+    bottom: calc(-896 / 812 * 100dvh);
+    right: calc(50vw - calc(1500 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: none;
+    border-radius: 50%;
+    width: calc(1500 / 812 * 100dvh);
+    height: calc(1546 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/plastinka.png") center center no-repeat;
     background-size: contain;
     box-shadow: none;
@@ -1037,12 +1557,21 @@
   }
 
   .feel-the-rythm-pic {
+<<<<<<< HEAD
     bottom: calc(120/812*100dvh);
     right: calc(50vw - calc(477/812*100dvh)/2);
     position: fixed;
     display: none;
     width: calc(477/812*100dvh);
     height: calc(208/812*100dvh);
+=======
+    bottom: calc(120 / 812 * 100dvh);
+    right: calc(50vw - calc(477 / 812 * 100dvh) / 2);
+    position: fixed;
+    display: none;
+    width: calc(477 / 812 * 100dvh);
+    height: calc(208 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/feel-the-rythm-mobile.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -1054,10 +1583,17 @@
 
   .audioplayer-play-button {
     position: fixed;
+<<<<<<< HEAD
     left: calc(50vw - calc(100/375*100vw)/2);
     bottom: calc(438/812*100dvh);
     width: calc(100/375*100vw);
     height: calc(100/812*100dvh);
+=======
+    left: calc(50vw - calc(100 / 375 * 100vw) / 2);
+    bottom: calc(438 / 812 * 100dvh);
+    width: calc(100 / 375 * 100vw);
+    height: calc(100 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border-radius: 50%;
     background: url("../img/play_button.png") center center no-repeat;
     background-size: contain;
@@ -1065,10 +1601,17 @@
 
   .audioplayer-pause-button {
     position: fixed;
+<<<<<<< HEAD
     left: calc(50vw - calc(100/375*100vw)/2);
     bottom: calc(438/812*100dvh);
     width: calc(100/375*100vw);
     height: calc(100/812*100dvh);
+=======
+    left: calc(50vw - calc(100 / 375 * 100vw) / 2);
+    bottom: calc(438 / 812 * 100dvh);
+    width: calc(100 / 375 * 100vw);
+    height: calc(100 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     border-radius: 50%;
     background: url("../img/pause_button.png") center center no-repeat;
     background-size: contain;
@@ -1076,10 +1619,17 @@
 
   .audioplayer-timeline {
     position: fixed;
+<<<<<<< HEAD
     left: calc(50vw - calc(326/375*100vw)/2);
     bottom: calc(328/812*100dvh);
     width: calc(326/375*100vw);
     height: calc(54/812*100dvh);
+=======
+    left: calc(50vw - calc(326 / 375 * 100vw) / 2);
+    bottom: calc(328 / 812 * 100dvh);
+    width: calc(326 / 375 * 100vw);
+    height: calc(54 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/audioplayer-timeline.png") center center no-repeat;
     background-size: contain;
   }
@@ -1088,6 +1638,7 @@
     position: fixed;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     left: calc(50vw - calc(95/375*100vw)/2);
     bottom: calc(402/812*100dvh);
     width: calc(95/375*100vw);
@@ -1097,6 +1648,17 @@
     text-shadow: 0px 0px calc(34/812*100dvh) #000;
     font-family: YS Display;
     font-size: calc(15/812*100dvh);
+=======
+    left: calc(50vw - calc(95 / 375 * 100vw) / 2);
+    bottom: calc(402 / 812 * 100dvh);
+    width: calc(95 / 375 * 100vw);
+    height: calc(16 / 812 * 100dvh);
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px calc(34 / 812 * 100dvh) #000;
+    font-family: YS Display;
+    font-size: calc(15 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1104,21 +1666,36 @@
 
   .audioplayer-youtube-button {
     position: fixed;
+<<<<<<< HEAD
     right: calc(50vw - calc(94/375*100vw)/2);
     bottom: calc(225/812*100dvh);
     width: calc(94/375*100vw);
     height: calc(75/812*100dvh);
+=======
+    right: calc(50vw - calc(94 / 375 * 100vw) / 2);
+    bottom: calc(225 / 812 * 100dvh);
+    width: calc(94 / 375 * 100vw);
+    height: calc(75 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/audioplayer-youtube-button-mobile.png") center center no-repeat;
     background-size: contain;
   }
 
   .gerland {
     bottom: 3.5dvh;
+<<<<<<< HEAD
     right: calc(50vw - calc(455/375*100vw)/2);
     position: fixed;
     display: flex;
     width: calc(455/375*100vw);
     height: calc(210/375*100vw);
+=======
+    right: calc(50vw - calc(455 / 375 * 100vw) / 2);
+    position: fixed;
+    display: flex;
+    width: calc(455 / 375 * 100vw);
+    height: calc(210 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     background: url("../img/garland_off_mobile.png") center center no-repeat;
     background-size: contain;
     z-index: 3;
@@ -1221,13 +1798,22 @@
   }
 
   .age-verification-page-links {
+<<<<<<< HEAD
     margin: calc(17/812*100dvh) 0 0 calc(29/812*100dvh);
+=======
+    margin: calc(17 / 812 * 100dvh) 0 0 calc(29 / 812 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 84vw;
+<<<<<<< HEAD
     height: calc(56/375*100vw);
     gap: calc(15/375*100vw);
+=======
+    height: calc(56 / 375 * 100vw);
+    gap: calc(15 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   }
 
   .no-link {
@@ -1235,6 +1821,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #fff;
+<<<<<<< HEAD
     border-radius: calc(10/375*100vw);
     width: calc(150/375*100vw);
     height: calc(56/375*100vw);
@@ -1242,6 +1829,15 @@
     text-align: center;
     font-family: YS Display;
     font-size: calc(21/375*100vw);
+=======
+    border-radius: calc(10 / 375 * 100vw);
+    width: calc(150 / 375 * 100vw);
+    height: calc(56 / 375 * 100vw);
+    color: #fff;
+    text-align: center;
+    font-family: YS Display;
+    font-size: calc(21 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -1254,6 +1850,7 @@
     align-items: center;
     justify-content: center;
     border: 0px solid #fff;
+<<<<<<< HEAD
     border-radius: calc(10/375*100vw);
     background: #9b94ff;
     width: calc(150/375*100vw);
@@ -1262,6 +1859,16 @@
     text-align: center;
     font-family: YS Display;
     font-size: calc(21/375*100vw);
+=======
+    border-radius: calc(10 / 375 * 100vw);
+    background: #9b94ff;
+    width: calc(150 / 375 * 100vw);
+    height: calc(56 / 375 * 100vw);
+    color: #fff;
+    text-align: center;
+    font-family: YS Display;
+    font-size: calc(21 / 375 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
     font-style: normal;
     font-weight: 500;
     line-height: normal;
