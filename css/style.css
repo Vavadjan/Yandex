@@ -613,13 +613,13 @@ h1 {
 }
 
 .cocktail-recipes-h1 {
-  margin: 14.1450313339dvh 0 0 14.0555058192dvh;
+  margin: 13.6974037601dvh 0 0 14.0555058192dvh;
   font-family: YS Display;
   font-size: 4.4762757386dvh;
   font-style: normal;
   font-weight: 700;
   line-height: 4.2524619517dvh; /* 105% */
-  width: 57.0277529096dvh;
+  width: 60.8773500448dvh;
   background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -748,7 +748,7 @@ h1 {
 }
 
 .make-a-mix-under-h1 {
-  margin: 3.4914950761dvh 0 0 14.0555058192dvh;
+  margin: 6.8934646374dvh 0 0 14.0555058192dvh;
 }
 
 .cocktail-recipes-under-h1 {
