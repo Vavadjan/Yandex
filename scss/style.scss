@@ -49,7 +49,6 @@ html {
 }
 
 #audiovidget {
-<<<<<<< HEAD
     position: fixed;
 		z-index: 5;
     top: var(--top, calc(73 / 1728 * 100vw));
@@ -63,15 +62,6 @@ html {
 		pointer-events: all;
 		touch-action: none;
 		cursor: grab;
-=======
-    position: absolute;
-    top: calc(73/1728*100vw);
-    right: calc(167/1728*100vw);
-    display: flex;
-    flex-direction: row;
-    width: calc(409/1728*100vw);
-    height: calc(168/1728*100vw);
->>>>>>> master
 }
 .audiovidget-leftside {
     position: relative;
@@ -801,62 +791,67 @@ h1 {
 .smart-screen-instruction-pic-1::before {
     content: "";
     position: absolute;
-    top: calc(-170/1117*100dvh);
-    left: calc(-166/1117*100dvh);
-    width: calc(191/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-100/1117*100dvh);
+    left: calc(-114/1117*100dvh);
+    width: calc(112/1117*100dvh);
+    height: calc(233/1117*100dvh);
     background: url("../img/1.png") top left no-repeat;
     background-size: contain;
 }
 
 .smart-screen-instruction-pic-2::before {
     content: "";
+    position: absolute;
     background: url("../img/2.png") top left no-repeat;
     background-size: contain;
-    top: calc(-140/1117*100dvh);
-    left: calc(-124/1117*100dvh);
-    width: calc(156/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-100/1117*100dvh);
+    left: calc(-125/1117*100dvh);
+    width: calc(143/1117*100dvh);
+    height: calc(224/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-3::before {
     content: "";
+    position: absolute;
     background: url("../img/3.png") top left no-repeat;
     background-size: contain;
-    top: calc(-130/1117*100dvh);
-    left: calc(-120/1117*100dvh);
-    width: calc(184/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-100/1117*100dvh);
+    left: calc(-125/1117*100dvh);
+    width: calc(148/1117*100dvh);
+    height: calc(236/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-4::before {
     content: "";
+    position: absolute;
     background: url("../img/4.png") top left no-repeat;
     background-size: contain;
-    top: calc(-125/1117*100dvh);
-    left: calc(-150/1117*100dvh);
-    width: calc(173/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-93/1117*100dvh);
+    left: calc(-144/1117*100dvh);
+    width: calc(162/1117*100dvh);
+    height: calc(223/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-5::before {
     content: "";
+    position: absolute;
     background: url("../img/5.png") top left no-repeat;
     background-size: contain;
-    top: calc(-130/1117*100dvh);
+    top: calc(-97/1117*100dvh);
     left: calc(-120/1117*100dvh);
-    width: calc(167/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    width: calc(144/1117*100dvh);
+    height: calc(233/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-6::before {
     content: "";
+    position: absolute;
     background: url("../img/6.png") top left no-repeat;
     background-size: contain;
-    top: calc(-120/1117*100dvh);
-    left: calc(-110/1117*100dvh);
-    width: calc(159/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-97/1117*100dvh);
+    left: calc(-115/1117*100dvh);
+    width: calc(136/1117*100dvh);
+    height: calc(205/1117*100dvh);
 }
 
 .smart-screen-instruction-text {
@@ -1189,7 +1184,7 @@ h1 {
     content: "";
     position: absolute;
     bottom: calc(207/1117*100dvh);
-    right: calc(153/1117*100dvh);
+    right: calc(152/1117*100dvh);
     width: calc(424/1117*100dvh);
     height: calc(367/1117*100dvh);
     background: url("../img/smart-home.png") bottom right no-repeat;
@@ -1198,7 +1193,7 @@ h1 {
 }
 
 .lights-footer-button-arrow {
-    margin: calc(200/1117*100dvh) 0 0 calc(200/1117*100dvh);
+    margin: calc(190/1117*100dvh) 0 0 calc(200/1117*100dvh);
     width: calc(325/1117*100dvh);
     height: calc(323/1117*100dvh);
     background: url("../img/SVG/arrow_button.svg") center center no-repeat;
