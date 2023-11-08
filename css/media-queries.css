@@ -792,6 +792,9 @@
     z-index: 3;
     pointer-events: none;
   }
+  .greetings-footer-buton::after {
+    display: none;
+  }
   .footer-button-arrow {
     margin: 4.9261083744dvh auto 0 auto;
     width: 21.0591133005dvh;

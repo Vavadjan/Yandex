@@ -1,25 +1,30 @@
 @charset "UTF-8";
 @font-face {
   font-family: "YS Display";
-  src: url("../fonts/YS-Display-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("../fonts/YS-Display-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "YS Display";
-  src: url("../fonts/YS-Display-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("../fonts/YS-Display-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
   font-weight: bold;
   font-style: normal;
 }
 @keyframes pulse {
   0% {
-    transform: scale(1); /* Исходный размер элемента */
+    transform: scale(1);
+    /* Исходный размер элемента */
   }
   50% {
-    transform: scale(2); /* Увеличенный размер на 200% */
+    transform: scale(2);
+    /* Увеличенный размер на 200% */
   }
   100% {
-    transform: scale(1); /* Возврат к исходному размеру */
+    transform: scale(1);
+    /* Возврат к исходному размеру */
   }
 }
 /* Обычное состояние и состояние посещенной ссылки */
@@ -48,21 +53,21 @@ html {
 
 #audiovidget {
   position: absolute;
-  top: 4.224537037vw;
-  right: 9.6643518519vw;
+  top: calc(73 / 1728 * 100vw);
+  right: calc(167 / 1728 * 100vw);
   display: flex;
   flex-direction: row;
-  width: 23.6689814815vw;
-  height: 9.7222222222vw;
+  width: calc(409 / 1728 * 100vw);
+  height: calc(168 / 1728 * 100vw);
 }
 
 .audiovidget-leftside {
   position: relative;
-  width: 11.9212962963vw;
-  height: 9.7222222222vw;
+  width: calc(206 / 1728 * 100vw);
+  height: calc(168 / 1728 * 100vw);
   background: url("../img/audiovidget-bg.jpg") 10% 10% no-repeat;
   background-size: 260%;
-  border-radius: 2.025462963vw 0 0 2.025462963vw;
+  border-radius: calc(35 / 1728 * 100vw) 0 0 calc(35 / 1728 * 100vw);
 }
 
 .audiovidget-rightside {
@@ -70,11 +75,11 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 11.9212962963vw;
-  height: 9.7222222222vw;
-  border-radius: 0 2.025462963vw 2.025462963vw 0;
-  gap: 0.5787037037vw;
-  padding: 0.9837962963vw;
+  width: calc(206 / 1728 * 100vw);
+  height: calc(168 / 1728 * 100vw);
+  border-radius: 0 calc(35 / 1728 * 100vw) calc(35 / 1728 * 100vw) 0;
+  gap: calc(10 / 1728 * 100vw);
+  padding: calc(17 / 1728 * 100vw);
   background: linear-gradient(#4e63b7, #3b3c67);
 }
 
@@ -82,7 +87,7 @@ html {
   color: #fff;
   text-align: center;
   font-family: YS Display;
-  font-size: 1.1574074074vw;
+  font-size: calc(20 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -92,7 +97,7 @@ html {
   color: rgba(255, 255, 255, 0.54);
   text-align: center;
   font-family: YS Display;
-  font-size: 1.1574074074vw;
+  font-size: calc(20 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -100,8 +105,8 @@ html {
 }
 
 #audiovidget-rightside-play-button {
-  width: 2.2569444444vw;
-  height: 2.4884259259vw;
+  width: calc(39 / 1728 * 100vw);
+  height: calc(43 / 1728 * 100vw);
   border: none;
   background: url("../img/audiovidget-play-button.png") center center no-repeat;
   background-size: contain;
@@ -110,8 +115,8 @@ html {
 }
 
 #audiovidget-rightside-pause-button {
-  width: 1.9097222222vw;
-  height: 2.4884259259vw;
+  width: calc(33 / 1728 * 100vw);
+  height: calc(43 / 1728 * 100vw);
   border: none;
   background: url("../img/audiovidget-pause-button.png") center center no-repeat;
   background-size: contain;
@@ -123,7 +128,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -54.9768518519vw -54.9768518519vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") calc(-950 / 1728 * 100vw) calc(-950 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
   overflow: hidden;
 }
@@ -137,7 +142,7 @@ body {
 }
 
 .rotating-slider-container {
-  height: calc(100% - 11.9068934646dvh);
+  height: calc(100% - 133 / 1117 * 100dvh);
 }
 
 .music-slider-container,
@@ -146,11 +151,11 @@ body {
 }
 
 .cocktails-slider .slide {
-  margin-top: 11.9068934646dvh;
+  margin-top: calc(133 / 1117 * 100dvh);
 }
 
 .feeltherhythm_h1 {
-  margin-top: 23.8137869293dvh;
+  margin-top: calc(133 / 1117 * 2 * 100dvh);
 }
 
 .rotating-slider,
@@ -245,7 +250,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 103.5dvh, 96.5%, 100vw 100dvh;
 }
 
@@ -253,7 +258,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
 }
 
@@ -261,7 +266,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+  background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
 }
 
@@ -272,21 +277,21 @@ body {
   left: 0;
   width: 100vw;
   height: 100dvh;
-  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") -52.9513888889vw -54.2824074074vw no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: cover, 96.5%, 100vw 100dvh;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  height: 11.9068934646dvh;
+  height: calc(133 / 1117 * 100dvh);
 }
 
 /* Гамбургер иконка */
 .menu-btn {
-  margin: 5.0925925926vw 4.8611111111vw 0 0;
-  width: 2.8935185185vw;
-  height: 2.8935185185vw;
+  margin: calc(88 / 1728 * 100vw) calc(84 / 1728 * 100vw) 0 0;
+  width: calc(50 / 1728 * 100vw);
+  height: calc(50 / 1728 * 100vw);
   position: relative;
   display: flex;
   z-index: 11;
@@ -294,8 +299,8 @@ header {
 }
 
 .menu-btn span {
-  width: 2.3148148148vw;
-  height: 0.2314814815vw;
+  width: calc(40 / 1728 * 100vw);
+  height: calc(4 / 1728 * 100vw);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -305,11 +310,11 @@ header {
 }
 
 .menu-btn span:nth-of-type(2) {
-  top: calc(50% - 0.8101851852vw);
+  top: calc(50% - calc(14 / 1728 * 100vw));
 }
 
 .menu-btn span:nth-of-type(3) {
-  top: calc(50% + 0.8101851852vw);
+  top: calc(50% + calc(14 / 1728 * 100vw));
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -332,14 +337,13 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: 27.1990740741vw;
-  height: 27.1990740741vw;
+  width: calc(470 / 1728 * 100vw);
+  height: calc(470 / 1728 * 100vw);
   transform: translateX(100%);
   transition: transform 0.5s;
-  border-radius: 2.1412037037vw;
+  border-radius: calc(37 / 1728 * 100vw);
   background: linear-gradient(270deg, #181715 7.37%, #181715 7.38%, rgba(24, 23, 21, 0.32) 106.48%);
-  -webkit-backdrop-filter: blur(11.5px);
-          backdrop-filter: blur(11.5px);
+  backdrop-filter: blur(11.5px);
   z-index: 10;
 }
 
@@ -348,54 +352,58 @@ header {
 }
 
 .menu ul {
-  width: 20.0231481481vw;
-  height: 14.6412037037vw;
+  width: calc(346 / 1728 * 100vw);
+  height: calc(253 / 1728 * 100vw);
   display: flex;
   flex-direction: column;
-  gap: 1.2731481481vw;
-  margin: 10.4166666667vw 0 3.0092592593vw 3.1828703704vw;
+  gap: calc(22 / 1728 * 100vw);
+  margin: calc(180 / 1728 * 100vw) 0 calc(52 / 1728 * 100vw) calc(55 / 1728 * 100vw);
 }
 
 .menu li {
   color: rgba(255, 255, 255, 0.15);
   font-family: YS Display;
-  font-size: 1.7361111111vw;
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.880787037vw; /* 108.333% */
+  line-height: calc(32.5 / 1728 * 100vw);
+  /* 108.333% */
 }
 
 .link-active {
   color: #fff;
   font-family: YS Display;
-  font-size: 1.7361111111vw;
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.880787037vw; /* 108.333% */
+  line-height: calc(32.5 / 1728 * 100vw);
+  /* 108.333% */
 }
 
 .link-sub-active {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: 1.7361111111vw;
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.880787037vw; /* 108.333% */
+  line-height: calc(32.5 / 1728 * 100vw);
+  /* 108.333% */
 }
 
 .link-sub-active:visited {
   color: rgba(255, 255, 255, 0.35);
   font-family: YS Display;
-  font-size: 1.7361111111vw;
+  font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.880787037vw; /* 108.333% */
+  line-height: calc(32.5 / 1728 * 100vw);
+  /* 108.333% */
 }
 
 .logo {
-  margin: 7.4306177261dvh 0 0 14.0555058192dvh;
-  width: 17.4574753805dvh;
-  height: 4.5658012534dvh;
+  margin: calc(83 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(195 / 1117 * 100dvh);
+  height: calc(51 / 1117 * 100dvh);
   background: url("../img/SVG/logo.svg") no-repeat;
   background-size: contain;
 }
@@ -407,17 +415,17 @@ header {
   font-family: YS Display;
   font-style: normal;
   font-weight: 600;
-  font-size: 3.2229185318dvh;
+  font-size: calc(36 / 1117 * 100dvh);
 }
 
 .logo-symbol::before {
   content: "";
   display: none;
-  width: 4.5156669651dvh;
-  height: 4.5156669651dvh;
+  width: calc(50.44 / 1117 * 100dvh);
+  height: calc(50.44 / 1117 * 100dvh);
   position: absolute;
-  top: -0.6266786034dvh;
-  left: -1.0743061773dvh;
+  top: calc(-7 / 1117 * 100dvh);
+  left: calc(-12 / 1117 * 100dvh);
   background: #fff;
   border-radius: 50%;
   z-index: -1;
@@ -425,22 +433,23 @@ header {
 
 .logo-word {
   display: none;
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: YS Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 3.2229185318dvh;
+  font-size: calc(36 / 1117 * 100dvh);
 }
 
 h1 {
   position: relative;
-  margin: 13.5684870188dvh 0 0 14.0555058192dvh;
+  margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: 4.4762757386dvh;
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: 4.7000895255dvh; /* 105% */
-  width: 40.376007162dvh;
+  line-height: calc(52.5 / 1117 * 100dvh);
+  /* 105% */
+  width: calc(451 / 1117 * 100dvh);
   background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -450,13 +459,14 @@ h1 {
 
 .make-a-mix-h1 {
   position: relative;
-  margin: 13.5684870188dvh 0 0 14.0555058192dvh;
+  margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: 4.4762757386dvh;
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: 4.7000895255dvh; /* 105% */
-  width: 40.376007162dvh;
+  line-height: calc(52.5 / 1117 * 100dvh);
+  /* 105% */
+  width: calc(451 / 1117 * 100dvh);
   background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -464,13 +474,14 @@ h1 {
 }
 
 .cocktail-recipes-h1 {
-  margin: 14.1450313339dvh 0 0 14.0555058192dvh;
+  margin: calc(158 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: 4.4762757386dvh;
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: 4.2524619517dvh; /* 105% */
-  width: 57.0277529096dvh;
+  line-height: calc(47.5 / 1117 * 100dvh);
+  /* 105% */
+  width: calc(637 / 1117 * 100dvh);
   background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -479,13 +490,13 @@ h1 {
 
 .audioplayer-h1 {
   position: relative;
-  margin: 13.5684870188dvh 0 0 14.0555058192dvh;
+  margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
-  font-size: 4.4762757386dvh;
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 40.376007162dvh;
+  width: calc(451 / 1117 * 100dvh);
   background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -494,120 +505,121 @@ h1 {
 }
 
 .cocktail-recipes-pic-1 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_1.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-2 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_2.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-3 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_3.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-4 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_4.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-5 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
   background: url("../img/glass_5.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-6 {
-  margin: 11.1906893465dvh 0 0 25.3357206804dvh;
-  width: 47.0904207699dvh;
-  height: 51.4771709937dvh;
+  margin: calc(125 / 1117 * 100dvh) 0 0 calc(283 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
   background: url("../img/shaker_0.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-7 {
-  margin: 12.6230975828dvh 0 0 17.2784243509dvh;
-  width: 47.0904207699dvh;
-  height: 51.4771709937dvh;
+  margin: calc(141 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
   background: url("../img/shaker_1.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-8 {
-  margin: 11.7278424351dvh 0 0 16.6517457475dvh;
-  width: 47.0904207699dvh;
-  height: 51.4771709937dvh;
+  margin: calc(131 / 1117 * 100dvh) 0 0 calc(186 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
   background: url("../img/shaker_2.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-9 {
-  margin: 14.5926589078dvh 0 0 17.2784243509dvh;
-  width: 59.8030438675dvh;
-  height: 45.1208594449dvh;
+  margin: calc(163 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
+  width: calc(668 / 1117 * 100dvh);
+  height: calc(504 / 1117 * 100dvh);
   background: url("../img/shaker_3.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-10 {
-  margin: 17.63652641dvh 0 0 14.503133393dvh;
-  width: 33.4825425246dvh;
-  height: 41.9874664279dvh;
+  margin: calc(197 / 1117 * 100dvh) 0 0 calc(162 / 1117 * 100dvh);
+  width: calc(374 / 1117 * 100dvh);
+  height: calc(469 / 1117 * 100dvh);
   background: url("../img/shaker_4.png") center center no-repeat;
   background-size: contain;
 }
 
 .under-h1 {
   position: relative;
-  margin: 6.5353625783dvh 0 0 14.0555058192dvh;
-  width: 61.6830796777dvh;
+  margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(689 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
-  line-height: 2.9095792301dvh; /* 108.333% */
+  line-height: calc(32.5 / 1117 * 100dvh);
+  /* 108.333% */
   z-index: 3;
 }
 .under-h1 strong {
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
-  line-height: 2.9095792301dvh;
+  line-height: calc(32.5 / 1117 * 100dvh);
 }
 
 .age-verification-page-under-h1 {
-  margin: 3.4914950761dvh 0 0 14.0555058192dvh;
+  margin: calc(39 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
 }
 
 .make-a-mix-under-h1 {
-  margin: 3.4914950761dvh 0 0 14.0555058192dvh;
+  margin: calc(39 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
 }
 
 .cocktail-recipes-under-h1 {
-  margin: 4.8343777977dvh 0 0 14.0555058192dvh;
-  width: 61.6830796777dvh;
+  margin: calc(54 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(689 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -615,11 +627,11 @@ h1 {
 
 .audioplayer-under-h1 {
   position: relative;
-  margin: 6.5353625783dvh 0 0 14.0555058192dvh;
-  width: 52.8200537153dvh;
+  margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(590 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -627,7 +639,7 @@ h1 {
 }
 
 .smart-screen-block {
-  margin: 15.4879140555dvh 0 0 21.3965980304dvh;
+  margin: calc(173 / 1117 * 100dvh) 0 0 calc(239 / 1117 * 100dvh);
   position: relative;
   display: flex;
   flex-direction: row;
@@ -636,48 +648,48 @@ h1 {
 
 .smart-screen-instruction-pic-1 {
   display: flex;
-  width: 27.5738585497dvh;
-  height: 54.0734109221dvh;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-1.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-2 {
   display: flex;
-  width: 27.5738585497dvh;
-  height: 54.0734109221dvh;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-2.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-3 {
   display: flex;
-  width: 27.5738585497dvh;
-  height: 54.0734109221dvh;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-3.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-4 {
   display: flex;
-  width: 27.5738585497dvh;
-  height: 54.0734109221dvh;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-4.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-5 {
   display: flex;
-  width: 27.5738585497dvh;
-  height: 54.0734109221dvh;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-5.png") top left no-repeat;
   background-size: contain;
 }
 
 .smart-screen-instruction-pic-6 {
   display: flex;
-  width: 27.5738585497dvh;
-  height: 54.0734109221dvh;
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
   background: url("../img/smart-screen-6.png") top left no-repeat;
   background-size: contain;
 }
@@ -685,10 +697,10 @@ h1 {
 .smart-screen-instruction-pic-1::after {
   content: "";
   position: absolute;
-  top: 10.7430617726dvh;
-  left: 13.8764547896dvh;
-  width: 4.2076991943dvh;
-  height: 4.2076991943dvh;
+  top: calc(120 / 1117 * 100dvh);
+  left: calc(155 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -697,10 +709,10 @@ h1 {
 .smart-screen-instruction-pic-2::after {
   content: "";
   position: absolute;
-  top: 22.8290062668dvh;
-  left: 15.2193375112dvh;
-  width: 4.2076991943dvh;
-  height: 4.2076991943dvh;
+  top: calc(255 / 1117 * 100dvh);
+  left: calc(170 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -709,10 +721,10 @@ h1 {
 .smart-screen-instruction-pic-3::after {
   content: "";
   position: absolute;
-  top: 42.0769919427dvh;
-  left: 12.4440465533dvh;
-  width: 4.2076991943dvh;
-  height: 4.2076991943dvh;
+  top: calc(470 / 1117 * 100dvh);
+  left: calc(139 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -721,10 +733,10 @@ h1 {
 .smart-screen-instruction-pic-4::after {
   content: "";
   position: absolute;
-  top: 12.533572068dvh;
-  left: 14.0555058192dvh;
-  width: 4.2076991943dvh;
-  height: 4.2076991943dvh;
+  top: calc(140 / 1117 * 100dvh);
+  left: calc(157 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -733,10 +745,10 @@ h1 {
 .smart-screen-instruction-pic-5::after {
   content: "";
   position: absolute;
-  top: 25.0671441361dvh;
-  left: 19.2479856759dvh;
-  width: 4.2076991943dvh;
-  height: 4.2076991943dvh;
+  top: calc(280 / 1117 * 100dvh);
+  left: calc(215 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -745,10 +757,10 @@ h1 {
 .smart-screen-instruction-pic-6::after {
   content: "";
   position: absolute;
-  top: 22.8290062668dvh;
-  left: 19.6956132498dvh;
-  width: 4.2076991943dvh;
-  height: 4.2076991943dvh;
+  top: calc(255 / 1117 * 100dvh);
+  left: calc(220 / 1117 * 100dvh);
+  width: calc(47 / 1117 * 100dvh);
+  height: calc(47 / 1117 * 100dvh);
   background: url("../img/SVG/crosshair.svg") center center no-repeat;
   background-size: contain;
   animation: pulse 1.7s ease-in-out infinite;
@@ -757,10 +769,10 @@ h1 {
 .smart-screen-instruction-pic-1::before {
   content: "";
   position: absolute;
-  top: -15.2193375112dvh;
-  left: -14.8612354521dvh;
-  width: 17.0993733214dvh;
-  height: 26.8576544315dvh;
+  top: calc(-170 / 1117 * 100dvh);
+  left: calc(-166 / 1117 * 100dvh);
+  width: calc(191 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
   background: url("../img/1.png") top left no-repeat;
   background-size: contain;
 }
@@ -769,61 +781,61 @@ h1 {
   content: "";
   background: url("../img/2.png") top left no-repeat;
   background-size: contain;
-  top: -12.533572068dvh;
-  left: -11.1011638317dvh;
-  width: 13.9659803044dvh;
-  height: 26.8576544315dvh;
+  top: calc(-140 / 1117 * 100dvh);
+  left: calc(-124 / 1117 * 100dvh);
+  width: calc(156 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-3::before {
   content: "";
   background: url("../img/3.png") top left no-repeat;
   background-size: contain;
-  top: -11.6383169203dvh;
-  left: -10.7430617726dvh;
-  width: 16.472694718dvh;
-  height: 26.8576544315dvh;
+  top: calc(-130 / 1117 * 100dvh);
+  left: calc(-120 / 1117 * 100dvh);
+  width: calc(184 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-4::before {
   content: "";
   background: url("../img/4.png") top left no-repeat;
   background-size: contain;
-  top: -11.1906893465dvh;
-  left: -13.4288272158dvh;
-  width: 15.4879140555dvh;
-  height: 26.8576544315dvh;
+  top: calc(-125 / 1117 * 100dvh);
+  left: calc(-150 / 1117 * 100dvh);
+  width: calc(173 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-5::before {
   content: "";
   background: url("../img/5.png") top left no-repeat;
   background-size: contain;
-  top: -11.6383169203dvh;
-  left: -10.7430617726dvh;
-  width: 14.9507609669dvh;
-  height: 26.8576544315dvh;
+  top: calc(-130 / 1117 * 100dvh);
+  left: calc(-120 / 1117 * 100dvh);
+  width: calc(167 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-pic-6::before {
   content: "";
   background: url("../img/6.png") top left no-repeat;
   background-size: contain;
-  top: -10.7430617726dvh;
-  left: -9.8478066249dvh;
-  width: 14.2345568487dvh;
-  height: 26.8576544315dvh;
+  top: calc(-120 / 1117 * 100dvh);
+  left: calc(-110 / 1117 * 100dvh);
+  width: calc(159 / 1117 * 100dvh);
+  height: calc(300 / 1117 * 100dvh);
 }
 
 .smart-screen-instruction-text {
   display: flex;
   justify-content: start;
   flex-direction: column;
-  padding: 0 0 4.4762757386dvh 0;
-  width: 43.5094001791dvh;
+  padding: 0 0 calc(50 / 1117 * 100dvh) 0;
+  width: calc(486 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -832,7 +844,7 @@ h1 {
 .smart-screen-link {
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -841,11 +853,11 @@ h1 {
 }
 
 .lights-under-h1 {
-  margin: 6.5353625783dvh 0 0 14.0555058192dvh;
-  width: 61.6830796777dvh;
+  margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(689 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -856,12 +868,12 @@ h1 {
 }
 
 .make-a-mix-bottle {
-  margin: 0 -54.1629364369dvh 0 0;
-  bottom: -78.7824529991dvh;
-  right: 0vw;
+  margin: 0 calc(-605 / 1117 * 100dvh) 0 0;
+  bottom: calc(-880 / 1117 * 100dvh);
+  right: calc(0 / 1728 * 100vw);
   position: fixed;
-  width: 95.6018518519vw;
-  height: 295.8818263205dvh;
+  width: calc(1652 / 1728 * 100vw);
+  height: calc(3305 / 1117 * 100dvh);
   background: url("../img/bottle-mix.png") top right no-repeat;
   background-size: contain;
   z-index: 1;
@@ -881,12 +893,12 @@ h1 {
 }
 
 .coctail-recipes-bottle {
-  margin: 0 -54.1629364369dvh 0 0;
-  bottom: -78.7824529991dvh;
-  right: 0vw;
+  margin: 0 calc(-605 / 1117 * 100dvh) 0 0;
+  bottom: calc(-880 / 1117 * 100dvh);
+  right: calc(0 / 1728 * 100vw);
   position: fixed;
-  width: 95.6018518519vw;
-  height: 295.8818263205dvh;
+  width: calc(1652 / 1728 * 100vw);
+  height: calc(3305 / 1117 * 100dvh);
   background: url("../img/bottle.png") top right no-repeat;
   background-size: contain;
 }
@@ -897,12 +909,12 @@ h1 {
 }
 
 .footer-buton {
-  bottom: -20.0537153089dvh;
-  right: -14.5926589078dvh;
+  bottom: calc(-224 / 1117 * 100dvh);
+  right: calc(-163 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: 65.2641002686dvh;
-  height: 65.2641002686dvh;
+  width: calc(729 / 1117 * 100dvh);
+  height: calc(729 / 1117 * 100dvh);
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: #9b94ff;
@@ -911,23 +923,23 @@ h1 {
 }
 
 .footer-button-text {
-  margin: 30.4386750224dvh 0 0 21.4861235452dvh;
+  margin: calc(340 / 1117 * 100dvh) 0 0 calc(240 / 1117 * 100dvh);
   color: #f5f5f5;
   text-align: center;
   font-family: YS Display;
-  font-size: 4.4762757386dvh;
+  font-size: calc(50 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .lights-footer-button {
-  bottom: -20.0537153089dvh;
-  right: -14.5926589078dvh;
+  bottom: calc(-224 / 1117 * 100dvh);
+  right: calc(-163 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: 65.2641002686dvh;
-  height: 65.2641002686dvh;
+  width: calc(729 / 1117 * 100dvh);
+  height: calc(729 / 1117 * 100dvh);
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: #9b94ff;
@@ -940,11 +952,14 @@ h1 {
   top: 54dvh;
   right: -17.0098478066dvh;
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
   border-radius: 50%;
   border: 1px solid #b4afff;
+  background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
   background-size: 95%, contain;
   z-index: 2;
@@ -954,11 +969,11 @@ h1 {
 
 .cocktails-footer-button {
   top: 54dvh;
-  right: -17.0098478066dvh;
+  right: calc(-190 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: 65.5326768129dvh;
-  height: 65.5326768129dvh;
+  width: calc(732 / 1117 * 100dvh);
+  height: calc(732 / 1117 * 100dvh);
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
@@ -977,12 +992,12 @@ h1 {
 }
 
 .feel-the-rythm-footer-buton {
-  bottom: -20.0537153089dvh;
-  right: -14.5926589078dvh;
+  bottom: calc(-224 / 1117 * 100dvh);
+  right: calc(-163 / 1117 * 100dvh);
   position: fixed;
   display: flex;
-  width: 65.2641002686dvh;
-  height: 65.2641002686dvh;
+  width: calc(729 / 1117 * 100dvh);
+  height: calc(729 / 1117 * 100dvh);
   border-radius: 50%;
   border: none;
   background: url("../img/button_play.png") right bottom no-repeat;
@@ -996,13 +1011,13 @@ h1 {
 }
 
 .feel-the-rythm-plastinka {
-  bottom: -77.5290957923dvh;
-  right: -71.9785138765dvh;
+  bottom: calc(-866 / 1117 * 100dvh);
+  right: calc(-804 / 1117 * 100dvh);
   position: fixed;
   display: none;
   border-radius: 50%;
-  width: 180.2148612355dvh;
-  height: 180.2148612355dvh;
+  width: calc(2013 / 1117 * 100dvh);
+  height: calc(2013 / 1117 * 100dvh);
   background: url("../img/plastinka.png") center center no-repeat;
   background-size: contain;
   box-shadow: 0px 0px 250px 0px rgba(166, 184, 249, 0.8);
@@ -1010,12 +1025,12 @@ h1 {
 }
 
 .feel-the-rythm-pic {
-  bottom: 5.1924798568dvh;
-  right: -1.163831692dvh;
+  bottom: calc(58 / 1117 * 100dvh);
+  right: calc(-13 / 1117 * 100dvh);
   position: fixed;
   display: none;
-  width: 99.0510295434dvh;
-  height: 86.739480752dvh;
+  width: calc(1106.4 / 1117 * 100dvh);
+  height: calc(968.88 / 1117 * 100dvh);
   background: url("../img/feel-the-rythm.png") center center no-repeat;
   background-size: contain;
   z-index: 2;
@@ -1023,9 +1038,9 @@ h1 {
 
 .feel-the-rythm-footer-button-symbol {
   position: relative;
-  margin: 24.6195165622dvh 0 0 23.7242614145dvh;
-  width: 15.7564905998dvh;
-  height: 15.7564905998dvh;
+  margin: calc(275 / 1117 * 100dvh) 0 0 calc(265 / 1117 * 100dvh);
+  width: calc(176 / 1117 * 100dvh);
+  height: calc(176 / 1117 * 100dvh);
   border-radius: 50%;
   background: url("../img/play_button.png") center center no-repeat;
   background-size: contain;
@@ -1033,12 +1048,12 @@ h1 {
 }
 
 .gerland {
-  bottom: 0dvh;
-  right: 0dvh;
+  bottom: calc(0 / 1117 * 100dvh);
+  right: calc(0 / 1117 * 100dvh);
   position: fixed;
   display: block;
-  width: 90.1521933751dvh;
-  height: 90.1521933751dvh;
+  width: calc(1007 / 1117 * 100dvh);
+  height: calc(1007 / 1117 * 100dvh);
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;
@@ -1107,37 +1122,37 @@ h1 {
 .lights-footer-button:after {
   content: "";
   position: absolute;
-  bottom: 18.5317815577dvh;
-  right: 13.6974037601dvh;
-  width: 37.9588182632dvh;
-  height: 32.8558639212dvh;
+  bottom: calc(207 / 1117 * 100dvh);
+  right: calc(153 / 1117 * 100dvh);
+  width: calc(424 / 1117 * 100dvh);
+  height: calc(367 / 1117 * 100dvh);
   background: url("../img/smart-home.png") bottom right no-repeat;
   background-size: contain;
   z-index: -1;
 }
 
 .lights-footer-button-arrow {
-  margin: 17.9051029543dvh 0 0 17.9051029543dvh;
-  width: 29.0957923008dvh;
-  height: 28.9167412713dvh;
+  margin: calc(200 / 1117 * 100dvh) 0 0 calc(200 / 1117 * 100dvh);
+  width: calc(325 / 1117 * 100dvh);
+  height: calc(323 / 1117 * 100dvh);
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
   background-size: contain;
 }
 
 .footer-button-arrow {
-  margin: 12.8021486124dvh 0 0 16.5622202328dvh;
-  width: 28.2005371531dvh;
-  height: 28.9167412713dvh;
+  margin: calc(143 / 1117 * 100dvh) 0 0 calc(185 / 1117 * 100dvh);
+  width: calc(315 / 1117 * 100dvh);
+  height: calc(323 / 1117 * 100dvh);
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
   background-size: contain;
 }
 
 .audioplayer-play-button {
   position: fixed;
-  left: 14.0555058192dvh;
-  bottom: 5.3715308863dvh;
-  width: 13.9659803044dvh;
-  height: 13.9659803044dvh;
+  left: calc(157 / 1117 * 100dvh);
+  bottom: calc(60 / 1117 * 100dvh);
+  width: calc(156 / 1117 * 100dvh);
+  height: calc(156 / 1117 * 100dvh);
   border-radius: 50%;
   background: url("../img/play_button.png") center center no-repeat;
   background-size: contain;
@@ -1146,10 +1161,10 @@ h1 {
 
 .audioplayer-pause-button {
   position: fixed;
-  left: 14.0555058192dvh;
-  bottom: 5.3715308863dvh;
-  width: 13.9659803044dvh;
-  height: 13.9659803044dvh;
+  left: calc(157 / 1117 * 100dvh);
+  bottom: calc(60 / 1117 * 100dvh);
+  width: calc(156 / 1117 * 100dvh);
+  height: calc(156 / 1117 * 100dvh);
   border-radius: 50%;
   background: url("../img/pause_button.png") center center no-repeat;
   background-size: contain;
@@ -1158,10 +1173,12 @@ h1 {
 
 .audioplayer-timeline {
   position: fixed;
-  left: 32.6768128917dvh;
-  bottom: 5.3715308863dvh;
-  width: 73.8585496867dvh;
-  height: 13.2497761862dvh;
+  left: calc(365 / 1117 * 100dvh);
+  bottom: calc(60 / 1117 * 100dvh);
+  width: calc(825 / 1117 * 100dvh);
+  height: calc(148 / 1117 * 100dvh);
+  background: url("../img/audioplayer-timeline.png") center center no-repeat;
+  background-size: contain;
 }
 
 /* .audioplayer-timeline-fill {
@@ -1170,15 +1187,15 @@ h1 {
 .audioplayer-timeline-numbers {
   position: fixed;
   display: flex;
-  left: 107.4306177261dvh;
-  bottom: 8.5049239033dvh;
-  width: 8.5049239033dvh;
-  height: 4.3867502238dvh;
+  left: calc(1200 / 1117 * 100dvh);
+  bottom: calc(95 / 1117 * 100dvh);
+  width: calc(95 / 1117 * 100dvh);
+  height: calc(49 / 1117 * 100dvh);
   color: #fff;
   text-align: center;
-  text-shadow: 0px 0px 3.0438675022dvh #000;
+  text-shadow: 0px 0px calc(34 / 1117 * 100dvh) #000;
   font-family: YS Display;
-  font-size: 2.6857654432dvh;
+  font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -1186,10 +1203,10 @@ h1 {
 
 .audioplayer-youtube-button {
   position: fixed;
-  right: 7.4306177261dvh;
-  bottom: 6.6248880931dvh;
-  width: 26.5890778872dvh;
-  height: 10.7430617726dvh;
+  right: calc(83 / 1117 * 100dvh);
+  bottom: calc(74 / 1117 * 100dvh);
+  width: calc(297 / 1117 * 100dvh);
+  height: calc(120 / 1117 * 100dvh);
   background: url("../img/audioplayer-youtube-button.png") center center no-repeat;
   background-size: contain;
   cursor: pointer;
@@ -1202,7 +1219,8 @@ h1 {
   width: 100vw;
   height: 100dvh;
   background-repeat: no-repeat;
-  transition: transform 0.3s ease; /* Добавляем анимацию */
+  transition: transform 0.3s ease;
+  /* Добавляем анимацию */
 }
 
 .layer1 {
@@ -1221,13 +1239,13 @@ h1 {
 }
 
 .age-verification-page-links {
-  margin: 4.2076991943dvh 0 0 14.0555058192dvh;
+  margin: calc(47 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 28.4691136974dvh;
-  height: 4.1181736795dvh;
-  gap: 1.2533572068dvh;
+  width: calc(318 / 1117 * 100dvh);
+  height: calc(46 / 1117 * 100dvh);
+  gap: calc(14 / 1117 * 100dvh);
 }
 
 .no-link {
@@ -1236,12 +1254,12 @@ h1 {
   justify-content: center;
   border: 1px solid #fff;
   border-radius: 10px;
-  width: 13.6078782453dvh;
-  height: 5.102954342dvh;
+  width: calc(152 / 1117 * 100dvh);
+  height: calc(57 / 1117 * 100dvh);
   color: #fff;
   text-align: center;
   font-family: YS Display;
-  font-size: 1.8800358102dvh;
+  font-size: calc(21 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -1256,15 +1274,15 @@ h1 {
   border: 0px solid #fff;
   border-radius: 10px;
   background: #9b94ff;
-  width: 13.6078782453dvh;
-  height: 5.102954342dvh;
+  width: calc(152 / 1117 * 100dvh);
+  height: calc(57 / 1117 * 100dvh);
   color: #fff;
   text-align: center;
   font-family: YS Display;
-  font-size: 1.8800358102dvh;
+  font-size: calc(21 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
   z-index: 1;
-}/*# sourceMappingURL=style.css.map */
+}
