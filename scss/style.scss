@@ -503,7 +503,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: calc(47.5/1117*100dvh); /* 105% */
-    width: calc(680/1117*100dvh);
+    width: calc(673/1117*100dvh);
     background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -527,41 +527,41 @@ h1 {
 }
 
 .cocktail-recipes-pic-1 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(140/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(576/1117*100dvh);
     background: url("../img/glass_1.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-2 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(140/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(576/1117*100dvh);
     background: url("../img/glass_2.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-3 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(140/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(576/1117*100dvh);
     background: url("../img/glass_3.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-4 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(-65/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(781/1117*100dvh);
     background: url("../img/glass_4.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-5 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(91/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(366/1117*100dvh);
+    height: calc(625/1117*100dvh);
     background: url("../img/glass_5.png") center center no-repeat;
     background-size: contain;
 }
@@ -637,7 +637,7 @@ h1 {
 }
 
 .cocktail-recipes-under-h1 {
-    margin: calc(54/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    margin: calc(70/1117*100dvh) 0 0 calc(198/1117*100dvh);
     width: calc(689/1117*100dvh);
     color: #fff;
     font-family: YS Display;
@@ -1004,14 +1004,12 @@ h1 {
 }
 
 .make-a-mix-footer-button {
-    top: 54dvh;
-    right: -17.0098478066dvh;
+    bottom: calc(-224/1117*100dvh);
+    right: calc(-163/1117*100dvh);
     position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    width: 65.53267611179dvh;
-    height: 65.53267611179dvh;
+    width: calc(729/1117*100dvh);
+    height: calc(729/1117*100dvh);
     border-radius: 50%;
     border: 1px solid #b4afff;
     background:
@@ -1027,12 +1025,12 @@ h1 {
 }
 
 .cocktails-footer-button {
-    top: 54dvh;
-    right: calc(-190/1117*100dvh);
+    bottom: calc(-224/1117*100dvh);
+    right: calc(-163/1117*100dvh);
     position: fixed;
     display: flex;
-    width: calc(732/1117*100dvh);
-    height: calc(732/1117*100dvh);
+    width: calc(729/1117*100dvh);
+    height: calc(729/1117*100dvh);
     border-radius: 50%;
     border: 1px solid #b4afff;
     background:

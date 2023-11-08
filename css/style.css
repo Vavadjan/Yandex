@@ -619,7 +619,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 4.2524619517dvh; /* 105% */
-  width: 60.8773500448dvh;
+  width: 60.2506714414dvh;
   background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -643,41 +643,41 @@ h1 {
 }
 
 .cocktail-recipes-pic-1 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: 12.533572068dvh 0 0 19.2479856759dvh;
+  width: 26.1414503133dvh;
+  height: 51.5666965085dvh;
   background: url("../img/glass_1.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-2 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: 12.533572068dvh 0 0 19.2479856759dvh;
+  width: 26.1414503133dvh;
+  height: 51.5666965085dvh;
   background: url("../img/glass_2.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-3 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: 12.533572068dvh 0 0 19.2479856759dvh;
+  width: 26.1414503133dvh;
+  height: 51.5666965085dvh;
   background: url("../img/glass_3.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-4 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: -5.8191584602dvh 0 0 19.2479856759dvh;
+  width: 26.1414503133dvh;
+  height: 69.9194270367dvh;
   background: url("../img/glass_4.png") center center no-repeat;
   background-size: contain;
 }
 
 .cocktail-recipes-pic-5 {
-  margin: 9.5792300806dvh 0 0 16.2041181737dvh;
-  width: 32.2291853178dvh;
-  height: 56.4905998209dvh;
+  margin: 8.1468218442dvh 0 0 19.2479856759dvh;
+  width: 32.7663384064dvh;
+  height: 55.9534467323dvh;
   background: url("../img/glass_5.png") center center no-repeat;
   background-size: contain;
 }
@@ -752,7 +752,7 @@ h1 {
 }
 
 .cocktail-recipes-under-h1 {
-  margin: 4.8343777977dvh 0 0 14.0555058192dvh;
+  margin: 6.266786034dvh 0 0 17.7260519248dvh;
   width: 61.6830796777dvh;
   color: #fff;
   font-family: YS Display;
@@ -1158,14 +1158,14 @@ h1 {
 }
 
 .make-a-mix-footer-button {
-  top: 54dvh;
-  right: -17.0098478066dvh;
+  bottom: -20.0537153089dvh;
+  right: -14.5926589078dvh;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 65.5326761118dvh;
-  height: 65.5326761118dvh;
+  width: 65.2641002686dvh;
+  height: 65.2641002686dvh;
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
@@ -1177,14 +1177,14 @@ h1 {
 }
 
 .cocktails-footer-button {
-  top: 54dvh;
-  right: -17.0098478066dvh;
+  bottom: -20.0537153089dvh;
+  right: -14.5926589078dvh;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 65.5326768129dvh;
-  height: 65.5326768129dvh;
+  width: 65.2641002686dvh;
+  height: 65.2641002686dvh;
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, -webkit-gradient(linear, left top, right top, color-stop(4.93%, #8e6d45), color-stop(48.16%, #ffd3aa), color-stop(93.22%, #93734e));
