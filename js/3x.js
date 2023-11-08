@@ -1,3 +1,20 @@
+Number.prototype.clamp = function(min, max) {
+  return Math.min(Math.max(this, min), max);
+};
+const debounce = (callback, delay) => {
+	let timeOut = null;
+
+	return (...args) => {
+		if(timeOut) {
+			clearTimeout(timeOut);
+			timeOut = null;
+		}
+		timeOut = setTimeout(() => {
+			timeOut = null;
+			callback(...args);
+		}, delay);
+	}
+}
 const throttle = (callback, delay) => {
 	let timeOut = null, argsMemo;
 	return (...args) => {

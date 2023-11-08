@@ -24,14 +24,10 @@
     }
 
     #audiovidget {
-        position: absolute;
-        top: calc(89/375*100vw);
-        right: calc(28/375*100vw);
-        display: flex;
-        flex-direction: row;
-        width: calc(324/375*100vw);
-        height: calc(88/375*100vw);
-        z-index: 5;
+        top: var(--top, calc(89 / 375 * 100vw));
+        right: calc(28 / 375 * 100vw);
+        width: calc(324 / 375 * 100vw);
+        height: calc(88 / 375 * 100vw);
     }
     .audiovidget-leftside {
         position: absolute;
