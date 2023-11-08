@@ -1134,8 +1134,6 @@ h1 {
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: #9b94ff;
-  -webkit-box-shadow: 0px 0px 184px 0px rgba(180, 60, 255, 0.137254902);
-          box-shadow: 0px 0px 184px 0px rgba(180, 60, 255, 0.137254902);
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
@@ -1247,12 +1245,12 @@ h1 {
 }
 
 .gerland {
-  bottom: -3.5810205909dvh;
-  right: -4.2076991943dvh;
+  bottom: 0dvh;
+  right: 0dvh;
   position: fixed;
   display: block;
-  width: 93.4646374217dvh;
-  height: 898.3885407341dvh;
+  width: 90.1521933751dvh;
+  height: 90.1521933751dvh;
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;

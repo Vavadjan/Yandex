@@ -933,7 +933,7 @@ h1 {
     height: calc(729/1117*100dvh);
     border-radius: 50%;
     border: 1px solid #b4afff;
-    background: #9b94ff;    
+    background: #9b94ff;
     z-index: 2;
     cursor: pointer;
 }
@@ -986,7 +986,6 @@ h1 {
     border-radius: 50%;
     border: 1px solid #b4afff;
     background: #9b94ff;
-    box-shadow: 0px 0px 184px 0px #b43cff23;
     z-index: 2;
     cursor: pointer;
     pointer-events: auto;
@@ -1098,12 +1097,12 @@ h1 {
 }
 
 .gerland {
-    bottom: calc(-40/1117*100dvh);
-    right: calc(-47/1117*100dvh);
+    bottom: calc(0/1117*100dvh);
+    right: calc(0/1117*100dvh);
     position: fixed;
     display: block;
-    width: calc(1044/1117*100dvh);
-    height: calc(10035/1117*100dvh);
+    width: calc(1007/1117*100dvh);
+    height: calc(1007/1117*100dvh);
     background: url("../img/light_2_off.png") bottom right no-repeat;
     background-size: contain;
     z-index: 3;
