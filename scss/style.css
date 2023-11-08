@@ -933,6 +933,34 @@ h1 {
   background: #9b94ff;
   z-index: 2;
   cursor: pointer;
+}
+
+.greetings-footer-buton::after {
+  content: "";
+  bottom: calc(137/1117*100dvh);
+  right: calc(435/1117*100dvh);
+  position: fixed;
+  display: flex;
+  width: calc(584/1117*100dvh);
+  height: calc(321/1117*100dvh);
+  background: url("../img/SVG/arrow.svg") center center no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+.lights-footer-button {
+  bottom: calc(-224/1117*100dvh);
+  right: calc(-163/1117*100dvh);
+  position: fixed;
+  display: flex;
+  width: calc(729/1117*100dvh);
+  height: calc(729/1117*100dvh);
+  border-radius: 50%;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
+  box-shadow: 0px 0px 184px 0px #b43cff23;
+  z-index: 2;
+  cursor: pointer;
   pointer-events: auto;
 }
 
@@ -941,8 +969,8 @@ h1 {
   right: -17.0098478066dvh;
   position: fixed;
   display: flex;
-  width: 65.5326768129dvh;
-  height: 65.5326768129dvh;
+  width: 65.5326761118dvh;
+  height: 65.5326761118dvh;
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);

@@ -919,7 +919,7 @@ h1 {
 }
 
 .footer-button-text {
-  margin: 30.4386750224dvh 0 0 21.4861235452dvh;
+  margin: 28.8272157565dvh 0 0 24.1718889884dvh;
   color: #f5f5f5;
   text-align: center;
   font-family: YS Display;
@@ -927,6 +927,37 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.greetings-footer-buton {
+  bottom: -20.0537153089dvh;
+  right: -14.5926589078dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65.2641002686dvh;
+  height: 65.2641002686dvh;
+  border-radius: 50%;
+  border: 1px solid #b4afff;
+  background: #9b94ff;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.greetings-footer-buton::after {
+  content: "";
+  bottom: 12.2649955237dvh;
+  right: 38.9435989257dvh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 52.2829006267dvh;
+  height: 28.7376902417dvh;
+  background: url("../img/SVG/arrow.svg") center center no-repeat;
+  background-size: contain;
+  z-index: 2;
 }
 
 .lights-footer-button {
@@ -939,6 +970,8 @@ h1 {
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: #9b94ff;
+  -webkit-box-shadow: 0px 0px 184px 0px rgba(180, 60, 255, 0.137254902);
+          box-shadow: 0px 0px 184px 0px rgba(180, 60, 255, 0.137254902);
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
@@ -949,8 +982,8 @@ h1 {
   right: -17.0098478066dvh;
   position: fixed;
   display: flex;
-  width: 65.5326768129dvh;
-  height: 65.5326768129dvh;
+  width: 65.5326761118dvh;
+  height: 65.5326761118dvh;
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
@@ -1041,12 +1074,12 @@ h1 {
 }
 
 .gerland {
-  bottom: 0dvh;
-  right: 0dvh;
+  bottom: -3.5810205909dvh;
+  right: -4.2076991943dvh;
   position: fixed;
   display: block;
-  width: 90.1521933751dvh;
-  height: 90.1521933751dvh;
+  width: 93.4646374217dvh;
+  height: 898.3885407341dvh;
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;
