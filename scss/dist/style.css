@@ -65,6 +65,7 @@ html {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(206/1728*100vw);
   height: calc(168/1728*100vw);
   background: url("../img/audiovidget-bg.jpg") 10% 10% no-repeat;
@@ -73,12 +74,17 @@ html {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(206 / 1728 * 100vw);
   height: calc(168 / 1728 * 100vw);
   background: url("../img/audiovidget-bg.jpg") 10% 10% no-repeat;
   background-size: 260%;
   border-radius: calc(35 / 1728 * 100vw) 0 0 calc(35 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -91,6 +97,7 @@ html {
   align-items: center;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(206/1728*100vw);
   height: calc(168/1728*100vw);
   border-radius: 0 calc(35/1728*100vw) calc(35/1728*100vw) 0;
@@ -99,12 +106,17 @@ html {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(206 / 1728 * 100vw);
   height: calc(168 / 1728 * 100vw);
   border-radius: 0 calc(35 / 1728 * 100vw) calc(35 / 1728 * 100vw) 0;
   gap: calc(10 / 1728 * 100vw);
   padding: calc(17 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -117,7 +129,11 @@ html {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(20/1728*100vw);
+=======
+  font-size: calc(20 / 1728 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   font-size: calc(20 / 1728 * 100vw);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -135,7 +151,11 @@ html {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(20/1728*100vw);
+=======
+  font-size: calc(20 / 1728 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   font-size: calc(20 / 1728 * 100vw);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -151,8 +171,13 @@ html {
 #audiovidget-rightside-play-button {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(39/1728*100vw);
   height: calc(43/1728*100vw);
+=======
+  width: calc(39 / 1728 * 100vw);
+  height: calc(43 / 1728 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(39 / 1728 * 100vw);
   height: calc(43 / 1728 * 100vw);
@@ -171,8 +196,13 @@ html {
 #audiovidget-rightside-pause-button {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(33/1728*100vw);
   height: calc(43/1728*100vw);
+=======
+  width: calc(33 / 1728 * 100vw);
+  height: calc(43 / 1728 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(33 / 1728 * 100vw);
   height: calc(43 / 1728 * 100vw);
@@ -194,8 +224,13 @@ body {
   height: 100dvh;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: 96.5%, 100vw 100dvh;
+=======
+  background: url("../img/SVG/Ellipse-35.svg") calc(-950 / 1728 * 100vw) calc(-950 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+  background-size: auto, 100vw 100dvh;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   background: url("../img/SVG/Ellipse-35.svg") calc(-950 / 1728 * 100vw) calc(-950 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
   background-size: auto, 100vw 100dvh;
@@ -218,7 +253,11 @@ body {
 .rotating-slider-container {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: calc(100% - 133/1117*100dvh);
+=======
+  height: calc(100% - 133 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   height: calc(100% - 133 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -235,6 +274,7 @@ body {
 .cocktails-slider .slide {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top: calc(133/1117*100dvh);
 }
 
@@ -243,12 +283,17 @@ body {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin-top: calc(133 / 1117 * 100dvh);
 }
 
 .feeltherhythm_h1 {
   margin-top: calc(133 / 1117 * 2 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -348,7 +393,11 @@ body {
   height: 100dvh;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+=======
+  background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   background: url("../img/SVG/18+.svg") center right no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -364,7 +413,11 @@ body {
   height: 100dvh;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+=======
+  background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -380,7 +433,11 @@ body {
   height: 100dvh;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+=======
+  background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   background: url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -399,7 +456,11 @@ body {
   height: 100dvh;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915/1728*100vw) calc(-938/1728*100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+=======
+  background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   background: url("../img/audioplayer-bg.png") center center no-repeat, url("../img/SVG/Ellipse-35.svg") calc(-915 / 1728 * 100vw) calc(-938 / 1728 * 100vw) no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -414,7 +475,11 @@ header {
   justify-content: space-between;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: calc(133/1117*100dvh);
+=======
+  height: calc(133 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   height: calc(133 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -427,9 +492,15 @@ header {
 .menu-btn {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(88/1728*100vw) calc(84/1728*100vw) 0 0;
   width: calc(50/1728*100vw);
   height: calc(50/1728*100vw);
+=======
+  margin: calc(88 / 1728 * 100vw) calc(84 / 1728 * 100vw) 0 0;
+  width: calc(50 / 1728 * 100vw);
+  height: calc(50 / 1728 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(88 / 1728 * 100vw) calc(84 / 1728 * 100vw) 0 0;
   width: calc(50 / 1728 * 100vw);
@@ -449,8 +520,13 @@ header {
 .menu-btn span {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(40/1728*100vw);
   height: calc(4/1728*100vw);
+=======
+  width: calc(40 / 1728 * 100vw);
+  height: calc(4 / 1728 * 100vw);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(40 / 1728 * 100vw);
   height: calc(4 / 1728 * 100vw);
@@ -470,6 +546,7 @@ header {
 .menu-btn span:nth-of-type(2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(50% - calc(14/1728*100vw));
 }
 
@@ -478,12 +555,17 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(50% - calc(14 / 1728 * 100vw));
 }
 
 .menu-btn span:nth-of-type(3) {
   top: calc(50% + calc(14 / 1728 * 100vw));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -511,6 +593,7 @@ header {
   right: 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(470/1728*100vw);
   height: calc(470/1728*100vw);
   transform: translateX(100%);
@@ -519,12 +602,17 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(470 / 1728 * 100vw);
   height: calc(470 / 1728 * 100vw);
   transform: translateX(100%);
   transition: transform 0.5s;
   border-radius: calc(37 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -540,6 +628,7 @@ header {
 .menu ul {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(346/1728*100vw);
   height: calc(253/1728*100vw);
   display: flex;
@@ -549,6 +638,8 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(346 / 1728 * 100vw);
   height: calc(253 / 1728 * 100vw);
   display: flex;
@@ -556,6 +647,9 @@ header {
   gap: calc(22 / 1728 * 100vw);
   margin: calc(180 / 1728 * 100vw) 0 calc(52 / 1728 * 100vw) calc(55 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -566,6 +660,7 @@ header {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(30/1728*100vw);
   font-style: normal;
   font-weight: 400;
@@ -573,11 +668,16 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: calc(32.5 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -589,6 +689,7 @@ header {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(30/1728*100vw);
   font-style: normal;
   font-weight: 400;
@@ -596,11 +697,16 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: calc(32.5 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -612,6 +718,7 @@ header {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(30/1728*100vw);
   font-style: normal;
   font-weight: 400;
@@ -619,11 +726,16 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: calc(32.5 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -635,6 +747,7 @@ header {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(30/1728*100vw);
   font-style: normal;
   font-weight: 400;
@@ -642,11 +755,16 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   font-size: calc(30 / 1728 * 100vw);
   font-style: normal;
   font-weight: 400;
   line-height: calc(32.5 / 1728 * 100vw);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -656,9 +774,15 @@ header {
 .logo {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(83/1117*100dvh) 0 0 calc(157/1117*100dvh);
   width: calc(195/1117*100dvh);
   height: calc(51/1117*100dvh);
+=======
+  margin: calc(83 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
+  width: calc(195 / 1117 * 100dvh);
+  height: calc(51 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(83 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   width: calc(195 / 1117 * 100dvh);
@@ -682,7 +806,11 @@ header {
   font-weight: 600;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(36/1117*100dvh);
+=======
+  font-size: calc(36 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   font-size: calc(36 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -696,6 +824,7 @@ header {
   display: none;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(50.44/1117*100dvh);
   height: calc(50.44/1117*100dvh);
   position: absolute;
@@ -704,12 +833,17 @@ header {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(50.44 / 1117 * 100dvh);
   height: calc(50.44 / 1117 * 100dvh);
   position: absolute;
   top: calc(-7 / 1117 * 100dvh);
   left: calc(-12 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -726,7 +860,11 @@ header {
   font-weight: 500;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(36/1117*100dvh);
+=======
+  font-size: calc(36 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   font-size: calc(36 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -737,6 +875,7 @@ header {
 
 h1 {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
@@ -750,6 +889,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
   font-size: calc(50 / 1117 * 100dvh);
@@ -759,6 +900,9 @@ h1 {
   /* 105% */
   width: calc(451 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -773,6 +917,7 @@ h1 {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
   font-family: YS Display;
   font-size: calc(50/1117*100dvh);
@@ -784,6 +929,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
   font-size: calc(50 / 1117 * 100dvh);
@@ -793,6 +940,9 @@ h1 {
   /* 105% */
   width: calc(451 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -803,6 +953,7 @@ h1 {
 }
 
 .cocktail-recipes-h1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   margin: calc(158/1117*100dvh) 0 0 calc(157/1117*100dvh);
@@ -816,6 +967,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(158 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
   font-size: calc(50 / 1117 * 100dvh);
@@ -825,6 +978,9 @@ h1 {
   /* 105% */
   width: calc(637 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -838,6 +994,7 @@ h1 {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(151.56/1117*100dvh) 0 0 calc(157/1117*100dvh);
   font-family: YS Display;
   font-size: calc(50/1117*100dvh);
@@ -848,6 +1005,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(151.56 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   font-family: YS Display;
   font-size: calc(50 / 1117 * 100dvh);
@@ -856,6 +1015,9 @@ h1 {
   line-height: normal;
   width: calc(451 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -869,9 +1031,15 @@ h1 {
 .cocktail-recipes-pic-1 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
   width: calc(360/1117*100dvh);
   height: calc(631/1117*100dvh);
+=======
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
   width: calc(360 / 1117 * 100dvh);
@@ -889,9 +1057,15 @@ h1 {
 .cocktail-recipes-pic-2 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
   width: calc(360/1117*100dvh);
   height: calc(631/1117*100dvh);
+=======
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
   width: calc(360 / 1117 * 100dvh);
@@ -909,9 +1083,15 @@ h1 {
 .cocktail-recipes-pic-3 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
   width: calc(360/1117*100dvh);
   height: calc(631/1117*100dvh);
+=======
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
   width: calc(360 / 1117 * 100dvh);
@@ -929,9 +1109,15 @@ h1 {
 .cocktail-recipes-pic-4 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
   width: calc(360/1117*100dvh);
   height: calc(631/1117*100dvh);
+=======
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
   width: calc(360 / 1117 * 100dvh);
@@ -949,9 +1135,15 @@ h1 {
 .cocktail-recipes-pic-5 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
   width: calc(360/1117*100dvh);
   height: calc(631/1117*100dvh);
+=======
+  margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
+  width: calc(360 / 1117 * 100dvh);
+  height: calc(631 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(107 / 1117 * 100dvh) 0 0 calc(181 / 1117 * 100dvh);
   width: calc(360 / 1117 * 100dvh);
@@ -969,9 +1161,15 @@ h1 {
 .cocktail-recipes-pic-6 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(125/1117*100dvh) 0 0 calc(283/1117*100dvh);
   width: calc(526/1117*100dvh);
   height: calc(575/1117*100dvh);
+=======
+  margin: calc(125 / 1117 * 100dvh) 0 0 calc(283 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(125 / 1117 * 100dvh) 0 0 calc(283 / 1117 * 100dvh);
   width: calc(526 / 1117 * 100dvh);
@@ -989,9 +1187,15 @@ h1 {
 .cocktail-recipes-pic-7 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(141/1117*100dvh) 0 0 calc(193/1117*100dvh);
   width: calc(526/1117*100dvh);
   height: calc(575/1117*100dvh);
+=======
+  margin: calc(141 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(141 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
   width: calc(526 / 1117 * 100dvh);
@@ -1009,9 +1213,15 @@ h1 {
 .cocktail-recipes-pic-8 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(131/1117*100dvh) 0 0 calc(186/1117*100dvh);
   width: calc(526/1117*100dvh);
   height: calc(575/1117*100dvh);
+=======
+  margin: calc(131 / 1117 * 100dvh) 0 0 calc(186 / 1117 * 100dvh);
+  width: calc(526 / 1117 * 100dvh);
+  height: calc(575 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(131 / 1117 * 100dvh) 0 0 calc(186 / 1117 * 100dvh);
   width: calc(526 / 1117 * 100dvh);
@@ -1029,9 +1239,15 @@ h1 {
 .cocktail-recipes-pic-9 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(163/1117*100dvh) 0 0 calc(193/1117*100dvh);
   width: calc(668/1117*100dvh);
   height: calc(504/1117*100dvh);
+=======
+  margin: calc(163 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
+  width: calc(668 / 1117 * 100dvh);
+  height: calc(504 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(163 / 1117 * 100dvh) 0 0 calc(193 / 1117 * 100dvh);
   width: calc(668 / 1117 * 100dvh);
@@ -1049,9 +1265,15 @@ h1 {
 .cocktail-recipes-pic-10 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(197/1117*100dvh) 0 0 calc(162/1117*100dvh);
   width: calc(374/1117*100dvh);
   height: calc(469/1117*100dvh);
+=======
+  margin: calc(197 / 1117 * 100dvh) 0 0 calc(162 / 1117 * 100dvh);
+  width: calc(374 / 1117 * 100dvh);
+  height: calc(469 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(197 / 1117 * 100dvh) 0 0 calc(162 / 1117 * 100dvh);
   width: calc(374 / 1117 * 100dvh);
@@ -1070,6 +1292,7 @@ h1 {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
   width: calc(689/1117*100dvh);
   color: #fff;
@@ -1081,6 +1304,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   width: calc(689 / 1117 * 100dvh);
   color: #fff;
@@ -1090,6 +1315,9 @@ h1 {
   font-weight: 400;
   line-height: calc(32.5 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1099,6 +1327,7 @@ h1 {
 .under-h1 strong {
   color: #fff;
   font-family: YS Display;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   font-size: calc(30/1117*100dvh);
@@ -1124,6 +1353,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   font-size: calc(30 / 1117 * 100dvh);
   font-style: normal;
   font-weight: 700;
@@ -1145,6 +1376,9 @@ h1 {
   font-family: YS Display;
   font-size: calc(30 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1157,6 +1391,7 @@ h1 {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
   width: calc(590/1117*100dvh);
   color: #fff;
@@ -1165,12 +1400,17 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   width: calc(590 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
   font-size: calc(30 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1183,7 +1423,11 @@ h1 {
 .smart-screen-block {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(173/1117*100dvh) 0 0 calc(239/1117*100dvh);
+=======
+  margin: calc(173 / 1117 * 100dvh) 0 0 calc(239 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(173 / 1117 * 100dvh) 0 0 calc(239 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1200,8 +1444,13 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
+=======
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(308 / 1117 * 100dvh);
   height: calc(604 / 1117 * 100dvh);
@@ -1218,8 +1467,13 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
+=======
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(308 / 1117 * 100dvh);
   height: calc(604 / 1117 * 100dvh);
@@ -1236,8 +1490,13 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
+=======
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(308 / 1117 * 100dvh);
   height: calc(604 / 1117 * 100dvh);
@@ -1254,8 +1513,13 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
+=======
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(308 / 1117 * 100dvh);
   height: calc(604 / 1117 * 100dvh);
@@ -1272,8 +1536,13 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
+=======
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(308 / 1117 * 100dvh);
   height: calc(604 / 1117 * 100dvh);
@@ -1290,8 +1559,13 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(308/1117*100dvh);
   height: calc(604/1117*100dvh);
+=======
+  width: calc(308 / 1117 * 100dvh);
+  height: calc(604 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: calc(308 / 1117 * 100dvh);
   height: calc(604 / 1117 * 100dvh);
@@ -1309,6 +1583,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(120/1117*100dvh);
   left: calc(155/1117*100dvh);
   width: calc(47/1117*100dvh);
@@ -1316,11 +1591,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(120 / 1117 * 100dvh);
   left: calc(155 / 1117 * 100dvh);
   width: calc(47 / 1117 * 100dvh);
   height: calc(47 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1334,6 +1614,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(255/1117*100dvh);
   left: calc(170/1117*100dvh);
   width: calc(47/1117*100dvh);
@@ -1341,11 +1622,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(255 / 1117 * 100dvh);
   left: calc(170 / 1117 * 100dvh);
   width: calc(47 / 1117 * 100dvh);
   height: calc(47 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1359,6 +1645,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(470/1117*100dvh);
   left: calc(139/1117*100dvh);
   width: calc(47/1117*100dvh);
@@ -1366,11 +1653,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(470 / 1117 * 100dvh);
   left: calc(139 / 1117 * 100dvh);
   width: calc(47 / 1117 * 100dvh);
   height: calc(47 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1384,6 +1676,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(140/1117*100dvh);
   left: calc(157/1117*100dvh);
   width: calc(47/1117*100dvh);
@@ -1391,11 +1684,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(140 / 1117 * 100dvh);
   left: calc(157 / 1117 * 100dvh);
   width: calc(47 / 1117 * 100dvh);
   height: calc(47 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1409,6 +1707,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(280/1117*100dvh);
   left: calc(215/1117*100dvh);
   width: calc(47/1117*100dvh);
@@ -1416,11 +1715,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(280 / 1117 * 100dvh);
   left: calc(215 / 1117 * 100dvh);
   width: calc(47 / 1117 * 100dvh);
   height: calc(47 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1434,6 +1738,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(255/1117*100dvh);
   left: calc(220/1117*100dvh);
   width: calc(47/1117*100dvh);
@@ -1441,11 +1746,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(255 / 1117 * 100dvh);
   left: calc(220 / 1117 * 100dvh);
   width: calc(47 / 1117 * 100dvh);
   height: calc(47 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1459,6 +1769,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(-170/1117*100dvh);
   left: calc(-166/1117*100dvh);
   width: calc(191/1117*100dvh);
@@ -1466,11 +1777,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(-170 / 1117 * 100dvh);
   left: calc(-166 / 1117 * 100dvh);
   width: calc(191 / 1117 * 100dvh);
   height: calc(300 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1484,6 +1800,7 @@ h1 {
   background-size: contain;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(-140/1117*100dvh);
   left: calc(-124/1117*100dvh);
   width: calc(156/1117*100dvh);
@@ -1491,11 +1808,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(-140 / 1117 * 100dvh);
   left: calc(-124 / 1117 * 100dvh);
   width: calc(156 / 1117 * 100dvh);
   height: calc(300 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1507,6 +1829,7 @@ h1 {
   background-size: contain;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(-130/1117*100dvh);
   left: calc(-120/1117*100dvh);
   width: calc(184/1117*100dvh);
@@ -1514,11 +1837,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(-130 / 1117 * 100dvh);
   left: calc(-120 / 1117 * 100dvh);
   width: calc(184 / 1117 * 100dvh);
   height: calc(300 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1530,6 +1858,7 @@ h1 {
   background-size: contain;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(-125/1117*100dvh);
   left: calc(-150/1117*100dvh);
   width: calc(173/1117*100dvh);
@@ -1537,11 +1866,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(-125 / 1117 * 100dvh);
   left: calc(-150 / 1117 * 100dvh);
   width: calc(173 / 1117 * 100dvh);
   height: calc(300 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1553,6 +1887,7 @@ h1 {
   background-size: contain;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(-130/1117*100dvh);
   left: calc(-120/1117*100dvh);
   width: calc(167/1117*100dvh);
@@ -1560,11 +1895,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(-130 / 1117 * 100dvh);
   left: calc(-120 / 1117 * 100dvh);
   width: calc(167 / 1117 * 100dvh);
   height: calc(300 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1576,6 +1916,7 @@ h1 {
   background-size: contain;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: calc(-120/1117*100dvh);
   left: calc(-110/1117*100dvh);
   width: calc(159/1117*100dvh);
@@ -1583,11 +1924,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   top: calc(-120 / 1117 * 100dvh);
   left: calc(-110 / 1117 * 100dvh);
   width: calc(159 / 1117 * 100dvh);
   height: calc(300 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1599,6 +1945,7 @@ h1 {
   flex-direction: column;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 0 0 calc(50/1117*100dvh) 0;
   width: calc(486/1117*100dvh);
   color: #fff;
@@ -1607,12 +1954,17 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   padding: 0 0 calc(50 / 1117 * 100dvh) 0;
   width: calc(486 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
   font-size: calc(30 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1626,7 +1978,11 @@ h1 {
   font-family: YS Display;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: calc(30/1117*100dvh);
+=======
+  font-size: calc(30 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   font-size: calc(30 / 1117 * 100dvh);
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1643,6 +1999,7 @@ h1 {
 .lights-under-h1 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(73/1117*100dvh) 0 0 calc(157/1117*100dvh);
   width: calc(689/1117*100dvh);
   color: #fff;
@@ -1651,12 +2008,17 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(73 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   width: calc(689 / 1117 * 100dvh);
   color: #fff;
   font-family: YS Display;
   font-size: calc(30 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1672,6 +2034,7 @@ h1 {
 .make-a-mix-bottle {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0 calc(-605/1117*100dvh) 0 0;
   bottom: calc(-880/1117*100dvh);
   right: calc(0/1728*100vw);
@@ -1681,6 +2044,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: 0 calc(-605 / 1117 * 100dvh) 0 0;
   bottom: calc(-880 / 1117 * 100dvh);
   right: calc(0 / 1728 * 100vw);
@@ -1688,6 +2053,9 @@ h1 {
   width: calc(1652 / 1728 * 100vw);
   height: calc(3305 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1712,6 +2080,7 @@ h1 {
 .coctail-recipes-bottle {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0 calc(-605/1117*100dvh) 0 0;
   bottom: calc(-880/1117*100dvh);
   right: calc(0/1728*100vw);
@@ -1721,6 +2090,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: 0 calc(-605 / 1117 * 100dvh) 0 0;
   bottom: calc(-880 / 1117 * 100dvh);
   right: calc(0 / 1728 * 100vw);
@@ -1728,6 +2099,9 @@ h1 {
   width: calc(1652 / 1728 * 100vw);
   height: calc(3305 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1743,6 +2117,7 @@ h1 {
 .footer-buton {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   bottom: calc(-224/1117*100dvh);
   right: calc(-163/1117*100dvh);
   position: fixed;
@@ -1752,6 +2127,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   bottom: calc(-224 / 1117 * 100dvh);
   right: calc(-163 / 1117 * 100dvh);
   position: fixed;
@@ -1759,6 +2136,9 @@ h1 {
   width: calc(729 / 1117 * 100dvh);
   height: calc(729 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1772,6 +2152,7 @@ h1 {
 .footer-button-text {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(322/1117*100dvh) 0 0 calc(270/1117*100dvh);
   color: #f5f5f5;
   text-align: center;
@@ -1780,12 +2161,17 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(340 / 1117 * 100dvh) 0 0 calc(240 / 1117 * 100dvh);
   color: #f5f5f5;
   text-align: center;
   font-family: YS Display;
   font-size: calc(50 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1794,6 +2180,7 @@ h1 {
   line-height: normal;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 .greetings-footer-buton {
@@ -1833,6 +2220,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 .lights-footer-button {
   bottom: calc(-224 / 1117 * 100dvh);
   right: calc(-163 / 1117 * 100dvh);
@@ -1841,6 +2230,9 @@ h1 {
   width: calc(729 / 1117 * 100dvh);
   height: calc(729 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1860,8 +2252,13 @@ h1 {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 65.5326761118dvh;
   height: 65.5326761118dvh;
+=======
+  width: 65.5326768129dvh;
+  height: 65.5326768129dvh;
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   width: 65.5326768129dvh;
   height: 65.5326768129dvh;
@@ -1880,6 +2277,7 @@ h1 {
   top: 54dvh;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   right: calc(-190/1117*100dvh);
   position: fixed;
   display: flex;
@@ -1888,12 +2286,17 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   right: calc(-190 / 1117 * 100dvh);
   position: fixed;
   display: flex;
   width: calc(732 / 1117 * 100dvh);
   height: calc(732 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1917,6 +2320,7 @@ h1 {
 .feel-the-rythm-footer-buton {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   bottom: calc(-224/1117*100dvh);
   right: calc(-163/1117*100dvh);
   position: fixed;
@@ -1926,6 +2330,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   bottom: calc(-224 / 1117 * 100dvh);
   right: calc(-163 / 1117 * 100dvh);
   position: fixed;
@@ -1933,6 +2339,9 @@ h1 {
   width: calc(729 / 1117 * 100dvh);
   height: calc(729 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1951,6 +2360,7 @@ h1 {
 .feel-the-rythm-plastinka {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   bottom: calc(-866/1117*100dvh);
   right: calc(-804/1117*100dvh);
   position: fixed;
@@ -1961,6 +2371,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   bottom: calc(-866 / 1117 * 100dvh);
   right: calc(-804 / 1117 * 100dvh);
   position: fixed;
@@ -1969,6 +2381,9 @@ h1 {
   width: calc(2013 / 1117 * 100dvh);
   height: calc(2013 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -1981,6 +2396,7 @@ h1 {
 .feel-the-rythm-pic {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   bottom: calc(58/1117*100dvh);
   right: calc(-13/1117*100dvh);
   position: fixed;
@@ -1990,6 +2406,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   bottom: calc(58 / 1117 * 100dvh);
   right: calc(-13 / 1117 * 100dvh);
   position: fixed;
@@ -1997,6 +2415,9 @@ h1 {
   width: calc(1106.4 / 1117 * 100dvh);
   height: calc(968.88 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2009,9 +2430,15 @@ h1 {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(275/1117*100dvh) 0 0 calc(265/1117*100dvh);
   width: calc(176/1117*100dvh);
   height: calc(176/1117*100dvh);
+=======
+  margin: calc(275 / 1117 * 100dvh) 0 0 calc(265 / 1117 * 100dvh);
+  width: calc(176 / 1117 * 100dvh);
+  height: calc(176 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(275 / 1117 * 100dvh) 0 0 calc(265 / 1117 * 100dvh);
   width: calc(176 / 1117 * 100dvh);
@@ -2033,6 +2460,7 @@ h1 {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
 =======
@@ -2048,6 +2476,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   bottom: calc(0 / 1117 * 100dvh);
   right: calc(0 / 1117 * 100dvh);
   position: fixed;
@@ -2055,11 +2485,14 @@ h1 {
   width: calc(1007 / 1117 * 100dvh);
   height: calc(1007 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
 =======
 >>>>>>> parent of 97a94f3 (поправил/кропнул/перезалил гирлянды вокруг кнопки)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   background: url("../img/light_2_off.png") bottom right no-repeat;
@@ -2132,6 +2565,7 @@ h1 {
   position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   bottom: calc(207/1117*100dvh);
   right: calc(153/1117*100dvh);
   width: calc(424/1117*100dvh);
@@ -2139,11 +2573,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   bottom: calc(207 / 1117 * 100dvh);
   right: calc(153 / 1117 * 100dvh);
   width: calc(424 / 1117 * 100dvh);
   height: calc(367 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2155,9 +2594,15 @@ h1 {
 .lights-footer-button-arrow {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(200/1117*100dvh) 0 0 calc(200/1117*100dvh);
   width: calc(325/1117*100dvh);
   height: calc(323/1117*100dvh);
+=======
+  margin: calc(200 / 1117 * 100dvh) 0 0 calc(200 / 1117 * 100dvh);
+  width: calc(325 / 1117 * 100dvh);
+  height: calc(323 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(200 / 1117 * 100dvh) 0 0 calc(200 / 1117 * 100dvh);
   width: calc(325 / 1117 * 100dvh);
@@ -2175,9 +2620,15 @@ h1 {
 .footer-button-arrow {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(143/1117*100dvh) 0 0 calc(185/1117*100dvh);
   width: calc(315/1117*100dvh);
   height: calc(323/1117*100dvh);
+=======
+  margin: calc(143 / 1117 * 100dvh) 0 0 calc(185 / 1117 * 100dvh);
+  width: calc(315 / 1117 * 100dvh);
+  height: calc(323 / 1117 * 100dvh);
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
   margin: calc(143 / 1117 * 100dvh) 0 0 calc(185 / 1117 * 100dvh);
   width: calc(315 / 1117 * 100dvh);
@@ -2196,6 +2647,7 @@ h1 {
   position: fixed;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   left: calc(157/1117*100dvh);
   bottom: calc(60/1117*100dvh);
   width: calc(156/1117*100dvh);
@@ -2203,11 +2655,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   left: calc(157 / 1117 * 100dvh);
   bottom: calc(60 / 1117 * 100dvh);
   width: calc(156 / 1117 * 100dvh);
   height: calc(156 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2221,6 +2678,7 @@ h1 {
   position: fixed;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   left: calc(157/1117*100dvh);
   bottom: calc(60/1117*100dvh);
   width: calc(156/1117*100dvh);
@@ -2228,11 +2686,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   left: calc(157 / 1117 * 100dvh);
   bottom: calc(60 / 1117 * 100dvh);
   width: calc(156 / 1117 * 100dvh);
   height: calc(156 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2260,6 +2723,7 @@ h1 {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   left: calc(1200/1117*100dvh);
   bottom: calc(95/1117*100dvh);
   width: calc(95/1117*100dvh);
@@ -2272,6 +2736,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   left: calc(1200 / 1117 * 100dvh);
   bottom: calc(95 / 1117 * 100dvh);
   width: calc(95 / 1117 * 100dvh);
@@ -2282,6 +2748,9 @@ h1 {
   font-family: YS Display;
   font-size: calc(30 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2294,6 +2763,7 @@ h1 {
   position: fixed;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   right: calc(83/1117*100dvh);
   bottom: calc(74/1117*100dvh);
   width: calc(297/1117*100dvh);
@@ -2301,11 +2771,16 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   right: calc(83 / 1117 * 100dvh);
   bottom: calc(74 / 1117 * 100dvh);
   width: calc(297 / 1117 * 100dvh);
   height: calc(120 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2343,6 +2818,7 @@ h1 {
 .age-verification-page-links {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: calc(47/1117*100dvh) 0 0 calc(157/1117*100dvh);
   display: flex;
   flex-direction: row;
@@ -2353,6 +2829,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   margin: calc(47 / 1117 * 100dvh) 0 0 calc(157 / 1117 * 100dvh);
   display: flex;
   flex-direction: row;
@@ -2361,6 +2839,9 @@ h1 {
   height: calc(46 / 1117 * 100dvh);
   gap: calc(14 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2374,6 +2855,7 @@ h1 {
   border-radius: 10px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(152/1117*100dvh);
   height: calc(57/1117*100dvh);
   color: #fff;
@@ -2383,6 +2865,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(152 / 1117 * 100dvh);
   height: calc(57 / 1117 * 100dvh);
   color: #fff;
@@ -2390,6 +2874,9 @@ h1 {
   font-family: YS Display;
   font-size: calc(21 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
@@ -2409,6 +2896,7 @@ h1 {
   background: #9b94ff;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: calc(152/1117*100dvh);
   height: calc(57/1117*100dvh);
   color: #fff;
@@ -2418,6 +2906,8 @@ h1 {
 =======
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
   width: calc(152 / 1117 * 100dvh);
   height: calc(57 / 1117 * 100dvh);
   color: #fff;
@@ -2425,6 +2915,9 @@ h1 {
   font-family: YS Display;
   font-size: calc(21 / 1117 * 100dvh);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
+=======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
 =======
 >>>>>>> parent of bc78ad7 (Add player progress bar mechanic. Add widget mechanic. menu closing on click / click outside)
