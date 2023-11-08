@@ -1199,8 +1199,8 @@ h1 {
 }
 
 .footer-button-arrow {
-    margin: calc(143/1117*100dvh) 0 0 calc(185/1117*100dvh);
-    width: calc(315/1117*100dvh);
+    margin: calc(190/1117*100dvh) 0 0 calc(200/1117*100dvh);
+    width: calc(325/1117*100dvh);
     height: calc(323/1117*100dvh);
     background: url("../img/SVG/arrow_button.svg") center center no-repeat;
     background-size: contain;
@@ -1290,11 +1290,6 @@ h1 {
 	}
 }
 
-
-/* .audioplayer-timeline-fill {
-    background: url("../img/SVG/playlist-timeline.svg") center center no-repeat;
-} */
-
 .audioplayer-timeline-numbers {
     position: fixed;
     display: flex;
@@ -1327,9 +1322,9 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100dvh;
-    background-repeat: no-repeat;
+    width: 120vw;
+    height: 120dvh;
+    background-repeat: center center no-repeat;
     transition: transform 0.3s ease; /* Добавляем анимацию */
 }
 

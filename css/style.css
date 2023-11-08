@@ -1355,8 +1355,8 @@ h1 {
 }
 
 .footer-button-arrow {
-  margin: 12.8021486124dvh 0 0 16.5622202328dvh;
-  width: 28.2005371531dvh;
+  margin: 17.0098478066dvh 0 0 17.9051029543dvh;
+  width: 29.0957923008dvh;
   height: 28.9167412713dvh;
   background: url("../img/SVG/arrow_button.svg") center center no-repeat;
   background-size: contain;
@@ -1453,9 +1453,6 @@ h1 {
   z-index: 0;
 }
 
-/* .audioplayer-timeline-fill {
-    background: url("../img/SVG/playlist-timeline.svg") center center no-repeat;
-} */
 .audioplayer-timeline-numbers {
   position: fixed;
   display: -webkit-box;
@@ -1490,9 +1487,9 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100dvh;
-  background-repeat: no-repeat;
+  width: 120vw;
+  height: 120dvh;
+  background-repeat: center center no-repeat;
   -webkit-transition: -webkit-transform 0.3s ease;
   transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
