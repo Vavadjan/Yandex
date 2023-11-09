@@ -1094,7 +1094,7 @@ h1 {
   position: fixed;
   display: block;
   width: calc(1044/1117*100dvh);
-  height: calc(10035/1117*100dvh);
+  height: calc(1035/1117*100dvh);
   background: url("../img/light_2_off.png") bottom right no-repeat;
   background-size: contain;
   z-index: 3;
@@ -1154,6 +1154,18 @@ h1 {
   background: url("../img/gerlang-instruction-6.png") bottom right no-repeat;
   background-size: contain;
   display: none;
+}
+
+.gerland-instruction-6::before {
+  content: "";
+  position: absolute;
+  top: calc(-773/1117*100dvh);
+  right: calc(-405/1728*100dvh);
+  width: calc(1988/1117*100dvh);
+  height: calc(1135/1117*100dvh);
+  background: url("../img/double-gerland.png") center center no-repeat;
+  background-size: contain;
+  z-index: 1;
 }
 
 .gerland-instruction-6.active {
