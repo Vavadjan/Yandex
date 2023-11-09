@@ -379,9 +379,12 @@
     -webkit-text-fill-color: transparent;
     z-index: 2;
   }
+  .feeltherhythm_h1 {
+    margin: 8.6206896552dvh 0 0 3.8177339901dvh;
+  }
   .audioplayer-h1 {
     position: relative;
-    margin: 8.9901477833dvh 0 0 3.8177339901dvh;
+    margin: 19.0886699507dvh 0 0 3.8177339901dvh;
     font-family: YS Display;
     font-size: 3.6945812808dvh;
     font-style: normal;
@@ -441,8 +444,8 @@
   }
   .cocktail-recipes-pic-6 {
     position: relative;
-    margin: 11.2068965517dvh auto 0 auto;
-    width: 36.9458128079dvh;
+    margin: 9.8522167488dvh auto 0 auto;
+    width: 25.9852216749dvh;
     height: 28.5714285714dvh;
     background: url("../img/shaker_0.png") center center no-repeat;
     background-size: contain;
@@ -450,8 +453,8 @@
   }
   .cocktail-recipes-pic-7 {
     position: relative;
-    margin: 11.2068965517dvh auto 0 auto;
-    width: 36.9458128079dvh;
+    margin: 9.8522167488dvh auto 0 auto;
+    width: 25.9852216749dvh;
     height: 28.5714285714dvh;
     background: url("../img/shaker_1.png") center center no-repeat;
     background-size: contain;
@@ -459,8 +462,8 @@
   }
   .cocktail-recipes-pic-8 {
     position: relative;
-    margin: 11.2068965517dvh auto 0 auto;
-    width: 36.9458128079dvh;
+    margin: 9.8522167488dvh auto 0 auto;
+    width: 25.9852216749dvh;
     height: 28.5714285714dvh;
     background: url("../img/shaker_2.png") center center no-repeat;
     background-size: contain;
@@ -469,17 +472,17 @@
   .cocktail-recipes-pic-9 {
     position: relative;
     margin: 11.2068965517dvh auto 0 auto;
-    width: 36.9458128079dvh;
-    height: 28.5714285714dvh;
+    width: 33.6206896552dvh;
+    height: 26.724137931dvh;
     background: url("../img/shaker_3.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
   }
   .cocktail-recipes-pic-10 {
     position: relative;
-    margin: 11.2068965517dvh auto 0 auto;
-    width: 36.9458128079dvh;
-    height: 28.5714285714dvh;
+    margin: 14.6551724138dvh auto 0 auto;
+    width: 16.1330049261dvh;
+    height: 21.6748768473dvh;
     background: url("../img/shaker_4.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -540,7 +543,7 @@
   .audioplayer-under-h1 {
     position: fixed;
     margin: 0;
-    bottom: 9.8522167488dvh;
+    bottom: 24.6305418719dvh;
     left: 7.8666666667vw;
     width: 84.2666666667vw;
     color: #fff;
@@ -1084,7 +1087,7 @@
   .audioplayer-youtube-button {
     position: fixed;
     right: 37.4666666667vw;
-    bottom: 27.7093596059dvh;
+    bottom: 3.6945812808dvh;
     width: 25.0666666667vw;
     height: 9.236453202dvh;
     background: url("../img/audioplayer-youtube-button-mobile.png") center center no-repeat;
