@@ -120,11 +120,18 @@
     background-size: auto, auto, 100vw 100dvh;
   }
 
+  .slider-body {
+    width: 100vw;
+    height: 100dvh;
+    background: url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+    background-size: auto, 100vw 100dvh;
+  }
+
   .greetings-body {
     width: 100vw;
     height: 100dvh;
-    background: url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%);
-    background-size: auto, 100vw 100dvh;
+    background: url("../img/SVG/18+_mobile.svg") center calc(106/812*100dvh) no-repeat, url("../img/SVG/Ellipse-35_mobile.svg") -396px -398px no-repeat, linear-gradient(180deg, #392e47 0%, #100d22 100%) no-repeat;
+    background-size: auto, auto, 100vw 100dvh;
   }
 
   .instruction-body {
@@ -317,7 +324,7 @@
   }
 
   h1 {
-    margin: calc(85.65/812*100dvh) 0 0 calc(31/812*100dvh);
+    margin: calc(70/812*100dvh) 0 0 calc(31/812*100dvh);
     color: white;
     font-family: YS Display;
     font-size: calc(30/812*100dvh);
@@ -340,14 +347,14 @@
   .age-verification-page-h1 {
     margin: calc(235/812*100dvh) 0 0 calc(29/375*100vw);
     font-size: calc(30/375*100vw);
-    width: calc(313/375*100vw);
+    width: calc(210/375*100vw);
     line-height: calc(32.5/375*100vw);
     /* 108.333% */
   }
 
   .make-a-mix-h1 {
     position: relative;
-    margin: calc(91/812*100dvh) 0 0 calc(31/812*100dvh);
+    margin: calc(75/812*100dvh) 0 0 calc(31/812*100dvh);
     font-family: YS Display;
     font-size: calc(30/812*100dvh);
     font-style: normal;
@@ -399,8 +406,8 @@
   .cocktail-recipes-pic-1 {
     position: relative;
     margin: calc(74/812*100dvh) auto 0 auto;
-    width: calc(164/812*100dvh);
-    height: calc(287/812*100dvh);
+    width: calc(132/812*100dvh);
+    height: calc(259/812*100dvh);
     background: url("../img/glass_1.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -409,8 +416,8 @@
   .cocktail-recipes-pic-2 {
     position: relative;
     margin: calc(74/812*100dvh) auto 0 auto;
-    width: calc(164/812*100dvh);
-    height: calc(287/812*100dvh);
+    width: calc(132/812*100dvh);
+    height: calc(259/812*100dvh);
     background: url("../img/glass_2.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -419,8 +426,8 @@
   .cocktail-recipes-pic-3 {
     position: relative;
     margin: calc(74/812*100dvh) auto 0 auto;
-    width: calc(164/812*100dvh);
-    height: calc(287/812*100dvh);
+    width: calc(132/812*100dvh);
+    height: calc(259/812*100dvh);
     background: url("../img/glass_3.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -428,9 +435,9 @@
 
   .cocktail-recipes-pic-4 {
     position: relative;
-    margin: calc(74/812*100dvh) auto 0 auto;
-    width: calc(164/812*100dvh);
-    height: calc(287/812*100dvh);
+    margin: calc(-21/812*100dvh) auto 0 auto;
+    width: calc(132/812*100dvh);
+    height: calc(354/812*100dvh);
     background: url("../img/glass_4.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -438,9 +445,9 @@
 
   .cocktail-recipes-pic-5 {
     position: relative;
-    margin: calc(74/812*100dvh) auto 0 auto;
-    width: calc(164/812*100dvh);
-    height: calc(287/812*100dvh);
+    margin: calc(51/812*100dvh) 0 0 calc(50vw - calc(66/812*100dvh));
+    width: calc(165/812*100dvh);
+    height: calc(282/812*100dvh);
     background: url("../img/glass_5.png") center center no-repeat;
     background-size: contain;
     z-index: 2;
@@ -505,7 +512,7 @@
     font-size: calc(21/812*100dvh);
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: calc(32.5/812*100dvh);
     z-index: 2;
   }
   .under-h1 strong {
@@ -544,7 +551,7 @@
 
   .cocktail-recipes-under-h1 {
     position: relative;
-    margin: calc(100/812*100dvh) auto 0 auto;
+    margin: calc(135/812*100dvh) auto 0 auto;
     width: calc(301/812*100dvh);
     color: #fff;
     font-family: YS Display;
@@ -572,7 +579,7 @@
   }
 
   .smart-screen-block {
-    margin: calc(35/812*100dvh) auto 0 auto;
+    margin: calc(25/812*100dvh) auto 0 auto;
     position: relative;
     display: flex;
     align-items: center;
@@ -718,6 +725,7 @@
   .smart-screen-instruction-text {
     margin: 0 calc(39/375*100vw) 0 calc(39/375*100vw);
     display: flex;
+    width: calc(322/375*100vw);
     justify-content: center;
     flex-direction: column;
     padding: 0;
@@ -780,9 +788,9 @@
   }
 
   .make-a-mix-objects {
-    display: none;
+    display: flex;
     position: fixed;
-    top: calc((500/812*100dvh) - 18vw);
+    top: calc((390/812*100dvh) - 18vw);
     left: calc(-100/375*100vw);
     width: calc(512/375*100vw);
     height: calc(307/375*100vw);
@@ -934,7 +942,16 @@
   }
 
   .cocktails-footer-button {
-    top: 81.8dvh;
+    top: calc(650/812*100dvh);
+    position: fixed;
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid #b4afff;
+    background: url("../img/SVG/Ellipse-6.svg") center center no-repeat, linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
+    background-size: 95%, contain;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: auto;
   }
 
   .lights-footer-button::after {
