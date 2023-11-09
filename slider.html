@@ -25,31 +25,42 @@
       function updateButtonVisibility() {
         const activeSlide = $('.slide.active, .slide.back-past, .slide.fade-active');
 
-        if (activeSlide.hasClass('make-a-mix-slide') || activeSlide.hasClass('cocktails-slide')) {
+        if (activeSlide.hasClass('make-a-mix-slide') || activeSlide.hasClass('cocktails-slide-rotate')) {
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
           $('.feel-the-rythm-footer-buton').addClass('hidden-button');
+          $('.cocktails-footer-button').addClass('hidden-button');
+          $('.cocktails-footer-button-rotate').removeClass('hidden-button');
+        } else if (activeSlide.hasClass('cocktails-slide')) {
+          $('.lights-footer-button').addClass('hidden-button');
+          $('.greetings-footer-buton').addClass('hidden-button');
+          $('.feel-the-rythm-footer-buton').addClass('hidden-button');
+          $('.cocktails-footer-button-rotate').addClass('hidden-button');
           $('.cocktails-footer-button').removeClass('hidden-button');
         } else if (activeSlide.hasClass('lights-slide')) {
           $('.lights-footer-button').removeClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
           $('.feel-the-rythm-footer-buton').addClass('hidden-button');
           $('.cocktails-footer-button').addClass('hidden-button');
+          $('.cocktails-footer-button-rotate').addClass('hidden-button');
         } else if (activeSlide.hasClass('greetings-slide')) {
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').removeClass('hidden-button');
           $('.feel-the-rythm-footer-buton').addClass('hidden-button');
           $('.cocktails-footer-button').addClass('hidden-button');
+          $('.cocktails-footer-button-rotate').addClass('hidden-button');
         } else if (activeSlide.hasClass('feeltherhythm-slide')) {
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
           $('.feel-the-rythm-footer-buton').removeClass('hidden-button');
           $('.cocktails-footer-button').addClass('hidden-button');
+          $('.cocktails-footer-button-rotate').addClass('hidden-button');
         } else {
           $('.lights-footer-button').addClass('hidden-button');
           $('.greetings-footer-buton').addClass('hidden-button');
           $('.feel-the-rythm-footer-buton').addClass('hidden-button');
           $('.cocktails-footer-button').addClass('hidden-button');
+          $('.cocktails-footer-button-rotate').addClass('hidden-button');
         }
 
         gerlands.addClass('hidden-button');
@@ -68,7 +79,7 @@
           $('.make-a-mix-bottle').show();
           $('.coctail-recipes-bottle').hide();
           $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
-        } else if (activeSlide.hasClass('cocktails-slide')) {
+        } else if (activeSlide.hasClass('cocktails-slide') || activeSlide.hasClass('cocktails-slide-rotate')) {
           $('.make-a-mix-bottle').hide();
           $('.coctail-recipes-bottle').show();
           $('.feel-the-rythm-pic, .feel-the-rythm-plastinka').hide(); 
@@ -94,6 +105,7 @@
 
       insertBottleForSlide('<div class="make-a-mix-bottle"></div>', 'make-a-mix-slide');
       insertBottleForSlide('<div class="coctail-recipes-bottle"></div>', 'cocktails-slide');
+      insertBottleForSlide('<div class="coctail-recipes-bottle"></div>', 'cocktails-slide-rotate');
       insertBottleForSlide('<div class="feel-the-rythm-pic"></div>', 'feeltherhythm-slide');
       insertBottleForSlide('<div class="feel-the-rythm-plastinka"></div>', 'feeltherhythm-slide');
 
@@ -203,7 +215,6 @@
         updateButtonVisibility();
         updateBottlesVisibility();
       }
-
       //нажатие по кнопке
       $('.rotate-button').click(function () {
         rotateFromSlide(currentSlide);
@@ -226,7 +237,7 @@
           $(this).addClass('rotating');
           setTimeout(() => {
             $(this).removeClass('rotating');
-          }, 500);
+          }, 1000);
         }
       });
 
@@ -429,17 +440,21 @@
               <h1 class="make-a-mix-h1">Сделай микс!</h1>
               <p class="under-h1 make-a-mix-under-h1">Авторские коктейли помогут насладиться моментом.</p>
           </div>
-          <a class="cocktails-footer-button make-a-mix-button rotate-button">
+          <a class="cocktails-footer-button-rotate make-a-mix-button">
+            <div class="rotate-button">
               <div class="footer-button-arrow"></div>
+            </div>
           </a>
         </li>
         <li class="cocktail1_slide" id="cocktails">
-          <div class="slide cocktails-slide">
+          <div class="slide cocktails-slide-rotate">
           <h1 class="cocktail-recipes-h1">Готовим классический сухой джин-тоник с ярким профилем трав и цитрусовых</h1>
           <p class="under-h1 age-verification-page-under-h1"></p>
         </div>
-        <a class="cocktails-footer-button fade-button">
+        <a class="cocktails-footer-button-rotate">
+          <div class="rotate-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail2_slide">
@@ -447,8 +462,10 @@
           <div class="cocktail-recipes-pic-1"></div>
           <p class="cocktail-recipes-under-h1">Наполните глубокий бокал льдом доверху</p>
         </div>
-        <a class="cocktails-footer-button fade-button">
+        <a class="cocktails-footer-button">
+          <div class="fade-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail3_slide">
@@ -456,8 +473,10 @@
           <div class="cocktail-recipes-pic-2"></div>
           <p class="cocktail-recipes-under-h1">Добавьте 50 мл джина Portobello Road</p>
         </div>
-        <a class="cocktails-footer-button fade-button">
+        <a class="cocktails-footer-button">
+          <div class="fade-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail4_slide">
@@ -465,8 +484,10 @@
           <div class="cocktail-recipes-pic-3"></div>
           <p class="cocktail-recipes-under-h1">Туда же добавляем 100 мл тоника Rocket Tonic Classic</p>
         </div>
-        <a class="cocktails-footer-button fade-button">
+        <a class="cocktails-footer-button">
+          <div class="fade-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail5_slide">
@@ -474,26 +495,32 @@
           <div class="cocktail-recipes-pic-4"></div>
           <p class="cocktail-recipes-under-h1">Аккуратно поместите продолговатую ложку в бокал и перемешайте ингредиенты</p>
         </div>
-        <a class="cocktails-footer-button fade-button">
+        <a class="cocktails-footer-button">
+          <div class="fade-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail6_slide">
-          <div class="slide cocktails-slide">
+          <div class="slide cocktails-slide-rotate">
           <div class="cocktail-recipes-pic-5"></div>
           <p class="cocktail-recipes-under-h1">По желанию напиток можно украсить цедрой апельсина</p>
         </div>
-        <a class="cocktails-footer-button rotate-button">
+        <a class="cocktails-footer-button-rotate">
+          <div class="rotate-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail7_slide">
-          <div class="slide cocktails-slide">
+          <div class="slide cocktails-slide-rotate">
           <h1 class="cocktail-recipes-h1">Готовим кисло-сладкий азиатский гимлет с травянистым профилем и освежающим послевкусием</h1>
           <p class="under-h1 age-verification-page-under-h1"></p>
         </div>
-        <a class="cocktails-footer-button rotate-button">
+        <a class="cocktails-footer-button-rotate">
+          <div class="rotate-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail8_slide">
@@ -503,8 +530,10 @@
             льда и потрясите его, чтобы охладить. 
             Как закончите, лед нужно извлечь</p>
         </div>
-        <a class="cocktails-footer-button rotate-button">
+        <a class="cocktails-footer-button">
+          <div class="fade-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail9_slide">
@@ -512,36 +541,44 @@
           <div class="cocktail-recipes-pic-7"></div>
           <p class="cocktail-recipes-under-h1">Добавьте 50 мл джина Drumshanbo Gunpowder Irish Gin в шейкер</p>
         </div>
-        <a class="cocktails-footer-button rotate-button">
+        <a class="cocktails-footer-button">
+          <div class="fade-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>        
         <li class="cocktail10_slide">
-          <div class="slide cocktails-slide">
+          <div class="slide cocktails-slide-rotate">
           <div class="cocktail-recipes-pic-8"></div>
           <p class="cocktail-recipes-under-h1">Туда же добавляем 100 мл кордиала Texture Master Rhubarb & Sichuan Pepper</p>
         </div>
-        <a class="cocktails-footer-button rotate-button">
+        <a class="cocktails-footer-button-rotate">
+          <div class="rotate-button">
             <div class="footer-button-arrow"></div>
+          </div>
         </a>
         </li>
         <li class="cocktail11_slide">
-          <div class="slide cocktails-slide">
+          <div class="slide cocktails-slide-rotate">
           <div class="cocktail-recipes-pic-9"></div>
           <p class="cocktail-recipes-under-h1">Плотно закрываем шейкер и, придерживая верхнюю крышку рукой, взбалтываем напиток 
               не более 20 секунд</p>
             </div>
-            <a class="cocktails-footer-button rotate-button">
+            <a class="cocktails-footer-button-rotate">
+              <div class="rotate-button">
                 <div class="footer-button-arrow"></div>
+              </div>
             </a>
         </li>
         <li class="cocktail12_slide">
-          <div class="slide cocktails-slide">
+          <div class="slide cocktails-slide-rotate">
           <div class="cocktail-recipes-pic-10"></div>
           <p class="cocktail-recipes-under-h1">Далее наполните глубокий бокал льдом доверху и вылейте в него содержимое шейкера</p>
           </div>
-          <a class="cocktails-footer-button rotate-button">
+          <a class="cocktails-footer-button-rotate">
+            <div class="rotate-button">
               <div class="footer-button-arrow"></div>
+            </div>
           </a>
         </li> 
         <li class="feeltherhythm_slide" id="music">

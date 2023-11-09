@@ -179,44 +179,44 @@ body {
 
 .slide.fade-active {
   display: block;
-  animation: fadeSlide 0.5 ease forwards;
+  animation: fadeSlide 0.5s ease forwards;
 }
 
 .slide.fade-past {
   display: block;
-  animation: fadeAwaySlide 0.5 ease forwards;
+  animation: fadeAwaySlide 0.5s ease forwards;
 }
 
 .slide.active {
   display: block;
-  animation: slideForward 0.5s ease forwards;
+  animation: slideForward 1s ease forwards;
 }
 
 .slide.past {
   display: block;
-  animation: slideBackward 0.5s ease forwards;
+  animation: slideBackward 1s ease forwards;
 }
 
 .slide.back-past {
-  animation: backSlideBackward 0.5s ease forwards;
+  animation: backSlideBackward 1s ease forwards;
   display: block;
 }
 
 .slide.back-active {
-  animation: backSlideForward 0.5s ease forwards;
+  animation: backSlideForward 1s ease forwards;
   display: block;
 }
 
 .rotate-button, .fade-button {
   transform-origin: center;
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
-.rotating {
+.rotate-button.rotating {
   transform-origin: center;
-  animation: rotateButton 0.5s ease forwards;
+  animation: rotateButton 1s ease forwards;
 }
 
 @keyframes fadeSlide {
