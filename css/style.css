@@ -1136,6 +1136,7 @@ h1 {
   background: url("../img/SVG/arrow.svg") center center no-repeat;
   background-size: contain;
   z-index: 2;
+  pointer-events: none;
 }
 
 .lights-footer-button {
