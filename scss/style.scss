@@ -181,6 +181,16 @@ body {
     transform: rotate(0deg);
 }
 
+.slide.fade-active {
+    display: block;
+    animation: fadeSlide 0.5 ease forwards;
+}
+
+.slide.fade-past {
+    display: block;
+    animation: fadeAwaySlide 0.5 ease forwards;
+}
+
 .slide.active {
     display: block;
     animation: slideForward 0.5s ease forwards;
@@ -208,9 +218,39 @@ body {
     z-index: 2;
 }
 
-.rotating {
+.rotate-button.rotating {
     transform-origin: center;
     animation: rotateButton 0.5s ease forwards;
+}
+
+.fade-button {
+    transform-origin: center;
+    transition: opacity 0.5s ease;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+}
+
+.fade-button.fade-out {
+    opacity: 0;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeAwaySlide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes slideForward {
