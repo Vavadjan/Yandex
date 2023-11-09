@@ -982,10 +982,13 @@ h1 {
   border-radius: 50%;
   border: 1px solid #b4afff;
   background: #9b94ff;
-  box-shadow: 0px 0px 184px 0px #b43cff23;
   z-index: 2;
   cursor: pointer;
   pointer-events: auto;
+}
+
+.button-shadow {
+  box-shadow: 0px 0px 184px 0px #b43cff;
 }
 
 .make-a-mix-footer-button {
