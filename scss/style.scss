@@ -231,6 +231,11 @@ body {
     opacity: 1;
 }
 
+.fade-button.rotating {
+    transform-origin: center;
+    animation: rotateButton 1s ease forwards;
+}
+
 .fade-button.fade-out {
     opacity: 0;
 }

@@ -255,10 +255,10 @@ body {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
           transform-origin: center;
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
   position: relative;
   z-index: 2;
 }
@@ -267,8 +267,8 @@ body {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
           transform-origin: center;
-  -webkit-animation: rotateButton 0.5s ease forwards;
-          animation: rotateButton 0.5s ease forwards;
+  -webkit-animation: rotateButton 1s ease forwards;
+          animation: rotateButton 1s ease forwards;
 }
 
 .fade-button {
@@ -287,8 +287,8 @@ body {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
           transform-origin: center;
-  -webkit-animation: rotateButton 0.5s ease forwards;
-          animation: rotateButton 0.5s ease forwards;
+  -webkit-animation: rotateButton 1s ease forwards;
+          animation: rotateButton 1s ease forwards;
 }
 
 .fade-button.fade-out {

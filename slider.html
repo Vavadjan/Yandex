@@ -255,11 +255,11 @@
         updateButtonVisibility();
         updateBottlesVisibility();
 
-        if (!$(this).hasClass('fade-out')) {
-          $(this).addClass('fade-out');
+        if (!$(this).hasClass('rotating')) {
+          $(this).addClass('rotating');
           setTimeout(() => {
-            $(this).removeClass('fade-out');
-          }, 500);
+            $(this).removeClass('rotating');
+          }, 1000);
         }
       })
 
