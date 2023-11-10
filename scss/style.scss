@@ -49,7 +49,6 @@ html {
 }
 
 #audiovidget {
-<<<<<<< HEAD
     position: fixed;
 		z-index: 5;
     top: var(--top, calc(73 / 1728 * 100vw));
@@ -63,15 +62,6 @@ html {
 		pointer-events: all;
 		touch-action: none;
 		cursor: grab;
-=======
-    position: absolute;
-    top: calc(73/1728*100vw);
-    right: calc(167/1728*100vw);
-    display: flex;
-    flex-direction: row;
-    width: calc(409/1728*100vw);
-    height: calc(168/1728*100vw);
->>>>>>> master
 }
 .audiovidget-leftside {
     position: relative;
@@ -191,36 +181,76 @@ body {
     transform: rotate(0deg);
 }
 
+.slide.fade-active {
+    display: block;
+    animation: fadeSlide 0.5s ease forwards;
+}
+
+.slide.fade-past {
+    display: block;
+    animation: fadeAwaySlide 0.5s ease forwards;
+}
+
 .slide.active {
     display: block;
-    animation: slideForward 0.5s ease forwards;
+    animation: slideForward 1s ease forwards;
 }
 
 .slide.past {
     display: block;
-    animation: slideBackward 0.5s ease forwards;
+    animation: slideBackward 1s ease forwards;
 }
 
 .slide.back-past {
-    animation: backSlideBackward 0.5s ease forwards;
+    animation: backSlideBackward 1s ease forwards;
     display: block;
 }
 
 .slide.back-active {
-    animation: backSlideForward 0.5s ease forwards;
+    animation: backSlideForward 1s ease forwards;
     display: block;
 }
 
 .rotate-button {
     transform-origin: center;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
     position: relative;
     z-index: 2;
 }
 
-.rotating {
+.rotate-button.rotating {
     transform-origin: center;
-    animation: rotateButton 0.5s ease forwards;
+    animation: rotateButton 1s ease forwards;
+}
+
+.fade-button {
+    transform-origin: center;
+    transition: opacity 0.5s ease;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+}
+
+.fade-button.fade-out {
+    opacity: 0;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeAwaySlide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes slideForward {
@@ -507,13 +537,13 @@ h1 {
 }
 
 .cocktail-recipes-h1 {
-    margin: calc(158/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    margin: calc(153/1117*100dvh) 0 0 calc(157/1117*100dvh);
     font-family: YS Display;
     font-size: calc(50/1117*100dvh);
     font-style: normal;
     font-weight: 700;
     line-height: calc(47.5/1117*100dvh); /* 105% */
-    width: calc(637/1117*100dvh);
+    width: calc(673/1117*100dvh);
     background: var(--Yandex-text, linear-gradient(272deg, #a09bf4 19.72%, #ffe5cd 121.59%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -537,81 +567,81 @@ h1 {
 }
 
 .cocktail-recipes-pic-1 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(140/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(576/1117*100dvh);
     background: url("../img/glass_1.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-2 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(140/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(576/1117*100dvh);
     background: url("../img/glass_2.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-3 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(140/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(576/1117*100dvh);
     background: url("../img/glass_3.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-4 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(-65/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(292/1117*100dvh);
+    height: calc(781/1117*100dvh);
     background: url("../img/glass_4.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-5 {
-    margin: calc(107/1117*100dvh) 0 0 calc(181/1117*100dvh);
-    width: calc(360/1117*100dvh);
-    height: calc(631/1117*100dvh);
+    margin: calc(91/1117*100dvh) 0 0 calc(215/1117*100dvh);
+    width: calc(366/1117*100dvh);
+    height: calc(625/1117*100dvh);
     background: url("../img/glass_5.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-6 {
-    margin: calc(125/1117*100dvh) 0 0 calc(283/1117*100dvh);
-    width: calc(526/1117*100dvh);
-    height: calc(575/1117*100dvh);
+    margin: calc(156/1117*100dvh) 0 calc(74/1117*100dvh) calc(200/1117*100dvh);
+    width: calc(492/1117*100dvh);
+    height: calc(540/1117*100dvh);
     background: url("../img/shaker_0.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-7 {
-    margin: calc(141/1117*100dvh) 0 0 calc(193/1117*100dvh);
-    width: calc(526/1117*100dvh);
-    height: calc(575/1117*100dvh);
+    margin: calc(156/1117*100dvh) 0 calc(74/1117*100dvh) calc(200/1117*100dvh);
+    width: calc(492/1117*100dvh);
+    height: calc(540/1117*100dvh);
     background: url("../img/shaker_1.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-8 {
-    margin: calc(131/1117*100dvh) 0 0 calc(186/1117*100dvh);
-    width: calc(526/1117*100dvh);
-    height: calc(575/1117*100dvh);
+    margin: calc(156/1117*100dvh) 0 calc(74/1117*100dvh) calc(200/1117*100dvh);
+    width: calc(492/1117*100dvh);
+    height: calc(540/1117*100dvh);
     background: url("../img/shaker_2.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-9 {
-    margin: calc(163/1117*100dvh) 0 0 calc(193/1117*100dvh);
-    width: calc(668/1117*100dvh);
+    margin: calc(158/1117*100dvh) 0 calc(108/1117*100dvh) calc(194/1117*100dvh);
+    width: calc(634/1117*100dvh);
     height: calc(504/1117*100dvh);
     background: url("../img/shaker_3.png") center center no-repeat;
     background-size: contain;
 }
 
 .cocktail-recipes-pic-10 {
-    margin: calc(197/1117*100dvh) 0 0 calc(162/1117*100dvh);
-    width: calc(374/1117*100dvh);
-    height: calc(469/1117*100dvh);
+    margin: calc(216/1117*100dvh) 0 calc(131/1117*100dvh) calc(221/1117*100dvh);
+    width: calc(316/1117*100dvh);
+    height: calc(423/1117*100dvh);
     background: url("../img/shaker_4.png") center center no-repeat;
     background-size: contain;
 }
@@ -643,11 +673,11 @@ h1 {
 }
 
 .make-a-mix-under-h1 {
-    margin: calc(39/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    margin: calc(77/1117*100dvh) 0 0 calc(157/1117*100dvh);
 }
 
 .cocktail-recipes-under-h1 {
-    margin: calc(54/1117*100dvh) 0 0 calc(157/1117*100dvh);
+    margin: calc(70/1117*100dvh) 0 0 calc(198/1117*100dvh);
     width: calc(689/1117*100dvh);
     color: #fff;
     font-family: YS Display;
@@ -801,62 +831,67 @@ h1 {
 .smart-screen-instruction-pic-1::before {
     content: "";
     position: absolute;
-    top: calc(-170/1117*100dvh);
-    left: calc(-166/1117*100dvh);
-    width: calc(191/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-100/1117*100dvh);
+    left: calc(-114/1117*100dvh);
+    width: calc(112/1117*100dvh);
+    height: calc(233/1117*100dvh);
     background: url("../img/1.png") top left no-repeat;
     background-size: contain;
 }
 
 .smart-screen-instruction-pic-2::before {
     content: "";
+    position: absolute;
     background: url("../img/2.png") top left no-repeat;
     background-size: contain;
-    top: calc(-140/1117*100dvh);
-    left: calc(-124/1117*100dvh);
-    width: calc(156/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-100/1117*100dvh);
+    left: calc(-125/1117*100dvh);
+    width: calc(143/1117*100dvh);
+    height: calc(224/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-3::before {
     content: "";
+    position: absolute;
     background: url("../img/3.png") top left no-repeat;
     background-size: contain;
-    top: calc(-130/1117*100dvh);
-    left: calc(-120/1117*100dvh);
-    width: calc(184/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-100/1117*100dvh);
+    left: calc(-125/1117*100dvh);
+    width: calc(148/1117*100dvh);
+    height: calc(236/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-4::before {
     content: "";
+    position: absolute;
     background: url("../img/4.png") top left no-repeat;
     background-size: contain;
-    top: calc(-125/1117*100dvh);
-    left: calc(-150/1117*100dvh);
-    width: calc(173/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-93/1117*100dvh);
+    left: calc(-144/1117*100dvh);
+    width: calc(162/1117*100dvh);
+    height: calc(223/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-5::before {
     content: "";
+    position: absolute;
     background: url("../img/5.png") top left no-repeat;
     background-size: contain;
-    top: calc(-130/1117*100dvh);
+    top: calc(-97/1117*100dvh);
     left: calc(-120/1117*100dvh);
-    width: calc(167/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    width: calc(144/1117*100dvh);
+    height: calc(233/1117*100dvh);
 }
 
 .smart-screen-instruction-pic-6::before {
     content: "";
+    position: absolute;
     background: url("../img/6.png") top left no-repeat;
     background-size: contain;
-    top: calc(-120/1117*100dvh);
-    left: calc(-110/1117*100dvh);
-    width: calc(159/1117*100dvh);
-    height: calc(300/1117*100dvh);
+    top: calc(-97/1117*100dvh);
+    left: calc(-115/1117*100dvh);
+    width: calc(136/1117*100dvh);
+    height: calc(205/1117*100dvh);
 }
 
 .smart-screen-instruction-text {
@@ -989,7 +1024,8 @@ h1 {
     height: calc(321/1117*100dvh);
     background: url('../img/SVG/arrow.svg') center center no-repeat;
     background-size: contain;
-    z-index: 2;
+    z-index: 2;    
+    pointer-events: none;
 }
 
 .lights-footer-button {
@@ -1002,21 +1038,22 @@ h1 {
     border-radius: 50%;
     border: 1px solid #b4afff;
     background: #9b94ff;
-    box-shadow: 0px 0px 184px 0px #b43cff23;
     z-index: 2;
     cursor: pointer;
     pointer-events: auto;
 }
 
+.button-shadow {
+    box-shadow: 0px 0px 184px 0px rgb(180,60,255,1);
+}
+
 .make-a-mix-footer-button {
-    top: 54dvh;
-    right: -17.0098478066dvh;
+    bottom: calc(-224/1117*100dvh);
+    right: calc(-163/1117*100dvh);
     position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    width: 65.53267611179dvh;
-    height: 65.53267611179dvh;
+    width: calc(729/1117*100dvh);
+    height: calc(729/1117*100dvh);
     border-radius: 50%;
     border: 1px solid #b4afff;
     background:
@@ -1032,12 +1069,12 @@ h1 {
 }
 
 .cocktails-footer-button {
-    top: 54dvh;
-    right: calc(-190/1117*100dvh);
+    bottom: calc(-224/1117*100dvh);
+    right: calc(-163/1117*100dvh);
     position: fixed;
     display: flex;
-    width: calc(732/1117*100dvh);
-    height: calc(732/1117*100dvh);
+    width: calc(729/1117*100dvh);
+    height: calc(729/1117*100dvh);
     border-radius: 50%;
     border: 1px solid #b4afff;
     background:
@@ -1048,6 +1085,25 @@ h1 {
     cursor: pointer;
     pointer-events: auto;
 }
+
+.cocktails-footer-button-rotate {
+    bottom: calc(-224/1117*100dvh);
+    right: calc(-163/1117*100dvh);
+    position: fixed;
+    display: flex;
+    width: calc(729/1117*100dvh);
+    height: calc(729/1117*100dvh);
+    border-radius: 50%;
+    border: 1px solid #b4afff;
+    background:
+        url("../img/SVG/Ellipse-6.svg") center center no-repeat,
+        linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
+    background-size: 95%, contain;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
 
 .hidden-button {
     display: none;
@@ -1119,7 +1175,7 @@ h1 {
     position: fixed;
     display: block;
     width: calc(1044/1117*100dvh);
-    height: calc(10035/1117*100dvh);
+    height: calc(1035/1117*100dvh);
     background: url("../img/light_2_off.png") bottom right no-repeat;
     background-size: contain;
     z-index: 3;
@@ -1181,6 +1237,18 @@ h1 {
     display: none;
 }
 
+.gerland-instruction-6::before {
+    content: "";
+    position: absolute;
+    top: calc(-773/1117*100dvh);
+    right: calc(-405/1728*100dvh);
+    width: calc(1988/1117*100dvh);
+    height: calc(1135/1117*100dvh);
+    background: url('../img/double-gerland.png') center center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
 .gerland-instruction-6.active {
     display: block;
 }
@@ -1189,7 +1257,7 @@ h1 {
     content: "";
     position: absolute;
     bottom: calc(207/1117*100dvh);
-    right: calc(153/1117*100dvh);
+    right: calc(152/1117*100dvh);
     width: calc(424/1117*100dvh);
     height: calc(367/1117*100dvh);
     background: url("../img/smart-home.png") bottom right no-repeat;
@@ -1198,7 +1266,7 @@ h1 {
 }
 
 .lights-footer-button-arrow {
-    margin: calc(200/1117*100dvh) 0 0 calc(200/1117*100dvh);
+    margin: calc(190/1117*100dvh) 0 0 calc(200/1117*100dvh);
     width: calc(325/1117*100dvh);
     height: calc(323/1117*100dvh);
     background: url("../img/SVG/arrow_button.svg") center center no-repeat;
@@ -1206,8 +1274,8 @@ h1 {
 }
 
 .footer-button-arrow {
-    margin: calc(143/1117*100dvh) 0 0 calc(185/1117*100dvh);
-    width: calc(315/1117*100dvh);
+    margin: calc(190/1117*100dvh) 0 0 calc(200/1117*100dvh);
+    width: calc(325/1117*100dvh);
     height: calc(323/1117*100dvh);
     background: url("../img/SVG/arrow_button.svg") center center no-repeat;
     background-size: contain;
@@ -1297,11 +1365,6 @@ h1 {
 	}
 }
 
-
-/* .audioplayer-timeline-fill {
-    background: url("../img/SVG/playlist-timeline.svg") center center no-repeat;
-} */
-
 .audioplayer-timeline-numbers {
     position: fixed;
     display: flex;
@@ -1334,9 +1397,9 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100dvh;
-    background-repeat: no-repeat;
+    width: 120vw;
+    height: 120dvh;
+    background-repeat: center center no-repeat;
     transition: transform 0.3s ease; /* Добавляем анимацию */
 }
 
