@@ -248,7 +248,6 @@
       });
 
       $('.fade-button').click(function() {
-        console.log('Fade button clicked');
         fadeFromSlide(currentSlide);
         currentSlide = (currentSlide + 1) % slides.length;
         fadeToSlide(currentSlide);
