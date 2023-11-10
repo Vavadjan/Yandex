@@ -241,14 +241,14 @@ body {
 
 .slide.fade-active {
   display: block;
-  -webkit-animation: fadeSlide 0.5s ease forwards;
-  animation: fadeSlide 0.5s ease forwards;
+  -webkit-animation: fadeSlide 1s ease forwards;
+  animation: fadeSlide 1s ease forwards;
 }
 
 .slide.fade-past {
   display: block;
-  -webkit-animation: fadeAwaySlide 0.5s ease forwards;
-  animation: fadeAwaySlide 0.5s ease forwards;
+  -webkit-animation: fadeAwaySlide 1s ease forwards;
+  animation: fadeAwaySlide 1s ease forwards;
 }
 
 .rotate-button {
@@ -275,12 +275,20 @@ body {
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
-  transition: -webkit-opacity 0.5s ease;
-  transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease, -webkit-opacity 0.5s ease;
+  transition: -webkit-opacity 1s ease;
+  transition: opacity 1s ease;
+  transition: opacity 1s ease, -webkit-opacity 1s ease;
   position: relative;
   z-index: 2;
   opacity: 1;
+}
+
+.cocktails-footer-button .fade-button {
+  width: 100% !important;
+}
+
+.cocktails-footer-button-rotate .rotate-button {
+  width: 100% !important;
 }
 
 .fade-button.rotating {

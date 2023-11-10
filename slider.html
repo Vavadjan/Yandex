@@ -252,6 +252,17 @@
         currentSlide = (currentSlide + 1) % slides.length;
         fadeToSlide(currentSlide);
 
+        gerlands.each(function (index) {
+          $(this).removeClass('active');
+          $(this).removeClass('back-past');
+          $(this).removeClass('fade-active');
+          if (index + 1 === currentSlide) {
+            $(this).addClass('active');
+            $(this).addClass('back-past');
+            $(this).addClass('fade-active');
+          }
+        });
+
         updateButtonVisibility();
         updateBottlesVisibility();
 
