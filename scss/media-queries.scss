@@ -865,7 +865,7 @@
         user-select: none;
     }
 
-    .rotate-button {
+    .rotate-button, .fade-button {
         -webkit-user-select: none;
         -khtml-user-select: none;
         -moz-user-select: none;
@@ -930,7 +930,8 @@
     }
 
     .lights-footer-button,
-    .cocktails-footer-button {
+    .cocktails-footer-button,
+    .cocktails-footer-button-rotate {
         // bottom: calc(-420/812*100dvh);
         right: calc(50vw - calc(568/812*100dvh)/2);
         position: fixed;
@@ -949,6 +950,21 @@
     }
 
     .cocktails-footer-button {
+        top: calc(650/812*100dvh);
+        position: fixed;
+        display: flex;
+        border-radius: 50%;
+        border: 1px solid #b4afff;
+        background:
+            url("../img/SVG/Ellipse-6.svg") center center no-repeat,
+            linear-gradient(90deg, #8e6d45 4.93%, #ffd3aa 48.16%, #93734e 93.22%);
+        background-size: 95%, contain;
+        z-index: 2;
+        cursor: pointer;
+        pointer-events: auto;
+    }
+
+    .cocktails-footer-button-rotate {
         top: calc(650/812*100dvh);
         position: fixed;
         display: flex;
