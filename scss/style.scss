@@ -44,7 +44,11 @@ a:focus {
     color: #b4afff;
 }
 
-html {
+html { 
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none; 
     overflow: hidden;
 }
 
